@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "title": " The Giver",
+    "author": " Lois Lowry",
+    "edition": " Houghton Mifflin, 1993",
+    "creation_date": "2025-12-06T10:40:37.680305",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 23,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NUM",
+    "total_units": 23,
+    "special_elements": [],
+    "notes": "Numbered chapters detected (One through Twenty-three)"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_chapter": 1,
+      "percentage": 17
+    },
+    "rising_action": {
+      "chapter_range": "5-14",
+      "chapters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "primary_chapter": 10,
+      "percentage": 43
+    },
+    "climax": {
+      "chapter_range": "15-16",
+      "chapters": [
+        15,
+        16
+      ],
+      "primary_chapter": 15,
+      "percentage": 9
+    },
+    "falling_action": {
+      "chapter_range": "17-22",
+      "chapters": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "primary_chapter": 19,
+      "percentage": 26
+    },
+    "resolution": {
+      "chapter_range": "23",
+      "chapters": [
+        23
+      ],
+      "primary_chapter": 23,
+      "percentage": 4
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "5-14",
+      "primary_chapter": 10,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "15-16",
+      "primary_chapter": 15,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "17-22",
+      "primary_chapter": 19,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "23",
+      "primary_chapter": 23,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "primary_chapter": 1,
+      "rationale": "Chapter 1 establishes Jonas's world and character, introducing the controlled society with its precise language, rules, and ceremonies. The chapter sets up Jonas's apprehension about the upcoming December Ceremony and introduces key worldbuilding elements like the release punishment and the evening ritual of sharing feelings."
+    },
+    "rising_action": {
+      "chapter_range": "5-14",
+      "primary_chapter": 10,
+      "rationale": "Chapter 10 marks Jonas's first training session with the Giver, where he begins receiving memories and learning about the true nature of his society. This represents the escalation of conflict as Jonas discovers the depth of what has been hidden from the community and starts his transformation from innocence to knowledge."
+    },
+    "climax": {
+      "chapter_range": "15-16",
+      "primary_chapter": 15,
+      "rationale": "Chapter 15 contains the memory of warfare that represents the peak emotional intensity and Jonas's complete awakening to the horrors his society has eliminated through Sameness. This traumatic memory marks the turning point where Jonas fully understands the terrible cost of his community's controlled existence."
+    },
+    "falling_action": {
+      "chapter_range": "17-22",
+      "primary_chapter": 19,
+      "rationale": "Chapter 19 reveals the truth about release when Jonas witnesses his father killing the newborn twin, shattering his remaining illusions about his family and community. This discovery sets in motion Jonas's decision to escape and begins the unraveling of his relationship with his former life."
+    },
+    "resolution": {
+      "chapter_range": "23",
+      "primary_chapter": 23,
+      "rationale": "Chapter 23 provides the final outcome as Jonas and Gabriel reach Elsewhere, with Jonas hearing music and seeing lights that suggest they have found the world beyond Sameness. The ambiguous but hopeful ending resolves the central conflict between individual freedom and societal control."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "TPL",
+        "pov_description": "Third person limited through Jonas's perspective throughout",
+        "focalization": "INT",
+        "focalization_description": "Internal focalization restricted to Jonas's thoughts and perceptions",
+        "reliability": "REL",
+        "temporal_distance": "IMM",
+        "mode_dominance": "BAL",
+        "free_indirect": "HEAVY",
+        "stream_consciousness": "SOME",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "NONE",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single plot following Jonas's journey from conformity to rebellion",
+        "pacing": "VAR",
+        "temporal_span": "BRIEF",
+        "beginning_type": "AB_OVO",
+        "ending_type": "OPEN",
+        "scene_summary_ratio": "BAL",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Deceptively calm surface masking underlying tension and horror",
+        "register": "FORM",
+        "stance": "OBJ",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "LOW"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "MOD",
+        "device_distribution": "PEAK",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Devices accumulate to gradually strip away the community's euphemistic language and reveal the dystopian reality, with peak intensity at the climax when Jonas witnesses 'release' - the rhetoric of sameness and precision giving way to horrific truth through careful mediation of Jonas's awakening consciousness"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Flashback",
+      "anchor_phrase": "the way he had felt a year ago when an unidentified aircraft",
+      "location_percent": 8,
+      "scene": "Jonas remembering the frightening aircraft incident from the previous year",
+      "effect": "Provides background information about the community's strict rules and the concept of 'release' through past events",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "Who wants to be the first tonight, for feelings?",
+      "location_percent": 50,
+      "scene": "Father initiating the evening ritual of sharing feelings",
+      "effect": "Introduces the family's structured communication ritual, revealing the community's emphasis on emotional regulation and sharing",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "It's like going downhill through deep snow on a sled",
+      "location_percent": 55,
+      "scene": "The Giver describing the burden of carrying memories",
+      "effect": "Establishes the metaphorical framework for understanding the weight of knowledge",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "5-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "Tiny, cold, featherlike feelings peppered his body and face",
+      "location_percent": 85,
+      "scene": "Jonas experiencing snow for the first time through memory",
+      "effect": "Creates vivid sensory details that allow readers to experience the wonder of discovering snow",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "5-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "That he had this power frightened him",
+      "location_percent": 15,
+      "scene": "Jonas discovers he can transfer memories to Gabriel",
+      "effect": "Hints at Jonas's growing abilities that will become crucial later, building tension about his untrained power",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "the white sail of the boat billowing",
+      "location_percent": 20,
+      "scene": "Jonas transfers the sailing memory to Gabriel",
+      "effect": "The sail represents freedom and escape, foreshadowing Jonas's eventual flight from the community",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "ordinary lives free of anguish because he had been selected",
+      "location_percent": 70,
+      "scene": "Jonas watching carefree children while bearing painful memories",
+      "effect": "Contrasts Jonas's burden with others' ignorance, emphasizing the cost of his role as Receiver",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "He wanted his childhood again, his scraped knees and ball games",
+      "location_percent": 65,
+      "scene": "Jonas longing for his previous life",
+      "effect": "The receiver of all human experience craves the simple pain he once knew, showing how knowledge becomes suffering",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "Back and back and back",
+      "location_percent": 95,
+      "scene": "Discussion about generations of grandparents",
+      "effect": "Reinforces the theme of generational memory and connection that Jonas's community has lost",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Bye-bye, little guy",
+      "location_percent": 15,
+      "scene": "Jonas watches his father dispose of the twin's body through a chute after killing it",
+      "effect": "Creates devastating irony as the casual, affectionate farewell contrasts with the horrific act of infanticide",
+      "assigned_section": "falling_action",
+      "chapter": 19,
+      "chapter_range": "17-22",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "felt a ripping sensation inside himself",
+      "location_percent": 45,
+      "scene": "Jonas experiences emotional devastation after learning the truth about release",
+      "effect": "Physical metaphor conveys the psychological trauma of his shattered worldview",
+      "assigned_section": "falling_action",
+      "chapter": 19,
+      "chapter_range": "17-22",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Verbal Irony",
+      "anchor_phrase": "I will kill people, sir. Old people? Small newborn people?",
+      "location_percent": 60,
+      "scene": "Jonas sarcastically mimics the community's obedient response to authority",
+      "effect": "Exposes the horrific reality behind the community's polite compliance with murder",
+      "assigned_section": "falling_action",
+      "chapter": 19,
+      "chapter_range": "17-22",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Third-Person Limited",
+      "anchor_phrase": "Kira felt her stomach tighten with fear",
+      "location_percent": 85,
+      "scene": "Matt warns Kira about the villagers' plans",
+      "effect": "Provides intimate access to Kira's emotional state while maintaining narrative distance, allowing readers to experience her fear directly",
+      "assigned_section": "resolution",
+      "chapter": 23,
+      "chapter_range": "23",
+      "pedagogical_tier": 5
+    }
+  ]
+}
