@@ -1,0 +1,995 @@
+{
+  "metadata": {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "edition": "Scribner 2003",
+    "creation_date": "2025-11-26T18:39:04.900783",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 1,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "UNMARK",
+    "total_units": 1,
+    "special_elements": [],
+    "notes": "Continuous narrative without chapter divisions - treating as single unit"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1 (pages 1-25)",
+      "chapters": [
+        1
+      ],
+      "primary_chapter": 1,
+      "percentage": 20
+    },
+    "rising_action": {
+      "chapter_range": "1 (pages 26-75)",
+      "chapters": [
+        1
+      ],
+      "primary_chapter": 1,
+      "percentage": 40
+    },
+    "climax": {
+      "chapter_range": "1 (pages 76-85)",
+      "chapters": [
+        1
+      ],
+      "primary_chapter": 1,
+      "percentage": 8
+    },
+    "falling_action": {
+      "chapter_range": "1 (pages 86-115)",
+      "chapters": [
+        1
+      ],
+      "primary_chapter": 1,
+      "percentage": 23
+    },
+    "resolution": {
+      "chapter_range": "1 (pages 116-127)",
+      "chapters": [
+        1
+      ],
+      "primary_chapter": 1,
+      "percentage": 9
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "rationale": "This section establishes Santiago as the protagonist, introducing his character as an aging fisherman who has gone 84 days without catching a fish. The opening pages establish the setting of a Cuban fishing village, Santiago's relationship with the boy Manolin, and his determination to break his unlucky streak by venturing far out to sea."
+    },
+    "rising_action": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "rationale": "The conflict intensifies as Santiago hooks the great marlin and begins his epic struggle at sea. This section develops the central tension between man and fish, showing Santiago's physical and mental endurance as he battles to land his prize while far from shore, creating mounting suspense about the outcome."
+    },
+    "climax": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "rationale": "The turning point occurs when Santiago finally kills the marlin after their prolonged battle, representing the peak of dramatic tension. This moment marks Santiago's greatest triumph as a fisherman, but also the beginning of his tragic loss as the dead marlin attracts sharks."
+    },
+    "falling_action": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "rationale": "The consequences of Santiago's victory unfold as sharks attack the marlin tied to his boat, systematically destroying his prize. Despite his desperate efforts to fight them off, Santiago loses most of the marlin to the sharks, transforming his triumph into apparent defeat during the journey home."
+    },
+    "resolution": {
+      "chapter_range": "1",
+      "primary_chapter": 1,
+      "rationale": "Santiago returns to shore with only the marlin's skeleton, physically exhausted but spiritually unbroken. The final pages show the aftermath of his journey, the boy's renewed devotion, and Santiago's dreams of lions, establishing the thematic conclusion about dignity in struggle and the nature of true victory."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "TPL",
+        "pov_description": "Third person limited focused on Santiago's consciousness and memories",
+        "focalization": "INT",
+        "focalization_description": "Access limited to Santiago's internal experience and recollections",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "SOME",
+        "stream_consciousness": "NONE",
+        "character_revelation": "IND",
+        "narrative_intrusion": "NONE",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "ANA",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single plot thread focused on Santiago's memory of the arm wrestling match",
+        "pacing": "SLOW",
+        "temporal_span": "BRIEF",
+        "beginning_type": "MEDIAS",
+        "ending_type": "OPEN",
+        "scene_summary_ratio": "SCENE",
+        "chapter_structure": "CONT",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Elegiac and understated",
+        "register": "COLL",
+        "stance": "OBJ",
+        "ethos": "STRONG",
+        "pathos": "MOD",
+        "logos": "WEAK",
+        "irony": "SIT",
+        "figurative_density": "LOW"
+      },
+      "structure": {
+        "alignment_type": "CONF",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "LOW",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "REPETITION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Hemingway's understated prose style reinforces the narrative's focus on Santiago's dignity through sparse, precise language that mirrors the old fisherman's stoic character. The repetitive sentence structures and minimal figurative language create a meditative rhythm that aligns with the retrospective, memory-driven narrative structure."
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Imagery",
+      "layer": "B",
+      "function": "Re",
+      "engagement": "V",
+      "classification": "B|Re|V",
+      "definition": "vivid descriptive language that appeals to the senses",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "creates vivid mental pictures and sensory experiences",
+      "position_code": "DIST",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "Santiago's past physical strength and athletic prowess",
+        "scene_description": "flashback to the legendary arm-wrestling match at the tavern",
+        "specific_function": "establishes Santiago's former physical dominance through vivid sensory details"
+      },
+      "effects": [
+        {
+          "text": "Creates visceral sense of the physical intensity and endurance of the contest",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the stark contrast between Santiago's glorious past and diminished present",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes the theme of human dignity persisting despite physical decline",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "arm-wrestling match description",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "Blood came out from under the fingernails of both his and the negro's hands"
+        }
+      ],
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Simile",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "B|Me|V",
+      "definition": "comparison using 'like' or 'as' to show similarity between different things",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "creates clear comparisons to help readers understand unfamiliar concepts",
+      "position_code": "DIST",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "the dynamic atmosphere of the gambling crowd",
+        "scene_description": "description of the shifting shadows and movement in the tavern",
+        "specific_function": "emphasizes the fluid, uncertain nature of the competitive environment"
+      },
+      "effects": [
+        {
+          "text": "Makes readers visualize the unstable, shifting atmosphere of competition",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how external forces constantly influence human contests",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of man's struggle against unpredictable circumstances",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "tavern atmosphere during match",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "it moved on the wall as the breeze moved the lamps"
+        }
+      ],
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Hyperbole",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "B|Me|T",
+      "definition": "deliberate exaggeration for emphasis or effect",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "emphasizes importance through deliberate overstatement",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "the opponent's intimidating physical presence",
+        "scene_description": "description of the shadow cast by Santiago's arm-wrestling opponent",
+        "specific_function": "magnifies the perceived threat and power of Santiago's competitor"
+      },
+      "effects": [
+        {
+          "text": "Creates sense of Santiago facing an overwhelming, larger-than-life opponent",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how memory can transform ordinary people into legendary figures",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes the theme of man confronting forces greater than himself",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "opponent's shadow description",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "The negro's shadow was huge"
+        }
+      ],
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Metaphor",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "B|Me|V",
+      "definition": "direct comparison between two unlike things without using 'like' or 'as'",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "creates deeper understanding by showing hidden connections",
+      "position_code": "CLUST-MID",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "Santiago's championship identity and reputation",
+        "scene_description": "reference to Santiago's former title and status",
+        "specific_function": "transforms Santiago's personal identity into a symbol of triumph"
+      },
+      "effects": [
+        {
+          "text": "Makes readers understand Santiago's complete identification with victory",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how achievement becomes inseparable from personal identity",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of human dignity tied to accomplishment",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "Santiago's championship reference",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "Santiago El Campe\u00f3n"
+        }
+      ],
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Dialogue",
+      "layer": "B",
+      "function": "Te",
+      "engagement": "T",
+      "classification": "B|Te|T",
+      "definition": "conversation between characters that reveals personality and advances plot",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "reveals character relationships and motivations through speech",
+      "position_code": "DIST",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "the crowd's investment in the prolonged contest",
+        "scene_description": "bettors discussing whether to call the match a draw",
+        "specific_function": "reveals the external pressures and practical concerns affecting the competition"
+      },
+      "effects": [
+        {
+          "text": "Creates tension between Santiago's determination and crowd's practical needs",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how economic necessity conflicts with sporting honor",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Develops the theme of individual will versus social pressure",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "bettors requesting a draw",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "the bettors were asking that it be called a draw"
+        }
+      ],
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Repetition",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "recurring use of words, phrases, or structures for emphasis",
+      "student_facing_type": "Structural Device",
+      "pedagogical_function": "emphasizes key ideas through recurring patterns",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "the relentless physical struggle and endurance",
+        "scene_description": "description of the prolonged arm-wrestling match",
+        "specific_function": "emphasizes the grinding, persistent nature of the physical contest"
+      },
+      "effects": [
+        {
+          "text": "Creates sense of the monotonous, grinding endurance required",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the repetitive nature of human struggle and persistence",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of endurance as fundamental to human dignity",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "match duration description",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "down and down until it rested on the wood"
+        }
+      ],
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Direct Characterization",
+      "layer": "B",
+      "function": "Re",
+      "engagement": "T",
+      "classification": "B|Re|T",
+      "definition": "author explicitly states character traits and qualities",
+      "student_facing_type": "Character Development",
+      "pedagogical_function": "provides clear information about character qualities",
+      "position_code": "DIST",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "Santiago's opponent's admirable qualities",
+        "scene_description": "narrator's assessment of the arm-wrestling opponent",
+        "specific_function": "establishes respect for Santiago's competitor despite the contest"
+      },
+      "effects": [
+        {
+          "text": "Creates respect for both competitors rather than simple antagonism",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows that worthy opponents enhance rather than diminish victory",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Develops the theme of honor found in noble competition",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "opponent description",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "who was a fine man and a great athlete"
+        }
+      ],
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Scene",
+      "layer": "N",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "N|Te|F",
+      "definition": "detailed dramatic presentation of events in real time",
+      "student_facing_type": "Pacing Technique",
+      "pedagogical_function": "slows narrative pace to focus on important moments",
+      "position_code": "CLUST-END",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "the climactic moment of the arm-wrestling victory",
+        "scene_description": "detailed moment-by-moment account of the match's conclusion",
+        "specific_function": "creates dramatic focus on Santiago's decisive moment of triumph"
+      },
+      "effects": [
+        {
+          "text": "Builds suspense and makes readers experience the tension of the final moments",
+          "category": "reader_response"
+        },
+        {
+          "text": "Emphasizes the significance of this particular moment in Santiago's life",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Highlights the theme of decisive moments that define human worth",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "final victory moment",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "he had unleashed his effort and forced the hand of the negro down"
+        }
+      ],
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Symbolism",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "R|Me|V",
+      "definition": "objects or elements that represent deeper meanings beyond their literal sense",
+      "student_facing_type": "Symbolic Device",
+      "pedagogical_function": "adds layers of meaning through representative objects",
+      "position_code": "DIST",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "the chalk line as boundary between victory and defeat",
+        "scene_description": "the precise positioning required for the arm-wrestling contest",
+        "specific_function": "represents the thin line between triumph and failure in human contests"
+      },
+      "effects": [
+        {
+          "text": "Makes readers aware of how narrow the margin between success and failure can be",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals that human achievement often depends on precise adherence to rules",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of life's precise boundaries between honor and defeat",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "contest setup description",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "with their elbows on a chalk line on the table"
+        }
+      ],
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Motif",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "R|Me|V",
+      "definition": "recurring element that develops theme throughout the text",
+      "student_facing_type": "Structural Pattern",
+      "pedagogical_function": "reinforces themes through repeated elements",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "hands as instruments of strength and will",
+        "scene_description": "repeated focus on hands throughout the arm-wrestling match",
+        "specific_function": "emphasizes hands as the physical manifestation of human determination"
+      },
+      "effects": [
+        {
+          "text": "Creates focus on the physical reality of human struggle and endurance",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how the body becomes the battleground for human will",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Develops the theme of physical capability as expression of inner strength",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "hand descriptions throughout match",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "their hands gripped tight"
+        }
+      ],
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Foreshadowing",
+      "layer": "R",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "R|Te|F",
+      "definition": "hints or clues about future events in the narrative",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "creates anticipation and connects present to future events",
+      "position_code": "CLUST-MID",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "Santiago's confidence in his eventual victory",
+        "scene_description": "Santiago's internal certainty during the match",
+        "specific_function": "hints at Santiago's pattern of ultimate triumph despite apparent disadvantage"
+      },
+      "effects": [
+        {
+          "text": "Builds reader confidence in Santiago's ability to overcome challenges",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals Santiago's deep understanding of his own capabilities",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes the theme of inner knowledge transcending external circumstances",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "Santiago's moment of certainty",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "He was sure then that he had the negro beaten"
+        }
+      ],
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "R|Me|V",
+      "definition": "placing contrasting elements side by side for effect",
+      "student_facing_type": "Contrast Device",
+      "pedagogical_function": "highlights differences to emphasize important contrasts",
+      "position_code": "CLUST-END",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "the contrast between Santiago's former and current identity",
+        "scene_description": "reference to Santiago as both old man and former champion",
+        "specific_function": "emphasizes the dramatic change in Santiago's life circumstances"
+      },
+      "effects": [
+        {
+          "text": "Creates poignant awareness of how time transforms human identity",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows that past greatness both defines and haunts present reality",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Develops the theme of human dignity persisting through life's changes",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "identity description",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "who was not an old man then but was Santiago El Campe\u00f3n"
+        }
+      ],
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Verbal Irony",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "saying one thing while meaning the opposite",
+      "student_facing_type": "Irony",
+      "pedagogical_function": "creates meaning through contrast between surface and intended meaning",
+      "position_code": "DIST",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "the crowd's concern for practical work obligations",
+        "scene_description": "bettors wanting to end the match to go to work",
+        "specific_function": "reveals the gap between sporting ideals and economic reality"
+      },
+      "effects": [
+        {
+          "text": "Creates awareness of how mundane concerns undercut heroic moments",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows the tension between ideal competition and practical life",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of individual heroism existing despite social limitations",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "work obligations during contest",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "they had to go to work on the docks loading sacks of sugar"
+        }
+      ],
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Dramatic Irony",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "F",
+      "classification": "R|Me|F",
+      "definition": "readers know something characters don't",
+      "student_facing_type": "Irony",
+      "pedagogical_function": "creates tension through reader's superior knowledge",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "Santiago's future decline from championship status",
+        "scene_description": "celebration of Santiago's victory with knowledge of his current condition",
+        "specific_function": "creates poignancy through reader awareness of Santiago's eventual aging"
+      },
+      "effects": [
+        {
+          "text": "Makes readers feel the bittersweetness of temporary triumph",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how all human achievement exists within the context of mortality",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Deepens the theme of human dignity in the face of inevitable decline",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "championship celebration",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "For a long time after that everyone had called him The Champion"
+        }
+      ],
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Suspense",
+      "layer": "N",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "N|Te|F",
+      "definition": "tension created by uncertainty about outcomes",
+      "student_facing_type": "Tension Device",
+      "pedagogical_function": "maintains reader engagement through uncertainty",
+      "position_code": "CLUST-MID",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "the outcome of the prolonged physical contest",
+        "scene_description": "extended duration of the arm-wrestling match",
+        "specific_function": "maintains uncertainty about which competitor will ultimately prevail"
+      },
+      "effects": [
+        {
+          "text": "Keeps readers emotionally invested in Santiago's struggle",
+          "category": "reader_response"
+        },
+        {
+          "text": "Emphasizes how victory often depends on endurance rather than initial strength",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of perseverance as the key to human triumph",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "match duration emphasis",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "The match had started on a Sunday morning and ended on a Monday morning"
+        }
+      ],
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Summary",
+      "layer": "N",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "N|Te|F",
+      "definition": "compressed narration covering extended time periods",
+      "student_facing_type": "Pacing Technique",
+      "pedagogical_function": "accelerates narrative pace to cover long time spans",
+      "position_code": "CLUST-END",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "the aftermath and consequences of Santiago's victory",
+        "scene_description": "quick overview of the return match and its results",
+        "specific_function": "compresses the decline of Santiago's competitive career"
+      },
+      "effects": [
+        {
+          "text": "Creates sense of how quickly fame and achievement can fade",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows the brief nature of human triumph in the context of time",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Emphasizes the theme of transient glory in human experience",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "return match summary",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "But not much money was bet and he had won it quite easily"
+        }
+      ],
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Third-Person Limited",
+      "layer": "N",
+      "function": "Re",
+      "engagement": "F",
+      "classification": "N|Re|F",
+      "definition": "narrator knows thoughts of only one character",
+      "student_facing_type": "Narrative Voice",
+      "pedagogical_function": "provides intimate access to one character's perspective",
+      "position_code": "DIST",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "Santiago's internal experience and memories",
+        "scene_description": "narrative access to Santiago's thoughts and recollections",
+        "specific_function": "provides intimate access to Santiago's personal reflection on past triumph"
+      },
+      "effects": [
+        {
+          "text": "Creates deep emotional connection between readers and Santiago's experience",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the private significance of public achievements",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes the theme of internal dignity transcending external circumstances",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "Santiago's memory narration",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "he had looked at the arm and hand of the negro and at the negro's face"
+        }
+      ],
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Flashback",
+      "layer": "N",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "N|Te|F",
+      "definition": "narrative return to earlier events",
+      "student_facing_type": "Temporal Device",
+      "pedagogical_function": "provides background information and context",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "Santiago's past moment of greatest triumph",
+        "scene_description": "entire arm-wrestling sequence as remembered event",
+        "specific_function": "reveals the foundation of Santiago's current sense of self-worth"
+      },
+      "effects": [
+        {
+          "text": "Makes readers understand the source of Santiago's enduring pride",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how past achievements continue to define present identity",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces the theme of memory as preservation of human dignity",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "entire remembered contest",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "They had gone one day and one night with their elbows on a chalk line"
+        }
+      ],
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Internal Monologue",
+      "layer": "N",
+      "function": "Re",
+      "engagement": "T",
+      "classification": "N|Re|T",
+      "definition": "character's unspoken thoughts presented directly",
+      "student_facing_type": "Narrative Voice",
+      "pedagogical_function": "reveals character's private thoughts and feelings",
+      "position_code": "CLUST-MID",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "Santiago's psychological confidence during the contest",
+        "scene_description": "Santiago's inner certainty about his eventual victory",
+        "specific_function": "reveals Santiago's deep self-knowledge and mental strength"
+      },
+      "effects": [
+        {
+          "text": "Creates understanding of the mental component of physical competition",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how inner conviction can sustain outward performance",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Develops the theme of psychological strength as foundation of human dignity",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "Santiago's moment of inner certainty",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "He was sure then that he had the negro beaten"
+        }
+      ],
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Linear Chronology",
+      "layer": "N",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "N|Te|F",
+      "definition": "events presented in chronological order",
+      "student_facing_type": "Narrative Structure",
+      "pedagogical_function": "creates clear sequence and cause-effect relationships",
+      "position_code": "CLUST-END",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "the progression of Santiago's competitive career",
+        "scene_description": "sequence from first victory through return match to retirement",
+        "specific_function": "traces the complete arc of Santiago's rise and decline as competitor"
+      },
+      "effects": [
+        {
+          "text": "Makes readers follow the complete trajectory of achievement and decline",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how success naturally leads to both celebration and eventual obsolescence",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes the theme of life as natural progression through triumph and loss",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "career progression summary",
+          "chapter": 1,
+          "page_range": "69-70",
+          "quote_snippet": "After that he had broken the confidence of the negro from Cienfuegos"
+        }
+      ],
+      "pedagogical_tier": 2
+    }
+  ]
+}

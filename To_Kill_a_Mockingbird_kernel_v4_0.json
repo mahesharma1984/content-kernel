@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "title": " To Kill a Mockingbird",
+    "author": " Harper Lee",
+    "edition": " Penguin Classics, 2003",
+    "creation_date": "2025-11-30T18:34:51.610109",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 31,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NUM",
+    "total_units": 31,
+    "special_elements": [
+      "Two-Part Structure: Part One (Chapters 1-11), Part Two (Chapters 12-31)"
+    ],
+    "notes": "Numbered chapters with two-part division detected"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-5",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "primary_chapter": 1,
+      "percentage": 16
+    },
+    "rising_action": {
+      "chapter_range": "6-20",
+      "chapters": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "primary_chapter": 15,
+      "percentage": 48
+    },
+    "climax": {
+      "chapter_range": "21-22",
+      "chapters": [
+        21,
+        22
+      ],
+      "primary_chapter": 21,
+      "percentage": 6
+    },
+    "falling_action": {
+      "chapter_range": "23-28",
+      "chapters": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "primary_chapter": 25,
+      "percentage": 19
+    },
+    "resolution": {
+      "chapter_range": "29-31",
+      "chapters": [
+        29,
+        30,
+        31
+      ],
+      "primary_chapter": 31,
+      "percentage": 10
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-5",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "6-20",
+      "primary_chapter": 15,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "21-22",
+      "primary_chapter": 21,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "23-28",
+      "primary_chapter": 25,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "29-31",
+      "primary_chapter": 31,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-5",
+      "primary_chapter": 1,
+      "rationale": "Chapter 1 establishes the fundamental setting of Maycomb, Alabama during the Depression era, introduces the Finch family structure with Scout as narrator, and sets up the central mysteries of Boo Radley and the social dynamics of the town. This section provides essential character backgrounds, family history, and the foundational world-building that frames the entire narrative."
+    },
+    "rising_action": {
+      "chapter_range": "6-20",
+      "primary_chapter": 15,
+      "rationale": "Chapter 15 represents the escalating tensions surrounding Tom Robinson's case, with Atticus facing increasing social pressure and potential violence at the jail. This section builds conflict through Scout's growing awareness of racial injustice, family tensions with Aunt Alexandra, and the mounting community hostility that will culminate in the trial."
+    },
+    "climax": {
+      "chapter_range": "21-22",
+      "primary_chapter": 21,
+      "rationale": "Chapter 21 contains the jury's verdict in Tom Robinson's trial, representing the peak dramatic tension where all the novel's themes of justice, prejudice, and moral courage converge. This moment fundamentally shatters Scout's innocence and reveals the true nature of Maycomb's society, marking the story's emotional and thematic turning point."
+    },
+    "falling_action": {
+      "chapter_range": "23-28",
+      "primary_chapter": 25,
+      "rationale": "Chapter 25 explores the aftermath of the trial's impact on the community and the Finch family, showing how the verdict affects different characters and revealing the complex social hierarchies Scout is beginning to understand. This section deals with the consequences of the central conflict while building toward the final confrontation with Bob Ewell."
+    },
+    "resolution": {
+      "chapter_range": "29-31",
+      "primary_chapter": 31,
+      "rationale": "Chapter 31 provides the story's final resolution as Scout walks Boo Radley home and reflects on the entire narrative from his perspective, achieving the empathy and understanding that Atticus has taught her. This chapter brings thematic closure by connecting the Boo Radley subplot with the novel's central lessons about prejudice, courage, and seeing others' humanity."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "FP",
+        "pov_description": "First person narration from Scout's perspective throughout",
+        "focalization": "INT",
+        "focalization_description": "Limited to Scout's internal perspective and understanding",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "NONE",
+        "stream_consciousness": "NONE",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "SIMPLE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single main plot centered on Tom Robinson trial with Boo Radley subplot",
+        "pacing": "VAR",
+        "temporal_span": "EXTENDED",
+        "beginning_type": "AB_OVO",
+        "ending_type": "CLOSED",
+        "scene_summary_ratio": "BAL",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Nostalgic, morally instructive, occasionally melancholic",
+        "register": "COLL",
+        "stance": "ADV",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "MOD"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "MOD",
+        "device_distribution": "PEAK",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Literary devices accumulate throughout the narrative to transform reader understanding of prejudice and moral courage, with peak concentration during the trial climax where symbolism, irony, and characterization converge to reveal the tragic contradiction between American ideals and social reality"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "Jem got his arm badly broken at the elbow",
+      "location_percent": 5,
+      "scene": "Opening reference to Jem's broken arm injury",
+      "effect": "Establishes the central mystery and creates anticipation for the events that will lead to this significant injury",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-5",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Flashback",
+      "anchor_phrase": "All we had was Simon Finch, a fur-trapping apothecary",
+      "location_percent": 20,
+      "scene": "Detailed account of the Finch family ancestor and origins",
+      "effect": "Provides essential family background and historical context for understanding the Finch family's place in Maycomb society",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-5",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "a black dog suffered on a summer's day",
+      "location_percent": 45,
+      "scene": "Description of Maycomb's oppressive summer heat and slow pace",
+      "effect": "Brings the setting to life and emphasizes the town's languid, oppressive atmosphere that affects all living things",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-5",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "like soft teacakes with frostings of sweat",
+      "location_percent": 50,
+      "scene": "Description of ladies in Maycomb's heat by nightfall",
+      "effect": "Creates vivid imagery of the town's climate and establishes the genteel Southern culture through delicate comparison",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-5",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "It ain't a snake, it's somebody",
+      "location_percent": 95,
+      "scene": "Jem discovers the mysterious presence under Scout's bed",
+      "effect": "Subverts expectations - what seemed like a dangerous snake turns out to be Dill hiding",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "6-20",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "Don't you worry about anything, it's not time",
+      "location_percent": 45,
+      "scene": "Atticus comforts Scout after the awkward family heritage speech",
+      "effect": "Reveals character conflict between Atticus's natural parenting style and Alexandra's pressure to conform",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "6-20",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "warm, resilient, and rather smooth",
+      "location_percent": 92,
+      "scene": "Scout steps on something mysterious under her bed",
+      "effect": "Creates suspense through tactile details, making readers share Scout's uncertainty about the hidden presence",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "6-20",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "hung dead at his side",
+      "location_percent": 26,
+      "scene": "Description of Tom's disabled arm",
+      "effect": "The dead arm symbolizes the death of justice and truth in the trial",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "powerful shoulders rippled under his thin shirt",
+      "location_percent": 24,
+      "scene": "Tom's physical description when standing",
+      "effect": "Contrasts his physical strength with his disability, heightening the dramatic revelation",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Rhetorical Question",
+      "anchor_phrase": "How?",
+      "location_percent": 35,
+      "scene": "Atticus's one-word question to Mayella",
+      "effect": "Delivers the climactic blow to the prosecution's case by exposing the logical impossibility",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Do you remember him beating you about the face?",
+      "location_percent": 15,
+      "scene": "Atticus questioning Mayella repeatedly",
+      "effect": "Builds tension toward the climactic revelation by exposing inconsistencies in testimony",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "One of your Old Sarum friends",
+      "location_percent": 30,
+      "scene": "Atticus revealing a Cunningham voted for acquittal",
+      "effect": "Reader knows the Cunninghams tried to lynch Tom, creating tension between past violence and present justice",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "23-28",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Verbal Irony",
+      "anchor_phrase": "I guess it's to protect our frail ladies from sordid cases",
+      "location_percent": 10,
+      "scene": "Atticus explaining why women can't serve on juries",
+      "effect": "Atticus mocks the patronizing justification for excluding women from civic duty",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "23-28",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "there's a drinking streak in that family a mile wide",
+      "location_percent": 70,
+      "scene": "Aunt Alexandra explaining class distinctions",
+      "effect": "Compares alcoholism to a geographical feature, emphasizing perceived hereditary flaws",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "23-28",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I ran to him and hugged him",
+      "location_percent": 70,
+      "scene": "Scout comforting Atticus after understanding the situation",
+      "effect": "Personal narration makes Scout's moral growth and the family reconciliation intimate and emotionally resonant",
+      "assigned_section": "resolution",
+      "chapter": 31,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 5
+    }
+  ]
+}
