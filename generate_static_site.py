@@ -116,30 +116,30 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             <div class="flex items-center justify-between mb-3">
                 <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide">Your thesis</p>
                 <button onclick="copyThesis()" id="copy-btn" class="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1">
-                    📋 Copy
+                    &#128203; Copy
                 </button>
             </div>
             
             <!-- Thesis components -->
             <div class="space-y-2 mb-4">
                 <div class="flex gap-2 text-xs">
-                    <span class="text-gray-400 shrink-0 w-28">Who tells it →</span>
+                    <span class="text-gray-400 shrink-0 w-28">Who tells it &rarr;</span>
                     <span class="text-gray-600">{comp_who}</span>
                 </div>
                 <div class="flex gap-2 text-xs">
-                    <span class="text-gray-400 shrink-0 w-28">What's revealed →</span>
+                    <span class="text-gray-400 shrink-0 w-28">What's revealed &rarr;</span>
                     <span class="text-gray-600">{comp_what}</span>
                 </div>
                 <div class="flex gap-2 text-xs">
-                    <span class="text-gray-400 shrink-0 w-28">Story type →</span>
+                    <span class="text-gray-400 shrink-0 w-28">Story type &rarr;</span>
                     <span class="text-gray-600">{comp_story}</span>
                 </div>
                 <div class="flex gap-2 text-xs">
-                    <span class="text-gray-400 shrink-0 w-28">Larger meaning →</span>
+                    <span class="text-gray-400 shrink-0 w-28">Larger meaning &rarr;</span>
                     <span class="text-gray-600">{comp_meaning}</span>
                 </div>
                 <div class="flex gap-2 text-xs">
-                    <span class="text-gray-400 shrink-0 w-28">Method →</span>
+                    <span class="text-gray-400 shrink-0 w-28">Method &rarr;</span>
                     <span class="text-gray-600">{comp_method}</span>
                 </div>
             </div>
@@ -154,7 +154,10 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
         <div class="p-5 bg-gray-50">
             <p class="font-semibold text-gray-800 mb-1">Want the full quote bank?</p>
             <p class="text-sm text-gray-600 mb-4">15+ quotes with analysis templates, organised by section.</p>
-            <form class="flex gap-2" action="#" method="POST">
+            <form class="flex gap-2" name="email-capture" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="email-capture" />
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="text-title" value="{title}" />
                 <input
                     type="email"
                     name="email"
@@ -173,15 +176,15 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             <a href="#workbook" class="block bg-blue-50 rounded-lg p-4 flex items-center justify-between hover:bg-blue-100 transition-colors">
                 <div>
                     <p class="font-semibold text-blue-900 text-sm">Learn to write this yourself</p>
-                    <p class="text-sm text-blue-600">{title} Essay Workbook →</p>
+                    <p class="text-sm text-blue-600">{title} Essay Workbook &rarr;</p>
                 </div>
-                <span class="text-2xl">📘</span>
+                <span class="text-2xl">&#128216;</span>
             </a>
         </div>
 
         <!-- Footer -->
         <div class="p-5 text-center text-xs text-gray-400">
-            <p>© 2024 · <a href="/" class="hover:text-gray-600">More texts</a></p>
+            <p>&copy; 2024 · <a href="/" class="hover:text-gray-600">More texts</a></p>
         </div>
     </div>
 
@@ -197,8 +200,8 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             const thesis = document.getElementById('thesis-text').innerText;
             navigator.clipboard.writeText(thesis).then(() => {{
                 const btn = document.getElementById('copy-btn');
-                btn.innerHTML = '✓ Copied';
-                setTimeout(() => {{ btn.innerHTML = '📋 Copy'; }}, 2000);
+                btn.innerHTML = '&#10003; Copied';
+                setTimeout(() => {{ btn.innerHTML = '&#128203; Copy'; }}, 2000);
             }});
         }}
     </script>
@@ -238,7 +241,7 @@ INDEX_TEMPLATE = '''<!DOCTYPE html>
         </div>
         
         <div class="p-6 text-center text-xs text-gray-400">
-            <p>© 2024</p>
+            <p>&copy; 2024</p>
         </div>
     </div>
 </body>
@@ -341,7 +344,7 @@ def main():
         
         # Write output file
         output_file = output_path / f"{slug}.html"
-        with open(output_file, 'w') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html)
         
         print(f"  → {output_file}")
@@ -356,7 +359,7 @@ def main():
     # Generate index page
     index_html = generate_index(texts)
     index_file = output_path / "index.html"
-    with open(index_file, 'w') as f:
+    with open(index_file, 'w', encoding='utf-8') as f:
         f.write(index_html)
     print(f"  → {index_file}")
     
