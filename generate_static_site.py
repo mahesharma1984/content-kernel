@@ -1,9 +1,15 @@
 """
 Static Site Generator for Text Analysis Pages
-Version: 0.1
+Version: 0.2
 
 Takes: folder of content JSON files
 Outputs: folder of static HTML pages ready for deployment
+
+Changes from v0.1:
+- Added UTF-8 encoding to all file write operations
+- Replaced emojis with HTML entities for better compatibility
+- Added Netlify form handling to email capture form
+- Added text title tracking in form submissions
 
 Usage:
     python generate_static_site.py content/ dist/
