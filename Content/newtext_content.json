@@ -1,71 +1,71 @@
 {
   "metadata": {
-    "title": "The Giver",
-    "author": "Lois Lowry"
+    "title": "Jane Eyre",
+    "author": "Charlotte Bronte"
   },
   "layer_1_whats_happening": {
-    "who_tells_it": "The story is told by a narrator who only knows what Jonas thinks and feels, so we discover the truth about his world at the same time he does.",
-    "what_we_experience": "We follow Jonas as he gradually discovers that his perfect community is actually a horrifying place built on lies and murder.",
-    "how_it_feels": "We feel increasingly trapped and horrified as the peaceful surface of Jonas's world peels away to reveal the nightmare underneath."
+    "who_tells_it": "Jane herself tells us her life story, looking back as an adult at everything that happened to her from childhood to marriage.",
+    "what_we_experience": "We follow Jane from being a mistreated orphan to finding love with Rochester, discovering his terrible secret, leaving him, and finally returning when they can be equals.",
+    "how_it_feels": "We feel Jane's pain, anger, and longing directly because she's telling us her own story with all her emotions included."
   },
   "layer_2_meaning_by_section": [
     {
       "section": "Exposition",
-      "meaning": "The community appears perfect and peaceful, but small details hint that something sinister lurks beneath the surface.",
-      "quote": "the way he had felt a year ago when an unidentified aircraft",
+      "meaning": "Jane establishes herself as someone who will fight back against unfair treatment, even as a powerless child.",
+      "quote": "I did not expect him to come and speak to me",
       "quote_chapter": 1,
-      "devices_supporting": "Flashback shows the community's harsh punishments, while dialogue reveals how controlled and artificial their family interactions are."
+      "devices_supporting": "Jane's first-person narration lets us feel her defiance and moral strength from the very beginning."
     },
     {
       "section": "Rising Action",
-      "meaning": "Jonas begins experiencing real human sensations and emotions for the first time, awakening to what his community has stolen from everyone.",
-      "quote": "Tiny, cold, featherlike feelings peppered his body and face",
-      "quote_chapter": 10,
-      "devices_supporting": "Imagery makes us feel the wonder of snow through Jonas's eyes, while similes help us understand the weight of carrying real human memories."
+      "meaning": "Jane's growing love for Rochester is constantly threatened by the secrets and social barriers between them.",
+      "quote": "Grace Poole, in prim cap, white apron",
+      "quote_chapter": 15,
+      "devices_supporting": "Foreshadowing hints at hidden dangers, while metaphors show how distant the upper-class world feels to Jane, and irony emphasizes her painful social isolation."
     },
     {
       "section": "Climax",
-      "meaning": "Jonas is overwhelmed by the full horror of what humans have lost and what his community has done to maintain their fake peace.",
-      "quote": "He wanted his childhood again, his scraped knees and ball games",
-      "quote_chapter": 15,
-      "devices_supporting": "Multiple devices pile up to show Jonas's mental breakdown - irony shows how knowledge becomes suffering, symbolism hints at his future escape, and juxtaposition contrasts his pain with others' ignorance."
+      "meaning": "Jane chooses moral principles over love, refusing to become Rochester's mistress even though it breaks her heart.",
+      "quote": "I care for myself. The more solitary, the more friendless",
+      "quote_chapter": 26,
+      "devices_supporting": "Symbolism shows hope for renewal, while juxtaposition contrasts Jane's loneliness with her moral strength, and hyperbole shows Rochester's desperation."
     },
     {
       "section": "Falling Action",
-      "meaning": "Jonas discovers that people he trusted, including his father, are actually murderers who don't even realize what they're doing.",
-      "quote": "Bye-bye, little guy",
-      "quote_chapter": 19,
-      "devices_supporting": "Dramatic irony makes the casual farewell after murder feel devastating, while verbal irony shows Jonas's bitter anger at the community's blind obedience."
+      "meaning": "Jane discovers her family and gains independence, realizing she can now choose love on equal terms.",
+      "quote": "Famous equality and fraternization! Close union! Intimate attachment!",
+      "quote_chapter": 32,
+      "devices_supporting": "Verbal irony shows Jane rejecting fake equality, while parallelism emphasizes her power to reunite her scattered family, and dramatic irony reveals her growing wisdom."
     },
     {
       "section": "Resolution",
-      "meaning": "Jonas escapes into uncertainty, leaving readers unsure whether he survives or whether his sacrifice helps anyone.",
-      "quote": "Kira felt her stomach tighten with fear",
-      "quote_chapter": 23,
-      "devices_supporting": "The limited perspective keeps us trapped in Jonas's viewpoint, so we can't know if he truly escapes or if it's just a dying dream."
+      "meaning": "Jane returns to Rochester as an independent woman who can marry him as an equal partner.",
+      "quote": "I now clapped my hands in sudden joy",
+      "quote_chapter": 32,
+      "devices_supporting": "First-person narration gives us direct access to Jane's joy and triumph as she finally achieves both love and equality."
     }
   ],
   "layer_3_connections": {
-    "step_1": "The narrator only shows us Jonas's thoughts and feelings, so we can't see the bigger picture until he does.",
-    "step_2": "The calm, objective tone mirrors the community's artificial peace while building tension underneath, making the horror more shocking when it's revealed.",
-    "step_3": "Together: we're trapped in Jonas's limited viewpoint just like he's trapped in his community, creating a claustrophobic experience where truth emerges gradually rather than through obvious preaching.",
-    "pattern_name": "Constrained Awakening",
-    "pattern_explanation": "Both Jonas and the reader are 'constrained' by limited knowledge that slowly awakens to terrible truth."
+    "step_1": "Jane telling her own story lets us experience every emotion and moral struggle from the inside, making us feel her pain when she's treated badly and her strength when she fights back.",
+    "step_2": "The story structure builds up to moments of moral choice where Jane must decide between what she wants and what she believes is right, with literary devices making these moments feel intense and important.",
+    "step_3": "Together: Jane's passionate but controlled storytelling voice transforms her personal journey into a powerful argument that women deserve equality and respect, not just love.",
+    "pattern_name": "Passionate Retrospection",
+    "pattern_explanation": "Jane looks back on her life with deep feeling but also wisdom, using her experiences to teach us about morality and equality."
   },
   "layer_4_thesis": {
     "components": {
-      "who_tells_it": "narrator limited to Jonas's perspective",
-      "what_they_reveal": "gradual unveiling of dystopian horror",
-      "story_type": "awakening from ignorance to knowledge",
-      "larger_meaning": "the cost of eliminating human pain and choice",
-      "method": "constraining readers to Jonas's viewpoint"
+      "who_tells_it": "Jane's passionate first-person narration",
+      "what_they_reveal": "her journey from powerless orphan to independent woman",
+      "story_type": "a personal bildungsroman story",
+      "larger_meaning": "an argument for women's moral and social equality",
+      "method": "making her individual moral choices feel universal and inspiring"
     },
-    "thesis_sentence": "Through a narrator limited to Jonas's perspective, Lowry gradually unveils the dystopian horror beneath her seemingly perfect community, using Jonas's awakening from ignorance to knowledge to explore the cost of eliminating human pain and choice while constraining readers to his viewpoint so they discover the truth alongside him."
+    "thesis_sentence": "Through Jane's passionate first-person narration of her journey from powerless orphan to independent woman, Bronte transforms a personal bildungsroman story into an argument for women's moral and social equality by making Jane's individual moral choices feel universal and inspiring."
   },
   "_converter_metadata": {
     "converter_version": "0.3",
     "schema_version": "1.0",
-    "generated_at": "2025-12-06T10:43:03.781346",
+    "generated_at": "2025-12-06T11:35:25.294273",
     "source_kernel_version": "4.0",
     "reasoning_source": "provided"
   }
