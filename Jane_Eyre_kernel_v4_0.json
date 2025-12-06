@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "title": " Jane Eyre",
+    "author": " Charlotte Bronte",
+    "edition": " Barnes and Nobles Classics, 2003.",
+    "creation_date": "2025-12-06T11:30:12.451643",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 38,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NUM",
+    "total_units": 38,
+    "special_elements": [],
+    "notes": "Numbered chapters detected from I to XXXVIII with Conclusion"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_chapter": 1,
+      "percentage": 11
+    },
+    "rising_action": {
+      "chapter_range": "5-25",
+      "chapters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "primary_chapter": 15,
+      "percentage": 55
+    },
+    "climax": {
+      "chapter_range": "26-27",
+      "chapters": [
+        26,
+        27
+      ],
+      "primary_chapter": 26,
+      "percentage": 5
+    },
+    "falling_action": {
+      "chapter_range": "28-36",
+      "chapters": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "primary_chapter": 32,
+      "percentage": 24
+    },
+    "resolution": {
+      "chapter_range": "37-38",
+      "chapters": [
+        37,
+        38
+      ],
+      "primary_chapter": 38,
+      "percentage": 5
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "5-25",
+      "primary_chapter": 15,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "26-27",
+      "primary_chapter": 26,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "28-36",
+      "primary_chapter": 32,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "37-38",
+      "primary_chapter": 38,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "primary_chapter": 1,
+      "rationale": "This section establishes Jane's character, background, and initial circumstances as an orphaned child living with the hostile Reed family at Gateshead. The opening chapters introduce her defiant nature and set up the foundational conflicts that will drive the narrative forward."
+    },
+    "rising_action": {
+      "chapter_range": "5-25",
+      "primary_chapter": 15,
+      "rationale": "This extensive section develops Jane's relationship with Rochester through increasingly complex interactions, building romantic and psychological tension. The mysterious events at Thornfield, Jane's internal conflicts about her feelings, and the introduction of Blanche Ingram as a rival create mounting dramatic pressure."
+    },
+    "climax": {
+      "chapter_range": "26-27",
+      "primary_chapter": 26,
+      "rationale": "The interrupted wedding ceremony and revelation of Rochester's existing marriage to Bertha Mason represents the story's turning point and moment of peak tension. Jane's moral crisis and decision to leave Rochester despite their mutual love creates the central dramatic crisis of the novel."
+    },
+    "falling_action": {
+      "chapter_range": "28-36",
+      "primary_chapter": 32,
+      "rationale": "This section follows the consequences of Jane's decision as she discovers her family connections with the Rivers siblings and inherits her uncle's fortune. The exploration of her relationship with St. John Rivers and his marriage proposal creates new conflicts while resolving her financial independence."
+    },
+    "resolution": {
+      "chapter_range": "37-38",
+      "primary_chapter": 38,
+      "rationale": "The final chapters provide thematic closure as Jane returns to Rochester as an independent woman, finding him changed by tragedy but free to marry. Their reunion and marriage represent the resolution of both romantic and social conflicts established throughout the novel."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "FP",
+        "pov_description": "First person narration throughout - 'I' narrator telling her own story",
+        "focalization": "INT",
+        "focalization_description": "Limited to Jane's internal perspective and consciousness",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "NONE",
+        "stream_consciousness": "NONE",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single plot following Jane's journey from childhood to marriage",
+        "pacing": "VAR",
+        "temporal_span": "EXTENDED",
+        "beginning_type": "AB_OVO",
+        "ending_type": "CLOSED",
+        "scene_summary_ratio": "BAL",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Passionate yet controlled, moral indignation tempered by Christian forbearance",
+        "register": "FORM",
+        "stance": "SUBJ",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "HIGH"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "HIGH",
+        "device_distribution": "PEAK",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Gothic and Romantic devices accumulate throughout the narrative to support Jane's transformative journey from powerless orphan to empowered woman, with heightened literary techniques at climactic moments reinforcing the novel's challenge to Victorian social hierarchies and gender roles"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "Grace Poole, in prim cap, white apron",
+      "location_percent": 45,
+      "scene": "Jane observes Grace Poole's mysterious routine during party preparations",
+      "effect": "Hints at the hidden secrets of Thornfield that will become crucial to the plot's development",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "5-25",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "almost as noiselessly as a bright mist",
+      "location_percent": 75,
+      "scene": "The elegant ladies descend the staircase",
+      "effect": "Emphasizes the ethereal, otherworldly quality of the upper-class guests from Jane's perspective",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "5-25",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "I did not expect him to come and speak to me",
+      "location_percent": 95,
+      "scene": "Jane observes Rochester in the drawing room with his guests",
+      "effect": "Highlights the painful reversal from their previous intimate moments to current social distance",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "5-25",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "eyes that revealed a heart full and eager to overflow",
+      "location_percent": 97,
+      "scene": "Jane recalls her last intimate moment with Rochester",
+      "effect": "Creates vivid contrast between past emotional connection and present social estrangement",
+      "assigned_section": "rising_action",
+      "chapter": 15,
+      "chapter_range": "5-25",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "the moon was setting in the waves, broad and red, like a hot cannon-ball",
+      "location_percent": 22,
+      "scene": "Rochester's description of the tempestuous West Indian night",
+      "effect": "Creates an ominous, violent atmosphere that mirrors his internal torment",
+      "assigned_section": "climax",
+      "chapter": 26,
+      "chapter_range": "26-27",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "A wind fresh from Europe blew over the ocean",
+      "location_percent": 28,
+      "scene": "The moment of Rochester's spiritual renewal and decision",
+      "effect": "Wind represents hope, purification, and new possibilities for his future",
+      "assigned_section": "climax",
+      "chapter": 26,
+      "chapter_range": "26-27",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "I care for myself. The more solitary, the more friendless",
+      "location_percent": 95,
+      "scene": "Jane's internal monologue about moral principles",
+      "effect": "Contrasts her isolation with her moral strength, highlighting her resolve",
+      "assigned_section": "climax",
+      "chapter": 26,
+      "chapter_range": "26-27",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "powerless as stubble exposed to the draught and glow of a furnace",
+      "location_percent": 97,
+      "scene": "Rochester's physical grip on Jane during final confrontation",
+      "effect": "Emphasizes Jane's physical vulnerability while preparing for her spiritual strength",
+      "assigned_section": "climax",
+      "chapter": 26,
+      "chapter_range": "26-27",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Hyperbole",
+      "anchor_phrase": "All happiness will be torn away with you",
+      "location_percent": 94,
+      "scene": "Rochester's desperate plea to Jane not to leave",
+      "effect": "Amplifies the emotional stakes and Rochester's desperation at the climax",
+      "assigned_section": "climax",
+      "chapter": 26,
+      "chapter_range": "26-27",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "I comprehended how he should despise himself",
+      "location_percent": 85,
+      "scene": "Jane observes St. John and realizes the nature of his character and his relationship with Miss Oliver",
+      "effect": "Jane's insight into St. John's self-conflict creates tension while revealing her growing understanding of human nature",
+      "assigned_section": "falling_action",
+      "chapter": 32,
+      "chapter_range": "28-36",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I now clapped my hands in sudden joy",
+      "location_percent": 20,
+      "scene": "Jane's emotional response to discovering her family connections",
+      "effect": "Provides intimate access to Jane's internal emotional transformation, allowing readers to experience her joy and resolution directly",
+      "assigned_section": "resolution",
+      "chapter": 32,
+      "chapter_range": "28-36",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Verbal Irony",
+      "anchor_phrase": "Famous equality and fraternization! Close union! Intimate attachment!",
+      "location_percent": 70,
+      "scene": "Jane sarcastically responds to St. John's suggestion that they can be family without sharing the inheritance",
+      "effect": "Exposes the hollowness of relationships based on inequality, reinforcing Jane's insistence on true equity",
+      "assigned_section": "falling_action",
+      "chapter": 32,
+      "chapter_range": "28-36",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Parallelism",
+      "anchor_phrase": "they were scattered\u2014I could reunite them",
+      "location_percent": 35,
+      "scene": "Jane realizes how she can use her inheritance to benefit her newfound family",
+      "effect": "Creates rhythmic emphasis on Jane's power to transform her family's circumstances, highlighting her agency in the resolution",
+      "assigned_section": "falling_action",
+      "chapter": 32,
+      "chapter_range": "28-36",
+      "pedagogical_tier": 2
+    }
+  ]
+}
