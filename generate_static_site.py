@@ -1,9 +1,13 @@
 """
 Static Site Generator for Text Analysis Pages
-Version: 0.6
+Version: 0.7
 
 Takes: folder of content JSON files
 Outputs: folder of static HTML pages ready for deployment
+
+Changes from v0.6:
+- Added sitemap.xml generation for SEO
+- Added robots.txt support (manual file creation)
 
 Changes from v0.5:
 - Increased Freytag arc SVG text from 7px to 11px for legibility
@@ -17,6 +21,7 @@ import json
 import os
 import argparse
 from pathlib import Path
+from datetime import datetime
 
 
 HTML_TEMPLATE = '''<!DOCTYPE html>
@@ -483,6 +488,40 @@ def generate_index(texts: list) -> str:
     return INDEX_TEMPLATE.format(text_links=''.join(links))
 
 
+def generate_sitemap(output_dir: str, base_url: str = "https://luminait.app"):
+    """Generate sitemap.xml from all HTML files in output directory."""
+    html_files = [f for f in os.listdir(output_dir) if f.endswith('.html')]
+    today = datetime.now().strftime('%Y-%m-%d')
+    
+    urls = []
+    for filename in html_files:
+        # Index page gets highest priority
+        if filename == 'index.html':
+            priority = '1.0'
+            path = ''
+        else:
+            priority = '0.8'
+            path = filename
+        
+        urls.append(f'''  <url>
+    <loc>{base_url}/{path}</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>{priority}</priority>
+  </url>''')
+    
+    sitemap = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{chr(10).join(urls)}
+</urlset>'''
+    
+    sitemap_path = os.path.join(output_dir, 'sitemap.xml')
+    with open(sitemap_path, 'w', encoding='utf-8') as f:
+        f.write(sitemap)
+    
+    print(f"✅ Sitemap generated: {sitemap_path} ({len(html_files)} URLs)")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate static HTML pages from content JSON files")
     parser.add_argument("input_dir", help="Directory containing content JSON files")
@@ -532,6 +571,9 @@ def main():
     with open(index_file, 'w', encoding='utf-8') as f:
         f.write(index_html)
     print(f"  → {index_file}")
+    
+    # Generate sitemap
+    generate_sitemap(str(output_path))
     
     print(f"\nDone! Generated {len(texts)} pages + index in {output_path}/")
 
