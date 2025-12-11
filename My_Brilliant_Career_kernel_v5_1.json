@@ -1,0 +1,743 @@
+{
+  "metadata": {
+    "title": "My Brilliant Career",
+    "author": "Miles Franklin",
+    "edition": "Harper Perennial, 2013",
+    "creation_date": "2025-12-11T13:16:02.396439",
+    "protocol_version": "4.0",
+    "kernel_version": "5.1",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1",
+    "device_density_optimization": true
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 38,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NUM",
+    "total_units": 38,
+    "special_elements": [],
+    "notes": "Numbered chapters detected from 1 to 38"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_chapter": 1,
+      "percentage": 11
+    },
+    "rising_action": {
+      "chapter_range": "5-19",
+      "chapters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "primary_chapter": 12,
+      "percentage": 39
+    },
+    "climax": {
+      "chapter_range": "20-21",
+      "chapters": [
+        20,
+        21
+      ],
+      "primary_chapter": 20,
+      "percentage": 5
+    },
+    "falling_action": {
+      "chapter_range": "22-34",
+      "chapters": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "primary_chapter": 28,
+      "percentage": 34
+    },
+    "resolution": {
+      "chapter_range": "35-38",
+      "chapters": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "primary_chapter": 38,
+      "percentage": 11
+    }
+  },
+  "chapter_optimization": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "narrative_primary": 1,
+      "optimized_primary": 4,
+      "device_density_score": 41.89435336976321,
+      "improvement_percent": 8.235294117647062,
+      "optimization_applied": true,
+      "chapter_text": "winds shrivelled every blade of grass,dust and the moan of starving stock filled the air, vegetables became athing of the past. The calves I had reared died one by one, and thecows followed in their footsteps.I had left school then, and my mother and father and I spent the daysin lifting our cows. When our strength proved inadequate, the help ofneighbours had to be called in, and father would give his services inreturn. Only a few of our more well-to-do neighbours had been able tosend their stock away, or had any better place to which to transferthem. The majority of them were in as tight a plight as ourselves. Thiscow-lifting became quite a trade, the whole day being spent in it andin discussing the bad prospect ahead if the drought continued.Many an extra line of care furrowed the brows of the disheartenedbushmen then. Not only was their living taken from them by the drought,but there is nothing more heartrending than to have poor beasts,especially dairy cows, so familiar, valued, and loved, pleading forfood day after day in their piteous dumb way when one has it not togive.We shore ourselves of all but the bare necessaries of life, but eventhey for a family of ten are considerable, and it was a mighty tussleto get both ends within cover of meeting. We felt the full force of theheavy hand of poverty\u2014the most stinging kind of poverty too, that whichstill holds up its head and keeps an outside appearance. Far moregrinding is this than the poverty inherited from generations which isnot ashamed of itself, and has not as an accompaniment the woundedpride and humiliation which attacked us.Some there are who argue that poverty does not mean unhappiness. Letthose try what it is to be destitute of even one companionable friend,what it means to be forced to exist in an alien sphere of society, whatit is like to be unable to afford a stamp to write to a friend; letthem long as passionately as I have longed for reading and music, andbe unable to procure it because of poverty; let poverty force them intodoing work against which every fibre of their being revolts, as it hasforced me, and then see if their lives will be happy.My school life had been dull and uneventful. The one incident of anynote had been the day that the teacher, better known as old Harris,\u201cstood up\u201d to the inspector. The latter was a precise, collar-and-cuffssort of little man. He gave one the impression of having all his ideason the subjects he thought worthy of attention carefully culled andpacked in his brain-pan, and neatly labelled, so that he might withoutfluster pounce upon any of them at a moment\u2019s warning. He wasgentlemanly and respectable, and discharged his duties punctiliously ina manner reflecting credit on himself and his position, but, comparingthe mind of a philanthropist to the Murrumbidgee in breadth, his, incomparison, might be likened to the flow of a bucket of water in adray-rut.On the day in question\u2014a precious hot one it was\u2014he had finishedexamining us in most subjects, and was looking at our copy-books. Helooked up from them, ahemed! and fastidiously straightened hiswaistcoat.\u201cMr Harris!\u201cYes, sir.\u201d\u201cComparisons are odious, but, unfortunately, I am forced to draw onenow.\u201d\u201cYes, sir.\u201d\u201cThis writing is much inferior to that of town scholars. It is veryshaky and irregular. Also, I notice that the children seem stupid anddull. I don\u2019t like putting it so plainly, but, in fact, ah, they seemto be possessed with the proverbial stupidity of country people. How doyou account for this?\u201dPoor old Harris! In spite of his drunken habits and inability toproperly discharge his duties, he had a warm heart and muchfellowshiply humanity in him. He understood and loved his pupils, andwould not have aspersions cast upon them. Besides, the nip he had takento brace himself to meet the inspector had been two or three, and theyrobbed him of the discretion which otherwise might have kept himsilent.\u201cSi-r-r-r, I can and will account for it. Look you at every one ofthose children. Every one, right down to this little tot,\u201d indicating alittle girl of five, \u201chas to milk and work hard before and afterschool, besides walk on an average two miles to and from school in thisinfernal heat. Most of the elder boys and girls milk on an averagefourteen cows morning and evening. You try that treatment for a week ortwo, my fine gentleman, and then see if your fist doesn\u2019t ache andshake so that you can\u2019t write at all. See if you won\u2019t look a trifledozy. Stupidity of country people be hanged! If you had to work frommorning till night in the heat and dust, and get precious little for ittoo, I bet you wouldn\u2019t have much time to scrape your finger-nails,read science notes, and look smart.\u201d Here he took off his coat andshaped up to his superior.The inspector drew back in consternation.\u201cMr Harris, you forget yourself!\u201dAt this juncture they went outside together. What happened there wenever knew. That is all we heard of the matter except the numerousgarbled accounts which were carried home that afternoon.A DROUGHT IDYLL\u201cSybylla, what are you doing? Where is your mother?\u201d\u201cI\u2019m ironing. Mother\u2019s down at the fowl-house seeing after somechickens. What do you want?\u201dIt was my father who addressed me. Time, 2 o\u2019clock p.m. Thermometerhung in the shade of the veranda registering 105 1/2 degrees.\u201cI see Blackshaw coming across the flat. Call your mother. You bringthe leg-ropes\u2014I\u2019ve got the dog-leg. Come at once; we\u2019ll give the cowsanother lift. Poor devils\u2014might as well knock \u2019em on the head at once,but there might be rain next moon. This drought can\u2019t last for ever.\u201dI called mother, got the leg-ropes, and set off, pulling my sun-bonnetclosely over my face to protect my eyes from the dust which was drivingfrom the west in blinding clouds. The dog-leg to which father hadreferred was three poles about eight or ten feet long, strappedtogether so they could be stood up. It was an arrangement father haddevised to facilitate our labour in lifting the cows. A fourth andlonger pole was placed across the fork formed by the three, and to onelonger pole was placed across the fork formed by the three, and to oneend of this were tied a couple of leg-ropes, after being placed roundthe beast, one beneath the flank and one around the girth. On the otherend of this pole we would put our weight while one man would lift withthe tail and another with the horns. New-chum cows would sulk, and wewould have great work with them; but those used to the performancewould help themselves, and up they\u2019d go as nice as a daisy. The onlyart needed was to draw the pole back quickly before the cows couldmove, or the leg-ropes would pull them over again.On this afternoon we had six cows to lift. We struggled manfully, andgot five on their feet, and then proceeded to where the last one waslying, back downwards, on a shadeless stony spot on the side of a hill.The men slewed her round by the tail, while mother and I fixed thedog-leg and adjusted the ropes. We got the cow up, but the poor beastwas so weak and knocked about that she immediately fell down again. Weresolved to let her have a few minutes\u2019 spell before making anotherattempt at lifting. There was not a blade of grass to be seen, and theground was too dusty to sit on. We were too overdone to make more thanone-worded utterances, so waited silently in the blazing sun, closingour eyes against the dust.Weariness! Weariness!A few light wind-smitten clouds made wan streaks across the white sky,haggard with the fierce relentless glare of the afternoon sun.Weariness was written across my mother\u2019s delicate careworn features,and found expression in my father\u2019s knitted brows and dusty face.Blackshaw was weary, and said so, as he wiped the dust, made mud withperspiration, off his cheeks. I was weary\u2014my limbs ached with the heatand work. The poor beast stretched at our feet was weary. All naturewas weary, and seemed to sing a dirge to that effect in thefurnace-breath wind which roared among the trees on the low ranges atour back and smote the parched and thirsty ground. All were weary, allbut the sun. He seemed to glory in his power, relentless and untiring,as he swung boldly in the sky, triumphantly leering down upon hishelpless victims.Weariness! Weariness!This was life\u2014my life\u2014my career, my brilliant career! I wasfifteen\u2014fifteen! A few fleeting hours and I would be old as thosearound me. I looked at them as they stood there, weary, and turningdown the other side of the hill of life. When young, no doubt they hadhoped for, and dreamed of, better things\u2014had even known them. But herethey were. This had been their life; this was their career. It was, andin all probability would be, mine too. My life\u2014my career\u2014my brilliantcareer!Weariness! Weariness!The summer sun danced on. Summer is fiendish, and life is a curse, Isaid in my heart. What a great dull hard rock the world was! On it werea few barren narrow ledges, and on these, by exerting ourselves so thatthe force wears off our finger-nails, it allows us to hang for a yearor two, and then hurls us off into outer darkness and oblivion, perhapsto endure worse torture than this.The poor beast moaned. The lifting had strained her, and there werepatches of hide worn off her the size of breakfast-plates, sore andmost harrowing to look upon.It takes great suffering to wring a moan from the patience of a cow. Iturned my head away, and with the impatience and one-sided reasoningcommon to fifteen, asked God what He meant by this. It is well enoughto heap suffering on human beings, seeing it is supposed to be merely aprobation for a better world, but animals\u2014poor, innocent animals\u2014whyare they tortured so?\u201cCome now, we\u2019ll lift her once more,\u201d said my father. At it we wentagain; it is surprising what weight there is in the poorest cow. Withgreat struggling we got her to her feet once more, and were carefulthis time to hold her till she got steady on her legs. Father andmother at the tail and Blackshaw and I at the horns, we marched herhome and gave her a bran mash. Then we turned to our work in the housewhile the men sat and smoked and spat on the veranda, discussing thedrought for an hour, at the end of which time they went to help someoneelse with their stock. I made up the fire and we continued our ironing,which had been interrupted some hours before. It was hot unpleasantwork on such a day. We were forced to keep the doors and windows closedon account of the wind and dust. We were hot and tired, and our feetached so that we could scarcely stand on them.Weariness! Weariness!Summer is fiendish and life is a curse, I said in my heart.Day after day the drought continued. Now and again there would be a fewdays of the raging wind before mentioned, which carried the dry grassoff the paddocks and piled it against the fences, darkened the air withdust, and seemed to promise rain, but ever it dispersed whence it came,taking with it the few clouds it had gathered up; and for weeks andweeks at a stretch, from horizon to horizon, was never a speck to marthe cruel dazzling brilliance of the metal sky.Weariness! Weariness!I said the one thing many times but, ah, it was a weary thing whichtook much repetition that familiarity might wear away a little of itsbitterness!CHAPTER SIXRevoltIn spite of our pottering and lifting, with the exception of five, allour cows eventually died; and even these and a couple of horses had asmuch as they could do to live on the whole of the thousand acres which,without reserve, were at their disposal. They had hardly any grass\u2014itwas merely the warmth and water which kept them alive. Needless to say,we were on our beam-ends financially. However, with a little help frommore fortunate relatives, and with the money obtained from the sale ofthe cowhides and mother\u2019s poultry, we managed to pay the interest onthe money borrowed from the bishop, and keep bread in our mouths.Unfortunately for us, at this time the bishop\u2019s agent proved ascoundrel and absconded. My father held receipts to show that to thisagent he had regularly paid the interest of the money borrowed; butthrough some finicking point of law, because we had not money tocontend with him, his lordship the bishop now refused to acknowledgehis agent and one-time pillar of the cathedral, and, having law on hisside, served a writ on us. In the face of our misfortunes this was toomuch: we begged for time, which plea he answered by putting in thebailiff and selling everything we possessed. Our five cows, two horses,our milk separator, plough, cart, dray, buggy, even our cookingutensils, books, pictures, furniture, father\u2019s watch\u2014our very beds,pillows, and blankets. Not a thing besides what we stood up in was leftus, and this was money for the payment of which my father heldreceipts.But for the generosity of our relatives we would have been in a prettyplight. They sent us sufficient means to buy in everything, and ourneighbours came to our rescue with enthusiasm and warm-hearted genuinesympathy. The bailiff\u2014a gentleman to the core\u2014seeing how matters stood,helped us to",
+      "density_breakdown": {
+        "Metaphor": 1.8214936247723132,
+        "Simile": 1.8214936247723132,
+        "Imagery": 12.295081967213115,
+        "Symbolism": 5.009107468123862,
+        "Dialogue": 0.0,
+        "Foreshadowing": 7.285974499089253,
+        "Juxtaposition": 9.562841530054644,
+        "Repetition": 4.0983606557377055,
+        "TOTAL_DENSITY": 41.89435336976321
+      }
+    },
+    "rising_action": {
+      "chapter_range": "5-19",
+      "narrative_primary": 12,
+      "optimized_primary": 6,
+      "device_density_score": 59.19854280510018,
+      "improvement_percent": 10.16949152542373,
+      "optimization_applied": true,
+      "chapter_text": "to enable me to reply. These I saved, and with themsent my book to the leading Sydney publisher. After waiting many weeksI received a polite memo to the effect that the story showed greatability, but the writer\u2019s inexperience was too much in evidence forpublication. The writer was to study the best works of literature, andwould one day, no doubt, take a place among Australian novelists.This was a very promising opinion of the work of a child of thirteen,more encouraging than the great writers got at the start of theirliterary career; but it seemed to even my childish intelligence thatthe memo was a stereotyped affair that the publisher sent in answer toall the MSS. of fameless writers submitted to him, and also sent in allprobability without reading as much as the name of the story. Afterthat I wrote a few short stories and essays; but now the spirit movedme to write another book\u2014not with any hope of success, as it wasimpossible for me to study literature as advised. I seldom saw a book,and could only spare time in tiny scraps to read them when I did.However, the few shillings I had obtained at odd times I spent onpaper, and in secret robbed from much-needed rest a few hours weeklywherein to write. This made me very weary and slow in the daytime, anda sore trial to my mother. I was always forgetting things I should nothave forgotten, because my thoughts were engaged in working out mystory. The want of rest told upon me. I continually complained ofweariness, and my work was a drag to me.My mother knew not what to make of it. At first she thought I was lazyand bad, and punished me in various ways; but while my book occupied mymind I was not cross, gave her no impudence, and did not flare up. Thenshe began to fear I must be ill, and took me to a doctor, who said Iwas much too precocious for my years, and would be better when theweather got warmer. He gave me a tonic, which I threw out the window. Iheard no more of going out as nurse-girl: father had joined a neighbourwho had taken a road contract, and by this means the pot was kept, ifnot quite, at least pretty near, boiling.Life jogged along tamely, and, as far as I could see, gave promise ofgoing to the last slip-rails without a canter, until one day in July1896 mother received a letter from her mother which made a pleasantchange in my life, though, like all sweets, that letter had its bitterdrop. It ran as follows:\u2014My dear daughter, Lucy,Only a short letter this time. I am pressed for time, as four or fivestrangers have just come and asked to stay for the night, and as one ofthe girls is away, I have to get them beds. I am writing about Sybylla.I am truly grieved to hear she is such a source of grief and annoyanceto you. The girl must surely be ill or she would never act as youdescribe. She is young yet, and may settle down better by and by. Wecan only entrust her to the good God who is ever near. Send her up tome as soon as you can. I will pay all expenses. The change will do hergood, and if her conduct improves, I will keep her as long as you like.She is young to mention in regard to marriage, but in another year shewill be as old as I was when I married, and it might be the makings ofher if she married early. At any rate she will be better away fromPossum Gully, now that she is growing into womanhood, or she may be indanger of forming ties beneath her. She might do something good forherself up here: not that I would ever be a matchmaker in the leastdegree, but Gertie will soon be coming on, and Sybylla, being so veryplain, will need all the time she can get.Your loving mother,L. Bossier.My mother gave me this letter to read, and, when I had finishedperusing it, asked me would I go. I replied coldly:\u201cYes. Paupers and beggars cannot be choosers, and grandmother might aswell keep me at Caddagat as at Possum Gully\u201d\u2014for my grandmothercontributed greatly to the support of our family.As regards scenery, the one bit of beauty Possum Gully possessed wasits wattles. Bowers of grown and scrubs of young ones adorned the hillsand gullies in close proximity to the house, while groves of differentspecies graced the flats. Being Sunday, on this afternoon I was atliberty for a few hours; and on receiving the intelligence contained inthe letter, I walked out of the house over a low hill at the back intoa gully, where I threw myself at the foot of a wattle in a favouriteclump, and gave way to my thoughts.So mother had been telling my grandmother of my faults\u2014my grandmotherwhom I loved so dearly. Mother might have had enough honour andmotherly protection to have kept the tale of my sins to herself. Thoughthis intelligence angered, it did not surprise me, being accustomed tomother telling every neighbour what a great trial I was to her\u2014howdiscontented I was, and what little interest I took in my work. It wasthe last part of the letter which finished up my feelings. Oh heavens!Surely if my mother understood the wild pain, the days and hours ofagony pure and complete I have suffered on account of my appearance,she would never have shown me that letter.I was to be given more time on account of being ugly\u2014I was not avaluable article in the marriage market, sweet thought! My grandmotheris one of the good old school, who believed that a girl\u2019s only propersphere in life was marriage; so, knowing her sentiments, her purpose toget me married neither surprised nor annoyed me. But I was plain. Ah,bosh! Oh! Ah! I cannot express what kind of a feeling that fact gaveme. It sank into my heart and cut like a cruel jagged knife\u2014not becauseit would be a drawback to me in the marriage line, for I had anantipathy to the very thought of marriage. Marriage to me appeared themost horribly tied-down and unfair-to-women existence going. It wouldbe from fair to middling if there was love; but I laughed at the ideaof love, and determined never, never, never to marry.The other side of the letter\u2014the part which gave me joy\u2014was theprospect of going to Caddagat.Caddagat, the place where I was born! Caddagat, whereat, enfolded ingrandmotherly love and the petting which accrued therefrom, I spentsome of my few sweet childish days. Caddagat, the place my heart fondlyenshrines as home. Caddagat, draped by nature in a dream of beauty.Caddagat, Caddagat! Caddagat for me, Caddagat for ever! I say.Too engrossed with my thoughts to feel the cold of the dull winter day,I remained in my position against the wattle-tree until Gertie came toinform me that tea was ready.\u201cYou know, Sybylla, it was your turn to get the tea ready; but I setthe table to save you from getting into a row. Mother was looking foryou, and said she supposed you were in one of your tantrums again.\u201dPretty little peacemaker! She often did things like that for me.\u201cVery well, Gertie, thank you. I will set it two evenings running tomake up for it\u2014if I\u2019m here.\u201d\u201cIf you are here! What do you mean?\u201d\u201cI am going away,\u201d I replied, watching her narrowly to see if shecared, for I was very hungry for love.\u201cGoing to run away becauses mother is always scolding you?\u201d\u201cNo, you little silly! I\u2019m going up to Caddagat to live with grannie.\u201d\u201cAlways?\u201d\u201cYes.\u201d\u201cReally?\u201d\u201cYes.\u201d\u201cHonour bright?\u201d\u201cYes; really and truly and honour bright.\u201d\u201cWon\u2019t you ever come back again?\u201d\u201cI don\u2019t know about _never_ coming back again; but I\u2019m going up foralways, as far as a person can lay out ahead of her. Do you care?\u201dYes she cared. The childish mouth quivered, the pretty blue-eyed facefell, the ready tears flowed fast. I noticed every detail with savagecomfort. It was more than I deserved, for, though I loved herpassionately, I had ever been too much wrapped in self to have beenvery kind and lovable to her.\u201cWho will tell me stories now?\u201dIt was a habit of mine to relate stories to her out of my own fertileimagination. In return for this she kept secret the fact that I sat upand wrote when I should have been in bed. I was obliged to take somemeans of inducing her to keep silence, as she\u2014even Gertie, who firmlybelieved in me\u2014on waking once or twice at unearthly hours anddiscovering me in pursuit of my nightly task, had been so alarmed formy sanity that I had the greatest work to prevent her from yelling tofather and mother on the spot. But I bound her to secrecy, and took astrange delight in bringing to her face with my stories the laughter,the wide-eyed wonder, or the tears\u2014just as my humour dictated.\u201cYou\u2019ll easily get someone else to tell you stories.\u201d\u201cNot like yours. And who will take my part when Horace bullies me?\u201dI pressed her to me.\u201cGertie, Gertie, promise me you will love me a little always, andnever, never forget me. Promise me.\u201dAnd with a weakly glint of winter sunshine turning her hair to gold,and with her head on my shoulder, Gertie promised\u2014promised with thesoluble promise of a butterfly-natured child.SELF-ANALYSISN.B.\u2014This is dull and egotistical. Better skip it. That\u2019s my advice\u2014S.P. M.As a tiny child I was filled with dreams of the great things I was todo when grown up. My ambition was as boundless as the mighty bush inwhich I have always lived. As I grew it dawned upon me that I was agirl\u2014the makings of a woman! Only a girl\u2014merely this and nothing more.It came home to me as a great blow that it was only men who could takethe world by its ears and conquer their fate, while women,metaphorically speaking, were forced to sit with tied hands andpatiently suffer as the waves of fate tossed them hither and thither,battering and bruising without mercy. Familiarity made me used to thisyoke; I recovered from the disappointment of being a girl, and wasreconciled to that part of my fate. In fact, I found that being a girlwas quite pleasant until a hideous truth dawned upon me\u2014I was ugly!That truth has embittered my whole existence. It gives me days andnights of agony. It is a sensitive sore that will never heal, a grimhobgoblin that nought can scare away. In conjunction with this brand ofhell I developed a reputation of cleverness. Worse and worse! Girls!girls! Those of you who have hearts, and therefore a wish forhappiness, homes, and husbands by and by, never develop a reputation ofbeing clever. It will put you out of the matrimonial running aseffectually as though it had been circulated that you had leprosy. So,if you feel that you are afflicted with more than ordinaryintelligence, and especially if you are plain with it, hide yourbrains, cramp your mind, study to appear unintellectual\u2014it is your onlychance. Provided a woman is beautiful allowance will be made for allher shortcomings. She can be unchaste, vapid, untruthful, flippant,heartless, and even clever; so long as she is fair to see men willstand by her, and as men, in this world, are \u201cthe dog on top\u201d, they arethe power to truckle to. A plain woman will have nothing forgiven her.Her fate is such that the parents of uncomely female infants should becompelled to put them to death at their birth.The next unpleasant discovery I made in regard to myself was that I waswoefully out of my sphere. I studied the girls of my age around me, andcompared myself with them. We had been reared side by side. They hadhad equal advantages; some, indeed, had had greater. We all moved inthe one little, dull world, but they were not only in their world, theywere of it; I was not. Their daily tasks and their little pleasuresprovided sufficient oil for the lamp of their existence\u2014mine demandedmore than Possum Gully could supply. They were totally ignorant of theoutside world. Patti, Melba, Irving, Terry, Kipling, Caine, Corelli,and even the name of Gladstone, were only names to them. Whether theywere islands or racehorses they knew not and cared not. With me it wasdifferent. Where I obtained my information, unless it was born in me, Ido not know. We took none but the local paper regularly, I saw fewbooks, had the pleasure of conversing with an educated person from thehigher walks of life about once in a twelvemonth, yet I knew of everycelebrity in literature, art, music, and drama; their world was myworld, and in fancy I lived with them. My parents discouraged me inthat species of foolishness. They had been fond of literature and thehigher arts, but now, having no use for them, had lost interesttherein.I was discontented and restless, and longed unendurably to be out inthe stream of life. \u201cAction! Action! Give me action!\u201d was my cry. Mymother did her best with me according to her lights. She energeticallypreached at me. All the old saws and homilies were brought intorequisition, but without avail. It was like using common nostrums on adisease which could be treated by none but a special physician.I was treated to a great deal of harping on that tiresome old string,\u201cWhatsoever your",
+      "density_breakdown": {
+        "Metaphor": 5.009107468123862,
+        "Simile": 4.553734061930784,
+        "Imagery": 11.839708561020037,
+        "Symbolism": 6.830601092896175,
+        "Dialogue": 0.0,
+        "Foreshadowing": 13.66120218579235,
+        "Juxtaposition": 15.482695810564664,
+        "Repetition": 1.8214936247723132,
+        "TOTAL_DENSITY": 59.19854280510018
+      }
+    },
+    "climax": {
+      "chapter_range": "20-21",
+      "narrative_primary": 20,
+      "optimized_primary": 21,
+      "device_density_score": 57.83242258652095,
+      "improvement_percent": 0.7936507936507886,
+      "optimization_applied": true,
+      "chapter_text": "will go up to Caddagat next Sunday. You havesurprised me nearly out of my wits,\u201d here he laughed. \u201cI never dreamtyou would say yes so easily, just like any other girl. I thought Iwould have a lot of trouble with you.\u201dHe approached me and was stooping to kiss me. I cannot account for myaction or condemn it sufficiently. It was hysterical\u2014the outcome of anoverstrung, highly excitable, and nervous temperament. Perhaps myvanity was wounded, and my tendency to strike when touched was up inarms. The calm air of ownership with which Harold drew near annoyed me,or, as Sunday-school teachers would explain it, Satan got hold of me.He certainly placed a long strong riding-whip on the table beneath myhand! As Harold stooped with the intention of pressing his lips tomine, I quickly raised the whip and brought it with all my strengthright across his face. The instant the whip had descended I would havesmashed my arm on the door-post to recall that blow. But that wasimpossible. It had left a great weal on the healthy sun-tanned skin.His moustache had saved his lips, but it had caught his nose, the leftcheek, had blinded the left eye, and had left a cut on the temple fromwhich drops of blood were rolling down his cheek and staining his whitecoat. A momentary gleam of anger shot into his eyes and he gave a gasp,whether of surprise, pain, or annoyance, I know not. He made a gesturetowards me. I half expected and fervently wished he would strike. Theenormity of what I had done paralysed me. The whip fell from my fingersand I dropped on to a low lounge behind me, and placing my elbows on myknees crouchingly buried my face in my hands; my hair tumbled softlyover my shoulders and reached the floor, as though to sympatheticallycurtain my humiliation. Oh, that Harold would thrash me severely! Itwould have infinitely relieved me. I had done a mean unwomanly thing inthus striking a man, who by his great strength and sex was debarredretaliation. I had committed a violation of self-respect and commondecency; I had given a man an ignominious blow in the face with ariding-whip. And that man was Harold Beecham, who with all his strengthand great stature was so wondrously gentle\u2014who had always treated mywhims and nonsense with something like the amused tolerance held by agreat Newfoundland for the pranks of a kitten.The clock struck eleven.\u201cA less stinging rebuke would have served your purpose. I had no ideathat a simple caress from the man whose proposal of marriage you hadjust accepted would be considered such an unpardonable familiarity.\u201dHarold\u2019s voice fell clearly, calmly, cuttingly on the silence. He movedaway to the other end of the room and I heard the sound of water.A desire filled me to tell him that I did not think he had attempted afamiliarity, but that I had been mad. I wished to say I could notaccount for my action, but I was dumb. My tongue refused to work, and Ifelt as though I would choke. The splash of the water came from theother end of the room. I knew he must be suffering acute pain in hiseye. A far lighter blow had kept me sleepless a whole night. A fearpossessed me that I might have permanently injured his sight. Thesplash of water ceased. His footfall stopped beside me. I could feel hewas within touching distance, but I did not move.Oh, the horrible stillness! Why did he not speak? He placed his handlightly on my head.\u201cIt doesn\u2019t matter, Syb. I know you didn\u2019t mean to hurt me. I supposeyou thought you couldn\u2019t affect my dark, old, saddle-flap-looking phiz.That is one of the disadvantages of being a big lumbering concern likeI am. Jump up. That\u2019s the girl.\u201dI arose. I was giddy, and would have fallen but for Harold steadying meby the shoulder. I looked up at him nervously and tried to ask hisforgiveness, but I failed.\u201cGood heavens, child, you are as white as a sheet! I was a beast tospeak harshly to you.\u201d He held a glass of water to my lips and I drank.\u201cGreat Jupiter, there\u2019s nothing to worry about! I know you hadn\u2019t theslightest intention of hurting me. It\u2019s nothing\u2014I\u2019ll be right in a fewmoments. I\u2019ve often been amused at and have admired your touch-me-notstyle. You only forgot you had something in your hand.\u201dHe had taken it quite as a matter of fact, and was excusing me in thekindest possible terms.\u201cGood gracious, you mustn\u2019t stew over such a trifling accident! It\u2019snothing. Just tie this handkerchief on for me, please, and then we\u2019llgo back to the others or there will be a search-party after us.\u201dHe could have tied the handkerchief just as well himself\u2014it was onlyout of kindly tact he requested my services. I accepted his kindnessgratefully. He sank on his knee so that I could reach him, and I tied alarge white handkerchief across the injured part. He could not open hiseye, and hot water poured from it, but he made light of the idea of itpaining. I was feeling better now, so we returned to the ballroom. Theclock struck the half-hour after eleven as we left the room. Haroldentered by one door and, I by another, and I slipped into a seat asthough I had been there some time.There were only a few people in the room. The majority were absent\u2014somelove-making, others playing cards. Miss Beecham was one who was notthus engaged. She exclaimed at once:\u201cGood gracious, boy, what have you done to yourself?\u201d\u201cLooks as if he had been interviewing a belligerent tramp,\u201d said auntHelen, smilingly.\u201cHe\u2019s run into the clothes-line, that\u2019s what he\u2019s done,\u201d said MissAugusta confidently, after she had peeped beneath the bandage.\u201cYou ought to get a bun for guessing, aunt Gus,\u201d said Harold laughing.\u201cI told them to put the clothes-lines up when they had done with them.I knew there would be an accident.\u201d\u201cPerhaps they were put up high enough for ordinary purposes,\u201d remarkedher nephew.\u201cLet me do something for you, dear.\u201d\u201cNo, thank you, aunt Gus. It is nothing,\u201d he said carelessly, and thematter dropped.Harold Beecham was not a man to invite inquiry concerning himself.Seeing I was unobserved by the company, I slipped away to indulge in myfoolish habit of asking the why and the wherefore of things. Why hadHarold Beecham (who was a sort of young sultan who could throw thehandkerchief where he liked) chosen me of all women? I had no charms torecommend me\u2014none of the virtues which men demand of the woman theywish to make their wife. To begin with, I was small, I was erratic andunorthodox, I was nothing but a tomboy\u2014and, cardinal disqualification,I was ugly. Why, then, had he proposed matrimony to me? Was it merely awhim? Was he really in earnest?The night was soft and dark; after being out in it for a time I coulddiscern the shrubs dimly silhouetted against the light. The musicstruck up inside again. A step approached me on the gravelled walkamong the flowers, and Harold called me softly by name. I answered him.\u201cCome,\u201d he said, \u201cwe are going to dance; will you be my partner?\u201dWe danced, and then followed songs and parlour games, and it was in thesmall hours when the merry goodnights were all said and we had retiredto rest. Aunt Helen dropped to sleep in a short time; but I lay awakelistening to the soft distant call of the mopokes in the scrub beyondthe stables.CHAPTER TWENTY-ONEMy Unladylike Behaviour AgainJoe Archer was appointed to take us home on the morrow. When our hostwas seeing us off\u2014still with his eye covered\u2014he took opportunity ofwhispering to me his intention of coming to Caddagat on the followingSunday.Early in the afternoon of that day I took a book, and, going down theroad some distance, climbed up a broad-branched willow-tree to wait forhim.It was not long before he appeared at a smart canter. He did not see mein the tree, but his horse did, and propping, snorted wildly, and gavea backward run. Harold spurred him, he bucked spiritedly. Harold nowsaw me and sang out:\u201cI say, don\u2019t frighten him any more or he\u2019ll fling me, saddle and all.I haven\u2019t got a crupper or a breastplate.\u201d\u201cWhy haven\u2019t you, then? Hang on to him. I do like the look of you whilethe horse is going on like that.\u201dHe had dismounted, and had thrown the bridle rein over a post of thefence.\u201cI came with nothing but a girth, and that loose, as it was so hot; andI was as near as twopence to being off, saddle and all. You might havebeen the death of me,\u201d he said good-humouredly.\u201cHad I been, my fortune would have been made,\u201d I replied.\u201cHow do you make that out? You\u2019re as complimentary as ever.\u201d\u201cEveryone would be wanting to engage me as the great noxiousweed-killer and poisonous insect exterminator if I made away with you,\u201dI answered. I gave him an invitation to take a seat with me, andaccepting, he swung up with easy grace. There was any amount ofaccommodation for the two of us on the good-natured branches of the oldwillow-tree.When he had settled himself, my companion said, \u201cNow, Syb, I\u2019m readyfor you. Fire away. But wait a minute, I\u2019ve got something here for youwhich I hope you\u2019ll like.\u201dAs he searched in his pockets, I noticed that his eye had quiterecovered, though there was still a slight mark on his cheek. He handedme a tiny morocco case, which on being opened disclosed a costly ring.I have about as much idea of the prices of things as a turkey wouldhave. Perhaps that ring cost thirty pounds or possibly fifty guineas,for all I know. It was very heavy, and had a big diamond supported oneither side by a large sapphire, and had many small gems surroundingit.\u201cLet me see if it fits,\u201d he said, taking my hand; but I drew it away.\u201cNo; don\u2019t you put it on. That would make us irrevocably engaged.\u201d\u201cIsn\u2019t that what we intend to be?\u201d he said in a tone of surprise.\u201cNot just yet; that is what I want to say to you. We will have threemonths\u2019 probation to see how we get on. At the end of that time, if wemanage to sail along smoothly, we\u2019ll have the real thing; until then wewill not be any more than we have been to each other.\u201d\u201cBut what am I to do in the meantime?\u201d he asked, with amusement curvingthe corners of his mouth.\u201cDo! Do the usual thing, of course; but don\u2019t pay me any specialattentions, or I\u2019ll be done with you at once.\u201d\u201cWhat\u2019s your idea for this?\u201d\u201cIt is no use making fools of ourselves; we might change our minds.\u201d\u201cVery well; so be it,\u201d he said laughing. \u201cI might have known you wouldhave things arranged different from any other girl. But you\u2019ll take thering and wear it, won\u2019t you? Let me put it on.\u201d\u201cNo; I won\u2019t let you put a finger on me till the three months are up.Then, if we definitely make up our minds, you can put it on; but tillthen, don\u2019t for the life of you hint by word or sign that we have anysort of an arrangement between us. Give me the ring and I\u2019ll wear itsometimes.\u201dHe handed it to me again, and I tried it on. It was a little large.Harold took it, and tried to put it on one of his fingers. It would fiton none but the very top of his little finger. We laughed heartily atthe disparity in the size of our hands.\u201cI\u2019ll agree to your bargain,\u201d he said. \u201cBut you\u2019ll be really engaged tome all the same.`\u201cYes; under those conditions. Then it will not matter if we have atiff. We can part, and no one will be the wiser.\u201dOn my suggesting that it was now time to go to the house, he swunghimself down by a branch and turned to assist me. Descending from thattree was a feat which presented no difficulties to me when no one wasby, but now it seemed an awkward performance.\u201cJust lead your horse underneath, so that I can get on to his back,thence to the ground quite easily,\u201d I said.\u201cNo fear! Warrigal wouldn\u2019t stand that kind of dodge. Won\u2019t I do? Idon\u2019t think your weight will quite squash me,\u201d he returned, placinghimself in leap-frog position, and I stepped on to his back and slidfrom there to the ground quite easily.That afternoon, when leaving the house, I had been followed by one ofthe dogs, which, when I went up the willow-tree, amused himself chasingwater lizards along the bank of the creek. He treed one, and kept up afurious barking at the base of its refuge. The yelping had disturbedgrannie where she was reading on the veranda, and coming down the roadunder a big umbrella to see what the noise was about, as luck wouldhave it she was in the nick of time to catch me standing on HaroldBeecham\u2019s back. Grannie frequently showed marked displeasure regardingwhat she termed my larrikinism, but never before had I seen her sothoroughly angry. Shutting her umbrella, she thrust at me with it,saying, \u201cshame! shame! You\u2019ll come to some harm yet, you immodest,bold, bad hussy! I will write to your mother about you. Go home atonce, miss, and confine yourself in your room for the remainder of theday, and don\u2019t dare eat anything until tomorrow. Spend the",
+      "density_breakdown": {
+        "Metaphor": 3.6429872495446265,
+        "Simile": 3.1876138433515484,
+        "Imagery": 12.750455373406194,
+        "Symbolism": 6.375227686703097,
+        "Dialogue": 0.0,
+        "Foreshadowing": 14.571948998178506,
+        "Juxtaposition": 14.116575591985429,
+        "Repetition": 3.1876138433515484,
+        "TOTAL_DENSITY": 57.83242258652095
+      }
+    },
+    "falling_action": {
+      "chapter_range": "22-34",
+      "narrative_primary": 28,
+      "optimized_primary": 25,
+      "device_density_score": 61.0200364298725,
+      "improvement_percent": 27.677161939457022,
+      "optimization_applied": true,
+      "chapter_text": "was not a whimpering cur. He would never tell anyone hisfeelings on the subject; but such a sudden reverse of fortune, tearingfrom him even his home, must have been a great blow to him.\u201cSyb, I have been expecting this for some years; now that it is donewith, it is a sort of grim relief. The worst of all is that I\u2019ve had togive up all hope of winning you. That is the worst of all. If youdidn\u2019t care for me when I was thought to be in a position to give youall that girls like, you could never look at me now that I\u2019m a pauper.I only hope you will get some fellow who will make you as happy as Iwould have tried to had you let me.\u201dI sat and wondered at the marvellous self-containment of the man beforeme. With this crash impending, just imagine the worry he must have gonethrough! But never had the least suspicion that he was troubled foundbetrayal on his brow.\u201cGood-bye, Syb,\u201d he said; \u201cthough I\u2019m a nobody now, if I could ever beof use to you, don\u2019t be afraid to ask me.\u201dI remember him wringing the limp hand I mechanically stretched out tohim and then slowly revaulting the fence. The look of him riding slowlyalong with his broad shoulders drooping despondently waked me to mysenses. I had been fully engrossed with the intelligence of Harold\u2019smisfortune\u2014that I was of sufficient importance to concern him in anyway had not entered my head; but it suddenly dawned on me that Haroldhad said that I was, and he was not in the habit of uttering idlenothings.While fortune smiled on him I had played with his manly love, but nowthat she frowned had let him go without even a word of friendship. Ihad been poor myself, and knew what awaited him in the world. He wouldfind that they who fawned on him most would be first to turn theirbacks on him now. He would be rudely disillusioned regarding the fablesof love and friendship, and would become cynical, bitter, and scepticalof there being any disinterested good in human nature. Suffering thecold heart-weariness of this state myself, I felt anxious at any priceto save Harold Beecham from a like fate. It would be a pity to let oneso young be embittered in that way.There was a short cut across the paddocks to a point of the road wherehe would pass; and with these thoughts flashing through my mind,hatless and with flying hair, I ran as fast as I could, scrambling upon the fence in a breathless state just as he had passed.\u201cHal, Hal!\u201d I called. \u201cCome back, come back! I want you.\u201dHe turned his horse slowly.\u201cWell, Syb, what is it?\u201d\u201cOh, Hal, dear Hal! I was thinking too much to say anything; but yousurely don\u2019t think I\u2019d be so mean as to care a pin whether you are richor poor\u2014only for your own sake? If you really want me, I will marry youwhen I am twenty-one if you are as poor as a crow.\u201d\u201cIt is too good to be true. I thought you didn\u2019t care for me. Sybylla,what do you mean?\u201d\u201cJust what I say,\u201d I replied, and without further explanation, jumpingoff the fence I ran back as fast as I had come.When half-way home I stopped, turned, looked, and saw Harold canteringsmartly homewards, and heard him whistling a merry tune as he went.After all, men are very weak and simple in some ways.I laughed long and sardonically, apostrophizing myself thus:\u201cSybylla Penelope Melvyn, your conceit is marvellous and unparalleled!So you actually imagined that you were of sufficient importance toassist a man through life\u2014a strong, healthy young man too, standing sixfeet three and a half in his socks, a level-headed business man, a manof high connections, spotless character, and influential friends, anexperienced bushman, a man of sense, and, above all, a man\u2014a man! Theworld was made for men.\u201cHa ha! You, Sybylla, thought this! You, a chit in your teens, an ugly,poor, useless, unimportant, little handful of human flesh, and, above,or rather below, all, a woman\u2014only a woman! It would indeed be adepraved and forsaken man who would need your services as a stay andsupport! Ha ha! The conceit of you!\u201dCHAPTER TWENTY-FIVEBecause?The Beechams were vacating Five-Bob almost immediately\u2014beforeChristmas. Grannie, aunt Helen, and uncle Jay-Jay went down to saygood-bye to the ladies, who were very heartbroken about being uprootedfrom Five-Bob, but they approved of their nephew settling things atonce and starting on a clean sheet. They intended taking up theirresidence\u2014hiding themselves, they termed it\u2014in Melbourne. Harold wouldbe detained in Sydney some time during the settling of his affairs,after which he intended to take anything that turned up. He had beenoffered the management of Five-Bob by those in authority, but could notbring himself to accept managership where he had been master. His greatdesire, now that Five-Bob was no longer his, was to get as far awayfrom old associations as possible.He had seen his aunts off, superintended the muster of all stock on theplace, dismissed all the female and most of the male employees, andsurrendered the reins of government, and as Harold Augustus Beecham,boss of Five-Bob, on Monday, the 21st of December 1896, was leaving thedistrict for ever. On Sunday, the 20th of December, he came to bid usgood-bye and to arrive at an understanding with me concerning what Ihad said to him the Sunday before. Grannie, strange to say, neversuspected that there was likely to be anything between us. Harold wasso undemonstrative, and had always come and gone as he liked atCaddagat: she overlooked the possibility of his being a lover, and inour intercourse allowed us almost the freedom of sister and brother orcousins.On this particular afternoon, after we had talked to grannie for alittle while, knowing that he wished to interview me, I suggested thathe should come up the orchard with me and get some gooseberries.Without demur from anybody we set off, and were scarcely out of hearingbefore Harold asked me had I really meant what I said.\u201cCertainly,\u201d I replied. \u201cThat is, if you really care for me, and thinkit wise to choose me of all my sex.\u201dEre he put it in words I read his answer in the clear brown eyes bentupon me.\u201cSyb, you know what I feel and would like, but I think it would be meanof me to allow you to make such a sacrifice.\u201dI knew I was not dealing with a booby, but with a sensibleclear-sighted man, and so studied to express myself in a way whichwould not for an instant give him the impression that I was promisingto marry him because\u2014what I don\u2019t know and it doesn\u2019t matter much, butI said:\u201cHal, don\u2019t you think it is a little selfish of you to want to throw meover just because you have lost your money? You are young, healthy,have good character and influential connections, and plenty of goodpractical ability and sense, so, surely, you will know no such thing asfailure if you meet the world bravely. Go and be the man you are; andif you fail, when I am twenty-one I will marry you, and we will helpeach other. I am young and strong, and am used to hard work, so povertywill not alarm me in the least. If you want me, I want you.\u201cSyb, you are such a perfect little brick that I couldn\u2019t be such abeggarly cur as to let you do that. I knew you were as true as steelunder your funny little whims and contrariness; and could you reallylove me now that I am poor?\u201dI replied with vigour:I replied with vigour:\u201cDo you think I am that sort, that cares for a person only because hehas a little money? Why! that is the very thing I am always preachingagainst. If a man was a lord or a millionaire I would not have him if Iloved him not, but I would marry a poor cripple if I loved him. Itwasn\u2019t because you owned Five-Bob Downs that I liked you, but becauseyou have a big heart in which one would have room to get warm, andbecause you are true, and because you are kind and big and\u2014\u201d Here Icould feel my voice getting shaky, and being afraid I would make a foolof myself by crying, I left off.\u201cSyb, I will try and fix matters up a bit, and will claim you in thattime if I have a home.\u201d\u201cClaim me, home or not, if you are so disposed, but I will make thiscondition. Do not tell anyone we are engaged, and remember you areperfectly free. If you see a woman you like more than me, promise me onyour sacred word that you will have none of those idiotic unjust ideasof keeping true to me. Promise.\u201d\u201cYes, I will promise,\u201d he said easily, thinking then, no doubt, as manya one before him has thought, that he would never be called upon tofulfil his word.\u201cI will promise in return that I will not look at another man in amatrimonial way until the four years are up, so you need not be jealousand worry yourself; for, Hal, you can trust me, can you not?\u201dTaking my hand in his and looking at me with a world of love in hiseyes, which moved me in spite of myself, he said:\u201cI could trust you in every way to the end of the world.\u201d\u201cThank you, Harold. What we have said is agreed upon\u2014that is, ofcourse, as things appear now: if anything turns up to disturb thisarrangement it is not irrevocable in the least degree, and we can layout more suitable plans. Four years will not be long, and I will bemore sensible at the end of that time\u2014that is, of course, if I everhave any sense. We will not write or have any communication, so youwill be perfectly free if you see anyone you like better than me to goin and win. Do you agree?\u201d\u201cCertainly; any little thing like that you can settle according to yourfancy. I\u2019m set up as long as I get you one way or another, that\u2019s all Iwant. It was a bit tough being cleared out from all the old ways, butif I have you to stand by me it will be a great start. Say what yousaid last Sunday, again. Syb, say you will be my wife.\u201dI had expected him to put it in that way, and believing in doing all ornothing, had laid out that I would put my hand in his and promise whathe asked. But now the word wife finished me up. I was very fond ofHarold\u2014fond to such an extent that had I a fortune I would gladly havegiven it all to him: I felt capable of giving him a life of servitude,but I loved him\u2014big, manly, lovable, wholesome Harold\u2014from the crown ofhis head to the sole of his foot he was good in my sight, but lackingin that power over me which would make me desirous of being the motherof his children.As for explaining my feelings to him\u2014ha! He would laughingly call themone of my funny little whims. With his orthodox, practical, plain,commonsense views of these things, he would not understand me. What wasthere to understand? Only that I was queer and different from otherwomen. But he was waiting for me to speak. I had put my hand to theplough and could not turn back. I could not use the word wife, but Iput my hand in his, looked at him steadily, and said\u2014\u201cHarold. I meant what I said last Sunday. If you want me\u2014if I am of anyuse to you\u2014I will marry you when I attain my majority.\u201dHe was satisfied.He bade us good-bye early that afternoon, as he intended departing fromFive-Bob when the morrow was young, and had two or three little mattersto attend to previous to his departure.I accompanied him a little way, he walking and leading his horse. Weparted beneath the old willow-tree.\u201cGood-bye, Harold. I mean all I have said.\u201dI turned my face upwards; he stooped and kissed me once\u2014only once\u2014onelight, gentle, diffident kiss. He looked at me long and intentlywithout saying a word, then mounted his horse, raised his hat, and rodeaway.I watched him depart along the white dusty road, looking like a longsnake in the glare of the summer sun, until it and he who travelledthereon disappeared among the messmate- and hickory-trees forming thehorizon.I stood gazing at the hills in the distance on which the blue dreamingmists of evening were gathering, until tears stole down my cheeks.I was not given to weeping. What brought them? I hardly knew. It wasnot because Harold was leaving, though I would miss him much. Was itbecause I was disappointed in love? I persuaded myself that. I lovedHarold as much as I could ever love anyone, and I could not forsake himnow that he needed me. But, but, but, I did not want to marry, and Iwished that Harold had asked anything of me but that, because\u2014because,I don\u2019t know what, and presently felt ashamed for being such a selfishcoward that I grudged to make a little sacrifice of my own inclinationsto help a brother through life.\u201cI used to feel sure that Harry meant to come up to the scratch, but Isuppose he\u2019s had plenty to keep him going lately without bothering hishead about a youngster in short frocks",
+      "density_breakdown": {
+        "Metaphor": 2.276867030965392,
+        "Simile": 1.366120218579235,
+        "Imagery": 8.196721311475411,
+        "Symbolism": 6.830601092896175,
+        "Dialogue": 0.0,
+        "Foreshadowing": 21.85792349726776,
+        "Juxtaposition": 15.027322404371583,
+        "Repetition": 5.46448087431694,
+        "TOTAL_DENSITY": 61.0200364298725
+      }
+    },
+    "resolution": {
+      "chapter_range": "35-38",
+      "narrative_primary": 38,
+      "optimized_primary": 36,
+      "device_density_score": 67.81975421028676,
+      "improvement_percent": 58.51063829787236,
+      "optimization_applied": true,
+      "chapter_text": "Why, she\u2019s only a child! A mere baby, in fact. MarryGertie! I never thought of her in that light; and did you think I wasthat sort of a fellow, Syb?\u201d he asked reproachfully.\u201cNo, Hal,\u201d I promptly made answer. \u201cI did not think you were that sortof fellow; but I thought that was the only sort of fellow there was.\u201d\u201cGood heavens, Syb! Did you really mean those queer little letters youwrote me last February? I never for an instant looked upon them asanything but a little bit of playful contrariness. And have youforgotten me? Did you not mean your promise of two years ago, that youspeak of what passed between us as a paltry bit of flirtation? Is thatall you thought it?\u201d\u201cNo, I did not consider it flirtation; but that is what I thought youwould term it when announcing your affection for Gertie.\u201d\u201cGertie! Pretty little Gertie! I never looked upon the child asanything but your sister, consequently mine also. She\u2019s a child.\u201d\u201cChild! She is eighteen. More than a year older than I was when youfirst introduced the subject of matrimony to me, and she is verybeautiful, and twenty times as good and lovable as I could ever be evenin my best moments.\u201d\u201cYes, I know you are young in years, but there is nothing of the childin you. As for beauty, it is nothing. If beauty was all a man required,he could, if rich, have a harem full of it any day. I want some one tobe true.\u201d\u201cThe world is filled with folly and sin, And love must cling where it can, I say;For beauty is easy enough to win, But one isn\u2019t loved every day,\u201dI quoted from Owen Meredith.\u201cYes,\u201d he said, \u201cthat is why I want you. Just think a moment; don\u2019t sayno. You are not vexed with me\u2014are you, Syb?\u201d\u201cVexed, Hal! I am scarcely inhuman enough to be angry on account ofbeing loved.\u201dAh, why did I not love him as I have it in me to love! Why did he lookso exasperatingly humble? I was weak, oh, so pitifully weak! I wanted aman who would be masterful and strong, who would help me over the roughspots of life\u2014one who had done hard grinding in the mill of fate\u2014onewho had suffered, who had understood. No; I could never marry HaroldBeecham.\u201cWell, Syb, little chum, what do you say?\u201d\u201cSay!\u201d\u2014and the words fell from me bitterly\u2014\u201cI say, leave me; go andmarry the sort of woman you ought to marry. The sort that all men like.A good conventional woman, who will do the things she should at theproper time. Leave me alone.\u201dHe was painfully agitated. A look of pain crossed his face.\u201cDon\u2019t say that, Syb, because I was a beastly cad once: I\u2019ve had allthat knocked out of me.\u201d\u201cI am the cad,\u201d I replied. \u201cWhat I said was nasty and unwomanly, and Iwish I had left it unsaid. I am not good enough to be your wife, Hal,or that of any man. Oh, Hal, I have never deceived you! There arescores of good noble women in the world who would wed you for theasking\u2014marry one of them.\u201d\u201cBut, Syb, I want you. You are the best and truest girl in the world.\u201d\u201cOch! Sure, the blarney-stone is getting a good rub now,\u201d I saidplayfully.Annoyance and amusement struggled for mastery in his expression as hereplied:\u201cYou\u2019re the queerest girl in the world. One minute you snub a person,the next you are the jolliest girl going, and then you get as grave andearnest as a fellow\u2019s mother would be.\u201d\u201cYes, I am queer. If you had any sense, you\u2019d have nothing to do withme. I\u2019m more queer, too. I am given to something which a man neverpardons in a woman. You will draw away as though I were a snake whenyou hear.\u201d\u201cWhat is it?\u201d\u201cI am given to writing stories, and literary people predict I will yetbe an authoress.\u201dHe laughed\u2014his soft, rich laugh.\u201cThat\u2019s just into my hand. I\u2019d rather work all day than write theshortest letter; so if you will give me a hand occasionally, you canwrite as many yarns as you like. I\u2019ll give you a study, and send for atruck-load of writing-gear at once, if you like. Is that the onlyhorror you had to tell me?\u201dI bowed my head.\u201cWell, I can have you now,\u201d he said gently, folding me softly in hisarms with such tender reverence that I cried out in pain, \u201cOh, Hal,don\u2019t, don\u2019t!\u201d and struggled free. I was ashamed, knowing I was notworthy of this.He flushed a dusky red.\u201cAm I so hateful to you that you cannot bear my touch?\u201d he asked halfwistfully, half angrily.\u201cOh no; it isn\u2019t that. I\u2019m really very fond of you, if you\u2019d onlyunderstand,\u201d I said half to myself.\u201cUnderstand! If you care for me, that is all I want to understand. Ilove you, and have plenty of money. There is nothing to keep us apart.Now that I know you care for me, I _will_ have you, in spite of thedevil.\u201d\u201cThere will be a great tussle between you,\u201d I said mischievously,laughing at him. \u201cOld Nick has a great hold on me, and I\u2019m sure he willdispute your right.\u201dAt any time Harold\u2019s sense of humour was not at all in accordance withhis size, and he failed to see how my remark applied now.He gripped my hands in a passion of pleading, as two years previouslyhe had seized me in jealous rage. He drew me to him. His eyes were darkand full of entreaty; his voice was husky.\u201cSyb, poor little Syb, I will be good to you! You can have what youlike. You don\u2019t know what you mean when you say no.\u201dNo; I would not yield. He offered me everything\u2014but control. He was aman who meant all he said. His were no idle promises on the spur of themoment. But no, no, no, no, he was not for me. My love must know, musthave suffered, must understand.\u201cSyb, you do not answer. May I call you mine? You must, you must, youmust!\u201dHis hot breath was upon my cheek. The pleasant, open, manly countenancewas very near-perilously near. The intoxication of his love wasoverpowering me. I had no hesitation about trusting him. He was notdistasteful to me in any way. What was the good of waiting for thatother\u2014the man who had suffered, who knew, who understood? I might neverfind him; and, if I did, ninety-nine chances to one he would not carefor me.\u201cSyb, Syb, can\u2019t you love me just a little?\u201dThere was a winning charm in his manner. Nature had endowed himliberally with virile fascination. My hard uncongenial life hadrendered me weak. He was drawing me to him; he was irresistible. Yes; Iwould be his wife. I grew dizzy, and turned my head sharply backwardsand took a long gasping breath, another and another, of that fresh coolair suggestive of the grand old sea and creak of cordage and bustle andstrife of life. My old spirit revived, and my momentary weakness fled.There was another to think of than myself, and that was Harold. Under amaster-hand I would be harmless; but to this man I would be as atwo-edged sword in the hand of a novice\u2014gashing his fingers at everyturn, and eventually stabbing his honest heart.It was impossible to make him see my refusal was for his good. He wasas a favourite child pleading for a dangerous toy. I desired to gratifyhim, but the awful responsibility of the after-effects loomed up anddeterred me.\u201cHal, it can never be.\u201dHe dropped my hands and drew himself up.\u201cI will not take your No till the morning. Why do you refuse me? Is itmy temper? You need not be afraid of that. I don\u2019t think I\u2019d hurt you;and I don\u2019t drink, or smoke, or swear very much; and I\u2019ve neverdestroyed a woman\u2019s name. I would not stoop to press you against yourwill if you were like the ordinary run of women; but you are such aqueer little party, that I\u2019m afraid you might be boggling at some funnylittle point that could easily be wiped out.\u201d\u201cYes; it is only a little point. But if you wipe it out you will knockthe end out of the whole thing\u2014for the point is myself. I would notsuit you. It would not be wise for you to marry me.\u201d\u201cBut I\u2019m the only person concerned. If you are not afraid for yourself,I am quite satisfied.\u201dWe faced about and walked homewards in unbroken silence\u2014too perturbedto fall into our usual custom of chewing bush-leaves as we went.I thought much that night when all the house was abed. It was tempting.Harold would be good to me, and would lift me from this life of povertywhich I hated, to one of ease. Should I elect to remain where I was,till the grave there was nothing before me but the life I was leadingnow: my only chance of getting above it was by marriage, and HaroldBeecham\u2019s offer was the one chance of a lifetime. Perhaps he couldmanage me well enough. Yes; I had better marry him.And I believe in marriage\u2014that is, I think it the most sensible andrespectable arrangement for the replenishing of a nation which has yetbeen suggested. But marriage is a solemn issue of life. I was as suitedfor matrimony as any of the sex, but only with an exceptionalhelpmeet\u2014and Harold was not he. My latent womanliness arose and pointedthis out so plainly that I seized my pen and wrote:Dear Harold,I will not get a chance of speaking to you in the morning, so write.Never mention marriage to me again. I have firmly made up my mind\u2014itmust be No. It will always be a comfort to me in the years to come toknow that I was loved once, if only for a few hours. It is not that Ido not care for you, as I like you better than any man I have everseen; but I do not mean ever to marry. When you lost your fortune I waswilling to accede to your request, as I thought you wanted me; but nowthat you are rich again you will not need me. I am not good enough tobe your wife, for you are a good man; and better, because you do notknow you are good. You may feel uncomfortable or lonely for a littlewhile, because, when you make up your mind, you are not easilythwarted; but you will find that your fancy for me will soon pass. Itis only a fancy, Hal. Take a look in the glass, and you will seereflected there the figure of a stalwart man who is purely virile,possessing not the slightest attribute of the weaker sex, thereforeyour love is merely a passing flame. I do not impute fickleness to you,but merely point out a masculine characteristic, and that you are aman, and only a man, pure and unadulterated. Look around, and from thenumbers of good women to be found on every side choose one who willmake you a fitter helpmeet, a more conventional comrade, than I couldever do. I thank you for the inestimable honour you have conferred uponme; but keep it till you find some one worthy of it, and by and by youwill be glad that I have set you free.Good-bye, Hal!Your sincere and affec. friend,SYBYLLA PENELOPE MELVYN.Then I crept into bed beside my little sister, and though the airinside had not cooled, and the room was warm, I shivered so that Iclasped the chubby, golden-haired little sleeper in my arms that Imight feel something living and real and warm.\u201cOh, Rory, Rory!\u201d I whispered, raining upon her lonely-hearted tears.\u201cIn all the world is there never a comrade strong and true to teach methe meaning of this hollow, grim little tragedy\u2014life? Will it always bethis ghastly aloneness? Why am I not good and pretty and simple likeother girls? Oh, Rory, Rory, why was I ever born? I am of no use orpleasure to any one in all the world!\u201dCHAPTER THIRTY-SEVENHe that despiseth little things, shall fall little by littleIThe morning came, breakfast, next Harold\u2019s departure. I shook my headand slipped the note into his hand as we parted. He rode slowly downthe road. I sat on the step of the garden gate, buried my face in myhands, and reviewed the situation. I could see my life, stretching outahead of me, barren and monotonous as the thirsty track along whichHarold was disappearing. Today it was washing, ironing tomorrow, nextday baking, after that scrubbing\u2014thus on and on. We would occasionallysee a neighbour or a tea-agent, a tramp or an Assyrian hawker. By hardslogging against flood, fire, drought, pests, stock diseases, and thesweating occasioned by importation, we could manage to keep bread inour mouths. By training and education I was fitted for nought but whatI was, or a general slavey, which was many degrees worse. I could takemy choice. Life was too much for me. What was the end of it, what itsmeaning, aim, hope, or use?In comparison to millions I knew that I had received more than a fairshare of the goods of life; but knowing another has leprosy makes ourcancer none the easier to bear.My mother\u2019s voice, sharp and cross, roused me. \u201cSybylla, you lazyunprincipled girl, to sit scheming there while your poor old mother isat the wash-tub. You sit idling there, and then by and by you\u2019ll begroaning about this terrible life in which there\u2019s time for nothing",
+      "density_breakdown": {
+        "Metaphor": 3.6413290851160673,
+        "Simile": 2.7309968138370504,
+        "Imagery": 11.37915339098771,
+        "Symbolism": 9.558488848429677,
+        "Dialogue": 0.0,
+        "Foreshadowing": 18.661811561219846,
+        "Juxtaposition": 16.84114701866181,
+        "Repetition": 5.006827492034593,
+        "TOTAL_DENSITY": 67.81975421028676
+      }
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "narrative_primary": 1,
+      "optimized_primary": 4,
+      "device_density_score": 41.89435336976321,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "5-19",
+      "narrative_primary": 12,
+      "optimized_primary": 6,
+      "device_density_score": 59.19854280510018,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "20-21",
+      "narrative_primary": 20,
+      "optimized_primary": 21,
+      "device_density_score": 57.83242258652095,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "22-34",
+      "narrative_primary": 28,
+      "optimized_primary": 25,
+      "device_density_score": 61.0200364298725,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "35-38",
+      "narrative_primary": 38,
+      "optimized_primary": 36,
+      "device_density_score": 67.81975421028676,
+      "optimization_applied": true,
+      "pages": ""
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "FP",
+        "pov_description": "First person narration throughout, 'I' as protagonist-narrator",
+        "focalization": "INT",
+        "focalization_description": "Limited to narrator's internal perspective and direct experiences",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "NONE",
+        "stream_consciousness": "NONE",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single plot following Sybylla's coming-of-age journey",
+        "pacing": "VAR",
+        "temporal_span": "EXTENDED",
+        "beginning_type": "AB_OVO",
+        "ending_type": "OPEN",
+        "scene_summary_ratio": "BAL",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Passionate, defiant, melancholic yet determined",
+        "register": "COLL",
+        "stance": "SUBJ",
+        "ethos": "MOD",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "HIGH"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "HIGH",
+        "device_distribution": "CLUST",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Devices accumulate to transform reader understanding of female independence and artistic ambition, challenging conventional expectations through passionate first-person testimony and vivid sensory imagery that validates unconventional choices"
+    }
+  },
+  "alignment_pattern": {
+    "pattern_name": "Passionate Self-Advocacy",
+    "core_dynamic": "First-person narration with strong subjective stance creates intimate access to protagonist's defiant consciousness while narrator advocates for her own aspirations and struggles.",
+    "reader_effect": "Readers experience direct immersion in the protagonist's passionate worldview, generating both empathy for her constraints and investment in her rebellious spirit.",
+    "device_priorities": [
+      "Imagery",
+      "Juxtaposition",
+      "Foreshadowing",
+      "Symbolism",
+      "Metaphor",
+      "Repetition",
+      "Direct Characterization",
+      "Internal Monologue"
+    ]
+  },
+  "micro_devices": [
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I had left school then",
+      "location_percent": 10,
+      "scene": "Sybylla recounting leaving school during drought",
+      "effect": "Establishes intimate access to protagonist's personal experience and creates foundation for passionate self-advocacy throughout the exposition",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "winds shrivelled every blade of grass",
+      "location_percent": 5,
+      "scene": "Description of drought's devastating effects",
+      "effect": "Creates vivid sensory picture of harsh conditions to support narrator's passionate argument about the reality of her circumstances",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "heavy hand of poverty",
+      "location_percent": 25,
+      "scene": "Sybylla describing family's financial struggles",
+      "effect": "Transforms abstract concept into tangible oppressor, allowing narrator to advocate against concrete force rather than vague circumstance",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "my brilliant career! I was fifteen\u2014fifteen!",
+      "location_percent": 75,
+      "scene": "Sybylla contrasting her dreams with harsh reality",
+      "effect": "Places aspirations directly against present circumstances to create dramatic tension that fuels narrator's defiant consciousness",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Weariness! Weariness!",
+      "location_percent": 70,
+      "scene": "During cow-lifting in extreme heat",
+      "effect": "Emphasizes narrator's passionate frustration through rhythmic insistence, making her emotional state undeniable to reader",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "sun seemed to glory in his power",
+      "location_percent": 72,
+      "scene": "Describing oppressive heat during cow-lifting",
+      "effect": "Creates adversarial relationship between narrator and environment, giving her a concrete target for her passionate resistance",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "This was life\u2014my life\u2014my career",
+      "location_percent": 76,
+      "scene": "Sybylla's realization during drought work",
+      "effect": "Transforms mundane cow-lifting into symbol of trapped existence, enabling narrator to advocate against broader social limitations",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Rhetorical Question",
+      "anchor_phrase": "what He meant by this",
+      "location_percent": 80,
+      "scene": "Sybylla questioning God about animal suffering",
+      "effect": "Channels narrator's passionate defiance into direct challenge of divine authority, demonstrating her willingness to question all forms of power",
+      "assigned_section": "exposition",
+      "chapter": 4,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I received a polite memo to the effect",
+      "location_percent": 8,
+      "scene": "Sybylla recounting her experience with the Sydney publisher's rejection",
+      "effect": "Creates intimate access to protagonist's subjective interpretation of rejection, allowing her to advocate for her own perspective against dismissive treatment",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "This was a very promising opinion of the work of a child of thirteen, more encouraging than the great writers got",
+      "location_percent": 15,
+      "scene": "Sybylla analyzing the publisher's response to her manuscript",
+      "effect": "Contrasts her achievement with established writers to defiantly assert her own worth despite rejection",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "cut like a cruel jagged knife",
+      "location_percent": 70,
+      "scene": "Sybylla's emotional reaction to being called plain in grandmother's letter",
+      "effect": "Transforms physical appearance judgment into visceral pain, advocating for recognition of the deep psychological wounds inflicted by society's beauty standards",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Caddagat, draped by nature in a dream of beauty",
+      "location_percent": 75,
+      "scene": "Sybylla's rapturous meditation on her grandmother's estate",
+      "effect": "Represents hope and artistic fulfillment, symbolizing the protagonist's yearning for a sphere that matches her aspirations",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "she might do something good for herself up here",
+      "location_percent": 55,
+      "scene": "Grandmother's letter suggesting marriage prospects at Caddagat",
+      "effect": "Hints at future romantic possibilities while the protagonist currently rejects marriage, creating tension between social expectations and personal desires",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "with a weakly glint of winter sunshine turning her hair to gold",
+      "location_percent": 85,
+      "scene": "Sybylla's farewell conversation with her sister Gertie",
+      "effect": "Creates poignant visual beauty in a tender moment, contrasting the protagonist's self-perceived plainness with her ability to perceive and articulate beauty",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Hyperbole",
+      "anchor_phrase": "My ambition was as boundless as the mighty bush",
+      "location_percent": 90,
+      "scene": "Sybylla's self-analysis section reflecting on her childhood dreams",
+      "effect": "Exaggerates the scope of her aspirations to passionately advocate for the legitimacy of her grand ambitions despite gender and social constraints",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Caddagat, Caddagat! Caddagat for me, Caddagat for ever!",
+      "location_percent": 76,
+      "scene": "Sybylla's ecstatic contemplation of going to her grandmother's estate",
+      "effect": "Creates rhythmic intensity that mirrors the protagonist's passionate longing, advocating for her right to desire beauty and fulfillment",
+      "assigned_section": "rising_action",
+      "chapter": 6,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I cannot account for my action or condemn it sufficiently",
+      "location_percent": 15,
+      "scene": "Sybylla's immediate reflection after striking Harold with the whip",
+      "effect": "Creates intimate access to protagonist's self-condemnation and internal struggle while maintaining her defiant stance through passionate self-analysis",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "my hair tumbled softly over my shoulders and reached the floor, as though to sympathetically curtain my humiliation",
+      "location_percent": 25,
+      "scene": "Sybylla collapses after striking Harold, overwhelmed by shame",
+      "effect": "Transforms physical detail into emotional metaphor, showing how even her body sympathizes with her passionate struggle against conventional feminine behavior",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "something like the amused tolerance held by a great Newfoundland for the pranks of a kitten",
+      "location_percent": 30,
+      "scene": "Sybylla reflects on Harold's gentle treatment of her",
+      "effect": "Juxtaposes Harold's strength with her defiant smallness, advocating for her right to rebel despite being diminutive and seemingly powerless",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "It had left a great weal on the healthy sun-tanned skin",
+      "location_percent": 20,
+      "scene": "Description of the injury Sybylla inflicted on Harold's face",
+      "effect": "Vivid visual detail emphasizes the physical consequence of her passionate rebellion, making her defiant act undeniably real and consequential",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Oh, that Harold would thrash me severely! It would have infinitely relieved me",
+      "location_percent": 28,
+      "scene": "Sybylla wishes for physical retaliation after her violent act",
+      "effect": "Contrasts her desire for punishment with her initial defiant strike, revealing the complex psychology of her passionate self-advocacy and guilt",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Satan got hold of me. He certainly placed a long strong riding-whip on the table beneath my hand",
+      "location_percent": 12,
+      "scene": "Sybylla explains her impulsive violent action",
+      "effect": "The whip becomes a symbol of her rebellious power against masculine presumption, while she advocates for her right to resist unwanted advances",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Internal Monologue",
+      "anchor_phrase": "Why had Harold Beecham chosen me of all women? I had no charms to recommend me",
+      "location_percent": 85,
+      "scene": "Sybylla questions Harold's marriage proposal while alone",
+      "effect": "Reveals her passionate self-doubt and defiant self-deprecation, advocating for her own unworthiness while simultaneously asserting her unique value",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "Everyone would be wanting to engage me as the great noxious weed-killer and poisonous insect exterminator",
+      "location_percent": 95,
+      "scene": "Sybylla's witty exchange with Harold about her dangerous nature",
+      "effect": "Uses sharp wit to advocate for her dangerous, unconventional nature while maintaining intimate connection through playful banter",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I sat and wondered at the marvellous self-containment",
+      "location_percent": 15,
+      "scene": "Sybylla observing Harold's composure after his financial ruin",
+      "effect": "Creates intimate access to protagonist's consciousness as she processes Harold's dignity in crisis, establishing her perspective as the lens through which we understand his character",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "hatless and with flying hair, I ran",
+      "location_percent": 35,
+      "scene": "Sybylla running across paddocks to catch Harold",
+      "effect": "Vivid physical imagery captures the protagonist's impulsive advocacy for herself and her relationships, showing her passionate nature through concrete sensory details",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Apostrophe",
+      "anchor_phrase": "Sybylla Penelope Melvyn, your conceit is marvellous",
+      "location_percent": 50,
+      "scene": "Sybylla's self-directed monologue after Harold rides away",
+      "effect": "Direct address to herself becomes passionate self-advocacy in reverse, as she both criticizes and reveals her deep awareness of social constraints on women",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "a man\u2014a man! The world was made for men",
+      "location_percent": 52,
+      "scene": "Sybylla contrasting male privilege with female limitations",
+      "effect": "Sharp contrast between men's advantages and women's constraints amplifies her defiant consciousness of gender inequality while advocating for recognition of these disparities",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "I had put my hand to the plough",
+      "location_percent": 85,
+      "scene": "Sybylla reflecting on her commitment to Harold",
+      "effect": "Biblical metaphor transforms her personal decision into a matter of principled determination, advocating for the moral weight of her choices through elevated language",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "We parted beneath the old willow-tree",
+      "location_percent": 90,
+      "scene": "Final farewell between Sybylla and Harold",
+      "effect": "The willow tree symbolizes both mourning and resilience, representing Sybylla's complex emotional state as she advocates for a future that requires sacrifice of her true desires",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Internal Monologue",
+      "anchor_phrase": "because\u2014because, I don't know what",
+      "location_percent": 95,
+      "scene": "Sybylla's fragmented thoughts about her tears",
+      "effect": "Broken syntax reveals the protagonist's struggle to advocate for her own confused emotions, showing the limits of self-awareness even in passionate self-examination",
+      "assigned_section": "falling_action",
+      "chapter": 25,
+      "chapter_range": "22-34",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I am given to writing stories",
+      "location_percent": 45,
+      "scene": "Sybylla reveals her writing aspirations to Harold",
+      "effect": "Creates intimate access to protagonist's defiant self-advocacy as she declares her literary ambitions despite social expectations",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "as a two-edged sword in the hand of a novice",
+      "location_percent": 65,
+      "scene": "Sybylla's internal reflection on why she must refuse Harold",
+      "effect": "Transforms her self-knowledge into vivid imagery that advocates for her incompatibility with conventional marriage",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "that fresh cool air suggestive of the grand old sea",
+      "location_percent": 60,
+      "scene": "Sybylla's moment of near-surrender followed by renewed resolve",
+      "effect": "Sensory details embody her spiritual awakening and return to passionate self-determination",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Today it was washing, ironing tomorrow, next day baking",
+      "location_percent": 95,
+      "scene": "Sybylla contemplates her future after rejecting Harold",
+      "effect": "Contrasts mundane domestic duties with her artistic aspirations, reinforcing her defiant stance against conventional women's roles",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "I am given to something which a man never pardons",
+      "location_percent": 40,
+      "scene": "Sybylla's confession to Harold about her writing",
+      "effect": "Direct speech allows protagonist to advocate boldly for her unconventional nature and literary ambitions",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Internal Monologue",
+      "anchor_phrase": "My love must know, must have suffered, must understand",
+      "location_percent": 70,
+      "scene": "Sybylla's internal reasoning for refusing Harold",
+      "effect": "Reveals protagonist's passionate advocacy for her ideal of love while asserting her right to refuse settlement",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Apostrophe",
+      "anchor_phrase": "Oh, Rory, Rory, why was I ever born?",
+      "location_percent": 85,
+      "scene": "Sybylla's emotional breakdown while holding her sleeping sister",
+      "effect": "Direct address to absent figure intensifies protagonist's passionate self-advocacy through vulnerable expression of isolation",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "barren and monotonous as the thirsty track",
+      "location_percent": 92,
+      "scene": "Sybylla visualizes her future life",
+      "effect": "The desolate landscape symbolizes the spiritual aridity she faces, justifying her defiant rejection of conventional path",
+      "assigned_section": "resolution",
+      "chapter": 36,
+      "chapter_range": "35-38",
+      "pedagogical_tier": 3
+    }
+  ]
+}

@@ -573,6 +573,316 @@ def convert_kernel_to_content(
     return content
 
 
+# ============================================================================
+# PEDAGOGICAL ZONE BUILDERS
+# ============================================================================
+
+def build_knowledge_zone_hub(kernel):
+    """Build knowledge zone content for hub page
+    
+    Args:
+        kernel: dict - full kernel JSON
+        
+    Returns:
+        dict - knowledge zone content structure
+    """
+    # Extract pattern name from kernel
+    pattern = derive_pattern_from_kernel(kernel)
+    pattern_name = kernel.get('pattern_name') or pattern.get('pattern_name', 'Narrative Pattern')
+    
+    # Get macro variables for quick reference
+    macro = kernel.get('macro_variables', {})
+    narrative = macro.get('narrative', {})
+    voice = narrative.get('voice', {})
+    structure = kernel.get('text_structure', {})
+    
+    # Get POV description
+    pov_desc = voice.get('pov_description', 'Third-person')
+    if not pov_desc and voice.get('pov'):
+        pov_map = {'FP': 'First-person', 'TPO': 'Third-person omniscient', 'TPL': 'Third-person limited'}
+        pov_desc = pov_map.get(voice.get('pov'), 'Third-person')
+    
+    # Get tone
+    rhetoric = macro.get('rhetoric', {})
+    rhet_voice = rhetoric.get('voice', {})
+    tone = rhet_voice.get('tone', 'Neutral')
+    
+    # Get chapter count
+    chapters = structure.get('total_chapters_estimate', 'N/A')
+    
+    return {
+        "badge_text": "Knowledge: What the Book Does",
+        "heading": pattern_name,
+        "content_type": "pattern_summary",
+        "sections": [
+            {
+                "type": "text",
+                "content": f"This text uses the {pattern_name} pattern, which creates a distinctive reading experience through the interplay of narrative voice, literary devices, and structure."
+            },
+            {
+                "type": "table",
+                "heading": "Quick Reference",
+                "rows": [
+                    {"label": "Structure", "value": f"{chapters} chapters"},
+                    {"label": "Voice", "value": pov_desc},
+                    {"label": "Tone", "value": tone}
+                ]
+            }
+        ]
+    }
+
+
+def build_pedagogy_zone_hub(kernel):
+    """Build pedagogy zone for hub page
+    
+    Returns:
+        dict - pedagogy zone teaching content
+    """
+    pattern = derive_pattern_from_kernel(kernel)
+    pattern_name = kernel.get('pattern_name') or pattern.get('pattern_name', 'Narrative Pattern')
+    
+    # Get key devices from kernel
+    micro_devices = kernel.get('micro_devices', [])
+    device_names = list(set([d.get('name') for d in micro_devices if d.get('name')]))[:3]
+    
+    # Build device steps from available devices
+    steps = []
+    if device_names:
+        device_functions = {
+            "Imagery": "creates sensory grounding",
+            "Juxtaposition": "creates contrast and comparison",
+            "Repetition": "creates rhythm and emphasis",
+            "Symbolism": "adds deeper meaning",
+            "Metaphor": "illuminates concepts",
+            "Irony": "creates distance and critique"
+        }
+        
+        for device_name in device_names[:3]:
+            steps.append({
+                "element": device_name,
+                "function": device_functions.get(device_name, "contributes to meaning")
+            })
+    else:
+        # Fallback generic steps
+        steps = [
+            {"element": "Narrative voice", "function": "provides access to perspective"},
+            {"element": "Key devices", "function": "create sensory and emotional effects"},
+            {"element": "Structure", "function": "shapes reader experience"}
+        ]
+    
+    return {
+        "badge_text": "Pedagogy: How to Read for Patterns",
+        "heading": "What Pattern-Recognition Means",
+        "intro_text": "Pattern-recognition means seeing how devices work together to create meaning. Most analysis looks at devices individually. Pattern thinking asks: what's the effect of these choices working as a system?",
+        "worked_example": {
+            "label": "In This Text:",
+            "type": "formula",
+            "steps": steps,
+            "result": {
+                "pattern_name": pattern_name,
+                "effect": pattern.get('reader_effect', "You experience a distinctive reading experience")
+            }
+        },
+        "application_guidance": {
+            "heading": "When You Read, Ask:",
+            "prompts": [
+                "What's the effect of these choices working together?",
+                "Why would the author combine THESE devices?",
+                "What reader experience does this pattern create?"
+            ]
+        }
+    }
+
+
+def build_cta_zone_hub():
+    """Build CTA zone for hub page
+    
+    Returns:
+        dict - CTA zone navigation structure
+    """
+    return {
+        "badge_text": "Action: Build Your Understanding",
+        "heading": "From Analysis to Thesis",
+        "intro_text": "Understanding the pattern is step one. Now explore the analytical elements that combine into your thesis.",
+        "visual_formula": {
+            "elements": ["Themes", "Devices", "Characters"],
+            "operator": "+",
+            "result": "Your Thesis"
+        },
+        "links": [
+            {
+                "label": "Themes",
+                "description": "What the text explores",
+                "url": "/themes/",
+                "emphasis": "normal"
+            },
+            {
+                "label": "Literary Devices", 
+                "description": "How the author creates meaning",
+                "url": "/devices/",
+                "emphasis": "normal"
+            },
+            {
+                "label": "Characters",
+                "description": "Who carries the meaning",
+                "url": "/characters/",
+                "emphasis": "normal"
+            },
+            {
+                "label": "Thesis Development",
+                "description": "Synthesize your analysis into argument",
+                "url": "/thesis-development/",
+                "emphasis": "strong"
+            }
+        ]
+    }
+
+
+def build_knowledge_zone_devices(device_name, kernel):
+    """Build knowledge zone for devices page
+    
+    Args:
+        device_name: str - name of device (e.g., "Imagery", "Juxtaposition")
+        kernel: dict - full kernel JSON
+        
+    Returns:
+        dict - device knowledge zone content
+    """
+    # Get device examples from kernel micro_devices
+    micro_devices = kernel.get('micro_devices', [])
+    
+    # Filter to this device type, take first 2-3 examples only
+    device_examples = [d for d in micro_devices if d.get('name') == device_name][:3]
+    
+    # Extract device function description
+    device_functions = {
+        "Imagery": "Sensory grounding and vivid description",
+        "Juxtaposition": "Contrast and comparison for effect",
+        "Repetition": "Rhythm and emphasis through recurrence",
+        "Symbolism": "Deeper meaning through symbolic objects/actions",
+        "Metaphor": "Figurative comparison to illuminate meaning",
+        "Irony": "Distance and critique through contrast",
+        "Alliteration": "Sound patterns for emphasis",
+        "Personification": "Human qualities to non-human things"
+    }
+    
+    function_desc = device_functions.get(device_name, "Creates meaning in the text")
+    
+    # Build examples structure
+    examples = []
+    for ex in device_examples:
+        examples.append({
+            "quote": ex.get('anchor_phrase', ''),
+            "scene": ex.get('scene', ''),
+            "effect": ex.get('effect', '')
+        })
+    
+    return {
+        "badge_text": "Knowledge: Device Identification",
+        "heading": f"{device_name}: {function_desc}",
+        "content_type": "device_detail",
+        "sections": [
+            {
+                "type": "text",
+                "content": f"{device_name} is used throughout the text to {function_desc.lower()}."
+            },
+            {
+                "type": "examples",
+                "examples": examples
+            }
+        ]
+    }
+
+
+def build_pedagogy_zone_devices(device_name):
+    """Build pedagogy zone for devices page
+    
+    Args:
+        device_name: str - name of device
+        
+    Returns:
+        dict - device pedagogy content
+    """
+    return {
+        "badge_text": "Pedagogy: How to Analyze Devices",
+        "heading": "From Device Spotting to Analysis",
+        "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it—explain its function in creating meaning.",
+        "worked_example": {
+            "label": "Pattern Thinking:",
+            "type": "simple_framework",
+            "content": {
+                "question": f"Ask yourself: Why does the author use {device_name} HERE? What meaning does it create in this specific moment?",
+                "framework": "Use TVODE: Technique → Verb → Observation → Device effect → Evaluation"
+            }
+        },
+        "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+    }
+
+
+def build_cta_zone_devices():
+    """Build CTA zone for devices page
+    
+    Returns:
+        dict - device page CTA structure
+    """
+    return {
+        "badge_text": "Action: Continue Exploring",
+        "heading": "Explore More Devices",
+        "intro_text": "See how multiple devices work together to create the complete pattern.",
+        "primary_cta": {
+            "label": "See All Devices",
+            "description": "How each device creates meaning within the pattern",
+            "action_type": "internal",
+            "url": "/devices/"
+        },
+        "secondary_cta": {
+            "label": "Build Your Thesis",
+            "description": "Combine themes + devices + characters into argument",
+            "action_type": "internal",
+            "url": "/thesis-development/"
+        }
+    }
+
+
+def generate_pedagogical_page_content(kernel, page_type, page_context=None):
+    """Generate complete page content with three zones
+    
+    Args:
+        kernel: dict - full kernel JSON
+        page_type: str - 'hub'|'devices'|'themes'|'characters'|'thesis'
+        page_context: dict - additional context (e.g., device_name, theme_data)
+        
+    Returns:
+        dict - complete page content with knowledge/pedagogy/cta zones
+    """
+    if page_context is None:
+        page_context = {}
+    
+    content = {
+        "metadata": {
+            "title": kernel.get('metadata', {}).get('title', 'Unknown'),
+            "author": kernel.get('metadata', {}).get('author', 'Unknown'),
+            "page_type": page_type
+        }
+    }
+    
+    # Build zones based on page type
+    if page_type == "hub":
+        content["knowledge_zone"] = build_knowledge_zone_hub(kernel)
+        content["pedagogy_zone"] = build_pedagogy_zone_hub(kernel)
+        content["cta_zone"] = build_cta_zone_hub()
+        
+    elif page_type == "devices":
+        device_name = page_context.get('device_name', 'Imagery')
+        content["knowledge_zone"] = build_knowledge_zone_devices(device_name, kernel)
+        content["pedagogy_zone"] = build_pedagogy_zone_devices(device_name)
+        content["cta_zone"] = build_cta_zone_devices()
+        
+    # Add other page types as needed (themes, characters, thesis)
+    
+    return content
+
+
 # =============================================================================
 # CLI
 # =============================================================================
@@ -600,6 +910,8 @@ Examples:
     parser.add_argument("--kernels-dir", help="Directory containing kernels", default="kernels")
     parser.add_argument("-o", "--output", help="Output JSON file path")
     parser.add_argument("--api-key", help="Anthropic API key")
+    parser.add_argument("--pedagogical", action="store_true", help="Generate pedagogical three-zone content structure")
+    parser.add_argument("--output-dir", help="Output directory for pedagogical content (default: content_output/)")
     
     args = parser.parse_args()
     
@@ -650,7 +962,42 @@ Examples:
     # Get title for output naming
     title = kernel.get('metadata', {}).get('title', 'Unknown').strip()
     
-    # Convert
+    # Generate pedagogical content if requested
+    if args.pedagogical:
+        output_dir = Path(args.output_dir or "content_output")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        print("\n📚 Generating pedagogical content pages...")
+        
+        # Generate hub page
+        print("  Generating hub page...")
+        hub_content = generate_pedagogical_page_content(kernel, "hub")
+        hub_path = output_dir / "hub.json"
+        with open(hub_path, 'w', encoding='utf-8') as f:
+            json.dump(hub_content, f, indent=2)
+        print(f"    → {hub_path}")
+        
+        # Generate device pages (find unique devices from kernel)
+        micro_devices = kernel.get('micro_devices', [])
+        device_names = list(set([d.get('name') for d in micro_devices if d.get('name')]))[:5]  # Limit to 5 devices
+        
+        for device_name in device_names:
+            print(f"  Generating devices page for: {device_name}...")
+            device_content = generate_pedagogical_page_content(
+                kernel,
+                "devices",
+                {"device_name": device_name}
+            )
+            device_slug = device_name.lower().replace(' ', '_')
+            device_path = output_dir / f"devices_{device_slug}.json"
+            with open(device_path, 'w', encoding='utf-8') as f:
+                json.dump(device_content, f, indent=2)
+            print(f"    → {device_path}")
+        
+        print(f"\n✅ Generated pedagogical content JSONs in {output_dir}/")
+        return hub_content
+    
+    # Original conversion flow
     content = convert_kernel_to_content(kernel, reasoning_doc, args.api_key)
     
     # Determine output path

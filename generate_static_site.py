@@ -24,6 +24,142 @@ from pathlib import Path
 from datetime import datetime
 
 
+ZONE_STYLES = '''
+    /* Modern Clean Color Variables */
+    :root {
+        --bg-page: #ffffff;
+        --bg-card: #f8fafc;
+        --bg-pedagogy: #eff6ff;
+        --bg-cta: #dbeafe;
+        --text-primary: #0f172a;
+        --text-secondary: #334155;
+        --text-muted: #64748b;
+        --accent: #2563eb;
+        --accent-dark: #1e40af;
+        --accent-light: #dbeafe;
+        --border: #e2e8f0;
+        --pedagogy-border: #93c5fd;
+        --cta-border: #60a5fa;
+    }
+    
+    body { 
+        background-color: var(--bg-page);
+        color: var(--text-primary);
+        font-family: 'Inter', system-ui, sans-serif;
+    }
+    
+    /* Zone Badge */
+    .zone-badge {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.75rem;
+        border-radius: 9999px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 1rem;
+    }
+    
+    /* Knowledge Zone */
+    .zone-knowledge {
+        padding: 2rem 1.5rem;
+    }
+    
+    .zone-knowledge .zone-badge {
+        background-color: var(--accent-light);
+        color: var(--accent);
+    }
+    
+    /* Pedagogy Zone */
+    .zone-pedagogy {
+        background-color: var(--bg-pedagogy);
+        border: 2px solid var(--pedagogy-border);
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin: 2rem 1.5rem;
+    }
+    
+    .zone-pedagogy .zone-badge {
+        background-color: var(--accent);
+        color: white;
+    }
+    
+    /* CTA Zone */
+    .zone-cta {
+        background-color: var(--bg-cta);
+        border: 3px solid var(--cta-border);
+        border-radius: 0.5rem;
+        padding: 2rem 1.5rem;
+        margin: 2rem 1.5rem;
+    }
+    
+    .zone-cta .zone-badge {
+        background-color: var(--accent-dark);
+        color: white;
+    }
+    
+    /* Worked Example Container */
+    .worked-example {
+        background-color: var(--bg-card);
+        border: 1px solid var(--pedagogy-border);
+        padding: 1.25rem;
+        border-radius: 0.375rem;
+        margin: 1rem 0;
+    }
+    
+    /* Quote Card */
+    .quote-card {
+        background-color: var(--bg-card);
+        border-left: 3px solid var(--accent);
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 0.25rem;
+    }
+    
+    /* CTA Buttons */
+    .btn-primary {
+        background-color: var(--accent);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.375rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .btn-primary:hover {
+        background-color: var(--accent-dark);
+    }
+    
+    .btn-secondary {
+        background-color: transparent;
+        color: var(--accent);
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.375rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+        border: 2px solid var(--accent);
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .btn-secondary:hover {
+        background-color: var(--accent-light);
+    }
+'''
+
 HTML_TEMPLATE = '''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -414,6 +550,363 @@ def slugify(title: str) -> str:
     return title.lower().replace(' ', '-').replace("'", '').replace('"', '').replace(':', '').replace('.', '')
 
 
+# ============================================================================
+# PEDAGOGICAL ZONE RENDERING FUNCTIONS
+# ============================================================================
+
+def render_knowledge_zone(zone_data):
+    """Render knowledge zone HTML from JSON
+    
+    Args:
+        zone_data: dict - knowledge zone content from JSON
+        
+    Returns:
+        str - HTML for knowledge zone
+    """
+    html = f'''
+    <section class="zone-knowledge">
+        <div class="zone-badge">{zone_data.get('badge_text', 'Knowledge')}</div>
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">
+            {zone_data.get('heading', 'Content')}
+        </h2>
+    '''
+    
+    # Render sections
+    for section in zone_data.get('sections', []):
+        if section['type'] == 'text':
+            html += f'''
+            <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem;">
+                {section['content']}
+            </p>
+            '''
+        elif section['type'] == 'table':
+            html += render_table_section(section)
+        elif section['type'] == 'examples':
+            html += render_device_examples(section)
+    
+    html += '</section>'
+    return html
+
+
+def render_device_examples(section):
+    """Render device examples from kernel data
+    
+    Args:
+        section: dict - section with examples array
+        
+    Returns:
+        str - HTML for device examples
+    """
+    html = ''
+    for example in section.get('examples', []):
+        html += f'''
+        <div class="quote-card">
+            <div style="font-size: 0.75rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; font-weight: 600;">
+                Example
+            </div>
+            <p style="color: var(--text-primary); line-height: 1.7; margin-bottom: 0.75rem; font-style: italic;">
+                "{example.get('quote', '')}"
+            </p>
+            <div style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+                <strong>Scene:</strong> {example.get('scene', '')}
+            </div>
+            <div style="font-size: 0.875rem; color: var(--text-secondary);">
+                <strong>Effect:</strong> {example.get('effect', '')}
+            </div>
+        </div>
+        '''
+    return html
+
+
+def render_pedagogy_zone(zone_data):
+    """Render pedagogy zone HTML from JSON
+    
+    Args:
+        zone_data: dict - pedagogy zone content from JSON
+        
+    Returns:
+        str - HTML for pedagogy zone
+    """
+    html = f'''
+    <section class="zone-pedagogy">
+        <div class="zone-badge">{zone_data.get('badge_text', 'Pedagogy')}</div>
+        <h2 style="font-size: 1.375rem; font-weight: 700; margin-bottom: 1rem;">
+            {zone_data.get('heading', 'How to Think About This')}
+        </h2>
+        <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem;">
+            {zone_data.get('intro_text', '')}
+        </p>
+    '''
+    
+    # Render worked example if present
+    if 'worked_example' in zone_data:
+        html += render_worked_example(zone_data['worked_example'])
+    
+    # Render application guidance if present
+    if 'application_guidance' in zone_data:
+        html += render_application_guidance(zone_data['application_guidance'])
+    
+    # Render essay application if present
+    if 'essay_application' in zone_data:
+        html += f'''
+        <div style="background-color: var(--bg-card); padding: 1.25rem; border-radius: 0.375rem; margin-top: 1.5rem; border: 1px solid var(--pedagogy-border);">
+            <div style="font-size: 0.875rem; font-weight: 600; color: var(--accent); margin-bottom: 0.75rem;">
+                How to Use in Essays:
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.9375rem;">
+                {zone_data.get('essay_application', '')}
+            </p>
+        </div>
+        '''
+    
+    html += '</section>'
+    return html
+
+
+def render_worked_example(worked_example):
+    """Render worked example section
+    
+    Args:
+        worked_example: dict - worked example content
+        
+    Returns:
+        str - HTML for worked example
+    """
+    html = f'''
+    <div class="worked-example">
+        <div style="font-size: 0.75rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem;">
+            {worked_example.get('label', 'Example:')}
+        </div>
+    '''
+    
+    example_type = worked_example.get('type', 'simple')
+    
+    if example_type == 'formula':
+        # Render formula-style example (device + device + device = pattern)
+        steps = worked_example.get('steps', [])
+        for i, step in enumerate(steps):
+            html += f'''
+            <div style="margin-bottom: 0.75rem;">
+                <strong style="color: var(--text-primary);">{step.get('element', '')}</strong>
+                <span style="color: var(--text-secondary);"> {step.get('function', '')}</span>
+            </div>
+            '''
+            if i < len(steps) - 1:
+                html += '<div style="opacity: 0.7; text-align: center; margin: 0.5rem 0;">+</div>'
+        
+        result = worked_example.get('result', {})
+        html += f'''
+        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 2px solid var(--pedagogy-border);">
+            <strong style="color: var(--accent); font-size: 1rem;">{result.get('pattern_name', 'Pattern')}</strong><br/>
+            <span style="font-size: 0.875rem; color: var(--text-secondary);">{result.get('effect', '')}</span>
+        </div>
+        '''
+    
+    elif example_type == 'simple_framework':
+        content = worked_example.get('content', {})
+        html += f'''
+        <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.9375rem;">
+            {content.get('question', '')}
+        </p>
+        <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.9375rem; margin-top: 1rem;">
+            {content.get('framework', '')}
+        </p>
+        '''
+    
+    html += '</div>'
+    return html
+
+
+def render_application_guidance(guidance):
+    """Render application guidance section
+    
+    Args:
+        guidance: dict - guidance content with prompts
+        
+    Returns:
+        str - HTML for guidance
+    """
+    html = f'''
+    <div style="background-color: var(--bg-card); padding: 1rem; border-radius: 0.375rem; margin-top: 1.5rem; border: 1px solid var(--pedagogy-border);">
+        <div style="font-size: 0.875rem; font-weight: 600; color: var(--accent); margin-bottom: 0.5rem;">
+            {guidance.get('heading', 'When You Read, Ask:')}
+        </div>
+        <ul style="list-style: none; padding-left: 0; color: var(--text-secondary); line-height: 1.7; font-size: 0.9375rem;">
+    '''
+    
+    for prompt in guidance.get('prompts', []):
+        html += f'<li style="padding: 0.25rem 0;">→ {prompt}</li>'
+    
+    html += '''
+        </ul>
+    </div>
+    '''
+    return html
+
+
+def render_cta_zone(zone_data):
+    """Render CTA zone HTML from JSON
+    
+    Args:
+        zone_data: dict - CTA zone content from JSON
+        
+    Returns:
+        str - HTML for CTA zone
+    """
+    html = f'''
+    <section class="zone-cta">
+        <div class="zone-badge">{zone_data.get('badge_text', 'Action')}</div>
+        <h2 style="font-size: 1.375rem; font-weight: 700; margin-bottom: 1rem;">
+            {zone_data.get('heading', 'Continue Exploring')}
+        </h2>
+        <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem;">
+            {zone_data.get('intro_text', '')}
+        </p>
+    '''
+    
+    # Render visual formula if present (hub page only)
+    if 'visual_formula' in zone_data:
+        formula = zone_data['visual_formula']
+        html += f'''
+        <div style="background-color: var(--bg-card); padding: 1rem; border-radius: 0.375rem; margin-bottom: 1.5rem; border: 1px solid var(--cta-border); text-align: center;">
+            <div style="color: var(--text-secondary); font-size: 0.9375rem; line-height: 2;">
+        '''
+        
+        elements = formula.get('elements', [])
+        for i, element in enumerate(elements):
+            html += f'<strong style="color: var(--accent);">{element}</strong>'
+            if i < len(elements) - 1:
+                html += f' {formula.get("operator", "+")} '
+        
+        html += f''' = <strong style="color: var(--accent); font-size: 1.125rem;">{formula.get('result', 'Result')}</strong>
+            </div>
+        </div>
+        '''
+    
+    # Render links if present (hub page)
+    if 'links' in zone_data:
+        for link in zone_data['links']:
+            emphasis = link.get('emphasis', 'normal')
+            btn_class = 'btn-primary' if emphasis == 'strong' else 'btn-secondary'
+            html += f'''
+            <a href="{link.get('url', '#')}" class="{btn_class}" style="margin-bottom: 0.75rem;">
+                <div>
+                    <div style="font-weight: {"700" if emphasis == "strong" else "600"}; margin-bottom: 0.25rem;">{link.get('label', '')}</div>
+                    <div style="font-size: 0.875rem; {"opacity: 0.9;" if emphasis == "strong" else ""}">{link.get('description', '')}</div>
+                </div>
+                <span style="font-size: 1.25rem;">→</span>
+            </a>
+            '''
+    
+    # Render primary CTA
+    if 'primary_cta' in zone_data:
+        cta = zone_data['primary_cta']
+        html += f'''
+        <a href="{cta.get('url', '#')}" class="btn-primary">
+            <div>
+                <div style="font-weight: 700; margin-bottom: 0.25rem;">{cta.get('label', '')}</div>
+                <div style="font-size: 0.875rem; opacity: 0.9;">{cta.get('description', '')}</div>
+            </div>
+            <span style="font-size: 1.25rem;">→</span>
+        </a>
+        '''
+    
+    # Render secondary CTA if present
+    if 'secondary_cta' in zone_data:
+        cta = zone_data['secondary_cta']
+        html += f'''
+        <a href="{cta.get('url', '#')}" class="btn-secondary" style="margin-top: 1rem;">
+            <div>
+                <div style="font-weight: 600; margin-bottom: 0.25rem;">{cta.get('label', '')}</div>
+                <div style="font-size: 0.875rem;">{cta.get('description', '')}</div>
+            </div>
+            <span style="font-size: 1.25rem;">→</span>
+        </a>
+        '''
+    
+    html += '</section>'
+    return html
+
+
+def render_table_section(section):
+    """Render table section for quick reference
+    
+    Args:
+        section: dict - table section with rows
+        
+    Returns:
+        str - HTML for table
+    """
+    html = f'''
+    <div style="background-color: var(--bg-card); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid var(--border); margin-top: 1.5rem;">
+        <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 1rem;">{section.get('heading', '')}</h3>
+        <div style="display: grid; gap: 0.75rem; font-size: 0.875rem;">
+    '''
+    
+    for row in section.get('rows', []):
+        html += f'''
+        <div style="display: flex; gap: 1rem;">
+            <span style="color: var(--text-muted); font-weight: 500; min-width: 100px;">{row.get('label', '')}</span>
+            <span style="color: var(--text-secondary);">{row.get('value', '')}</span>
+        </div>
+        '''
+    
+    html += '''
+        </div>
+    </div>
+    '''
+    return html
+
+
+def generate_page_from_json(content_json):
+    """Generate complete HTML page from pedagogical content JSON
+    
+    Args:
+        content_json: dict - content with three zones
+        
+    Returns:
+        str - complete HTML page
+    """
+    metadata = content_json.get('metadata', {})
+    title = metadata.get('title', 'Unknown')
+    author = metadata.get('author', 'Unknown')
+    
+    # Start HTML
+    html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title} - Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        {ZONE_STYLES}
+    </style>
+</head>
+<body>
+    <div style="max-width: 42rem; margin: 0 auto; background-color: var(--bg-card); min-height: 100vh; border-left: 1px solid var(--border); border-right: 1px solid var(--border);">
+        
+        <!-- Header -->
+        <header style="padding: 2rem 1.5rem; border-bottom: 1px solid var(--border);">
+            <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.2;">
+                {title}
+            </h1>
+            <p style="color: var(--text-muted);">{author}</p>
+        </header>
+        
+        <!-- Three Zones -->
+        {render_knowledge_zone(content_json.get('knowledge_zone', {}))}
+        {render_pedagogy_zone(content_json.get('pedagogy_zone', {}))}
+        {render_cta_zone(content_json.get('cta_zone', {}))}
+        
+    </div>
+</body>
+</html>
+    '''
+    
+    return html
+
+
 def generate_sections_html(sections: list) -> str:
     """Generate HTML for all sections with climax highlighting."""
     html_parts = []
@@ -545,25 +1038,40 @@ def main():
         with open(json_file, 'r', encoding='utf-8') as f:
             content = json.load(f)
         
-        # Generate slug from title
-        slug = slugify(content['metadata']['title'])
+        # Check if this is pedagogical content (has knowledge_zone)
+        is_pedagogical = 'knowledge_zone' in content
         
-        # Generate HTML
-        html = generate_page(content)
+        if is_pedagogical:
+            # Generate HTML using new pedagogical structure
+            html = generate_page_from_json(content)
+            
+            # Generate slug from title or filename
+            metadata = content.get('metadata', {})
+            title = metadata.get('title', json_file.stem)
+            page_type = metadata.get('page_type', 'page')
+            
+            # Use filename for output (hub.json -> hub.html, devices_imagery.json -> devices_imagery.html)
+            output_file = output_path / f"{json_file.stem}.html"
+        else:
+            # Original format - generate using old template
+            slug = slugify(content['metadata']['title'])
+            html = generate_page(content)
+            output_file = output_path / f"{slug}.html"
         
         # Write output file
-        output_file = output_path / f"{slug}.html"
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html)
         
         print(f"  → {output_file}")
         
-        # Track for index
-        texts.append({
-            'slug': slug,
-            'title': content['metadata']['title'],
-            'author': content['metadata']['author']
-        })
+        # Track for index (only non-pedagogical pages or hub page)
+        if not is_pedagogical or content.get('metadata', {}).get('page_type') == 'hub':
+            metadata = content.get('metadata', {})
+            texts.append({
+                'slug': output_file.stem,
+                'title': metadata.get('title', json_file.stem),
+                'author': metadata.get('author', 'Unknown')
+            })
     
     # Generate index page
     index_html = generate_index(texts)
