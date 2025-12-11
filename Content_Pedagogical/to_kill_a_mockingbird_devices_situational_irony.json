@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Situational Irony: Creates meaning in the text",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Situational Irony is used throughout the text to creates meaning in the text."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "Little Chuck Little was another member of the population who didn't know where his next meal was coming from, but he was a born gentleman",
+            "scene": "Little Chuck helps Miss Caroline deal with Burris Ewell",
+            "effect": "Contradicts expectations about poverty and character, with child narrator innocently observing moral truth that dignity transcends economic circumstances"
+          },
+          {
+            "quote": "I chose to make my entrance",
+            "scene": "Scout arrives late to the pageant finale",
+            "effect": "Scout's embarrassing mistake at the pageant becomes trivial compared to the life-threatening attack that follows, revealing how perspective shifts with experience"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Situational Irony HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Brideshead Revisited",
+    "author": "Evelyn Waugh",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Symbolism: Deeper meaning through symbolic objects/actions",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Symbolism is used throughout the text to deeper meaning through symbolic objects/actions."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "low door in the wall",
+            "scene": "Charles's expectation before meeting Sebastian",
+            "effect": "The garden door symbolizes entry into an enchanted but temporary world, reinforcing the elegiac pattern of beauty discovered and lost"
+          },
+          {
+            "quote": "the archaic weapons of the tribe and sound the drums",
+            "scene": "Extended metaphor of Sebastian as threatened Polynesian",
+            "effect": "Sebastian's drinking becomes symbol of civilization's corruption of the noble savage, elevating personal tragedy to universal commentary on cultural destruction"
+          },
+          {
+            "quote": "little pool of ice-water which now surrounded the swan",
+            "scene": "Opening cocktail party where guests put out cigarettes in melted ice around decorative swan",
+            "effect": "The swan surrounded by ash-contaminated water symbolizes corrupted beauty and elegiac loss, establishing the retrospective narrator's meditation on the decay of elegance"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Symbolism HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}
