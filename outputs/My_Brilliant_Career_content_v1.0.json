@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "My Brilliant Career",
+    "author": "Miles Franklin"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "Sybylla tells her own story as a young woman fighting against poverty and society's expectations for girls.",
+    "what_we_experience": "We follow Sybylla from age fifteen as she struggles with her family's drought-stricken farm, dreams of becoming a writer, and ultimately chooses independence over marriage.",
+    "how_it_feels": "We feel frustrated by the unfairness she faces, inspired by her defiance, and conflicted about her difficult choices."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "Sybylla's harsh life creates her passionate desire to escape and achieve something greater.",
+      "quote": "winds shrivelled every blade of grass",
+      "quote_chapter": 4,
+      "devices_supporting": "Vivid imagery makes us feel the brutal drought conditions. Repetition of 'Weariness! Weariness!' hammers home her frustration. The metaphor 'heavy hand of poverty' makes her struggles feel like a physical attack."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "Sybylla develops her identity as a writer and independent woman, rejecting society's beauty standards and marriage expectations.",
+      "quote": "cut like a cruel jagged knife",
+      "quote_chapter": 6,
+      "devices_supporting": "First-person narration lets us feel her pain directly. The metaphor transforms being called ugly into a physical wound. Juxtaposition shows how she contrasts her achievements with famous writers to build confidence."
+    },
+    {
+      "section": "Climax",
+      "meaning": "Sybylla's violent reaction to Harold's kiss reveals her deep resistance to being controlled or owned by any man.",
+      "quote": "I cannot account for my action or condemn it sufficiently",
+      "quote_chapter": 21,
+      "devices_supporting": "Internal monologue shows her shock at her own violence. The metaphor of her hair as a 'curtain' for her shame reveals her conflict. Symbolism makes the whip represent her power to resist male presumption."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "Sybylla promises to marry Harold out of pity when he loses his fortune, but realizes she's trapped herself.",
+      "quote": "Sybylla Penelope Melvyn, your conceit is marvellous",
+      "quote_chapter": 25,
+      "devices_supporting": "Apostrophe lets her argue with herself about her decision. Juxtaposition contrasts men's power with women's limitations. The willow tree symbolizes both mourning and resilience at their final parting."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "Sybylla chooses her writing career and independence over marriage, even though it means a life of poverty and loneliness.",
+      "quote": "I am given to writing stories",
+      "quote_chapter": 36,
+      "devices_supporting": "She boldly declares her writing ambitions through dialogue. The metaphor of herself as a 'two-edged sword' explains why marriage won't work. Apostrophe to her sister shows her deep loneliness but unwavering determination."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "First-person narration puts us directly inside Sybylla's passionate mind, so we experience her frustrations and dreams as if they're our own.",
+    "step_2": "Vivid imagery and powerful metaphors make her physical hardships and emotional wounds feel real and urgent to us.",
+    "step_3": "Together: we become advocates for Sybylla's right to choose her own path, even when that path seems impossible or lonely.",
+    "pattern_name": "Passionate Self-Advocacy",
+    "pattern_explanation": "Sybylla constantly argues for her own worth and choices through her storytelling, making us believe she deserves better than society offers her."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "Sybylla's first-person narration",
+      "what_they_reveal": "her passionate fight for independence",
+      "story_type": "coming-of-age story about artistic ambition",
+      "larger_meaning": "women's right to choose careers over marriage",
+      "method": "through intimate access to her defiant thoughts and vivid descriptions of her struggles"
+    },
+    "thesis_sentence": "Through Sybylla's passionate first-person narration of her fight for independence, Franklin's coming-of-age story argues for women's right to choose careers over marriage by giving us intimate access to her defiant thoughts and vivid descriptions of her struggles."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-11T15:19:08.596545",
+    "source_kernel_version": "5.1",
+    "reasoning_source": "provided"
+  }
+}

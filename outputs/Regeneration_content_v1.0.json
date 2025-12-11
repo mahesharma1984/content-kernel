@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "Regeneration",
+    "author": "Pat Barker"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "A narrator who sees into the minds of characters, especially Dr Rivers, like a doctor observing patients with both professional distance and human care.",
+    "what_we_experience": "We follow the treatment of shell-shocked soldiers in a psychiatric hospital during World War I, focusing on the relationship between doctor and patients.",
+    "how_it_feels": "We feel both the clinical understanding of trauma and the deep emotional pain of the characters, like watching someone heal through a microscope but also feeling their suffering."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "We meet the main characters and see how war has damaged their minds, but also how healing might be possible through understanding.",
+      "quote": "Do you think I'm mad?",
+      "quote_chapter": 2,
+      "devices_supporting": "The narrator shows us Rivers watching Sassoon, creating distance that lets us see the patient objectively while dialogue reveals his vulnerability and need for help."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "The relationships between doctors and patients deepen, showing how difficult it is to heal minds broken by war while society demands they return to fight.",
+      "quote": "This may come as a shock, Dr Rivers, but I had been rather assuming that we were not.",
+      "quote_chapter": 8,
+      "devices_supporting": "Contrasts between what patients say and what they feel reveal the complex power struggles in therapy, while imagery of war trauma makes their suffering real to us."
+    },
+    {
+      "section": "Climax",
+      "meaning": "Rivers faces the biggest challenges in treating his patients and begins to question whether healing them just sends them back to die.",
+      "quote": "the two bloody bargains on which a civilization",
+      "quote_chapter": 14,
+      "devices_supporting": "Religious symbols in the church window represent society's willingness to sacrifice young men, while Rivers' internal thoughts show his growing moral conflict."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "Rivers continues treating patients but increasingly doubts whether he's helping or just serving a system that destroys young men.",
+      "quote": "Why do I go along with it?",
+      "quote_chapter": 16,
+      "devices_supporting": "Rivers' internal questioning shows his professional crisis, while the peaceful Suffolk setting contrasts sharply with Burns' hidden trauma, showing how wounds don't heal easily."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "Rivers realizes he may be just another form of control over soldiers, but also understands that his compassionate approach is still better than brutal alternatives.",
+      "quote": "An instrument of control",
+      "quote_chapter": 22,
+      "devices_supporting": "The symbol of the horse's bit in Rivers' dream shows how all therapy controls patients, but contrasts between his methods and Yealland's reveal the difference between care and cruelty."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "The narrator's medical perspective lets us see trauma both as a doctor would observe it and as patients actually experience it.",
+    "step_2": "Contrasts between peaceful hospital settings and violent war memories help us understand how deeply war has wounded these men's minds.",
+    "step_3": "Together: we gain both the knowledge to understand psychological damage and the emotional connection to care about healing it.",
+    "pattern_name": "Clinical Empathy",
+    "pattern_explanation": "This name fits because we experience the story through both professional medical observation and deep human compassion for suffering."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "A clinically observant narrator",
+      "what_they_reveal": "The complex nature of psychological healing during wartime",
+      "story_type": "A medical drama about treating shell-shock",
+      "larger_meaning": "How society's demands conflict with individual healing",
+      "method": "By balancing professional distance with intimate access to characters' minds"
+    },
+    "thesis_sentence": "Through a clinically observant narrator who reveals the complex nature of psychological healing, Barker creates a medical drama that explores how society's demands for soldiers conflicts with individual healing by balancing professional distance with intimate access to characters' wounded minds."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-11T15:20:09.843508",
+    "source_kernel_version": "5.0",
+    "reasoning_source": "provided"
+  }
+}
