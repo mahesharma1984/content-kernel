@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Jane Eyre",
+    "author": "Charlotte Bront\u00eb",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Imagery: Sensory grounding and vivid description",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Imagery is used throughout the text to sensory grounding and vivid description."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "death-white realms I formed an idea of my own",
+            "scene": "Jane reading about Arctic landscapes in Bewick's bird book",
+            "effect": "Creates atmospheric connection between Jane's inner desolation and external landscapes, establishing pattern of psychological states reflected in natural imagery"
+          },
+          {
+            "quote": "her disk was blood-red and half overcast",
+            "scene": "Jane observing the ominous moon through the split chestnut tree",
+            "effect": "Provides sensory access to Jane's moral intuition about impending doom while allowing reader to interpret symbolic meaning independently"
+          },
+          {
+            "quote": "His eye was a cold, bright, blue gem; his tongue, a speaking instrument",
+            "scene": "Jane describing St. John's transformed demeanor toward her",
+            "effect": "Provides visceral access to Jane's developing understanding of loveless relationships through sensory details that reinforce moral bildungsroman themes via character-mediated perception"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Imagery HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

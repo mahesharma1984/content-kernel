@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Jane Eyre",
+    "author": "Charlotte Bront\u00eb",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Symbolism: Deeper meaning through symbolic objects/actions",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Symbolism is used throughout the text to deeper meaning through symbolic objects/actions."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "red moreen curtain nearly close, I was shrined in double retirement",
+            "scene": "Jane hiding behind curtains in the breakfast-room window seat",
+            "effect": "The curtained enclosure symbolizes Jane's marginalized position and need for protection, foreshadowing her moral journey toward finding legitimate shelter and belonging"
+          },
+          {
+            "quote": "the chestnut-tree. It stood up, black and riven",
+            "scene": "Jane encounters the lightning-struck chestnut tree in the orchard the night before her wedding",
+            "effect": "Creates intimate access to Jane's moral interpretation of the destroyed tree as prophetic symbol while maintaining formal distance through her reflective analysis of its meaning"
+          },
+          {
+            "quote": "The avalanche had shaken and slid a little forward, but it did not yet crash down",
+            "scene": "Jane describing St. John's controlled anger after she refuses marriage again",
+            "effect": "Represents the suppressed emotional violence beneath religious duty, allowing retrospective moral analysis of how spiritual authority can mask destructive impulses"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Symbolism HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}
