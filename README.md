@@ -4,7 +4,25 @@ A staged pipeline for generating literary analysis content from kernel JSON file
 
 ## Overview
 
-The pipeline consists of 4 main stages plus an optional translation stage:
+### Unified Pipeline (Recommended)
+
+The **unified pipeline** (`create_content_v1_0.py`) consolidates all stages into a single script:
+
+1. **Stage 1: Extraction** - Extracts data from kernel JSON files (no API)
+2. **Stage 2: Theme Derivation** - Generates themes via API
+3. **Stage 3: Thesis Generation** - Generates thesis statements via API
+4. **Stage 4: Page Assembly** - Assembles pages from prior stages (no API)
+5. **Stage 5: Pedagogical Translation** - Translates content to structured blocks via API
+6. **Stage 6: HTML Generation** - Generates static HTML files (no API)
+
+**Quick Start:**
+```bash
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json
+```
+
+### Modular Pipeline (Legacy)
+
+The **modular pipeline** consists of separate scripts for each stage:
 
 1. **Stage 1: Kernel Extraction** - Extracts data from kernel JSON files
 2. **Stage 2: Content Derivation** - Generates themes and theses (requires API key)
@@ -14,7 +32,20 @@ The pipeline consists of 4 main stages plus an optional translation stage:
 
 ## Quick Start
 
-### Run Full Pipeline
+### Unified Pipeline (Recommended)
+
+```bash
+# Run all 6 stages on a kernel
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json
+
+# Resume from a specific stage
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json --resume-from stage3
+
+# Stop after a specific stage
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json --stop-after stage2
+```
+
+### Modular Pipeline (Legacy)
 
 ```bash
 # Run all stages on a kernel
@@ -77,8 +108,28 @@ python3 generate_html_v1_0.py regeneration -i outputs/regeneration -o site
 
 ## Pipeline Scripts
 
+### `create_content_v1_0.py` ⭐ **NEW - Recommended**
+Unified six-stage content creation pipeline that consolidates all stages into a single script.
+
+**Usage:**
+```bash
+python3 create_content_v1_0.py <kernel_file> [options]
+```
+
+**Options:**
+- `-o, --output-dir` - Output directory for JSON files (default: `outputs`)
+- `--resume-from` - Resume from specific stage (`stage1`-`stage6`)
+- `--stop-after` - Stop after specific stage (`stage1`-`stage6`)
+
+**Features:**
+- Checkpoint system for resuming from any stage
+- Dependency validation between stages
+- Quote validation against kernel data
+- Structured block rendering for pedagogical content
+- Full HTML generation with semantic structure
+
 ### `run_full_pipeline_v1_0.py`
-Main pipeline orchestrator that runs all stages sequentially.
+Modular pipeline orchestrator that runs all stages sequentially (legacy).
 
 **Usage:**
 ```bash

@@ -1,0 +1,544 @@
+{
+  "hub": {
+    "page_type": "hub",
+    "book_slug": "orbital",
+    "url": "/orbital/",
+    "zones": {
+      "knowledge": {
+        "badge": "Knowledge: What the Book Does",
+        "heading": "Cosmic Contemplation",
+        "description": [
+          {
+            "type": "statement",
+            "text": "In this narrative technique, the author has complete access to the thoughts and feelings of multiple characters simultaneously."
+          },
+          {
+            "type": "statement",
+            "text": "This omniscient perspective is combined with an objective, philosophical viewpoint that maintains emotional distance from the events."
+          },
+          {
+            "type": "emphasis",
+            "text": "The result is a meditative, contemplative observation of human experience."
+          },
+          {
+            "type": "statement",
+            "text": "This human experience is deliberately positioned against the vastness of the cosmos, creating a sense of scale and perspective."
+          },
+          {
+            "type": "scaffold",
+            "question": "How might this technique affect the reader's understanding of the characters' problems and concerns?"
+          },
+          {
+            "type": "bullets",
+            "items": [
+              "Creates emotional detachment while maintaining insight",
+              "Allows comparison between different characters' inner worlds",
+              "Places human struggles within a larger, universal context",
+              "Invites philosophical reflection on existence and meaning"
+            ]
+          }
+        ],
+        "reader_effect": [
+          {
+            "type": "statement",
+            "text": "When readers engage with this text, they experience two contrasting but simultaneous perspectives."
+          },
+          {
+            "type": "bullets",
+            "items": [
+              "Intimacy - feeling close to individual human thoughts and emotions",
+              "Detachment - viewing events from a vast, cosmic distance, like looking down from space"
+            ]
+          },
+          {
+            "type": "scaffold",
+            "question": "How might experiencing both closeness and distance at the same time affect how you understand a story?"
+          },
+          {
+            "type": "statement",
+            "text": "This combination creates what we call 'contemplative distance' - a reflective space where readers can think deeply about what they're reading."
+          },
+          {
+            "type": "emphasis",
+            "text": "Through this contemplative distance, ordinary, everyday experiences are transformed and given universal significance - meaning they become relevant to all human experience."
+          }
+        ],
+        "quick_reference": {
+          "structure": "22 chapters",
+          "voice": "Omniscient access to multiple characters' thoughts, dreams, and internal experiences across astronauts",
+          "tone": "Contemplative, meditative, philosophical with undertones of cosmic wonder and human vulnerability"
+        }
+      },
+      "pedagogy": {
+        "badge": "Pedagogy: How to Read for Patterns",
+        "heading": "What Pattern-Recognition Means",
+        "worked_example": {
+          "formula": "Imagery + Juxtaposition + Symbolism",
+          "arrow": "\u2192",
+          "effect": "Readers experience simultaneous intimacy with individual human thoughts and vast detachment of cosmic perspective, creating contemplative distance that elevates mundane experience to universal significance."
+        },
+        "prompts": [
+          "What's the cumulative effect of these devices working together?",
+          "Why would the author choose this particular combination?",
+          "What reader experience does this pattern create?"
+        ]
+      },
+      "cta": {
+        "badge": "Action: Explore Through Themes",
+        "links": [
+          {
+            "text": "Human Consciousness Within Cosmic Vastness",
+            "url": "themes/human-consciousness-cosmic-vastness/"
+          },
+          {
+            "text": "Time's Cyclical Nature",
+            "url": "themes/times-cyclical-nature/"
+          },
+          {
+            "text": "Untamed Cosmic Forces",
+            "url": "themes/untamed-cosmic-forces/"
+          },
+          {
+            "text": "Build Your Thesis",
+            "url": "essay-guide/",
+            "emphasis": true
+          }
+        ]
+      }
+    }
+  },
+  "themes": [
+    {
+      "page_type": "theme",
+      "book_slug": "orbital",
+      "theme_slug": "human-consciousness-cosmic-vastness",
+      "url": "/orbital/themes/human-consciousness-cosmic-vastness/",
+      "zones": {
+        "knowledge": {
+          "badge": "Knowledge: Human Consciousness Within Cosmic Vastness",
+          "heading": "Human Consciousness Within Cosmic Vastness",
+          "description": [
+            {
+              "type": "statement",
+              "text": "The text explores the relationship between individual human experience and the vastness of the universe."
+            },
+            {
+              "type": "statement",
+              "text": "Even though space is immense and seemingly overwhelming, our personal thoughts and experiences still hold deep significance."
+            },
+            {
+              "type": "scaffold",
+              "question": "How might something small still be meaningful when compared to something enormous?"
+            },
+            {
+              "type": "statement",
+              "text": "The text uses the metaphor of human consciousness as 'a meaningful point of light against the backdrop of infinite darkness.'"
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Personal consciousness = a point of light",
+                "The universe = infinite darkness as backdrop",
+                "Despite the contrast in size, the light remains meaningful"
+              ]
+            },
+            {
+              "type": "emphasis",
+              "text": "The key insight is that human awareness itself is part of the cosmic order - we belong to the universe rather than being separate from it."
+            },
+            {
+              "type": "scaffold",
+              "question": "What does it mean for human consciousness to be 'part of the cosmic order' rather than separate from it?"
+            }
+          ],
+          "pattern_connection": [
+            {
+              "type": "statement",
+              "text": "The Cosmic Contemplation pattern is a literary technique that combines two contrasting elements to create a unique reading experience."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Uses omniscient narration to access individual characters' private thoughts and feelings",
+                "Presents vast cosmic imagery - references to space, stars, infinity, or the universe",
+                "Creates a meditative, reflective tone that encourages deep thinking"
+              ]
+            },
+            {
+              "type": "scaffold",
+              "question": "Why might an author choose to contrast intimate personal thoughts with images of the vast universe?"
+            },
+            {
+              "type": "statement",
+              "text": "This pattern creates a deliberate balance between two scales of experience."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Personal intimacy - the private, inner world of individual characters",
+                "Universal scale - the enormity and mystery of the cosmos"
+              ]
+            },
+            {
+              "type": "emphasis",
+              "text": "The effect is meditative, helping readers contemplate both human experience and our place in the larger universe."
+            }
+          ],
+          "device_examples": [
+            {
+              "device_name": "Third-Person Omniscient",
+              "quote": "even their thoughts, their internal mythologies, at times convene",
+              "effect": "Creates intimate access to human consciousness while maintaining cosmic perspective that treats thoughts as part of larger universal patterns."
+            },
+            {
+              "device_name": "Juxtaposition",
+              "quote": "A hand-span away beyond a skin of metal the universe unfolds",
+              "effect": "Contrasts human scale with cosmic immensity, emphasizing how consciousness exists at the boundary between intimate personal space and infinite cosmos."
+            }
+          ]
+        },
+        "pedagogy": {
+          "badge": "Pedagogy: How to Analyze This Theme",
+          "three_steps": [
+            {
+              "step": 1,
+              "title": "Identify the Pattern's Effect",
+              "content": "Readers experience simultaneous intimacy with individual human thoughts and vast detachment of cosmic perspective, creating contemplative distance that elevates mundane experience to universal significance."
+            },
+            {
+              "step": 2,
+              "title": "Connect Devices to This Effect",
+              "content": "See how Third-Person Omniscient and other devices create this theme"
+            },
+            {
+              "step": 3,
+              "title": "Articulate Theme Meaning",
+              "content": "The text reveals how individual human thoughts and experiences remain significant even when dwarfed by the immensity of space. Personal consciousness becomes a meaningful point of light against the backdrop of infinite darkness, suggesting that human awareness itself is part of the cosmic order."
+            }
+          ]
+        },
+        "cta": {
+          "badge": "Action: Keep Exploring",
+          "links": [
+            {
+              "text": "Back to Hub",
+              "url": "/orbital/"
+            },
+            {
+              "text": "Build Your Thesis",
+              "url": "/orbital/essay-guide/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page_type": "theme",
+      "book_slug": "orbital",
+      "theme_slug": "times-cyclical-nature",
+      "url": "/orbital/themes/times-cyclical-nature/",
+      "zones": {
+        "knowledge": {
+          "badge": "Knowledge: Time's Cyclical Nature",
+          "heading": "Time's Cyclical Nature",
+          "description": [
+            {
+              "type": "statement",
+              "text": "The text presents the idea that human experiences are not random or isolated events."
+            },
+            {
+              "type": "statement",
+              "text": "Instead, these experiences follow eternal patterns that repeat over time, much like cycles we observe in the cosmos."
+            },
+            {
+              "type": "scaffold",
+              "question": "What are some examples of cosmic cycles you can think of? Consider astronomical events, seasons, or natural phenomena."
+            },
+            {
+              "type": "statement",
+              "text": "According to this perspective, even our everyday activities and personal challenges are part of these larger patterns."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Daily routines become part of universal rhythms",
+                "Personal struggles connect to larger temporal patterns",
+                "Individual lives mirror cosmic movement and change"
+              ]
+            },
+            {
+              "type": "emphasis",
+              "text": "This creates a connection between the personal and the universal - our individual experiences become part of something much larger than ourselves."
+            },
+            {
+              "type": "scaffold",
+              "question": "How might viewing your daily life as part of universal patterns change how you understand your experiences and challenges?"
+            }
+          ],
+          "pattern_connection": [
+            {
+              "type": "statement",
+              "text": "The pattern uses careful, reflective observation to transform our everyday experience of time."
+            },
+            {
+              "type": "statement",
+              "text": "Through this meditative approach, ordinary moments become connected to something much larger and more meaningful."
+            },
+            {
+              "type": "scaffold",
+              "question": "What does it mean for something 'mundane' to gain 'cosmic significance'?"
+            },
+            {
+              "type": "statement",
+              "text": "This process reveals an important connection: our individual experience of time is actually part of universal cycles that affect everything in existence."
+            },
+            {
+              "type": "emphasis",
+              "text": "The key insight is that personal time and cosmic time are interconnected rather than separate."
+            }
+          ],
+          "device_examples": [
+            {
+              "device_name": "Repetition",
+              "quote": "turning and turning with the days",
+              "effect": "Creates rhythmic sense of cyclical time that connects daily human experience to larger cosmic rotations and patterns."
+            },
+            {
+              "device_name": "Metaphor",
+              "quote": "The Milky Way is a smoking trail of gunpowder",
+              "effect": "Transforms cosmic imagery into dynamic metaphor that suggests both creation and destruction as ongoing universal processes."
+            }
+          ]
+        },
+        "pedagogy": {
+          "badge": "Pedagogy: How to Analyze This Theme",
+          "three_steps": [
+            {
+              "step": 1,
+              "title": "Identify the Pattern's Effect",
+              "content": "Readers experience simultaneous intimacy with individual human thoughts and vast detachment of cosmic perspective, creating contemplative distance that elevates mundane experience to universal significance."
+            },
+            {
+              "step": 2,
+              "title": "Connect Devices to This Effect",
+              "content": "See how Repetition and other devices create this theme"
+            },
+            {
+              "step": 3,
+              "title": "Articulate Theme Meaning",
+              "content": "The text suggests that human experience follows eternal patterns of repetition that mirror cosmic cycles. Daily routines and personal struggles become part of larger temporal rhythms that connect individual lives to universal movement and change."
+            }
+          ]
+        },
+        "cta": {
+          "badge": "Action: Keep Exploring",
+          "links": [
+            {
+              "text": "Back to Hub",
+              "url": "/orbital/"
+            },
+            {
+              "text": "Build Your Thesis",
+              "url": "/orbital/essay-guide/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page_type": "theme",
+      "book_slug": "orbital",
+      "theme_slug": "untamed-cosmic-forces",
+      "url": "/orbital/themes/untamed-cosmic-forces/",
+      "zones": {
+        "knowledge": {
+          "badge": "Knowledge: Untamed Cosmic Forces",
+          "heading": "Untamed Cosmic Forces",
+          "description": [
+            {
+              "type": "statement",
+              "text": "The text presents the universe as fundamentally wild and primal in nature."
+            },
+            {
+              "type": "statement",
+              "text": "This wildness exists beyond human control or complete understanding."
+            },
+            {
+              "type": "scaffold",
+              "question": "What does it mean for something to be 'primal'? How might this apply to space?"
+            },
+            {
+              "type": "statement",
+              "text": "Space itself is described as possessing an animalistic energy."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "This energy remains dangerous to humans",
+                "It maintains its mysterious qualities",
+                "Human technology cannot fully tame or control it"
+              ]
+            },
+            {
+              "type": "scaffold",
+              "question": "How does the author's portrayal of space challenge human assumptions about technological progress?"
+            },
+            {
+              "type": "emphasis",
+              "text": "Despite all human technological attempts to navigate space, it retains its wild, untameable nature."
+            }
+          ],
+          "pattern_connection": [
+            {
+              "type": "statement",
+              "text": "The pattern takes an objective philosophical approach, meaning it tries to see things as they really are."
+            },
+            {
+              "type": "statement",
+              "text": "This stance allows us to contemplate cosmic forces in their raw, unfiltered form."
+            },
+            {
+              "type": "emphasis",
+              "text": "Key point: We examine these forces independent of human domestication or interpretation."
+            },
+            {
+              "type": "scaffold",
+              "question": "What might be the difference between cosmic forces as they 'truly are' versus how humans typically understand or interpret them?"
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Human domestication: making natural forces fit our comfortable understanding",
+                "Human interpretation: filtering cosmic forces through our cultural and personal lenses",
+                "Objective stance: attempting to see beyond these human filters"
+              ]
+            }
+          ],
+          "device_examples": [
+            {
+              "device_name": "Metaphor",
+              "quote": "Raw space is a panther, feral and primal",
+              "effect": "Personifies space as predatory animal, emphasizing the wild, untameable nature of cosmic forces that exist beyond human civilization."
+            },
+            {
+              "device_name": "Imagery",
+              "quote": "The Milky Way is a smoking trail of gunpowder",
+              "effect": "Creates violent, explosive imagery that suggests cosmic forces are both beautiful and potentially destructive, maintaining their primal power."
+            }
+          ]
+        },
+        "pedagogy": {
+          "badge": "Pedagogy: How to Analyze This Theme",
+          "three_steps": [
+            {
+              "step": 1,
+              "title": "Identify the Pattern's Effect",
+              "content": "Readers experience simultaneous intimacy with individual human thoughts and vast detachment of cosmic perspective, creating contemplative distance that elevates mundane experience to universal significance."
+            },
+            {
+              "step": 2,
+              "title": "Connect Devices to This Effect",
+              "content": "See how Metaphor and other devices create this theme"
+            },
+            {
+              "step": 3,
+              "title": "Articulate Theme Meaning",
+              "content": "The text portrays the universe as fundamentally wild and primal, beyond human control or complete understanding. Space itself possesses an animalistic energy that remains dangerous and mysterious despite human technological attempts to navigate it."
+            }
+          ]
+        },
+        "cta": {
+          "badge": "Action: Keep Exploring",
+          "links": [
+            {
+              "text": "Back to Hub",
+              "url": "/orbital/"
+            },
+            {
+              "text": "Build Your Thesis",
+              "url": "/orbital/essay-guide/"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "essay_guide": {
+    "page_type": "essay_guide",
+    "book_slug": "orbital",
+    "url": "/orbital/essay-guide/",
+    "zones": {
+      "knowledge": {
+        "badge": "Knowledge: Building Your Thesis",
+        "heading": "How to Write About Orbital",
+        "thesis_components": {
+          "pattern": "Cosmic Contemplation",
+          "themes": [
+            "Human Consciousness Within Cosmic Vastness",
+            "Time's Cyclical Nature",
+            "Untamed Cosmic Forces"
+          ],
+          "devices": [
+            "Imagery",
+            "Juxtaposition",
+            "Symbolism",
+            "Repetition",
+            "Metaphor"
+          ]
+        },
+        "example_theses": [
+          {
+            "focus": "Theme-focused",
+            "statement": "Harvey explores human consciousness within cosmic vastness through juxtaposition of intimate thought processes against infinite space imagery, revealing that individual awareness gains profound meaning precisely because it exists as a fragile point of light within an indifferent universe.",
+            "structure_notes": "Specific theme + clear device mechanism + paradoxical insight about meaning through contrast"
+          },
+          {
+            "focus": "Pattern-focused",
+            "statement": "Through the Cosmic Contemplation pattern, Harvey combines omniscient access to multiple consciousness flows with symbolic imagery to create meditative detachment that transforms ordinary human experience into profound universal truths about existence and time.",
+            "structure_notes": "Names pattern + identifies dual technique + shows transformative effect with specific outcome"
+          },
+          {
+            "focus": "Device-focused",
+            "statement": "Harvey's use of repetition and cyclical imagery creates a sense of eternal temporal rhythms that connect individual daily routines to cosmic cycles, suggesting that personal struggles are both insignificant and deeply meaningful within the larger patterns of existence.",
+            "structure_notes": "Two specific devices + clear mechanism + complex philosophical insight about dual significance"
+          },
+          {
+            "focus": "Theme-focused",
+            "statement": "Harvey examines untamed cosmic forces through metaphor and primal imagery that portrays space as fundamentally animalistic, revealing that human technological attempts to control the universe are ultimately futile against forces that remain wild and mysterious.",
+            "structure_notes": "Specific theme + device pairing + insight about human limitation versus natural power"
+          }
+        ]
+      },
+      "pedagogy": {
+        "badge": "Pedagogy: From Pattern to Thesis",
+        "four_steps": [
+          {
+            "step": 1,
+            "title": "Choose your theme",
+            "content": "Select from the themes above"
+          },
+          {
+            "step": 2,
+            "title": "Identify devices",
+            "content": "Which devices create this theme?"
+          },
+          {
+            "step": 3,
+            "title": "Connect to pattern",
+            "content": "How does Cosmic Contemplation work?"
+          },
+          {
+            "step": 4,
+            "title": "Synthesize",
+            "content": "Combine into clear thesis statement"
+          }
+        ]
+      },
+      "cta": {
+        "badge": "Action: Get Support",
+        "primary": "Get help developing your thesis",
+        "secondary": "Upload your draft"
+      }
+    }
+  }
+}
