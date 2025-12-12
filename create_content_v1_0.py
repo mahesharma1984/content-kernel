@@ -39,7 +39,7 @@ class Config:
     MODEL = "claude-sonnet-4-20250514"
     MAX_TOKENS = 4000
     OUTPUTS_DIR = Path("outputs")
-    SITE_DIR = Path("site")
+    SITE_DIR = Path("dist")
     PROMPTS_DIR = Path("prompts")
 
 
@@ -945,7 +945,9 @@ Output ONLY valid JSON array:"""
         # Use existing render function for essay guide (it's more structured)
         return render_essay_guide(data, book_title, book_slug)
     
-    def run(self, resume_from: Optional[str] = None, stop_after: Optional[str] = None) -> bool:
+    def run(self, resume_from: Optional[str] = None, 
+            stop_after: Optional[str] = None,
+            include_render: bool = False) -> bool:
         """Run the full pipeline."""
         print(f"\n{'='*60}")
         print(f"CONTENT CREATION PIPELINE v1.0")
@@ -968,8 +970,11 @@ Output ONLY valid JSON array:"""
             ("Stage 3: Thesis Generation", self.stage3_thesis_generation, "stage3"),
             ("Stage 4: Page Assembly", self.stage4_page_assembly, "stage4"),
             ("Stage 5: Translation", self.stage5_translation, "stage5"),
-            ("Stage 6: HTML Generation", self.stage6_html_generation, "stage6"),
         ]
+        
+        # Stage 6 is optional
+        if include_render:
+            stages.append(("Stage 6: HTML Generation", self.stage6_html_generation, "stage6"))
         
         # Determine start index
         start_idx = 0
@@ -995,8 +1000,15 @@ Output ONLY valid JSON array:"""
                 print(f"\n⏸️  Stopping after {name}")
                 return True
         
-        print(f"\n✅ Content generation complete")
-        print(f"   HTML: {Config.SITE_DIR}/{self.book_slug}/")
+        # Stage 6 is optional
+        if include_render:
+            print(f"\n✅ Content generation complete")
+            print(f"   HTML: {Config.SITE_DIR}/{self.book_slug}/")
+        else:
+            print(f"\n✅ Content generation complete (Stage 1-5)")
+            print(f"   Content: {self.output_dir}/{self.book_slug}/stages/content_stage5.json")
+            print(f"   To render: python render_html_v1_0.py {self.output_dir}/{self.book_slug}/")
+        
         return True
 
 
@@ -1019,6 +1031,8 @@ Examples:
     parser.add_argument('-o', '--output-dir', help='Output directory (default: outputs/)')
     parser.add_argument('--resume-from', help='Resume from stage (stage1-stage6)')
     parser.add_argument('--stop-after', help='Stop after stage (stage1-stage6)')
+    parser.add_argument('--render', action='store_true', 
+                        help='Include HTML generation (Stage 6)')
     
     args = parser.parse_args()
     
@@ -1026,7 +1040,8 @@ Examples:
         creator = ContentCreator(args.kernel, args.output_dir)
         success = creator.run(
             resume_from=args.resume_from,
-            stop_after=args.stop_after
+            stop_after=args.stop_after,
+            include_render=args.render
         )
         return 0 if success else 1
     except Exception as e:

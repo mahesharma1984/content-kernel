@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Guide | Orbital</title>
+    <style>
+:root {
+    --color-bg: #0a0a0f;
+    --color-surface: #12121a;
+    --color-surface-hover: #1a1a24;
+    --color-border: #2a2a3a;
+    --color-text: #e8e8ed;
+    --color-text-muted: #8888a0;
+    --color-accent: #7c6df0;
+    --color-accent-soft: rgba(124, 109, 240, 0.15);
+    --color-knowledge: #3b82f6;
+    --color-pedagogy: #22c55e;
+    --color-cta: #f59e0b;
+    --color-question: #f59e0b;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header */
+.page-header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+}
+
+.page-header .subtitle {
+    color: var(--color-text-muted);
+    font-size: 1.05rem;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: var(--color-accent);
+}
+
+.breadcrumb .sep {
+    color: var(--color-border);
+    margin: 0 0.5rem;
+}
+
+/* Zones */
+.zone {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.zone-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+}
+
+.zone-knowledge .zone-badge {
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--color-knowledge);
+}
+
+.zone-pedagogy .zone-badge {
+    background: rgba(34, 197, 94, 0.12);
+    color: var(--color-pedagogy);
+}
+
+.zone-cta .zone-badge {
+    background: rgba(245, 158, 11, 0.12);
+    color: var(--color-cta);
+}
+
+.zone h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.zone p {
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+}
+
+.zone p:last-child {
+    margin-bottom: 0;
+}
+
+/* === PEDAGOGICAL CONTENT STRUCTURE === */
+
+/* Content blocks with internal structure */
+.zone .content-block {
+    margin-bottom: 1.5rem;
+}
+
+/* Opening statements - slightly larger, sets context */
+.zone .opening-statement {
+    color: var(--color-text);
+    font-size: 1.02rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+/* Concept groups - tighter spacing for related ideas */
+.zone .concept-group {
+    margin: 0.75rem 0;
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--color-border);
+}
+
+.zone .concept-intro {
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    font-size: 0.98rem;
+}
+
+/* Bullet lists - visual list treatment */
+.zone .bullet-list {
+    margin: 0.5rem 0 0.75rem 1.5rem;
+    list-style: none;
+}
+
+.zone .bullet-list li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.35rem;
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+.zone .bullet-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+/* Scaffolding questions - visual emphasis */
+.zone .scaffold-question {
+    background: rgba(245, 158, 11, 0.08);
+    border-left: 3px solid var(--color-question);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+.zone .scaffold-question-intro {
+    color: var(--color-question);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.zone .scaffold-question-text {
+    color: var(--color-text);
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Explanatory flow - answer to question */
+.zone .explanation {
+    margin: 0.75rem 0;
+    padding-left: 0.75rem;
+}
+
+.zone .explanation-intro {
+    color: var(--color-text);
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+
+.zone .explanation-detail {
+    color: var(--color-text-muted);
+    line-height: 1.6;
+}
+
+/* Process flows - step by step */
+.zone .process-flow {
+    background: var(--color-bg);
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 0.75rem 0;
+}
+
+.zone .process-intro {
+    color: var(--color-text);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.zone .process-steps {
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+.zone .process-steps li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.4rem;
+    color: var(--color-text-muted);
+}
+
+.zone .process-steps li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--color-pedagogy);
+}
+
+/* Emphasis statements - key takeaways */
+.zone .emphasis-statement {
+    color: var(--color-text);
+    font-weight: 500;
+    margin: 0.75rem 0;
+}
+
+/* Quick Reference */
+.quick-reference {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.quick-ref-item .label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.35rem;
+}
+
+.quick-ref-item .value {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+/* Worked Example */
+.worked-example {
+    background: var(--color-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.formula {
+    font-size: 1.05rem;
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+.arrow {
+    font-size: 1.4rem;
+    color: var(--color-text-muted);
+    margin: 0.75rem 0;
+}
+
+.effect {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Prompts */
+.prompts {
+    list-style: none;
+    margin-top: 1.25rem;
+}
+
+.prompts li {
+    padding: 0.75rem 1rem;
+    background: var(--color-bg);
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+}
+
+.prompts li::before {
+    content: "→ ";
+    color: var(--color-pedagogy);
+}
+
+/* Device Examples */
+.device-examples {
+    margin-top: 1.5rem;
+}
+
+.device-examples h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.device-example {
+    background: var(--color-bg);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border-left: 3px solid var(--color-accent);
+}
+
+.device-name {
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.device-quote {
+    font-style: italic;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--color-border);
+    line-height: 1.6;
+}
+
+.device-effect {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+}
+
+/* Pattern Connection */
+.pattern-connection {
+    background: var(--color-accent-soft);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    border-left: 3px solid var(--color-accent);
+}
+
+.pattern-connection-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.pattern-connection p {
+    color: var(--color-text);
+    margin: 0;
+}
+
+/* Steps */
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.step {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: var(--color-accent-soft);
+    color: var(--color-accent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.step-content h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: var(--color-text);
+}
+
+.step-content p {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+/* Thesis Components */
+.thesis-components {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.component-box {
+    background: var(--color-bg);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.component-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.component-value {
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+.component-list {
+    list-style: none;
+}
+
+.component-list li {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    padding: 0.2rem 0;
+}
+
+/* Thesis Examples */
+.thesis-examples {
+    margin-top: 1.5rem;
+}
+
+.thesis-examples h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.thesis-example {
+    background: var(--color-bg);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.thesis-focus {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.thesis-statement {
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.thesis-notes {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+/* CTA Links */
+.cta-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.cta-link {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background: var(--color-surface-hover);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.15s ease;
+}
+
+.cta-link:hover {
+    background: var(--color-accent-soft);
+    border-color: var(--color-accent);
+}
+
+.cta-link.emphasis {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: white;
+    font-weight: 500;
+}
+
+.cta-link.emphasis:hover {
+    background: #6b5ce0;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .quick-reference,
+    .thesis-components {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 1.75rem;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        
+        <nav class="breadcrumb">
+            <a href="/orbital/">Orbital</a>
+            <span class="sep">›</span>
+            Essay Guide
+        </nav>
+    
+        
+        <header class="page-header">
+            <h1>How to Write About Orbital</h1>
+            <p class="subtitle">Building Your Thesis</p>
+        </header>
+
+        <section class="zone zone-knowledge">
+            <span class="zone-badge">Knowledge: Building Your Thesis</span>
+            <h2>Thesis Components</h2>
+            
+            <div class="thesis-components">
+                <div class="component-box">
+                    <div class="component-label">Pattern</div>
+                    <div class="component-value">Cosmic Contemplation</div>
+                </div>
+                <div class="component-box">
+                    <div class="component-label">Themes</div>
+                    <ul class="component-list"><li>Human Consciousness Within Cosmic Vastness</li><li>Time's Cyclical Nature</li><li>Untamed Cosmic Forces</li></ul>
+                </div>
+                <div class="component-box">
+                    <div class="component-label">Key Devices</div>
+                    <ul class="component-list"><li>Imagery</li><li>Juxtaposition</li><li>Symbolism</li><li>Repetition</li><li>Metaphor</li></ul>
+                </div>
+            </div>
+            
+            <div class="thesis-examples">
+                <h3>Example Theses</h3>
+                
+        <div class="thesis-example">
+            <div class="thesis-focus">Theme-focused</div>
+            <div class="thesis-statement">Harvey explores human consciousness within cosmic vastness through juxtaposition of intimate thought processes against infinite space imagery, revealing that individual awareness gains profound meaning precisely because it exists as a fragile point of light within an indifferent universe.</div>
+            <div class="thesis-notes">Specific theme + clear device mechanism + paradoxical insight about meaning through contrast</div>
+        </div>
+        <div class="thesis-example">
+            <div class="thesis-focus">Pattern-focused</div>
+            <div class="thesis-statement">Through the Cosmic Contemplation pattern, Harvey combines omniscient access to multiple consciousness flows with symbolic imagery to create meditative detachment that transforms ordinary human experience into profound universal truths about existence and time.</div>
+            <div class="thesis-notes">Names pattern + identifies dual technique + shows transformative effect with specific outcome</div>
+        </div>
+        <div class="thesis-example">
+            <div class="thesis-focus">Device-focused</div>
+            <div class="thesis-statement">Harvey's use of repetition and cyclical imagery creates a sense of eternal temporal rhythms that connect individual daily routines to cosmic cycles, suggesting that personal struggles are both insignificant and deeply meaningful within the larger patterns of existence.</div>
+            <div class="thesis-notes">Two specific devices + clear mechanism + complex philosophical insight about dual significance</div>
+        </div>
+        <div class="thesis-example">
+            <div class="thesis-focus">Theme-focused</div>
+            <div class="thesis-statement">Harvey examines untamed cosmic forces through metaphor and primal imagery that portrays space as fundamentally animalistic, revealing that human technological attempts to control the universe are ultimately futile against forces that remain wild and mysterious.</div>
+            <div class="thesis-notes">Specific theme + device pairing + insight about human limitation versus natural power</div>
+        </div>
+            </div>
+        </section>
+
+        <section class="zone zone-pedagogy">
+            <span class="zone-badge">Pedagogy: From Pattern to Thesis</span>
+            <h2>From Pattern to Thesis</h2>
+            <div class="steps">
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+                <h3>Choose your theme</h3>
+                <p>Select from the themes above</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+                <h3>Identify devices</h3>
+                <p>Which devices create this theme?</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+                <h3>Connect to pattern</h3>
+                <p>How does Cosmic Contemplation work?</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+                <h3>Synthesize</h3>
+                <p>Combine into clear thesis statement</p>
+            </div>
+        </div></div>
+        </section>
+
+        <section class="zone zone-cta">
+            <span class="zone-badge">Action: Get Support</span>
+            <div class="cta-links">
+                <a href="#" class="cta-link emphasis">Get help developing your thesis</a>
+                <a href="#" class="cta-link">Upload your draft</a>
+            </div>
+        </section>
+    
+    </div>
+</body>
+</html>
