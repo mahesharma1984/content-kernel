@@ -184,6 +184,35 @@ All 10 text analysis pages regenerated with v0.6 generator:
 
 **End of Changelog**
 
+---
+
+## Pipeline Bug Fixes (Latest)
+
+**Date:** December 2025  
+**Branch:** `13-stage-1-kernel-extraction`
+
+### Fixed Issues
+
+1. **`run_full_pipeline_v1_0.py` - Stage 3 Path Bug**
+   - **Problem:** Stage 3 was receiving `outputs/` as input directory instead of `outputs/{book_slug}/`, causing file lookup failures
+   - **Fix:** Updated `run_stage3()` to pass `self.output_dir / self.book_slug` instead of just `self.output_dir`
+   - **Impact:** Pipeline now correctly finds Stage 1 and Stage 2 output files in book-specific subdirectories
+
+2. **`generate_html_v1_0.py` - Output Directory Path Bug**
+   - **Problem:** When `output_dir` was explicitly provided (e.g., `-o site`), the script didn't append `book_slug`, causing files to be written to the wrong location
+   - **Fix:** Changed `self.output_dir = Path(output_dir) if output_dir else ...` to `self.output_dir = (Path(output_dir) / book_slug) if output_dir else ...`
+   - **Impact:** HTML files now correctly generate in `site/{book_slug}/` instead of `site/` root
+
+### Files Modified
+- `run_full_pipeline_v1_0.py` (Stage 3 path fix)
+- `generate_html_v1_0.py` (output directory path fix)
+
+### Testing
+- Successfully ran full pipeline on `Regeneration_kernel_v5_0.json`
+- Verified HTML files generated in correct location: `site/regeneration/`
+- Applied translation to Regeneration content using `translate_content_v1_0.py`
+
+
 
 
 
