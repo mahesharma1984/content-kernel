@@ -4,6 +4,43 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased] - 2025-01-XX
 
+### Added: Unified Content Creation Pipeline v1.0
+
+**New Script:**
+- `create_content_v1_0.py` - Unified six-stage pipeline that consolidates all content creation stages into a single script
+
+**Features:**
+- **Stage 1: Extraction** - Extracts data from kernel JSON (no API)
+- **Stage 2: Theme Derivation** - Generates themes via API with quote validation
+- **Stage 3: Thesis Generation** - Generates thesis statements via API
+- **Stage 4: Page Assembly** - Assembles hub, themes, and essay guide pages (no API)
+- **Stage 5: Pedagogical Translation** - Translates content to structured blocks via API
+- **Stage 6: HTML Generation** - Renders structured blocks to semantic HTML (no API)
+
+**Key Capabilities:**
+- Checkpoint system for resuming from any stage
+- Dependency validation between stages
+- Quote validation against kernel micro_devices
+- Structured block rendering (statements, bullets, scaffolds, emphasis)
+- Full HTML generation with semantic structure
+- CLI support for `--resume-from` and `--stop-after` options
+
+**Usage:**
+```bash
+# Run full pipeline
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json
+
+# Resume from a specific stage
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json --resume-from stage3
+
+# Stop after a specific stage
+python3 create_content_v1_0.py Orbital_kernel_v5_0.json --stop-after stage2
+```
+
+**Output Structure:**
+- Checkpoints saved in `outputs/{book_slug}/stages/content_stage{N}.json`
+- Final HTML output in `site/{book_slug}/`
+
 ### Refactor: Staged Kernel Extraction Pipeline (Stage 1)
 
 #### Major Changes
