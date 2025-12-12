@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "to_kill_a_mockingbird",
+  "theme_slug": "innocence-exposes-adult-hypocrisy",
+  "url": "/to_kill_a_mockingbird/themes/innocence-exposes-adult-hypocrisy/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Innocence Exposes Adult Hypocrisy",
+      "heading": "Innocence Exposes Adult Hypocrisy",
+      "description": "The text uses childlike perception to reveal the contradictions and moral failures of adult society. Scout's innocent questions and observations strip away social pretenses to expose the gap between stated values and actual behavior.",
+      "pattern_connection": "Scout's innocent perspective combined with dramatic irony allows readers to see adult prejudices and moral blindness more clearly than the characters themselves can.",
+      "device_examples": [
+        {
+          "device_name": "Dramatic Irony",
+          "quote": "Atticus had to, whether he wanted to",
+          "effect": "Scout's misunderstanding reveals the community's deeper moral failure in expecting lawyers to provide inadequate defense."
+        },
+        {
+          "device_name": "Symbolism",
+          "quote": "It's like a Roman carnival",
+          "effect": "The trial as entertainment symbolizes society's moral decay that Scout innocently observes without understanding its full horror."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Readers experience dual consciousness - seeing through child's eyes while grasping adult implications, creating powerful moral awakening through accumulated understanding."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Dramatic Irony and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text uses childlike perception to reveal the contradictions and moral failures of adult society. Scout's innocent questions and observations strip away social pretenses to expose the gap between stated values and actual behavior."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/to_kill_a_mockingbird/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/to_kill_a_mockingbird/essay-guide/"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "chronicle_of_a_death_foretold",
+  "theme_slug": "collective-complicity-tragedy",
+  "url": "/chronicle_of_a_death_foretold/themes/collective-complicity-tragedy/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Collective Complicity in Tragedy",
+      "heading": "Collective Complicity in Tragedy",
+      "description": "The text reveals how entire communities can become complicit in tragedy through inaction, silence, or secret desires. Individual guilt becomes shared responsibility when everyone knows but no one acts to prevent the inevitable.",
+      "pattern_connection": "The journalistic distance of Investigative Fatalism allows objective examination of how collective behavior contributes to predetermined outcomes that individuals claim to regret.",
+      "device_examples": [
+        {
+          "device_name": "Irony",
+          "quote": "she didn't warn him because she wanted them to kill him",
+          "effect": "Reveals hidden complicity disguised as maternal protection, showing how personal desires align with fatal outcomes."
+        },
+        {
+          "device_name": "Dialogue",
+          "quote": "We're going to kill Santiago Nasar",
+          "effect": "Documents the public nature of the threat, emphasizing community-wide knowledge and shared responsibility for inaction."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "The reader experiences the inevitability of fate through methodical reconstruction, where knowing the outcome intensifies rather than diminishes dramatic tension."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Irony and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text reveals how entire communities can become complicit in tragedy through inaction, silence, or secret desires. Individual guilt becomes shared responsibility when everyone knows but no one acts to prevent the inevitable."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/chronicle_of_a_death_foretold/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/chronicle_of_a_death_foretold/essay-guide/"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "the_memory_police",
+  "theme_slug": "melancholic-acceptance-loss",
+  "url": "/the_memory_police/themes/melancholic-acceptance-loss/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Melancholic Acceptance of Loss",
+      "heading": "Melancholic Acceptance of Loss",
+      "description": "The text explores how individuals adapt to overwhelming oppression through resigned acceptance rather than active resistance. This melancholic stance becomes both survival mechanism and tragic surrender to totalitarian control.",
+      "pattern_connection": "The contemplative tone and subjective melancholic stance create a narrator who witnesses destruction with sad acceptance, making loss feel inevitable rather than resistible.",
+      "device_examples": [
+        {
+          "device_name": "Foreshadowing",
+          "quote": "steeling ourselves for the next disappearance",
+          "effect": "Shows how the community has accepted loss as inevitable, preparing emotionally rather than resisting."
+        },
+        {
+          "device_name": "Repetition",
+          "quote": "disappeared from the island",
+          "effect": "Creates a contemplative rhythm that mirrors the narrator's resigned acceptance of systematic loss."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Reader experiences gradual loss of memory and identity alongside narrator, creating profound empathy for victims of systematic oppression."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Foreshadowing and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text explores how individuals adapt to overwhelming oppression through resigned acceptance rather than active resistance. This melancholic stance becomes both survival mechanism and tragic surrender to totalitarian control."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/the_memory_police/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/the_memory_police/essay-guide/"
+        }
+      ]
+    }
+  }
+}

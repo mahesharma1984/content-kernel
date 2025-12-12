@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "brideshead_revisited",
+  "theme_slug": "civilizations-corruption-innocence",
+  "url": "/brideshead_revisited/themes/civilizations-corruption-innocence/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Civilization's Corruption of Innocence",
+      "heading": "Civilization's Corruption of Innocence",
+      "description": "The text examines how civilized society destroys natural innocence and nobility. Cultural sophistication becomes a corrupting force that transforms pure beings into shadows of their former selves.",
+      "pattern_connection": "The elegiac stance allows the narrator to contrast remembered innocence with present corruption, elevating personal tragedy to universal commentary on cultural destruction.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "the archaic weapons of the tribe and sound the drums",
+          "effect": "Sebastian's drinking symbolizes civilization's corruption of the noble savage, transforming personal tragedy into universal cultural commentary."
+        },
+        {
+          "device_name": "Metaphor",
+          "quote": "By the blue waters and rustling palms of his own mind",
+          "effect": "Transforms Sebastian's psyche into an Edenic paradise, establishing innocence that will be corrupted by civilization."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Creates intimate yet distanced contemplation where readers experience both the immediacy of remembered emotion and the wisdom of temporal remove."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Symbolism and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text examines how civilized society destroys natural innocence and nobility. Cultural sophistication becomes a corrupting force that transforms pure beings into shadows of their former selves."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/brideshead_revisited/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/brideshead_revisited/essay-guide/"
+        }
+      ]
+    }
+  }
+}

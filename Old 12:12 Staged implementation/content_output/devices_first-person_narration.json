@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Brideshead Revisited",
+    "author": "Evelyn Waugh",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "First-Person Narration: Creates meaning in the text",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "First-Person Narration is used throughout the text to creates meaning in the text."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "but it was not until Sebastian",
+            "scene": "Opening reflection on aesthetic education through Sebastian",
+            "effect": "Establishes retrospective voice that transforms personal memory into universal meditation on discovery and loss"
+          },
+          {
+            "quote": "I was no fool; I was old enough to know",
+            "scene": "Charles reflects on Lady Marchmain's attempt to influence him",
+            "effect": "Retrospective voice combines personal memory with mature judgment, transforming individual experience into universal meditation on manipulation and loss of innocence"
+          },
+          {
+            "quote": "Through and through is a long way, madam",
+            "scene": "Charles's internal monologue while conversing with elderly woman at party",
+            "effect": "Limited retrospective narration reveals the narrator's subjective interiority, transforming surface social interaction into deeper meditation on unknowable self"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use First-Person Narration HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

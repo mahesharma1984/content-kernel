@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "my_brilliant_career",
+  "theme_slug": "environmental-hostility-life-force",
+  "url": "/my_brilliant_career/themes/environmental-hostility-life-force/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Environmental Hostility as Life Force",
+      "heading": "Environmental Hostility as Life Force",
+      "description": "The text reveals how harsh natural conditions, rather than defeating the human spirit, can strengthen passionate resistance. The hostile environment becomes an adversary to fight against, giving the narrator's defiance a concrete target and greater intensity.",
+      "pattern_connection": "Passionate self-advocacy transforms environmental hardship into personal struggle, allowing the narrator to advocate against nature itself while demonstrating her resilient spirit.",
+      "device_examples": [
+        {
+          "device_name": "Imagery",
+          "quote": "winds shrivelled every blade of grass",
+          "effect": "Creates vivid sensory evidence of harsh conditions that the narrator must passionate argue against and survive."
+        },
+        {
+          "device_name": "Personification",
+          "quote": "sun seemed to glory in his power",
+          "effect": "Creates an adversarial relationship between narrator and environment, giving her passionate resistance a concrete target."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Readers experience direct immersion in the protagonist's passionate worldview, generating both empathy for her constraints and investment in her rebellious spirit."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Imagery and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text reveals how harsh natural conditions, rather than defeating the human spirit, can strengthen passionate resistance. The hostile environment becomes an adversary to fight against, giving the narrator's defiance a concrete target and greater intensity."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/my_brilliant_career/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/my_brilliant_career/essay-guide/"
+        }
+      ]
+    }
+  }
+}

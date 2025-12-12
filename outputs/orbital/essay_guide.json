@@ -1,0 +1,79 @@
+{
+  "page_type": "essay_guide",
+  "book_slug": "orbital",
+  "url": "/orbital/essay-guide/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Building Your Thesis",
+      "heading": "How to Write About Orbital",
+      "thesis_components": {
+        "pattern": "Cosmic Contemplation",
+        "themes": [
+          "Human Fragility Against Cosmic Immensity",
+          "Earth as Sacred Connection",
+          "Cyclical Time and Contemplative Rhythm",
+          "Paradox of Connection and Isolation"
+        ],
+        "devices": [
+          "Imagery",
+          "Juxtaposition",
+          "Symbolism",
+          "Repetition",
+          "Metaphor"
+        ]
+      },
+      "example_theses": [
+        {
+          "focus": "Theme-focused",
+          "statement": "Harvey explores human fragility against cosmic immensity through juxtaposition and metaphor, revealing that vulnerability becomes a source of meaning rather than mere weakness when viewed against the vast scale of the universe.",
+          "structure_notes": "This analysis does three important things:\n\n• **Identifies specific theme** — it doesn't just say \"the poem is about space\"\nInstead, it pinpoints exactly what Harvey explores\n\n• **Names key devices** — it labels the techniques Harvey uses\nThese include juxtaposition, metaphor, symbolism\n\n• **Shows counterintuitive insight** — this means revealing something unexpected or paradoxical\nSomething that goes against what you'd first assume\n\nThe counterintuitive insight here is crucial:\n\nMost readers might think fragility makes humans seem insignificant against the vastness of space.\nThis would be the obvious reading.\n\nBut this analysis argues the opposite.\nIt claims that fragility actually creates significance rather than destroying it.\n\nAsk yourself: How does being vulnerable make the astronauts' journey more meaningful, not less?\n\nThe analysis moves beyond obvious observations.\nInstead, it shows this paradox at work — how weakness becomes a source of meaning."
+        },
+        {
+          "focus": "Pattern-focused",
+          "statement": "Through the Cosmic Contemplation pattern, Harvey uses omniscient perspective and symbolic imagery to create simultaneous intimacy and detachment, demonstrating that true understanding of human experience requires both emotional closeness and philosophical distance.",
+          "structure_notes": "The writer first identifies the pattern they've discovered.\n\nThen they explain how two opposing forces work together — the dual mechanism.\n\nAsk yourself: How can forces that seem to fight against each other actually support the same goal?\n\nFinally, they demonstrate how the contradiction doesn't just disappear:\n• It transforms into something deeper\n• It becomes a more complex understanding\n\nThe original opposing ideas don't vanish or cancel out.\n\nInstead, they evolve — they change form while keeping their essential nature.\n\nAsk yourself: How can opposing ideas actually work together rather than cancel each other out?\n\nThe contradiction resolves — it finds a solution that contains both opposing elements.\n\nThis creates richer meaning — the final understanding is more layered and nuanced than either original idea alone."
+        },
+        {
+          "focus": "Device-focused",
+          "statement": "Harvey's use of repetition and cyclical imagery creates a meditative rhythm that mirrors cosmic cycles, which transforms space travel from mere physical movement into a pathway for philosophical contemplation about humanity's place in the universe.",
+          "structure_notes": "This analysis does three key things:\n\n**First: Identifies specific literary techniques**\n\nThe writer pinpoints exact devices the author uses.\n\nAsk yourself: What techniques can you name and locate in the text?\n\n**Second: Demonstrates how these devices create rhythm**\n\nThe analysis shows us three things:\n• The pattern these techniques establish\n• How they work together to build momentum  \n• The musical quality of the prose\n\nThe rhythm isn't accidental — it's crafted to guide your reading experience.\n\n**Third: Explains the transformative effect**\n\nThis rhythm doesn't just sound good. It actually changes things:\n• The character's understanding deepens\n• Your understanding as a reader shifts\n\nThe technique creates meaning, not just style."
+        },
+        {
+          "focus": "Theme-focused",
+          "statement": "Harvey explores the paradox of connection and isolation through symbolism and juxtaposition, revealing that physical separation in space paradoxically intensifies rather than weakens the bonds between humans and their home planet.",
+          "structure_notes": "The text tackles the paradox theme head-on.\n\nHarvey doesn't hide this central tension — she makes it the poem's driving force.\n\nThe poem employs literary devices that emphasise contrast.\n\nThese techniques place opposing ideas side by side deliberately.\n\nThe juxtaposition creates tension between what we expect and what actually happens.\n\nThe poem reveals an unexpected outcome about human connection.\n\nAsk yourself: What might we assume about distance and connection?\n• That being far apart weakens relationships?\n• That physical closeness creates emotional intimacy?\n• That separation always means isolation?\n\nThe paradox directly challenges these assumptions.\n\nIt exposes something surprising about how distance and connection actually operate.\n\nSometimes being physically far apart can bring people closer together emotionally.\n\nThe greater the distance, the more intense the emotional bond becomes."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: From Pattern to Thesis",
+      "four_steps": [
+        {
+          "step": 1,
+          "title": "Choose your theme",
+          "content": "Select from the themes above"
+        },
+        {
+          "step": 2,
+          "title": "Identify devices",
+          "content": "Which devices create this theme?"
+        },
+        {
+          "step": 3,
+          "title": "Connect to pattern",
+          "content": "How does Cosmic Contemplation work?"
+        },
+        {
+          "step": 4,
+          "title": "Synthesize",
+          "content": "Combine into clear thesis statement"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Get Support",
+      "primary": "Get help developing your thesis",
+      "secondary": "Upload your draft"
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "title": "My Brilliant Career",
+    "author": "Miles Franklin",
+    "edition": "Broadview Editions, 2008.",
+    "creation_date": "2025-12-06T14:21:31.416300",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 38,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NUM",
+    "total_units": 38,
+    "special_elements": [],
+    "notes": "Numbered chapters detected, 1-38"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_chapter": 1,
+      "percentage": 11
+    },
+    "rising_action": {
+      "chapter_range": "5-19",
+      "chapters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "primary_chapter": 12,
+      "percentage": 39
+    },
+    "climax": {
+      "chapter_range": "20-21",
+      "chapters": [
+        20,
+        21
+      ],
+      "primary_chapter": 20,
+      "percentage": 5
+    },
+    "falling_action": {
+      "chapter_range": "22-35",
+      "chapters": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "primary_chapter": 28,
+      "percentage": 37
+    },
+    "resolution": {
+      "chapter_range": "36-38",
+      "chapters": [
+        36,
+        37,
+        38
+      ],
+      "primary_chapter": 38,
+      "percentage": 8
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "5-19",
+      "primary_chapter": 12,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "20-21",
+      "primary_chapter": 20,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "22-35",
+      "primary_chapter": 28,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "36-38",
+      "primary_chapter": 38,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "primary_chapter": 1,
+      "rationale": "The opening chapters establish Sybylla Melvyn as narrator and protagonist, introducing her family's financial struggles at Possum Gully and her aspirations beyond the confines of bush life. This section sets up the central character's discontent with her circumstances and her yearning for something greater."
+    },
+    "rising_action": {
+      "chapter_range": "5-19",
+      "primary_chapter": 12,
+      "rationale": "This extended section develops the central conflicts as Sybylla moves to Caddagat, experiences refined society, and navigates her complex relationship with Harold Beecham. The tension builds through her internal struggle between love and independence, culminating in Harold's marriage proposal."
+    },
+    "climax": {
+      "chapter_range": "20-21",
+      "primary_chapter": 20,
+      "rationale": "Chapter 20 contains the dramatic turning point where Sybylla definitively rejects Harold Beecham's proposal, choosing independence over conventional marriage and security. This decision represents the peak of narrative tension and determines the trajectory of her future."
+    },
+    "falling_action": {
+      "chapter_range": "22-35",
+      "primary_chapter": 28,
+      "rationale": "Following her rejection of Harold, Sybylla faces the consequences of her choice through her degrading experience at the M'Swat household at Barney's Gap. This section explores the harsh realities of her independence and tests her resolve through hardship and isolation."
+    },
+    "resolution": {
+      "chapter_range": "36-38",
+      "primary_chapter": 38,
+      "rationale": "The final chapters provide thematic closure as Sybylla reflects on her experiences and reaffirms her commitment to independence and literary ambition. The novel concludes with her philosophical acceptance of her choices and determination to pursue her artistic career."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "FP",
+        "pov_description": "First person narration throughout - 'I' narrator telling her own story",
+        "focalization": "INT",
+        "focalization_description": "Limited to Sybylla's internal perspective and understanding",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "NONE",
+        "stream_consciousness": "NONE",
+        "character_revelation": "DIR",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single plotline following Sybylla's journey from Possum Gully through Caddagat to Barney's Gap",
+        "pacing": "VAR",
+        "temporal_span": "MEDIUM",
+        "beginning_type": "AB_OVO",
+        "ending_type": "OPEN",
+        "scene_summary_ratio": "SCENE",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Rebellious, passionate, and melancholic with underlying optimism",
+        "register": "COLL",
+        "stance": "SUBJ",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "MOD"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "MOD",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Literary devices accumulate to build Sybylla's character arc from naive dreamer to self-aware individual, using Australian vernacular, natural imagery, and social commentary to transform reader understanding of women's constrained choices in colonial society"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Flashback",
+      "anchor_phrase": "Twelve years before I went to Caddagat",
+      "location_percent": 15,
+      "scene": "Aunt Helen's tragic backstory with Colonel Bell is revealed",
+      "effect": "Provides crucial context for Helen's current state and builds sympathy while establishing themes of betrayal",
+      "assigned_section": "rising_action",
+      "chapter": 12,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "gloriously blue receptacle, by and by",
+      "location_percent": 80,
+      "scene": "Sybylla describes where she stores her dreams of meeting living poets",
+      "effect": "Transforms abstract hope into a tangible container, emphasizing the precious nature of her literary aspirations",
+      "assigned_section": "rising_action",
+      "chapter": 12,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Hyperbole",
+      "anchor_phrase": "yelled with pain for hours like a mad Red Indian",
+      "location_percent": 50,
+      "scene": "Sybylla describes her reaction to being scalded",
+      "effect": "Exaggerated description adds humor while showing Sybylla's dramatic personality and building reader sympathy",
+      "assigned_section": "rising_action",
+      "chapter": 12,
+      "chapter_range": "5-19",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Verbal Irony",
+      "anchor_phrase": "I'm such a good mail-boy",
+      "location_percent": 15,
+      "scene": "Sybylla cheerfully greeting her grandmother after deliberately disobeying orders",
+      "effect": "Her false cheerfulness contrasts with her transgression, building toward the climactic revelation of her defiance",
+      "assigned_section": "climax",
+      "chapter": 20,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "trying to look stern, and hiding a smile in her serviette",
+      "location_percent": 25,
+      "scene": "Grandmother's conflicted reaction to Sybylla's account of abandoning Hawden",
+      "effect": "Contrasts severity with amusement, showing the climactic moment's complex emotional resolution",
+      "assigned_section": "climax",
+      "chapter": 20,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "branded with the stinging affliction of ugliness",
+      "location_percent": 60,
+      "scene": "Sybylla's bitter self-assessment during her conversation with Aunt Helen about Harold",
+      "effect": "Physical appearance symbolizes her deeper feelings of unworthiness, creating the climactic emotional crisis about love and marriage",
+      "assigned_section": "climax",
+      "chapter": 20,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "be careful of Harry Beecham in a temper. He is like a raging lion",
+      "location_percent": 85,
+      "scene": "Uncle Jay-Jay warning Sybylla about Harold's hidden temperament",
+      "effect": "Plants seeds of future conflict, building tension toward the climactic relationship crisis that will unfold",
+      "assigned_section": "climax",
+      "chapter": 20,
+      "chapter_range": "20-21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I would write to grannie and mother explaining",
+      "location_percent": 15,
+      "scene": "Sybylla's internal resolve after arriving at the M'Swat homestead",
+      "effect": "Provides intimate access to protagonist's thoughts and plans for escape, showing her psychological state during this crisis",
+      "assigned_section": "resolution",
+      "chapter": 28,
+      "chapter_range": "22-35",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "I smiled to myself, and apprehended no further trouble",
+      "location_percent": 40,
+      "scene": "Sybylla's interaction with Peter after overhearing family discussion",
+      "effect": "Reader knows more about the family dynamics than Sybylla realizes, creating tension about her naive confidence",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-35",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "Your mother is not agreeable, so I cannot interfere",
+      "location_percent": 85,
+      "scene": "Reading grandmother's letter refusing to help despite earlier willingness",
+      "effect": "The very people she expected to rescue her become the agents of her continued imprisonment, reversing expectations",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-35",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Summary",
+      "anchor_phrase": "A week, a fortnight, dragged away",
+      "location_percent": 75,
+      "scene": "Compressed time showing her waiting period for letters",
+      "effect": "Accelerates narrative pace while emphasizing the psychological torment of waiting for rescue",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-35",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "clouds of dust and grit that we were forced",
+      "location_percent": 65,
+      "scene": "Description of the harsh conditions in the makeshift schoolroom",
+      "effect": "Creates visceral sense of the physical discomfort and primitive conditions of her new life",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-35",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "as tonic as bush air, as aromatic as bush trees",
+      "location_percent": 80,
+      "scene": "Enthusiastic Australian review praising the novel's authentic representation",
+      "effect": "Creates sensory connections between the literary work and the natural Australian environment it depicts",
+      "assigned_section": "resolution",
+      "chapter": 38,
+      "chapter_range": "36-38",
+      "pedagogical_tier": 1
+    }
+  ]
+}

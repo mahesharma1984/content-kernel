@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "my_brilliant_career",
+  "theme_slug": "youthful-worth-against-adult-dismissal",
+  "url": "/my_brilliant_career/themes/youthful-worth-against-adult-dismissal/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Youthful Worth Against Adult Dismissal",
+      "heading": "Youthful Worth Against Adult Dismissal",
+      "description": "The text argues that young people possess genuine talent and insight that adults wrongly dismiss due to age prejudice. The narrator passionately defends her achievements against those who cannot see past her youth to recognize her true abilities.",
+      "pattern_connection": "The passionate self-advocacy pattern empowers the young narrator to argue for her own worth against adult dismissal, creating intimate access to her justified indignation at age-based discrimination.",
+      "device_examples": [
+        {
+          "device_name": "First-Person Narration",
+          "quote": "I received a polite memo to the effect",
+          "effect": "Gives the young narrator authority to interpret and challenge adult rejection of her work on her own terms."
+        },
+        {
+          "device_name": "Juxtaposition",
+          "quote": "This was a very promising opinion of the work of a child of thirteen, more encouraging than the great writers got",
+          "effect": "Defiantly contrasts her youthful achievement with established writers to assert her equal worth despite her age."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Readers experience direct immersion in the protagonist's passionate worldview, generating both empathy for her constraints and investment in her rebellious spirit."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how First-Person Narration and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text argues that young people possess genuine talent and insight that adults wrongly dismiss due to age prejudice. The narrator passionately defends her achievements against those who cannot see past her youth to recognize her true abilities."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/my_brilliant_career/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/my_brilliant_career/essay-guide/"
+        }
+      ]
+    }
+  }
+}

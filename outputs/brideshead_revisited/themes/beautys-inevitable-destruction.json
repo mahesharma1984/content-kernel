@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "brideshead_revisited",
+  "theme_slug": "beautys-inevitable-destruction",
+  "url": "/brideshead_revisited/themes/beautys-inevitable-destruction/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Beauty's Inevitable Destruction",
+      "heading": "Beauty's Inevitable Destruction",
+      "description": "The text explores how beauty, particularly in youth and innocence, carries within it the seeds of its own destruction. True beauty is fragile and temporary, made more precious by its inevitable loss.",
+      "pattern_connection": "The elegiac retrospective pattern allows the narrator to simultaneously celebrate beauty while mourning its destruction, transforming personal loss into universal meditation on transience.",
+      "device_examples": [
+        {
+          "device_name": "Imagery",
+          "quote": "epicene beauty which in extreme youth",
+          "effect": "Creates luminous memory while foreshadowing loss, establishing beauty as both transcendent and doomed."
+        },
+        {
+          "device_name": "Foreshadowing",
+          "quote": "his days in Arcadia were numbered",
+          "effect": "Transforms present beauty into elegiac meditation on inevitable destruction."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Creates intimate yet distanced contemplation where readers experience both the immediacy of remembered emotion and the wisdom of temporal remove."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Imagery and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text explores how beauty, particularly in youth and innocence, carries within it the seeds of its own destruction. True beauty is fragile and temporary, made more precious by its inevitable loss."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/brideshead_revisited/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/brideshead_revisited/essay-guide/"
+        }
+      ]
+    }
+  }
+}
