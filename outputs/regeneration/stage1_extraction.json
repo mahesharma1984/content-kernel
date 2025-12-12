@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "extraction_date": "2025-12-12T12:01:56.797239",
+  "source_kernel": "Regeneration_kernel_v5_0.json",
+  "metadata": {
+    "title": "Regeneration",
+    "author": "Pat Barker",
+    "book_slug": "regeneration"
+  },
+  "pattern": {
+    "name": "Clinical Empathy",
+    "core_dynamic": "Third-person limited access through medical perspective combines with objective yet compassionate stance to create therapeutic distance that enables deeper understanding of trauma.",
+    "reader_effect": "Readers experience psychological wounds through both clinical observation and intimate consciousness, creating intellectual comprehension paired with emotional resonance.",
+    "device_priorities": [
+      "Juxtaposition",
+      "Imagery",
+      "Symbolism",
+      "Foreshadowing",
+      "Metaphor",
+      "Repetition",
+      "Dramatic Irony",
+      "Interior Monologue"
+    ]
+  },
+  "macro_variables": {
+    "voice": {
+      "pov": "TPL",
+      "pov_description": "Third person limited primarily through Rivers' perspective with occasional shifts to other characters",
+      "focalization": "INT",
+      "focalization_description": "Internal focalization through characters' consciousness, especially Rivers and Sassoon"
+    },
+    "structure": {
+      "total_chapters": 23,
+      "chronology": "LIN",
+      "pacing": "VAR",
+      "chapter_structure": "TRAD"
+    },
+    "rhetoric": {
+      "tone": "Clinical yet empathetic, exploring psychological trauma with medical precision and human compassion",
+      "register": "FORM",
+      "stance": "OBJ"
+    }
+  },
+  "device_mediation": {
+    "summary": "Devices mediate alignment through clinical observation and psychological realism, using dialogue, internal monologue, and symbolic imagery to reveal the complex dynamics between doctor and patient, challenging conventional notions of sanity, duty, and healing in wartime"
+  },
+  "micro_devices": [
+    {
+      "name": "Third-Person Limited",
+      "anchor_phrase": "Rivers watched him for a while",
+      "effect": "Creates clinical empathy by filtering Sassoon's trauma through Rivers's medical perspective, maintaining therapeutic distance while enabling compassionate understanding",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "like trying to stop the ship would have been",
+      "effect": "Transforms personal trauma into objective imagery that Rivers can clinically assess while preserving the emotional truth of Sassoon's futile gesture",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "You seem to have a very powerful anti-war neurosis",
+      "effect": "Places medical terminology against political conviction, demonstrating how clinical perspective reframes moral stance as psychological condition",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "twisted and blackened shapes began to seem like old friends",
+      "effect": "Transforms horrific war imagery into familiar, almost comforting details, showing how clinical distance enables processing of unbearable trauma",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Like a trench without the sky",
+      "effect": "Hospital architecture becomes symbol of psychological entrapment, using clinical observation to reveal deeper truths about patient experience",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "Do you think I'm mad?",
+      "effect": "Creates therapeutic exchange where clinical expertise meets patient vulnerability, establishing the healing dynamic through professional discourse",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "it's my duty to try to change that",
+      "effect": "Establishes the therapeutic tension between doctor's duty and patient's conviction, previewing the clinical challenge of treating principled dissent",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "This may come as a shock, Dr Rivers, but I had been rather assuming that we were not.",
+      "effect": "Places doctor-patient therapeutic alliance against Prior's resistance, creating clinical distance that reveals the deeper power dynamics of treatment",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "thin line of khaki was just visible beneath the purple silk",
+      "effect": "Military uniform beneath civilian luxury symbolizes the war's inescapable presence even in recovery, enabling objective assessment of trauma's permanence",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "skulls in the side. You looked back along and \u2026 Like mushrooms.",
+      "effect": "Visceral sensory detail creates therapeutic distance through metaphorical transformation of trauma into observable phenomena",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "A hundred years from now they'll still be ploughing up skulls.",
+      "effect": "Projects trauma's permanence into future perspective, allowing clinical examination of war's enduring psychological effects",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Third-Person Limited",
+      "anchor_phrase": "Anderson, following Sassoon into the bar of the golf club, knew he owed him an apology.",
+      "effect": "Provides clinical access to Anderson's psychological state while maintaining therapeutic objectivity about his suppressed violence",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "It's like a very deep voice saying, Run along, little man.",
+      "effect": "Transforms overwhelming trauma into analyzable metaphor, creating distance that enables understanding of war's psychological impact",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "I don't write about that. I s-suppose I've always thought of p-poetry as the opposite of all that.",
+      "effect": "Reveals character's psychological defense mechanisms through natural speech, allowing clinical observation of trauma avoidance",
+      "section": "rising_action",
+      "chapter": 8
+    },
+    {
+      "name": "Third-Person Limited",
+      "anchor_phrase": "He wasn't surprised, he assumed Orme had come",
+      "effect": "Creates therapeutic distance by filtering traumatic experience through clinical observation while maintaining access to psychological state",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "the two bloody bargains on which a civilization",
+      "effect": "Uses religious imagery to clinically analyze societal structures that sacrifice youth, creating objective framework for understanding trauma's origins",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "the inheritors were dying, not one by one",
+      "effect": "Places clinical observation of mass death alongside domestic comfort to highlight the gap between trauma and civilian understanding",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Flashback",
+      "anchor_phrase": "A memory tweaked the edges of his mind",
+      "effect": "Provides clinical context for current abandonment feelings while maintaining therapeutic distance through structured recall",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "His fingers dug through the fluffiness into surprisingly",
+      "effect": "Creates visceral sensory details that mirror clinical examination of uncomfortable realities while maintaining objective stance",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "little Atlases struggling to hold up the world",
+      "effect": "Transforms clinical observation into compassionate understanding of vulnerability and struggle, embodying therapeutic empathy",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "he found it difficult to envisage any future",
+      "effect": "Clinical assessment masked as casual observation hints at deeper understanding of trauma's long-term effects",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "stammering boys, any age from ten to nineteen",
+      "effect": "Recurring theme of communication breakdown connects personal history to current therapeutic work, maintaining clinical yet empathetic perspective",
+      "section": "climax",
+      "chapter": 14
+    },
+    {
+      "name": "Third-Person Limited",
+      "anchor_phrase": "Rivers thought how misleading it was",
+      "effect": "Provides medical perspective on Burns's condition while maintaining therapeutic distance through clinical observation of his psychological state",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "a toothless mouth mumbling pebbles",
+      "effect": "Creates clinical imagery that transforms the natural environment into something that reflects trauma and decay, maintaining objective yet compassionate stance",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "prematurely aged man and a fossilized schoolboy",
+      "effect": "Presents clinical assessment of trauma's effects through contrasting elements, enabling deeper understanding through medical perspective",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "tangles of barbed wire that ran",
+      "effect": "War intrudes into peaceful setting while Burns appears not to see it, symbolizing his suppression and creating therapeutic distance for analysis",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "bones of Burns's face gleaming",
+      "effect": "Medical imagery emphasizes physical manifestation of trauma while maintaining objective observation that enables compassionate understanding",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Internal Monologue",
+      "anchor_phrase": "Why do I go along with it?",
+      "effect": "Provides clinical self-examination that combines medical perspective with therapeutic questioning, creating distance that enables deeper understanding",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "But then why am I here?",
+      "effect": "Medical intuition suggests underlying issues despite surface improvement, maintaining clinical empathy that anticipates deeper therapeutic needs",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "the nightmare followed",
+      "effect": "Recurring trauma pattern observed through medical lens, providing objective evidence that enables compassionate understanding of suppression's limits",
+      "section": "falling_action",
+      "chapter": 16
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "a grotesque parody of Adam naming created things",
+      "effect": "Creates clinical distance by intellectualizing the trauma through biblical comparison, enabling therapeutic understanding of the dehumanizing treatment",
+      "section": "resolution",
+      "chapter": 22
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "An instrument of control",
+      "effect": "The bit symbolizes systematic control mechanisms in therapy, allowing clinical examination of power dynamics while maintaining compassionate distance",
+      "section": "resolution",
+      "chapter": 22
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "the moist, pink interior, the delicately quivering uvula",
+      "effect": "Visceral medical imagery creates therapeutic distance through clinical precision while revealing the violence beneath treatment",
+      "section": "resolution",
+      "chapter": 22
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "recovery meant the resumption of activities that were not merely self-destructive but positively suicidal",
+      "effect": "Contrasts healing with harm to enable clinical analysis of therapeutic contradictions with empathetic understanding",
+      "section": "resolution",
+      "chapter": 22
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Perhaps Callan remembered, as Yealland apparently did not, that Mons had been a defeat",
+      "effect": "Creates knowing distance between medical observer and practitioner, enabling critical yet compassionate evaluation of treatment methods",
+      "section": "resolution",
+      "chapter": 22
+    },
+    {
+      "name": "Internal Monologue",
+      "anchor_phrase": "There is no distinction",
+      "effect": "Enables therapeutic self-examination through clinical introspection, maintaining professional distance while achieving deeper understanding",
+      "section": "resolution",
+      "chapter": 22
+    }
+  ],
+  "validation": {
+    "pattern_present": true,
+    "device_count": 36,
+    "sections_covered": [
+      "rising_action",
+      "resolution",
+      "falling_action",
+      "exposition",
+      "climax"
+    ],
+    "quotes_available": true
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": "1.0",
+  "extraction_date": "2025-12-12T11:00:06.506821",
+  "source_kernel": "Chronicle_of_a_Death_Foretold_kernel_v5_1.json",
+  "metadata": {
+    "title": "Chronicle of a Death Foretold",
+    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "book_slug": "chronicle_of_a_death_foretold"
+  },
+  "pattern": {
+    "name": "Investigative Fatalism",
+    "core_dynamic": "First-person retrospective investigation combines with objective fatalistic stance to create journalistic distance from predetermined tragedy.",
+    "reader_effect": "The reader experiences the inevitability of fate through methodical reconstruction, where knowing the outcome intensifies rather than diminishes dramatic tension.",
+    "device_priorities": [
+      "Dialogue",
+      "Juxtaposition",
+      "Repetition",
+      "Imagery",
+      "Foreshadowing",
+      "Symbolism",
+      "Irony",
+      "Flashback"
+    ]
+  },
+  "macro_variables": {
+    "voice": {
+      "pov": "FP",
+      "pov_description": "First-person narrator investigates the murder twenty-seven years later",
+      "focalization": "EXT",
+      "focalization_description": "Narrator reports what others told him, no direct mind access"
+    },
+    "structure": {
+      "total_chapters": 5,
+      "chronology": "FRAG",
+      "pacing": "SLOW",
+      "chapter_structure": "TRAD"
+    },
+    "rhetoric": {
+      "tone": "Fatalistic, melancholic, journalistic yet poetic",
+      "register": "POET",
+      "stance": "OBJ"
+    }
+  },
+  "device_mediation": {
+    "summary": "Devices create inevitability through repeated foretelling, ironic juxtaposition of beauty and violence, and accumulating testimonial evidence that transforms reader understanding of fate, honor, and collective responsibility in a Chronicle structure that makes the known ending more rather than less mysterious"
+  },
+  "micro_devices": [
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "ON THE DAY THEY WERE GOING TO KILL him",
+      "effect": "Immediately establishes fatalistic certainty while creating investigative distance through matter-of-fact tone",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "his mother, told me twenty-seven years later",
+      "effect": "Establishes retrospective investigative framework, positioning narrator as journalist reconstructing events",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "she didn't warn him because she wanted them to kill him",
+      "effect": "Reveals hidden complicity in the predetermined tragedy while maintaining investigative objectivity",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Any dream about birds means good health",
+      "effect": "Contrasts hopeful interpretation with fatal reality, emphasizing inevitable tragedy despite positive signs",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "They were going to kill him",
+      "effect": "Reinforces fatalistic certainty through repeated acknowledgment of inevitable death",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "Let go of her, white man",
+      "effect": "Provides direct testimony from witnesses, supporting journalistic reconstruction of events",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "he felt completely spattered with bird shit",
+      "effect": "Creates visceral sense of contamination and doom while maintaining objective descriptive tone",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "The Fatal Door",
+      "effect": "Transforms ordinary architectural feature into symbol of predetermined destiny, combining investigative documentation with fatalistic meaning",
+      "section": "exposition",
+      "chapter": 1
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "There had never been a death more foretold",
+      "effect": "Establishes the fatalistic certainty while emphasizing the paradoxical nature of the investigation into a predetermined outcome",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "We're going to kill Santiago Nasar",
+      "effect": "Creates journalistic documentation of the public nature of the threat while maintaining investigative distance through reported speech",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "He knows why",
+      "effect": "Emphasizes the fatalistic acceptance of predetermined roles while creating investigative ambiguity about true motives",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "They looked like two children",
+      "effect": "Contrasts their murderous intent with innocent appearance, highlighting the investigative complexity of understanding the perpetrators",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Now they haven't got anything to kill anybody with",
+      "effect": "Creates investigative tension between official incompetence and fatalistic inevitability, emphasizing the predetermined nature of the tragedy",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I was to ask the butchers sometime later",
+      "effect": "Maintains journalistic investigative stance while establishing temporal distance from the events being reconstructed",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "made the knives sing on the stone",
+      "effect": "Creates visceral documentation of the murder preparations while maintaining objective investigative tone",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "Santiago Nasar is dead",
+      "effect": "Demonstrates the fatalistic inevitability where even accidental prophecies prove true, reinforcing the predetermined nature of the tragedy",
+      "section": "rising_action",
+      "chapter": 3
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "The abdominal cavity was filled with large clots of blood",
+      "effect": "Creates visceral journalistic documentation that maintains clinical distance while emphasizing the predetermined brutality of fate",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "a medal of gold that Santiago Nasar had swallowed at the age of four",
+      "effect": "Transforms childhood innocence into fatalistic evidence, suggesting destiny was literally embedded within Santiago from youth",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I was thinking about the ferocity of Santiago Nasar's fate",
+      "effect": "Provides investigative retrospective stance that analyzes the predetermined tragedy with journalistic objectivity",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "You smell of him",
+      "effect": "Emphasizes the inescapable presence of the victim, reinforcing how fate permeates every aspect of the aftermath",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "It was like being awake twice over",
+      "effect": "Reader knows the brothers' hyperconscious state reflects their role as instruments of predetermined fate, while they experience it as torment",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "The Arabs comprised a community of peaceful immigrants",
+      "effect": "Contrasts actual peaceful nature with perceived threat, demonstrating how fatalistic thinking distorts reality in the investigation",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "they had nothing to repent",
+      "effect": "Reinforces recurring theme that all actors fulfilled their destined roles, supporting the fatalistic framework of the investigation",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "For the immense majority of people there was only one victim: Bayardo San Roman",
+      "effect": "Ironically positions the abandoned husband as sole victim while the murder victim is seen as fulfilling destiny, revealing fatalistic social logic",
+      "section": "climax",
+      "chapter": 4
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I never discovered his name",
+      "effect": "Establishes the investigative stance while maintaining journalistic distance from the tragedy being reconstructed",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "water up to my ankles in that lagoon of lost causes",
+      "effect": "Creates vivid metaphorical landscape that reinforces the fatalistic nature of seeking truth in predetermined tragedy",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "marginal notes, and not just because of the color of the ink, seemed to be written in blood",
+      "effect": "Contrasts literary analysis with violent reality, showing how fate transforms scholarly pursuit into blood-soaked investigation",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "She told us about the miracle but not the saint",
+      "effect": "Provides direct testimony that maintains mystery while demonstrating the investigative process of gathering contradictory evidence",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "He was my perpetrator",
+      "effect": "Emphasizes the unshakeable but unproven accusation that drives the fatalistic machinery of honor and revenge",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "My personal impression is that he died without understanding his death",
+      "effect": "Reader knows more than the victim, reinforcing the fatalistic pattern where predetermined death occurs despite innocence",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "inside an empty circle, because everyone knew that Santiago Nasar was about to die",
+      "effect": "The empty circle symbolizes how fate isolates the condemned, creating physical manifestation of predetermined doom",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "Fatality makes us invisible",
+      "effect": "Demonstrates the ironic power of fate to hide crucial evidence in plain sight, reinforcing the investigative futility against predetermined outcomes",
+      "section": "falling_action",
+      "chapter": 5
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I searched many times with the water",
+      "effect": "Establishes investigative stance while maintaining journalistic distance from the predetermined tragedy through retrospective temporal gap",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "lagoon of lost causes",
+      "effect": "Creates symbolic representation of the fatalistic universe where justice and truth are submerged and lost to time",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "He was my perpetrator",
+      "effect": "Provides objective legal record while highlighting the enigmatic nature of the predetermined fate",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "his reaction was not one of panic but rather the bewilderment of innocence",
+      "effect": "Reinforces fatalistic pattern by showing how predetermined death occurs despite innocence, creating investigative puzzle",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "My personal impression is that he died without understanding his death",
+      "effect": "Demonstrates how fatalistic forces operate beyond individual comprehension while narrator maintains investigative objectivity",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "I just saw him with you",
+      "effect": "Emphasizes the collective nature of the predetermined tragedy while highlighting investigative reconstruction of events",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Fatality makes us invisible",
+      "effect": "Encapsulates the core fatalistic philosophy while maintaining investigative framework through official legal documentation",
+      "section": "resolution",
+      "chapter": 5
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "He walked more than a hundred yards completely around the house",
+      "effect": "Culminates fatalistic pattern through impossible survival that defies logic, providing objective record of predetermined tragedy's surreal conclusion",
+      "section": "resolution",
+      "chapter": 5
+    }
+  ],
+  "validation": {
+    "pattern_present": true,
+    "device_count": 40,
+    "sections_covered": [
+      "falling_action",
+      "rising_action",
+      "resolution",
+      "exposition",
+      "climax"
+    ],
+    "quotes_available": true
+  }
+}

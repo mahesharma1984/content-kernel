@@ -1,0 +1,58 @@
+{
+  "page_type": "hub",
+  "book_slug": "we_have_always_lived_in_the_castle",
+  "url": "/we_have_always_lived_in_the_castle/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: What the Book Does",
+      "heading": "Insular Perception",
+      "description": "First-person unreliable narration creates a subjective lens that filters all information through a damaged psyche, using dramatic irony to reveal the gap between Merricat's perception and reality.",
+      "reader_effect": "The reader experiences both intimacy with and alienation from the narrator, simultaneously drawn into her worldview while recognizing its distortions and omissions.",
+      "quick_reference": {
+        "structure": "10 chapters",
+        "voice": "First person narration from Merricat's perspective throughout",
+        "tone": "Darkly whimsical with undercurrents of menace and childlike wonder"
+      }
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Read for Patterns",
+      "heading": "What Pattern-Recognition Means",
+      "worked_example": {
+        "formula": "Juxtaposition + Repetition + Imagery",
+        "arrow": "\u2192",
+        "effect": "The reader experiences both intimacy with and alienation from the narrator, simultaneously drawn into her worldview while recognizing its distortions and omissions."
+      },
+      "prompts": [
+        "What's the cumulative effect of these devices working together?",
+        "Why would the author choose this particular combination?",
+        "What reader experience does this pattern create?"
+      ]
+    },
+    "cta": {
+      "badge": "Action: Explore Through Themes",
+      "links": [
+        {
+          "text": "Isolation as Psychological Protection",
+          "url": "themes/isolation-psychological-protection/"
+        },
+        {
+          "text": "Violence Beneath Domestic Surface",
+          "url": "themes/violence-beneath-domestic-surface/"
+        },
+        {
+          "text": "Ritual as Reality Control",
+          "url": "themes/ritual-reality-control/"
+        },
+        {
+          "text": "Social Persecution and Otherness",
+          "url": "themes/social-persecution-otherness/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "essay-guide/",
+          "emphasis": true
+        }
+      ]
+    }
+  }
+}

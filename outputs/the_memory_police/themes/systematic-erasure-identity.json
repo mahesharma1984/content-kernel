@@ -1,0 +1,64 @@
+{
+  "page_type": "theme",
+  "book_slug": "the_memory_police",
+  "theme_slug": "systematic-erasure-identity",
+  "url": "/the_memory_police/themes/systematic-erasure-identity/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Systematic Erasure of Identity",
+      "heading": "Systematic Erasure of Identity",
+      "description": "The text reveals how totalitarian control destroys individual and collective identity through calculated elimination of memory and meaning. Personal witness to this process shows that erasure is both methodical and devastating, creating profound emptiness that cannot be restored.",
+      "pattern_connection": "The Contemplative Witness pattern allows intimate documentation of identity loss, with the narrator's subjective experience making abstract totalitarian concepts personally devastating.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "emptiness that would not be filled",
+          "effect": "The physical void represents the permanent damage done to human identity through systematic memory erasure."
+        },
+        {
+          "device_name": "Repetition",
+          "quote": "disappeared from the island",
+          "effect": "Reinforces the relentless pattern of erasure while creating acceptance of identity loss as inevitable."
+        },
+        {
+          "device_name": "Juxtaposition",
+          "quote": "creating chaos, but they went about",
+          "effect": "Contrasts destructive outcomes with methodical execution, revealing the calculated nature of identity destruction."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Reader experiences gradual loss of memory and identity alongside narrator, creating profound empathy for victims of systematic oppression."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Symbolism and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text reveals how totalitarian control destroys individual and collective identity through calculated elimination of memory and meaning. Personal witness to this process shows that erasure is both methodical and devastating, creating profound emptiness that cannot be restored."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/the_memory_police/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/the_memory_police/essay-guide/"
+        }
+      ]
+    }
+  }
+}

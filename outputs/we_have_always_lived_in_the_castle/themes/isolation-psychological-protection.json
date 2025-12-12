@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "we_have_always_lived_in_the_castle",
+  "theme_slug": "isolation-psychological-protection",
+  "url": "/we_have_always_lived_in_the_castle/themes/isolation-psychological-protection/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Isolation as Psychological Protection",
+      "heading": "Isolation as Psychological Protection",
+      "description": "The text reveals that extreme isolation can serve as both a shield against trauma and a prison that distorts reality. Merricat's withdrawal from society protects her from hostile judgment but also traps her in increasingly distorted perceptions of normalcy.",
+      "pattern_connection": "The Insular Perception pattern uses unreliable narration to show how isolation creates a protective but limiting psychological bubble that filters all experience through damaged understanding.",
+      "device_examples": [
+        {
+          "device_name": "Imagery",
+          "quote": "I am living on the moon",
+          "effect": "Creates a vivid metaphor for psychological distance that reveals isolation as both escape and exile."
+        },
+        {
+          "device_name": "Repetition",
+          "quote": "Merricat, Merricat",
+          "effect": "Emphasizes how social persecution reinforces the need for protective isolation."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "The reader experiences both intimacy with and alienation from the narrator, simultaneously drawn into her worldview while recognizing its distortions and omissions."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Imagery and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text reveals that extreme isolation can serve as both a shield against trauma and a prison that distorts reality. Merricat's withdrawal from society protects her from hostile judgment but also traps her in increasingly distorted perceptions of normalcy."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/we_have_always_lived_in_the_castle/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/we_have_always_lived_in_the_castle/essay-guide/"
+        }
+      ]
+    }
+  }
+}

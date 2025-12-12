@@ -1,0 +1,98 @@
+{
+  "themes": [
+    {
+      "name": "Medical Authority vs Patient Agency",
+      "slug": "medical-authority-patient-agency",
+      "description": "The text examines how medical expertise can both heal and control patients by reframing their experiences through clinical language. Doctors hold power to define what constitutes sanity and illness, potentially undermining patients' own understanding of their conditions.",
+      "pattern_connection": "The Clinical Empathy pattern's medical perspective creates therapeutic distance that enables understanding while simultaneously establishing professional authority over patient experience.",
+      "device_examples": [
+        {
+          "device_name": "Juxtaposition",
+          "quote": "You seem to have a very powerful anti-war neurosis",
+          "effect": "Medical terminology reframes political conviction as psychological condition, demonstrating clinical power to redefine patient reality."
+        },
+        {
+          "device_name": "Juxtaposition",
+          "quote": "This may come as a shock, Dr Rivers, but I had been rather assuming that we were not.",
+          "effect": "Patient resistance against therapeutic alliance reveals power dynamics inherent in clinical treatment relationships."
+        }
+      ]
+    },
+    {
+      "name": "Trauma as Observable Phenomenon",
+      "slug": "trauma-observable-phenomenon",
+      "description": "The text suggests that psychological wounds can be studied and understood through clinical observation and metaphorical transformation. Traumatic experiences become manageable when viewed through medical frameworks that create emotional distance.",
+      "pattern_connection": "Clinical empathy enables processing of unbearable trauma by maintaining therapeutic distance while preserving emotional truth through compassionate observation.",
+      "device_examples": [
+        {
+          "device_name": "Imagery",
+          "quote": "twisted and blackened shapes began to seem like old friends",
+          "effect": "Clinical distance transforms horrific war imagery into familiar details, showing how medical perspective enables trauma processing."
+        },
+        {
+          "device_name": "Metaphor",
+          "quote": "like trying to stop the ship would have been",
+          "effect": "Personal trauma becomes objective imagery that can be clinically assessed while maintaining emotional authenticity."
+        }
+      ]
+    },
+    {
+      "name": "Institutional Containment of Dissent",
+      "slug": "institutional-containment-dissent",
+      "description": "The text explores how institutions use therapeutic environments to manage and potentially suppress individual resistance to authority. Medical treatment becomes a form of social control that contains political opposition under the guise of healing.",
+      "pattern_connection": "The medical perspective creates therapeutic distance that can assess both genuine healing needs and institutional pressures to conform patients to social expectations.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "Like a trench without the sky",
+          "effect": "Hospital architecture symbolizes psychological entrapment, revealing how institutional spaces contain dissenting voices."
+        },
+        {
+          "device_name": "Foreshadowing",
+          "quote": "it's my duty to try to change that",
+          "effect": "Establishes tension between therapeutic duty and patient conviction, previewing institutional pressure to eliminate dissent."
+        }
+      ]
+    },
+    {
+      "name": "War's Inescapable Psychological Legacy",
+      "slug": "war-inescapable-psychological-legacy",
+      "description": "The text reveals that war trauma penetrates so deeply into consciousness that it remains present even during recovery and civilian life. Clinical observation shows how war experiences become permanent parts of identity rather than temporary conditions to be cured.",
+      "pattern_connection": "Clinical empathy provides the observational distance necessary to recognize trauma's permanence while maintaining compassionate understanding of its ongoing effects.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "thin line of khaki was just visible beneath the purple silk",
+          "effect": "Military uniform beneath luxury symbolizes war's inescapable presence, enabling clinical assessment of trauma's permanence."
+        },
+        {
+          "device_name": "Imagery",
+          "quote": "skulls in the side. You looked back along and \u2026 Like mushrooms.",
+          "effect": "Visceral sensory detail creates therapeutic distance through metaphorical transformation of persistent traumatic memories."
+        }
+      ]
+    }
+  ],
+  "theses": [
+    {
+      "focus": "Theme-focused",
+      "statement": "Barker explores the theme of Medical Authority vs Patient Agency through juxtaposition and symbolism, revealing how therapeutic environments simultaneously offer genuine healing while functioning as mechanisms of social control that redefine resistance as pathology.",
+      "structure_notes": "Identifies specific theme + names precise devices + reveals the paradoxical dual function of medical authority"
+    },
+    {
+      "focus": "Pattern-focused",
+      "statement": "Through Clinical Empathy, Barker employs third-person limited perspective and medical imagery to create therapeutic distance that enables readers to comprehend unbearable trauma while maintaining emotional authenticity, suggesting that understanding psychological wounds requires both intellectual detachment and compassionate observation.",
+      "structure_notes": "Names the pattern + explains the mechanism of therapeutic distance + shows how it enables dual reader experience"
+    },
+    {
+      "focus": "Device-focused",
+      "statement": "Barker's use of juxtaposition and symbolism creates a clinical lens through which traumatic experiences become observable phenomena, demonstrating that psychological wounds can only be processed when transformed from overwhelming personal reality into manageable therapeutic material.",
+      "structure_notes": "Focuses on specific devices + shows transformation mechanism + states significance for trauma processing"
+    },
+    {
+      "focus": "Theme-focused",
+      "statement": "Barker examines War's Inescapable Psychological Legacy through imagery and metaphor, revealing that clinical observation exposes trauma not as a temporary condition to be cured but as a permanent alteration of consciousness that becomes integral to identity.",
+      "structure_notes": "Theme-focused + shows how devices reveal trauma's permanence + challenges assumption that trauma can be 'cured'"
+    }
+  ]
+}

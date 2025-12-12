@@ -1,0 +1,54 @@
+{
+  "page_type": "hub",
+  "book_slug": "jane_eyre",
+  "url": "/jane_eyre/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: What the Book Does",
+      "heading": "Moral Bildungsroman",
+      "description": "First-person retrospective narration with tight character-mediated alignment creates intimate access to moral development while maintaining formal distance through temporal remove.",
+      "reader_effect": "Readers experience Jane's emotional journey intimately while gaining wisdom perspective through the mature narrator's moral framework and accumulated understanding.",
+      "quick_reference": {
+        "structure": "38 chapters",
+        "voice": "First-person narration from Jane's perspective throughout",
+        "tone": "earnest, passionate, morally assertive"
+      }
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Read for Patterns",
+      "heading": "What Pattern-Recognition Means",
+      "worked_example": {
+        "formula": "Foreshadowing + Juxtaposition + Imagery",
+        "arrow": "\u2192",
+        "effect": "Readers experience Jane's emotional journey intimately while gaining wisdom perspective through the mature narrator's moral framework and accumulated understanding"
+      },
+      "prompts": [
+        "What's the cumulative effect of these devices working together?",
+        "Why would the author choose this particular combination?",
+        "What reader experience does this pattern create?"
+      ]
+    },
+    "cta": {
+      "badge": "Action: Explore Through Themes",
+      "links": [
+        {
+          "text": "Moral Development Through Suffering",
+          "url": "themes/moral-development-through-suffering/"
+        },
+        {
+          "text": "Social Displacement and Belonging",
+          "url": "themes/social-displacement-belonging/"
+        },
+        {
+          "text": "Symbolic Interpretation and Moral Understanding",
+          "url": "themes/symbolic-interpretation-moral-understanding/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "essay-guide/",
+          "emphasis": true
+        }
+      ]
+    }
+  }
+}

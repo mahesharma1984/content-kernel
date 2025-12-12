@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "jane_eyre",
+  "theme_slug": "moral-development-through-suffering",
+  "url": "/jane_eyre/themes/moral-development-through-suffering/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Moral Development Through Suffering",
+      "heading": "Moral Development Through Suffering",
+      "description": "The text argues that systematic oppression and moral crises serve as catalysts for developing ethical judgment and inner strength. Jane's repeated suffering becomes the foundation for her moral awakening and capacity for independent reasoning.",
+      "pattern_connection": "The retrospective narration allows readers to witness Jane's immediate pain while understanding how these experiences shaped her mature moral framework.",
+      "device_examples": [
+        {
+          "device_name": "Repetition",
+          "quote": "Why was I always suffering, always brow-beaten, always accused, forever condemned",
+          "effect": "The repetitive structure emphasizes how systematic oppression becomes the driving force for Jane's moral awakening."
+        },
+        {
+          "device_name": "Metaphor",
+          "quote": "my reason, forced by the agonizing stimulus into precocious though transitory power",
+          "effect": "Presents moral crisis as the mechanism that awakens Jane's capacity for ethical judgment."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Readers experience Jane's emotional journey intimately while gaining wisdom perspective through the mature narrator's moral framework and accumulated understanding."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Repetition and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text argues that systematic oppression and moral crises serve as catalysts for developing ethical judgment and inner strength. Jane's repeated suffering becomes the foundation for her moral awakening and capacity for independent reasoning."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/jane_eyre/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/jane_eyre/essay-guide/"
+        }
+      ]
+    }
+  }
+}

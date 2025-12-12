@@ -1,0 +1,80 @@
+{
+  "themes": [
+    {
+      "name": "Moral Development Through Suffering",
+      "slug": "moral-development-through-suffering",
+      "description": "The text argues that systematic oppression and moral crises serve as catalysts for developing ethical judgment and inner strength. Jane's repeated suffering becomes the foundation for her moral awakening and capacity for independent reasoning.",
+      "pattern_connection": "The retrospective narration allows readers to witness Jane's immediate pain while understanding how these experiences shaped her mature moral framework.",
+      "device_examples": [
+        {
+          "device_name": "Repetition",
+          "quote": "Why was I always suffering, always brow-beaten, always accused, forever condemned",
+          "effect": "The repetitive structure emphasizes how systematic oppression becomes the driving force for Jane's moral awakening."
+        },
+        {
+          "device_name": "Metaphor",
+          "quote": "my reason, forced by the agonizing stimulus into precocious though transitory power",
+          "effect": "Presents moral crisis as the mechanism that awakens Jane's capacity for ethical judgment."
+        }
+      ]
+    },
+    {
+      "name": "Social Displacement and Belonging",
+      "slug": "social-displacement-belonging",
+      "description": "The text explores how being an outsider creates both vulnerability and moral clarity. Jane's position as someone who doesn't fit conventional social structures becomes the source of her eventual independence and authentic relationships.",
+      "pattern_connection": "The intimate narration creates empathy for Jane's displacement while the mature perspective reveals how marginalization led to moral strength.",
+      "device_examples": [
+        {
+          "device_name": "Juxtaposition",
+          "quote": "I was a discord in Gateshead Hall; I was like nobody there",
+          "effect": "Contrasts Jane's essential nature with her social environment, establishing displacement as the foundation for her moral journey."
+        },
+        {
+          "device_name": "Symbolism",
+          "quote": "red moreen curtain nearly close, I was shrined in double retirement",
+          "effect": "The enclosed space symbolizes both Jane's marginalized position and her need to find legitimate belonging through moral development."
+        }
+      ]
+    },
+    {
+      "name": "Symbolic Interpretation and Moral Understanding",
+      "slug": "symbolic-interpretation-moral-understanding",
+      "description": "The text demonstrates that developing the ability to read symbolic meanings in experiences is essential for moral growth. Jane's journey involves learning to interpret both external signs and internal experiences as guidance for ethical decisions.",
+      "pattern_connection": "The mature narrator's perspective allows readers to see both Jane's developing capacity for symbolic understanding and the wisdom that results from this skill.",
+      "device_examples": [
+        {
+          "device_name": "Foreshadowing",
+          "quote": "Each picture told a story; mysterious often to my undeveloped understanding",
+          "effect": "Establishes Jane's growing capacity to interpret symbolic meanings as central to her moral development."
+        },
+        {
+          "device_name": "Symbolism",
+          "quote": "the chestnut-tree. It stood up, black and riven",
+          "effect": "Shows Jane's mature ability to read natural symbols as moral guidance about her relationship choices."
+        }
+      ]
+    }
+  ],
+  "theses": [
+    {
+      "focus": "Theme-focused",
+      "statement": "Bront\u00eb explores moral development through suffering by employing repetition and metaphor to transform Jane's systematic oppression into the foundation for ethical awakening, revealing that moral strength emerges through the interpretation of crisis rather than its avoidance.",
+      "structure_notes": "Specific theme + precise devices + transformation mechanism + counterintuitive insight about suffering's productive role"
+    },
+    {
+      "focus": "Pattern-focused",
+      "statement": "Through the Moral Bildungsroman pattern, Bront\u00eb uses first-person retrospective narration and symbolic imagery to create intimate access to Jane's immediate suffering while providing the temporal distance necessary for moral interpretation, demonstrating that wisdom requires both experience and reflection.",
+      "structure_notes": "Names pattern + shows dual narrative mechanism + explains how temporal structure creates meaning about wisdom formation"
+    },
+    {
+      "focus": "Device-focused",
+      "statement": "Bront\u00eb's use of foreshadowing and symbolism creates a framework where Jane's developing capacity to interpret signs becomes central to her moral growth, suggesting that ethical maturity depends on the ability to read symbolic meaning in lived experience.",
+      "structure_notes": "Two complementary devices + shows interpretive mechanism + connects symbolic reading to moral development"
+    },
+    {
+      "focus": "Theme-focused",
+      "statement": "Bront\u00eb examines social displacement and belonging through juxtaposition and imagery that contrast Jane's marginalized position with her essential moral nature, revealing that authentic belonging emerges from ethical independence rather than social conformity.",
+      "structure_notes": "Clear theme focus + specific contrasting devices + shows how displacement leads to authentic connection through moral strength"
+    }
+  ]
+}

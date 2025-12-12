@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "We Have Always Lived in the Castle",
+    "author": "Shirley Jackson",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Symbolism: Deeper meaning through symbolic objects/actions",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Symbolism is used throughout the text to deeper meaning through symbolic objects/actions."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "the crack in the sidewalk that looked",
+            "scene": "Merricat noting the pointing crack as a permanent landmark",
+            "effect": "The crack represents the unchanging nature of the village's hostility and serves as a physical marker of Merricat's traumatic journey"
+          },
+          {
+            "quote": "All our land was enriched with my treasures buried in it",
+            "scene": "Merricat describes her burial rituals and protective objects",
+            "effect": "Buried items symbolize Merricat's psychological need for control, presented as rational protection through her distorted lens"
+          },
+          {
+            "quote": "We are on the moon at last",
+            "scene": "Merricat and Constance in their forest hideout",
+            "effect": "The moon represents complete isolation from society - Merricat's fantasy of escape becomes literal reality as they retreat from the world"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Symbolism HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

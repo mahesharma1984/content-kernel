@@ -1,0 +1,98 @@
+{
+  "themes": [
+    {
+      "name": "Dignity Transcends Social Class",
+      "slug": "dignity-transcends-social-class",
+      "description": "The text reveals that true dignity and moral worth exist independently of economic circumstances or social position. Characters like the Cunninghams demonstrate honor through their actions and principles, while others with higher status lack basic decency.",
+      "pattern_connection": "Scout's innocent observations allow readers to see moral truth clearly while she remains unaware of the deeper social implications, creating powerful recognition of authentic human worth.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "One morning Jem and I found a load of stovewood in the back yard",
+          "effect": "The stovewood symbolizes dignity and self-respect that Scout observes without fully understanding its moral significance."
+        },
+        {
+          "device_name": "Situational Irony",
+          "quote": "Little Chuck Little was another member of the population who didn't know where his next meal was coming from, but he was a born gentleman",
+          "effect": "Contradicts social expectations by showing that poverty cannot diminish genuine character and moral breeding."
+        }
+      ]
+    },
+    {
+      "name": "Moral Education Through Experience",
+      "slug": "moral-education-through-experience",
+      "description": "The text demonstrates that true moral understanding develops through lived experience and personal mistakes rather than abstract instruction. Characters learn empathy and justice by confronting their own prejudices and witnessing real consequences of moral choices.",
+      "pattern_connection": "The retrospective narration shows how childhood experiences shape adult moral consciousness, with readers experiencing Scout's gradual awakening to ethical complexity.",
+      "device_examples": [
+        {
+          "device_name": "Flashback",
+          "quote": "My special knowledge of the Cunningham tribe\u2014one branch, that is\u2014was gained from events of last winter",
+          "effect": "Shows how past experience provides moral context that transforms innocent observation into ethical understanding."
+        },
+        {
+          "device_name": "First-Person Narration",
+          "quote": "I returned to school and hated Calpurnia steadily",
+          "effect": "Scout's honest admission reveals the petty emotions that must be overcome in moral development."
+        }
+      ]
+    },
+    {
+      "name": "Innocence Exposes Adult Hypocrisy",
+      "slug": "innocence-exposes-adult-hypocrisy",
+      "description": "The text uses childlike perception to reveal the contradictions and moral failures of adult society. Scout's innocent questions and observations strip away social pretenses to expose the gap between stated values and actual behavior.",
+      "pattern_connection": "Scout's innocent perspective combined with dramatic irony allows readers to see adult prejudices and moral blindness more clearly than the characters themselves can.",
+      "device_examples": [
+        {
+          "device_name": "Dramatic Irony",
+          "quote": "Atticus had to, whether he wanted to",
+          "effect": "Scout's misunderstanding reveals the community's deeper moral failure in expecting lawyers to provide inadequate defense."
+        },
+        {
+          "device_name": "Symbolism",
+          "quote": "It's like a Roman carnival",
+          "effect": "The trial as entertainment symbolizes society's moral decay that Scout innocently observes without understanding its full horror."
+        }
+      ]
+    },
+    {
+      "name": "Understanding Through Perspective-Taking",
+      "slug": "understanding-through-perspective-taking",
+      "description": "The text emphasizes that true understanding requires the ability to see situations from another person's viewpoint. Moral growth comes from recognizing that others have different experiences and limitations that shape their actions.",
+      "pattern_connection": "The dual consciousness created by Scout's narration mirrors the theme by requiring readers to hold both child and adult perspectives simultaneously.",
+      "device_examples": [
+        {
+          "device_name": "Dramatic Irony",
+          "quote": "I thought I had made things sufficiently clear",
+          "effect": "Scout's assumption reveals her inability to understand Miss Caroline's outsider perspective, demonstrating the need for empathetic understanding."
+        },
+        {
+          "device_name": "Juxtaposition",
+          "quote": "Are we as poor as the Cunninghams?",
+          "effect": "Contrasts different types of poverty to show how perspective shapes understanding of social position and need."
+        }
+      ]
+    }
+  ],
+  "theses": [
+    {
+      "focus": "Theme-focused",
+      "statement": "Lee explores how dignity transcends social class through dramatic irony and symbolism, revealing that moral worth exists independently of economic circumstances when innocent observation strips away societal prejudices.",
+      "structure_notes": "Links specific theme to concrete devices with clear causal relationship showing how child's perspective exposes moral truth"
+    },
+    {
+      "focus": "Pattern-focused",
+      "statement": "Through the Innocent Revelation pattern, Lee employs first-person retrospective narration and dramatic irony to create dual consciousness in readers, demonstrating that moral awakening requires both innocent observation and mature understanding.",
+      "structure_notes": "Names the pattern, identifies key technique, explains the reader effect, and connects to broader meaning about moral development"
+    },
+    {
+      "focus": "Device-focused",
+      "statement": "Lee's use of symbolism and juxtaposition creates powerful contrasts between appearance and reality, which exposes the gap between society's stated values and actual behavior through a child's unfiltered perspective.",
+      "structure_notes": "Focuses on specific devices, shows how they work together, and explains their significance in revealing social hypocrisy"
+    },
+    {
+      "focus": "Theme-focused",
+      "statement": "Lee demonstrates that moral education occurs through experience rather than instruction by employing dramatic irony and imagery, revealing how confronting personal prejudices transforms innocent observation into ethical understanding.",
+      "structure_notes": "Addresses the experiential learning theme with specific devices and shows the transformation process from innocence to moral awareness"
+    }
+  ]
+}

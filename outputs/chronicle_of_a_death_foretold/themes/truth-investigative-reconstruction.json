@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "chronicle_of_a_death_foretold",
+  "theme_slug": "truth-investigative-reconstruction",
+  "url": "/chronicle_of_a_death_foretold/themes/truth-investigative-reconstruction/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Truth Through Investigative Reconstruction",
+      "heading": "Truth Through Investigative Reconstruction",
+      "description": "The text suggests that truth emerges not from experiencing events directly, but from methodically piecing together testimonies and evidence years later. This investigative process reveals deeper meanings that were invisible to those living through the events.",
+      "pattern_connection": "Investigative Fatalism uses retrospective investigation to transform known outcomes into mysteries, where the real discovery is understanding why tragedy was inevitable.",
+      "device_examples": [
+        {
+          "device_name": "First-Person Narration",
+          "quote": "his mother, told me twenty-seven years later",
+          "effect": "Establishes the investigative framework where truth emerges through time and methodical reconstruction of testimony."
+        },
+        {
+          "device_name": "Dialogue",
+          "quote": "Let go of her, white man",
+          "effect": "Provides direct witness testimony that builds the journalistic case through accumulated evidence."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "The reader experiences the inevitability of fate through methodical reconstruction, where knowing the outcome intensifies rather than diminishes dramatic tension."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how First-Person Narration and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text suggests that truth emerges not from experiencing events directly, but from methodically piecing together testimonies and evidence years later. This investigative process reveals deeper meanings that were invisible to those living through the events."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/chronicle_of_a_death_foretold/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/chronicle_of_a_death_foretold/essay-guide/"
+        }
+      ]
+    }
+  }
+}

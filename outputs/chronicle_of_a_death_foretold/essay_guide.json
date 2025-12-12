@@ -1,0 +1,79 @@
+{
+  "page_type": "essay_guide",
+  "book_slug": "chronicle_of_a_death_foretold",
+  "url": "/chronicle_of_a_death_foretold/essay-guide/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Building Your Thesis",
+      "heading": "How to Write About Chronicle of a Death Foretold",
+      "thesis_components": {
+        "pattern": "Investigative Fatalism",
+        "themes": [
+          "Inevitable Fate Despite Foreknowledge",
+          "Collective Complicity in Tragedy",
+          "Truth Through Investigative Reconstruction",
+          "Deceptive Signs and Misread Omens"
+        ],
+        "devices": [
+          "Dialogue",
+          "Juxtaposition",
+          "Repetition",
+          "Imagery",
+          "Foreshadowing"
+        ]
+      },
+      "example_theses": [
+        {
+          "focus": "Theme-focused",
+          "statement": "M\u00e1rquez explores the inevitability of fate despite foreknowledge through relentless foreshadowing and repetition, revealing that complete awareness of tragedy's approach paradoxically intensifies rather than prevents its fulfillment.",
+          "structure_notes": "Clear theme identification + specific devices showing mechanism + counterintuitive insight about knowledge's powerlessness"
+        },
+        {
+          "focus": "Pattern-focused",
+          "statement": "Through the Investigative Fatalism pattern, M\u00e1rquez employs retrospective dialogue and journalistic repetition to create methodical distance from predetermined tragedy, suggesting that truth emerges not from preventing fate but from understanding its inevitability.",
+          "structure_notes": "Names pattern + shows investigative mechanism + states philosophical insight about truth vs prevention"
+        },
+        {
+          "focus": "Device-focused",
+          "statement": "M\u00e1rquez's use of dialogue and juxtaposition creates a documentary record of collective complicity, which transforms individual guilt into shared community responsibility for tragedy that everyone knew would occur.",
+          "structure_notes": "Two priority devices + clear mechanism (documentary evidence) + specific effect on moral responsibility"
+        },
+        {
+          "focus": "Theme-focused",
+          "statement": "M\u00e1rquez examines collective complicity in tragedy through public dialogue and structural repetition, demonstrating that community silence becomes active participation when foreknowledge creates the obligation to act.",
+          "structure_notes": "Theme + devices showing public nature + insight about silence as action through moral obligation"
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: From Pattern to Thesis",
+      "four_steps": [
+        {
+          "step": 1,
+          "title": "Choose your theme",
+          "content": "Select from the themes above"
+        },
+        {
+          "step": 2,
+          "title": "Identify devices",
+          "content": "Which devices create this theme?"
+        },
+        {
+          "step": 3,
+          "title": "Connect to pattern",
+          "content": "How does Investigative Fatalism work?"
+        },
+        {
+          "step": 4,
+          "title": "Synthesize",
+          "content": "Combine into clear thesis statement"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Get Support",
+      "primary": "Get help developing your thesis",
+      "secondary": "Upload your draft"
+    }
+  }
+}

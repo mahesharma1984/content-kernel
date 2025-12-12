@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "We Have Always Lived in the Castle",
+    "author": "Shirley Jackson",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Imagery: Sensory grounding and vivid description",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Imagery is used throughout the text to sensory grounding and vivid description."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "I am living on the moon",
+            "scene": "Merricat creating mental escape while enduring the children's taunts",
+            "effect": "Creates a vivid alternate reality that reveals Merricat's need to psychologically distance herself from traumatic social interactions"
+          },
+          {
+            "quote": "the grass was moving in the breeze and the cloud shadows passed back and forth",
+            "scene": "Merricat walking through the long field",
+            "effect": "Creates peaceful natural imagery that contrasts with underlying tension, filtered through Merricat's selective perception"
+          },
+          {
+            "quote": "finger of flame reach out to touch",
+            "scene": "Fire spreading through the house",
+            "effect": "Personifies the destructive force as organic and alive, filtering the destruction through Merricat's animistic perception of the world"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Imagery HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}
