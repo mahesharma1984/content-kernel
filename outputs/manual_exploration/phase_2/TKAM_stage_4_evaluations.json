@@ -1,0 +1,301 @@
+{
+  "evaluations": [
+    {
+      "angle_id": "Social-1",
+      "message": "Everyone knows Scout is unreliable. What they miss: she's unreliable in OPPOSITE directions. Child-Scout understands too little. Adult-Scout reveals too much. That tension IS the book.",
+      "scores": {
+        "memorable": 9,
+        "differentiating": 8,
+        "pattern_anchored": 9,
+        "funnel_continuous": 8
+      },
+      "justifications": {
+        "memorable": "Concrete 'opposite directions' metaphor, simple structure students can repeat",
+        "differentiating": "Reframes 'unreliable narrator' criticism into sophisticated structural insight",
+        "pattern_anchored": "Directly describes the core dynamic - can't understand without seeing dual consciousness",
+        "funnel_continuous": "Hook: 'opposite directions' mystery. Solution: complete dual consciousness framework"
+      },
+      "total_score": 34,
+      "agitation_register": "Everyone says Scout is unreliable - but they're missing the real pattern",
+      "solution_register": "The bidirectional unreliability creates the entire narrative tension through retrospective filtering",
+      "kernel_elements": [
+        "Dramatic Irony",
+        "First-person retrospective narration",
+        "dual consciousness"
+      ]
+    },
+    {
+      "angle_id": "Social-2",
+      "message": "TKAM isn't about racism. It's about HOW we learn to see injustice. Scout's retrospective narration lets you experience both the learning AND the knowing simultaneously.",
+      "scores": {
+        "memorable": 7,
+        "differentiating": 9,
+        "pattern_anchored": 8,
+        "funnel_continuous": 7
+      },
+      "justifications": {
+        "memorable": "Clear shift from 'what' to 'how' but 'learning to see' is somewhat abstract",
+        "differentiating": "Bold challenge to standard racism-focused readings, unique pedagogical angle",
+        "pattern_anchored": "Describes reader effect but doesn't require full pattern understanding",
+        "funnel_continuous": "Hook works but solution register needs more structural detail"
+      },
+      "total_score": 31,
+      "agitation_register": "TKAM isn't about what you think - it's about the learning process itself",
+      "solution_register": "The retrospective narration creates dual consciousness that teaches moral witnessing",
+      "kernel_elements": [
+        "Maturing Moral Witness pattern",
+        "Reader Effect: dual consciousness",
+        "adult moral understanding through childhood innocence"
+      ]
+    },
+    {
+      "angle_id": "Social-3",
+      "message": "That sleepy afternoon imagery in TKAM? It's not atmosphere. It's a trap. Harper Lee uses 'soft, drowsy' scenes to make the moral violence hit harder. Imagery as misdirection.",
+      "scores": {
+        "memorable": 8,
+        "differentiating": 7,
+        "pattern_anchored": 6,
+        "funnel_continuous": 6
+      },
+      "justifications": {
+        "memorable": "'It's a trap' is vivid and concrete, easy to remember",
+        "differentiating": "Interesting take but imagery analysis is common in lit guides",
+        "pattern_anchored": "Touches on deceptive peace but doesn't require core pattern understanding",
+        "funnel_continuous": "Limited - hard to scale from imagery trick to full narrative system"
+      },
+      "total_score": 27,
+      "agitation_register": "That peaceful imagery? It's actually a literary trap",
+      "solution_register": "Lee systematically uses false peace to intensify moral revelations",
+      "kernel_elements": [
+        "Imagery (exposition)",
+        "deceptively peaceful veneer",
+        "dramatic irony"
+      ]
+    },
+    {
+      "angle_id": "YouTube-1",
+      "message": "Video: 'The Scout Paradox - How One Character Breaks Every Narration Rule (And Why It Works)' - I'll walk through 3 scenes where Scout simultaneously knows too much and too little",
+      "scores": {
+        "memorable": 8,
+        "differentiating": 8,
+        "pattern_anchored": 9,
+        "funnel_continuous": 9
+      },
+      "justifications": {
+        "memorable": "'Breaks every rule' is concrete and intriguing",
+        "differentiating": "Paradox framing is unique, challenges standard narrator analysis",
+        "pattern_anchored": "The paradox IS the core dynamic - requires full pattern to resolve",
+        "funnel_continuous": "Perfect scaling: tease the paradox, demonstrate in scenes, explain the pattern"
+      },
+      "total_score": 34,
+      "agitation_register": "Scout breaks every narration rule - but somehow it works perfectly",
+      "solution_register": "The paradox resolves through understanding retrospective dual consciousness",
+      "kernel_elements": [
+        "First-person retrospective narration",
+        "dramatic irony",
+        "limited comprehension vs ethical clarity"
+      ]
+    },
+    {
+      "angle_id": "YouTube-2",
+      "message": "Video: 'Why TKAM Feels Different From Other Memory Books' - I'll reveal the exact pattern that creates dual consciousness in readers (with timestamp analysis)",
+      "scores": {
+        "memorable": 7,
+        "differentiating": 9,
+        "pattern_anchored": 10,
+        "funnel_continuous": 9
+      },
+      "justifications": {
+        "memorable": "'Feels different' is relatable but somewhat vague",
+        "differentiating": "Unique angle - most don't compare to other memory narratives",
+        "pattern_anchored": "Promises to reveal THE pattern - completely dependent on kernel understanding",
+        "funnel_continuous": "Excellent flow: mystery feeling \u2192 pattern revelation \u2192 complete framework"
+      },
+      "total_score": 35,
+      "agitation_register": "You know TKAM feels different from other memory books - but why?",
+      "solution_register": "The Maturing Moral Witness pattern creates unique dual consciousness through specific structural devices",
+      "kernel_elements": [
+        "Reader Effect: dual consciousness",
+        "nostalgia and social critique",
+        "Maturing Moral Witness pattern"
+      ]
+    },
+    {
+      "angle_id": "YouTube-3",
+      "message": "Video: 'The Interrupted Judgment Motif - TKAM's Hidden Structural Secret' - I'll show you the fragmented pattern that appears in 12+ scenes you missed",
+      "scores": {
+        "memorable": 8,
+        "differentiating": 9,
+        "pattern_anchored": 7,
+        "funnel_continuous": 7
+      },
+      "justifications": {
+        "memorable": "'Hidden secret' and '12+ scenes you missed' is compelling",
+        "differentiating": "Motif analysis at this level is rare in TKAM guides",
+        "pattern_anchored": "Specific kernel element but could work without full pattern understanding",
+        "funnel_continuous": "Good but focuses on one element rather than complete system"
+      },
+      "total_score": 31,
+      "agitation_register": "There's a hidden pattern in 12+ scenes you completely missed",
+      "solution_register": "The interrupted judgment motif systematically creates narrative fragmentation",
+      "kernel_elements": [
+        "Motif (falling_action)",
+        "interrupted moral judgments",
+        "fragmented motif"
+      ]
+    },
+    {
+      "angle_id": "SEO-1",
+      "message": "How Scout's Dual Narration Creates Dramatic Irony in To Kill a Mockingbird - The Complete Analysis",
+      "scores": {
+        "memorable": 6,
+        "differentiating": 6,
+        "pattern_anchored": 8,
+        "funnel_continuous": 7
+      },
+      "justifications": {
+        "memorable": "Academic title format, less sticky than social versions",
+        "differentiating": "Standard dramatic irony analysis, though 'dual narration' helps",
+        "pattern_anchored": "Directly addresses core dynamic mechanism",
+        "funnel_continuous": "SEO format limits agitation register flexibility"
+      },
+      "total_score": 27,
+      "agitation_register": "How does Scout's narration create such powerful dramatic irony?",
+      "solution_register": "Dual consciousness through retrospective filtering creates systematic ironic effects",
+      "kernel_elements": [
+        "Dramatic Irony (exposition)",
+        "First-person retrospective narration",
+        "child vs adult comprehension"
+      ]
+    },
+    {
+      "angle_id": "SEO-2",
+      "message": "Teaching TKAM Narrative Perspective - Beyond Point of View to Pattern Recognition",
+      "scores": {
+        "memorable": 5,
+        "differentiating": 7,
+        "pattern_anchored": 8,
+        "funnel_continuous": 8
+      },
+      "justifications": {
+        "memorable": "Academic language, 'pattern recognition' somewhat abstract",
+        "differentiating": "'Beyond point of view' suggests deeper approach than typical guides",
+        "pattern_anchored": "Explicitly promises pattern-based understanding",
+        "funnel_continuous": "Good teacher-focused progression from problem to systematic solution"
+      },
+      "total_score": 28,
+      "agitation_register": "Point of view analysis isn't enough - you need pattern recognition",
+      "solution_register": "Complete systematic framework for teaching narrative complexity through patterns",
+      "kernel_elements": [
+        "Core Dynamic",
+        "Reader Effect",
+        "Priority Devices mapped to plot structure"
+      ]
+    },
+    {
+      "angle_id": "SEO-3",
+      "message": "TKAM Symbolism and Motif Analysis - How Neglect, Interruption, and Fragility Create Meaning",
+      "scores": {
+        "memorable": 6,
+        "differentiating": 7,
+        "pattern_anchored": 6,
+        "funnel_continuous": 6
+      },
+      "justifications": {
+        "memorable": "Three-part structure helps but terms are somewhat abstract",
+        "differentiating": "Goes beyond mockingbird but still standard symbolic analysis",
+        "pattern_anchored": "Uses kernel elements but doesn't require core pattern understanding",
+        "funnel_continuous": "Limited to symbolic analysis rather than complete narrative system"
+      },
+      "total_score": 25,
+      "agitation_register": "TKAM symbolism goes way beyond the mockingbird",
+      "solution_register": "Systematic analysis of interconnected symbolic patterns throughout the novel",
+      "kernel_elements": [
+        "Symbolism (exposition): wild growth",
+        "Motif (falling_action): interrupted judgments",
+        "Metaphor: fragile institutions"
+      ]
+    },
+    {
+      "angle_id": "Guide-1",
+      "message": "The Maturing Moral Witness Pattern: A Complete Guide to Understanding Scout's Narrative Function in To Kill a Mockingbird",
+      "scores": {
+        "memorable": 6,
+        "differentiating": 8,
+        "pattern_anchored": 10,
+        "funnel_continuous": 8
+      },
+      "justifications": {
+        "memorable": "Academic title, 'Maturing Moral Witness' is descriptive but not sticky",
+        "differentiating": "Completely unique framing - no other guides use this pattern language",
+        "pattern_anchored": "IS the pattern - completely dependent on kernel understanding",
+        "funnel_continuous": "Strong solution register but needs better agitation hook"
+      },
+      "total_score": 32,
+      "agitation_register": "Scout's narrative function follows a specific pattern most readers miss",
+      "solution_register": "Complete Maturing Moral Witness pattern with all structural elements mapped",
+      "kernel_elements": [
+        "Maturing Moral Witness pattern",
+        "Core Dynamic",
+        "All Priority Devices"
+      ]
+    },
+    {
+      "angle_id": "Guide-2",
+      "message": "From Confusion to Clarity: How Scout's Dual Consciousness Solves Every TKAM Teaching Challenge",
+      "scores": {
+        "memorable": 7,
+        "differentiating": 8,
+        "pattern_anchored": 9,
+        "funnel_continuous": 9
+      },
+      "justifications": {
+        "memorable": "'Confusion to Clarity' is concrete, 'solves every challenge' is bold",
+        "differentiating": "Unique teacher-focused problem-solution framing",
+        "pattern_anchored": "Dual consciousness IS the core reader effect from the pattern",
+        "funnel_continuous": "Perfect progression: teaching problems \u2192 dual consciousness insight \u2192 complete solution"
+      },
+      "total_score": 33,
+      "agitation_register": "Every TKAM teaching challenge stems from one misunderstood element",
+      "solution_register": "Dual consciousness framework solves narrative complexity, student confusion, and engagement issues",
+      "kernel_elements": [
+        "Reader Effect: dual consciousness",
+        "dramatic irony",
+        "wonder and confusion vs weight of moral judgment"
+      ]
+    },
+    {
+      "angle_id": "Guide-3",
+      "message": "Beyond the Mockingbird: The Hidden Patterns That Actually Structure Harper Lee's Novel",
+      "scores": {
+        "memorable": 8,
+        "differentiating": 9,
+        "pattern_anchored": 8,
+        "funnel_continuous": 8
+      },
+      "justifications": {
+        "memorable": "'Beyond the Mockingbird' is concrete and intriguing",
+        "differentiating": "Explicitly moves past standard analysis to structural sophistication",
+        "pattern_anchored": "Promises hidden patterns but could work with various analytical approaches",
+        "funnel_continuous": "Good mystery-to-revelation flow but less specific than dual consciousness angle"
+      },
+      "total_score": 33,
+      "agitation_register": "The mockingbird symbol is just surface - the real structure is hidden",
+      "solution_register": "Complete map of hidden structural patterns including fragmented motifs and interrupted judgments",
+      "kernel_elements": [
+        "interrupted moral judgments motif",
+        "fragmented pattern",
+        "foundational context from ancestry"
+      ]
+    }
+  ],
+  "winner": {
+    "angle_id": "YouTube-2",
+    "core_message": "Why TKAM Feels Different From Other Memory Books - I'll reveal the exact pattern that creates dual consciousness in readers",
+    "why_it_wins": "Scores highest (35/40) because it perfectly balances all four criteria. It's anchored in a relatable feeling everyone has but can't explain, making it memorable without being academic. It's completely differentiating - no other TKAM analysis compares it to memory narratives or promises to reveal 'the exact pattern.' It's maximally pattern-anchored because the entire message is meaningless without understanding the Maturing Moral Witness pattern - you literally cannot deliver on 'the exact pattern that creates dual consciousness' without the kernel. And it has perfect funnel continuity: the agitation register hooks with the mysterious 'different feeling,' the solution register delivers the complete structural explanation.",
+    "agitation_register": "You know TKAM feels different from other memory books - but you can't put your finger on why",
+    "solution_register": "The Maturing Moral Witness pattern creates unique dual consciousness through retrospective narration that filters adult moral understanding through childhood innocence, creating simultaneous wonder and judgment",
+    "kernel_pattern_reference": "This thread IS the kernel's reader effect made concrete. The 'different feeling' is exactly the dual consciousness the pattern creates. The message promises to reveal the structural mechanism behind this effect.",
+    "total_score": 35
+  }
+}

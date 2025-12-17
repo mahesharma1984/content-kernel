@@ -43,7 +43,7 @@ Must Not Do: {social_must_not_do}
 Register: Should use AGITATION (tease problem, point to solution)
 
 Revise and provide:
-- Final tweet (280 chars max)
+- Final video script (60-90 seconds, with [HOOK], [VISUAL], [SPOKEN], [CLIFFHANGER], [CTA] markers)
 - What you changed and why
 - Constraint validation (pass/fail each item)
 
@@ -91,32 +91,38 @@ Revise and provide:
 
 OUTPUT FORMAT:
 
-{{
-  "stage": "5B",
-  "book_title": "To Kill a Mockingbird",
-  "content_blocks": {{
-    "social": {{
-      "final_content": "the revised tweet",
-      "changes_made": "what changed and why",
-      "constraint_validation": {{
-        "job_accomplished": true,
-        "must_do_results": [{{"item": "...", "met": true}}],
-        "must_not_do_results": [{{"item": "...", "violated": false}}],
-        "thread_visible": true,
-        "register_correct": true
-      }},
-      "kernel_references": ["devices/elements used"]
-    }},
-    "youtube": {{ ... }},
-    "seo": {{ ... }},
-    "guide": {{ ... }}
-  }},
-  "overall_validation": {{
-    "all_constraints_met": true,
-    "issues_found": [],
-    "ready_for_rendering": true
-  }}
-}}
+Return your refined content using this exact markdown structure:
+
+## SOCIAL (TikTok/Reels/Shorts)
+
+[Your video script here with [HOOK], [VISUAL], [SPOKEN], [CLIFFHANGER], [CTA] markers]
+
+---
+
+## YOUTUBE
+
+[Your video script here with [HOOK], [PROMISE], [PREVIEW], [PAYOFF] markers]
+
+---
+
+## SEO
+
+**Headline Here**
+
+Article content...
+
+---
+
+## GUIDE
+
+**Title Here**
+
+**Introduction:**
+...
+
+**Structure:**
+1. ...
+2. ...
 
 CRITICAL INSTRUCTIONS:
 

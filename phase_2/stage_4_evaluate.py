@@ -5,8 +5,17 @@ import json
 import sys
 from anthropic import Anthropic
 
-def evaluate_and_select_thread(messages_path, kernel_path, prompt_path, output_path):
-    """Evaluate all angles and select winning thread."""
+def evaluate_and_select_thread(messages_path, kernel_path, prompt_path, output_path, drafts_5a_path):
+    """
+    Evaluate angles and select winning thread.
+    
+    Args:
+        messages_path: Stage 3 messages JSON (all angles)
+        kernel_path: Text kernel JSON  
+        prompt_path: Stage 4 evaluation prompt template
+        output_path: Where to save evaluation results
+        drafts_5a_path: Stage 5A drafts JSON (determines which angles to evaluate)
+    """
     
     # Load inputs
     with open(messages_path, 'r') as f:
@@ -18,8 +27,55 @@ def evaluate_and_select_thread(messages_path, kernel_path, prompt_path, output_p
     with open(prompt_path, 'r') as f:
         prompt_template = f.read()
     
+    # Load Stage 5A to determine which angles were drafted
+    with open(drafts_5a_path, 'r') as f:
+        drafts_5a = json.load(f)
+    
+    # Extract indices of drafted angles
+    drafted_indices = {d['angle_index'] for d in drafts_5a['drafts']}
+    
+    print(f"Stage 5A drafted {len(drafted_indices)} angles: {sorted(drafted_indices)}")
+    print(f"Stage 3 has {len(messages['angles'])} total angles")
+    
+    # Validate inputs before processing
+    total_count = len(messages['angles'])
+    drafted_count = len(drafted_indices)
+    
+    if drafted_count == 0:
+        raise ValueError("Stage 5A has no drafts. Cannot run Stage 4.")
+    
+    if drafted_count > total_count:
+        raise ValueError(
+            f"Stage 5A has {drafted_count} drafts but Stage 3 has {total_count} angles. "
+            f"Data corruption suspected."
+        )
+    
+    # Check that all drafted indices are valid
+    max_index = max(drafted_indices)
+    if max_index > total_count:
+        raise ValueError(
+            f"Draft references angle {max_index} but only {total_count} angles exist. "
+            f"Index mismatch between Stage 3 and Stage 5A."
+        )
+    
+    # Filter messages to ONLY drafted angles
+    # Note: angle_index is 1-indexed, list is 0-indexed
+    angles_to_evaluate = [
+        messages['angles'][i-1] 
+        for i in sorted(drafted_indices)
+    ]
+    
+    print(f"Stage 4 will evaluate {len(angles_to_evaluate)} drafted angles\n")
+    
+    # Validation: Ensure we're evaluating what was drafted
+    if len(angles_to_evaluate) != len(drafted_indices):
+        raise ValueError(
+            f"Filtering error: {len(angles_to_evaluate)} angles in list but "
+            f"{len(drafted_indices)} drafted indices"
+        )
+    
     # Fill prompt
-    num_angles = len(messages['angles'])
+    num_angles = len(angles_to_evaluate)
     
     # Extract kernel pattern (v5.1 structure)
     alignment = kernel.get('alignment_pattern', {})
@@ -31,7 +87,7 @@ def evaluate_and_select_thread(messages_path, kernel_path, prompt_path, output_p
     
     prompt = prompt_template.format(
         num_angles=num_angles,
-        json_of_all_angles=json.dumps(messages['angles'], indent=2),
+        json_of_all_angles=json.dumps(angles_to_evaluate, indent=2),
         kernel_pattern=kernel_pattern
     )
     
@@ -120,5 +176,6 @@ if __name__ == "__main__":
     kernel_path = sys.argv[2] if len(sys.argv) > 2 else "To_Kill_a_Mockingbird_kernel_v5_1.json"
     prompt_path = sys.argv[3] if len(sys.argv) > 3 else "prompts/phase_2/stage_4_selection.txt"
     output_path = sys.argv[4] if len(sys.argv) > 4 else "outputs/manual_exploration/phase_2/TKAM_stage_4_evaluations.json"
+    drafts_5a_path = sys.argv[5] if len(sys.argv) > 5 else "outputs/manual_exploration/phase_1/TKAM_stage_5a_drafts.json"
     
-    evaluations = evaluate_and_select_thread(messages_path, kernel_path, prompt_path, output_path)
+    evaluations = evaluate_and_select_thread(messages_path, kernel_path, prompt_path, output_path, drafts_5a_path)

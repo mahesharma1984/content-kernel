@@ -4,7 +4,7 @@ import json
 import sys
 import os
 
-def select_winning_drafts(thread_path, drafts_5a_path, messages_path):
+def select_winning_drafts(thread_path, drafts_5a_path, messages_path, angle_index_override=None):
     """Find drafts for the winning angle."""
     
     with open(thread_path, 'r') as f:
@@ -28,19 +28,33 @@ def select_winning_drafts(thread_path, drafts_5a_path, messages_path):
     # Try to find matching angle in messages
     winning_index = None
     if source_angle_id:
-        # Extract index from angle_id (e.g., "Social-3" -> need to find in messages)
+        # Extract channel and number from angle_id (e.g., "YouTube-1")
         print(f"\nSource angle ID: {source_angle_id}")
-        # Find the angle index
-        for i, angle in enumerate(messages['angles']):
-            channel = angle.get('channel', '')
-            # Simple matching: check if message matches or angle_id matches
-            angle_num = i + 1
-            expected_id = f"{channel}-{angle_num}"
-            if expected_id == source_angle_id or angle['message'] == thread['core_message']:
-                winning_index = i
-                break
+        # Parse the angle ID
+        try:
+            channel_part, num_part = source_angle_id.split('-')
+            target_num = int(num_part)
+            # Find angles matching this channel and count
+            channel_count = 0
+            for i, angle in enumerate(messages['angles']):
+                if angle.get('channel', '').lower() == channel_part.lower():
+                    channel_count += 1
+                    if channel_count == target_num:
+                        winning_index = i
+                        break
+        except:
+            pass
+        
+        # Fallback: try message matching
+        if winning_index is None:
+            for i, angle in enumerate(messages['angles']):
+                if angle['message'] == thread['core_message'] or angle['message'][:50] in thread['core_message'][:100]:
+                    winning_index = i
+                    break
     
-    if winning_index is None:
+    if winning_index is None and angle_index_override is not None:
+        winning_index = angle_index_override - 1  # Convert to 0-based
+    elif winning_index is None:
         # Manual identification needed
         print("\nCould not auto-match angle. Please select manually:")
         print("\nMatching angles by message similarity:")
@@ -51,8 +65,8 @@ def select_winning_drafts(thread_path, drafts_5a_path, messages_path):
         
         try:
             winning_index = int(input("\nEnter angle number (1-based): ")) - 1
-        except (ValueError, KeyboardInterrupt):
-            print("\nCancelled.")
+        except (ValueError, KeyboardInterrupt, EOFError):
+            print("\nCancelled or no input available.")
             sys.exit(1)
     
     print(f"\n✓ Selected angle index: {winning_index}")
@@ -119,6 +133,7 @@ if __name__ == "__main__":
     thread_path = sys.argv[1] if len(sys.argv) > 1 else "outputs/manual_exploration/phase_2/TKAM_stage_4_thread.json"
     drafts_5a_path = sys.argv[2] if len(sys.argv) > 2 else "outputs/manual_exploration/phase_1/TKAM_stage_5a_drafts.json"
     messages_path = sys.argv[3] if len(sys.argv) > 3 else "outputs/manual_exploration/phase_1/TKAM_stage_3_messages.json"
+    angle_index = int(sys.argv[4]) if len(sys.argv) > 4 else None
     
-    select_winning_drafts(thread_path, drafts_5a_path, messages_path)
+    select_winning_drafts(thread_path, drafts_5a_path, messages_path, angle_index_override=angle_index)
 

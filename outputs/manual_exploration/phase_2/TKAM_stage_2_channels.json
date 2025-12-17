@@ -1,0 +1,70 @@
+{
+  "Social": {
+    "job": "Hook users with the 'different feeling' agitation and tease that there's a specific structural reason behind it.",
+    "register": "agitation",
+    "must_do": [
+      "Use the exact phrase 'feels different' to trigger recognition",
+      "Create curiosity about the structural mechanism without naming it",
+      "Direct traffic to YouTube for the reveal"
+    ],
+    "must_not_do": [
+      "Reveal the Maturing Moral Witness pattern name",
+      "Explain dual consciousness concept",
+      "Give away the solution"
+    ],
+    "thread_usage": "Pure agitation register - 'You know TKAM feels different but can't put your finger on why' becomes the hook that stops scroll and creates engagement",
+    "success_metric": "Click-through rate to YouTube video from social posts",
+    "failure_mode": "Giving away too much of the pattern or being too vague about the 'different feeling'"
+  },
+  "YouTube": {
+    "job": "Demonstrate the Maturing Moral Witness pattern working in TKAM with concrete examples to prove the solution.",
+    "register": "solution",
+    "must_do": [
+      "Name and explain the dual consciousness effect with specific scenes",
+      "Show the pattern working in 2-3 key TKAM moments",
+      "Position this as one example of broader literary analysis skills in the guide"
+    ],
+    "must_not_do": [
+      "Give the complete pattern framework",
+      "Show how to apply it to other works",
+      "Provide the full analytical method"
+    ],
+    "thread_usage": "Solution register demonstration - reveal the pattern name and show it creating dual consciousness, but only for TKAM specifically",
+    "success_metric": "Guide download rate from YouTube video CTA",
+    "failure_mode": "Making the video feel complete without the guide, or being too academic without clear examples"
+  },
+  "SEO": {
+    "job": "Answer high-intent TKAM analysis searches using partial pattern delivery to drive guide downloads.",
+    "register": "solution",
+    "must_do": [
+      "Target specific search queries about TKAM's narrative technique",
+      "Introduce dual consciousness concept with examples",
+      "Position the guide as containing the full analytical framework"
+    ],
+    "must_not_do": [
+      "Provide the complete Maturing Moral Witness pattern",
+      "Show application beyond TKAM",
+      "Give the step-by-step analysis method"
+    ],
+    "thread_usage": "Solution register for search intent - explain why TKAM feels different using dual consciousness, but leave the full pattern and broader applications for the guide",
+    "success_metric": "Organic traffic conversion to guide downloads",
+    "failure_mode": "Ranking for wrong keywords or providing too complete an answer that eliminates guide need"
+  },
+  "Guide": {
+    "job": "Deliver the complete Maturing Moral Witness pattern with full application method for analyzing any retrospective narrative.",
+    "register": "solution",
+    "must_do": [
+      "Provide complete pattern framework and all component devices",
+      "Include step-by-step analysis method for any work",
+      "Show application beyond TKAM to other retrospective narratives"
+    ],
+    "must_not_do": [
+      "Repeat basic information from other channels",
+      "Include unnecessary CTA (this is the final deliverable)",
+      "Be incomplete in pattern explanation"
+    ],
+    "thread_usage": "Complete solution register - full revelation of how the Maturing Moral Witness pattern creates the 'different feeling' and how to identify/analyze it anywhere",
+    "success_metric": "Guide completion rate and user retention/engagement with content",
+    "failure_mode": "Being too complex without clear structure or not delivering on the promise of explaining the 'different feeling'"
+  }
+}
