@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Healing Through Professional Distance",
+    "slug": "healing-through-professional-distance",
+    "description": "The text suggests that psychological healing requires a careful balance between clinical objectivity and human compassion. True therapeutic understanding emerges when medical professionals maintain professional boundaries while still acknowledging the humanity of their patients.",
+    "pattern_connection": "The Clinical Empathy pattern's third-person limited perspective through medical viewpoint creates the necessary distance for both diagnosis and genuine care to coexist.",
+    "device_examples": [
+      {
+        "device_name": "Third-Person Limited",
+        "quote": "Rivers watched him for a while",
+        "effect": "Creates therapeutic distance that allows for professional observation while maintaining human connection."
+      },
+      {
+        "device_name": "Juxtaposition",
+        "quote": "You seem to have a very powerful anti-war neurosis",
+        "effect": "Contrasts clinical terminology with the lived reality of trauma, showing how medical language can both help and distance."
+      }
+    ]
+  },
+  {
+    "name": "Trauma's Psychological Landscape",
+    "slug": "trauma-psychological-landscape",
+    "description": "The text reveals that psychological wounds create their own internal geography, where traumatic experiences become familiar landmarks in the mind. War trauma transforms the psyche into a battlefield where past horrors feel more real than present safety.",
+    "pattern_connection": "The Clinical Empathy pattern allows readers to explore trauma through both medical observation and internal experience, creating comprehensive understanding of psychological damage.",
+    "device_examples": [
+      {
+        "device_name": "Imagery",
+        "quote": "twisted and blackened shapes began to seem like old friends",
+        "effect": "Transforms horrific war imagery into something familiar, showing how trauma rewires perception."
+      },
+      {
+        "device_name": "Symbolism",
+        "quote": "Like a trench without the sky",
+        "effect": "Uses war imagery to represent the claustrophobic nature of psychological entrapment."
+      }
+    ]
+  },
+  {
+    "name": "War's Inescapable Momentum",
+    "slug": "war-inescapable-momentum",
+    "description": "The text explores how war creates a psychological and social force that becomes impossible to resist or escape. Once set in motion, the machinery of war overwhelms individual agency and continues regardless of human cost or desire to stop it.",
+    "pattern_connection": "The Clinical Empathy pattern's objective yet compassionate stance reveals how individuals become trapped within larger destructive forces beyond their control.",
+    "device_examples": [
+      {
+        "device_name": "Metaphor",
+        "quote": "like trying to stop the ship would have been",
+        "effect": "Compares war's momentum to an unstoppable vessel, emphasizing human powerlessness against institutional force."
+      },
+      {
+        "device_name": "Juxtaposition",
+        "quote": "You seem to have a very powerful anti-war neurosis",
+        "effect": "Contrasts natural human response to violence with medical pathologizing, revealing how war normalizes destruction."
+      }
+    ]
+  }
+]

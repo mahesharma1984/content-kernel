@@ -1,0 +1,537 @@
+{
+  "hub": {
+    "page_type": "hub",
+    "book_slug": "regeneration",
+    "url": "/regeneration/",
+    "zones": {
+      "knowledge": {
+        "badge": "Knowledge: What the Book Does",
+        "heading": "Clinical Empathy",
+        "description": [
+          {
+            "type": "statement",
+            "text": "Writers often choose a specific narrative perspective to help readers understand complex topics like trauma."
+          },
+          {
+            "type": "statement",
+            "text": "In this case, the author uses 'third-person limited' narration focused through a medical professional's viewpoint."
+          },
+          {
+            "type": "scaffold",
+            "question": "What does 'third-person limited' mean, and how might seeing events through a doctor's eyes affect our understanding?"
+          },
+          {
+            "type": "bullets",
+            "items": [
+              "The narrator maintains an objective, clinical approach - like a medical professional would",
+              "This creates emotional distance between the reader and the traumatic events",
+              "However, the tone remains compassionate rather than cold or detached"
+            ]
+          },
+          {
+            "type": "statement",
+            "text": "This combination of professional distance and human compassion creates what we call 'therapeutic distance'."
+          },
+          {
+            "type": "emphasis",
+            "text": "Therapeutic distance allows readers to engage with difficult trauma content without becoming overwhelmed, leading to deeper understanding rather than emotional shutdown."
+          },
+          {
+            "type": "scaffold",
+            "question": "How might this narrative technique help both the characters and readers process traumatic experiences more effectively?"
+          }
+        ],
+        "reader_effect": [
+          {
+            "type": "statement",
+            "text": "When we read literature, we encounter psychological wounds in two distinct ways."
+          },
+          {
+            "type": "bullets",
+            "items": [
+              "Clinical observation - we analyse characters' trauma from an objective, outside perspective",
+              "Intimate consciousness - we experience characters' pain through their inner thoughts and feelings"
+            ]
+          },
+          {
+            "type": "scaffold",
+            "question": "Think about a character you've studied who experiences trauma. How does the author help you both understand their situation intellectually and feel their emotions?"
+          },
+          {
+            "type": "emphasis",
+            "text": "This dual experience creates both intellectual comprehension and emotional resonance - we think about the trauma AND feel it."
+          }
+        ],
+        "quick_reference": {
+          "structure": "23 chapters",
+          "voice": "Third person limited primarily through Rivers' perspective with occasional shifts to other characters",
+          "tone": "Clinical yet empathetic, exploring psychological trauma with medical precision and human compassion"
+        }
+      },
+      "pedagogy": {
+        "badge": "Pedagogy: How to Read for Patterns",
+        "heading": "What Pattern-Recognition Means",
+        "worked_example": {
+          "formula": "Juxtaposition + Imagery + Symbolism",
+          "arrow": "\u2192",
+          "effect": "Readers experience psychological wounds through both clinical observation and intimate consciousness, creating intellectual comprehension paired with emotional resonance."
+        },
+        "prompts": [
+          "What's the cumulative effect of these devices working together?",
+          "Why would the author choose this particular combination?",
+          "What reader experience does this pattern create?"
+        ]
+      },
+      "cta": {
+        "badge": "Action: Explore Through Themes",
+        "links": [
+          {
+            "text": "Healing Through Professional Distance",
+            "url": "themes/healing-through-professional-distance/"
+          },
+          {
+            "text": "War's Psychological Transformation",
+            "url": "themes/war-psychological-transformation/"
+          },
+          {
+            "text": "Confinement as Psychological Reality",
+            "url": "themes/confinement-psychological-reality/"
+          },
+          {
+            "text": "Build Your Thesis",
+            "url": "essay-guide/",
+            "emphasis": true
+          }
+        ]
+      }
+    }
+  },
+  "themes": [
+    {
+      "page_type": "theme",
+      "book_slug": "regeneration",
+      "theme_slug": "healing-through-professional-distance",
+      "url": "/regeneration/themes/healing-through-professional-distance/",
+      "zones": {
+        "knowledge": {
+          "badge": "Knowledge: Healing Through Professional Distance",
+          "heading": "Healing Through Professional Distance",
+          "description": [
+            {
+              "type": "statement",
+              "text": "According to this text, effective therapeutic healing involves balancing two seemingly opposing approaches."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Therapists must maintain clinical objectivity - staying professionally detached and analytical",
+                "At the same time, they need to access deep emotional truths - connecting with genuine feelings and experiences"
+              ]
+            },
+            {
+              "type": "scaffold",
+              "question": "How might these two approaches seem contradictory at first? What would be the challenge of doing both simultaneously?"
+            },
+            {
+              "type": "statement",
+              "text": "The text argues that professional distance should not be used to avoid difficult psychological material."
+            },
+            {
+              "type": "emphasis",
+              "text": "Instead, professional distance becomes a strategic tool that actually enables deeper understanding of psychological wounds and trauma."
+            },
+            {
+              "type": "scaffold",
+              "question": "Why might some level of emotional distance actually help a therapist understand their client's problems more clearly?"
+            }
+          ],
+          "pattern_connection": [
+            {
+              "type": "statement",
+              "text": "Clinical empathy is a specific approach used in medical and therapeutic settings that creates an important emotional boundary."
+            },
+            {
+              "type": "statement",
+              "text": "This emotional buffer serves as a protective barrier that prevents both the therapist and patient from becoming emotionally overwhelmed."
+            },
+            {
+              "type": "scaffold",
+              "question": "Why might it be important for therapists to maintain some emotional distance when working with trauma patients?"
+            },
+            {
+              "type": "statement",
+              "text": "With this protective boundary in place, both parties can safely examine and process traumatic experiences together."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The therapist remains professionally supportive without becoming emotionally overwhelmed",
+                "The patient feels supported while maintaining enough emotional distance to process their trauma",
+                "Both can focus on healing rather than managing overwhelming emotions"
+              ]
+            },
+            {
+              "type": "emphasis",
+              "text": "Clinical empathy balances genuine care with professional boundaries to create a safe therapeutic environment."
+            }
+          ],
+          "device_examples": [
+            {
+              "device_name": "Third-Person Limited",
+              "quote": "Rivers watched him for a while",
+              "effect": "Creates observational distance that enables clinical assessment while maintaining human connection."
+            },
+            {
+              "device_name": "Juxtaposition",
+              "quote": "You seem to have a very powerful anti-war neurosis",
+              "effect": "Contrasts clinical terminology with deeply personal trauma, showing how professional language mediates emotional experience."
+            }
+          ]
+        },
+        "pedagogy": {
+          "badge": "Pedagogy: How to Analyze This Theme",
+          "three_steps": [
+            {
+              "step": 1,
+              "title": "Identify the Pattern's Effect",
+              "content": "Readers experience psychological wounds through both clinical observation and intimate consciousness, creating intellectual comprehension paired with emotional resonance."
+            },
+            {
+              "step": 2,
+              "title": "Connect Devices to This Effect",
+              "content": "See how Third-Person Limited and other devices create this theme"
+            },
+            {
+              "step": 3,
+              "title": "Articulate Theme Meaning",
+              "content": "The text suggests that therapeutic healing requires maintaining clinical objectivity while still accessing deep emotional truths. Professional distance becomes a tool for understanding rather than avoiding psychological wounds."
+            }
+          ]
+        },
+        "cta": {
+          "badge": "Action: Keep Exploring",
+          "links": [
+            {
+              "text": "Back to Hub",
+              "url": "/regeneration/"
+            },
+            {
+              "text": "Build Your Thesis",
+              "url": "/regeneration/essay-guide/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page_type": "theme",
+      "book_slug": "regeneration",
+      "theme_slug": "war-psychological-transformation",
+      "url": "/regeneration/themes/war-psychological-transformation/",
+      "zones": {
+        "knowledge": {
+          "badge": "Knowledge: War's Psychological Transformation",
+          "heading": "War's Psychological Transformation",
+          "description": [
+            {
+              "type": "statement",
+              "text": "War fundamentally changes how humans think and perceive the world around them."
+            },
+            {
+              "type": "statement",
+              "text": "Through repeated exposure to violence and horror, what should be shocking becomes normal and familiar to soldiers."
+            },
+            {
+              "type": "scaffold",
+              "question": "How might constant exposure to traumatic events change a person's psychological state?"
+            },
+            {
+              "type": "statement",
+              "text": "This psychological transformation creates permanent scarring that remains long after the war ends."
+            },
+            {
+              "type": "emphasis",
+              "text": "The trauma becomes so deeply embedded in the psyche that disturbing imagery actually becomes a source of comfort."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "War alters human consciousness permanently",
+                "Horror becomes familiar through repeated exposure",
+                "Psychological scarring outlasts physical wounds",
+                "Disturbing memories paradoxically provide comfort"
+              ]
+            },
+            {
+              "type": "scaffold",
+              "question": "What does this reveal about the long-term psychological impact of war on individuals?"
+            }
+          ],
+          "pattern_connection": [
+            {
+              "type": "statement",
+              "text": "The Clinical Empathy pattern is a literary technique that helps writers explore psychological damage in their characters."
+            },
+            {
+              "type": "statement",
+              "text": "This pattern works by combining two different perspectives to create a complete picture of mental or emotional trauma."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Medical observation: An objective, clinical view that examines symptoms and behaviours from the outside",
+                "Intimate access to transformed consciousness: A subjective, internal view that shows how the character's mind has changed"
+              ]
+            },
+            {
+              "type": "scaffold",
+              "question": "How might combining these two perspectives give readers a more complete understanding of psychological damage than using just one approach?"
+            },
+            {
+              "type": "emphasis",
+              "text": "This dual approach allows writers to show both the observable effects of trauma and the internal experience of psychological transformation."
+            }
+          ],
+          "device_examples": [
+            {
+              "device_name": "Imagery",
+              "quote": "twisted and blackened shapes began to seem like old friends",
+              "effect": "Reveals how trauma rewrites perception, making destruction feel familiar and safe."
+            },
+            {
+              "device_name": "Metaphor",
+              "quote": "like trying to stop the ship would have been",
+              "effect": "Suggests war's momentum is unstoppable force that overwhelms individual resistance."
+            }
+          ]
+        },
+        "pedagogy": {
+          "badge": "Pedagogy: How to Analyze This Theme",
+          "three_steps": [
+            {
+              "step": 1,
+              "title": "Identify the Pattern's Effect",
+              "content": "Readers experience psychological wounds through both clinical observation and intimate consciousness, creating intellectual comprehension paired with emotional resonance."
+            },
+            {
+              "step": 2,
+              "title": "Connect Devices to This Effect",
+              "content": "See how Imagery and other devices create this theme"
+            },
+            {
+              "step": 3,
+              "title": "Articulate Theme Meaning",
+              "content": "The text reveals how war fundamentally alters human consciousness, making the horrific familiar and creating permanent psychological scarring. Trauma becomes so deeply embedded that disturbing imagery transforms into comfort."
+            }
+          ]
+        },
+        "cta": {
+          "badge": "Action: Keep Exploring",
+          "links": [
+            {
+              "text": "Back to Hub",
+              "url": "/regeneration/"
+            },
+            {
+              "text": "Build Your Thesis",
+              "url": "/regeneration/essay-guide/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page_type": "theme",
+      "book_slug": "regeneration",
+      "theme_slug": "confinement-psychological-reality",
+      "url": "/regeneration/themes/confinement-psychological-reality/",
+      "zones": {
+        "knowledge": {
+          "badge": "Knowledge: Confinement as Psychological Reality",
+          "heading": "Confinement as Psychological Reality",
+          "description": [
+            {
+              "type": "statement",
+              "text": "This text examines the connection between mental trauma and psychological imprisonment."
+            },
+            {
+              "type": "statement",
+              "text": "The author suggests that trauma creates a form of confinement that exists in the mind, similar to physical imprisonment."
+            },
+            {
+              "type": "scaffold",
+              "question": "What does it mean for something to be 'inescapable' in a psychological sense?"
+            },
+            {
+              "type": "statement",
+              "text": "The mind serves a dual purpose for trauma victims."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "It acts as a refuge - a place to retreat and find safety",
+                "It simultaneously becomes a prison - trapping the person within their traumatic memories and experiences"
+              ]
+            },
+            {
+              "type": "emphasis",
+              "text": "The central paradox is that the mind, which should provide escape, instead becomes the very thing that confines individuals to their trauma."
+            },
+            {
+              "type": "scaffold",
+              "question": "How might this psychological imprisonment affect a person's daily life and relationships?"
+            }
+          ],
+          "pattern_connection": [
+            {
+              "type": "statement",
+              "text": "The Clinical Empathy pattern creates what psychologists call 'therapeutic distance' - a balanced space between being emotionally involved and remaining objective."
+            },
+            {
+              "type": "statement",
+              "text": "This therapeutic distance serves two important functions in understanding human consciousness and psychological struggles."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "It allows for exploration of how consciousness becomes confined or limited by patterns of thinking",
+                "It maintains compassionate understanding of why people feel trapped by these mental patterns"
+              ]
+            },
+            {
+              "type": "scaffold",
+              "question": "Think of a time when you helped a friend with a problem. How did maintaining some emotional distance help you see their situation more clearly while still being supportive?"
+            },
+            {
+              "type": "emphasis",
+              "text": "The key is balancing analytical observation with genuine empathy - understanding the 'imprisonment' of limiting thought patterns without judgment."
+            }
+          ],
+          "device_examples": [
+            {
+              "device_name": "Symbolism",
+              "quote": "Like a trench without the sky",
+              "effect": "Symbolizes psychological entrapment where even hope and freedom become inaccessible."
+            },
+            {
+              "device_name": "Imagery",
+              "quote": "twisted and blackened shapes began to seem like old friends",
+              "effect": "Shows how the mind adapts to traumatic confinement by finding comfort in destruction."
+            }
+          ]
+        },
+        "pedagogy": {
+          "badge": "Pedagogy: How to Analyze This Theme",
+          "three_steps": [
+            {
+              "step": 1,
+              "title": "Identify the Pattern's Effect",
+              "content": "Readers experience psychological wounds through both clinical observation and intimate consciousness, creating intellectual comprehension paired with emotional resonance."
+            },
+            {
+              "step": 2,
+              "title": "Connect Devices to This Effect",
+              "content": "See how Symbolism and other devices create this theme"
+            },
+            {
+              "step": 3,
+              "title": "Articulate Theme Meaning",
+              "content": "The text explores how mental trauma creates inescapable psychological imprisonment that mirrors physical confinement. The mind becomes both refuge and prison, trapping individuals within their traumatic experiences."
+            }
+          ]
+        },
+        "cta": {
+          "badge": "Action: Keep Exploring",
+          "links": [
+            {
+              "text": "Back to Hub",
+              "url": "/regeneration/"
+            },
+            {
+              "text": "Build Your Thesis",
+              "url": "/regeneration/essay-guide/"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "essay_guide": {
+    "page_type": "essay_guide",
+    "book_slug": "regeneration",
+    "url": "/regeneration/essay-guide/",
+    "zones": {
+      "knowledge": {
+        "badge": "Knowledge: Building Your Thesis",
+        "heading": "How to Write About Regeneration",
+        "thesis_components": {
+          "pattern": "Clinical Empathy",
+          "themes": [
+            "Healing Through Professional Distance",
+            "War's Psychological Transformation",
+            "Confinement as Psychological Reality"
+          ],
+          "devices": [
+            "Juxtaposition",
+            "Imagery",
+            "Symbolism",
+            "Foreshadowing",
+            "Metaphor"
+          ]
+        },
+        "example_theses": [
+          {
+            "focus": "Theme-focused",
+            "statement": "The author explores healing through professional distance via juxtaposition of clinical observation with intimate emotional access, revealing that therapeutic understanding requires maintaining objective compassion rather than complete detachment.",
+            "structure_notes": "Clear theme + specific device mechanism + insight about the necessity of balanced distance"
+          },
+          {
+            "focus": "Pattern-focused",
+            "statement": "Through the Clinical Empathy pattern, the author employs third-person limited narration and medical imagery to create therapeutic distance that enables deeper psychological penetration, suggesting that professional objectivity becomes a tool for accessing rather than avoiding emotional truth.",
+            "structure_notes": "Names pattern + shows narrative technique + states paradoxical effect of distance creating intimacy"
+          },
+          {
+            "focus": "Device-focused",
+            "statement": "The author's use of juxtaposition and symbolism creates simultaneous intellectual comprehension and emotional resonance, which transforms clinical observation into a therapeutic lens that makes psychological trauma both comprehensible and deeply felt.",
+            "structure_notes": "Two specific devices + clear dual effect + significance of transforming medical perspective into understanding tool"
+          },
+          {
+            "focus": "Theme-focused",
+            "statement": "The text examines war's psychological transformation through metaphor and disturbing imagery, demonstrating that trauma becomes so deeply embedded in consciousness that horrific experiences transform into sources of psychological comfort.",
+            "structure_notes": "Specific war theme + device combination + counterintuitive insight about trauma creating comfort"
+          }
+        ]
+      },
+      "pedagogy": {
+        "badge": "Pedagogy: From Pattern to Thesis",
+        "four_steps": [
+          {
+            "step": 1,
+            "title": "Choose your theme",
+            "content": "Select from the themes above"
+          },
+          {
+            "step": 2,
+            "title": "Identify devices",
+            "content": "Which devices create this theme?"
+          },
+          {
+            "step": 3,
+            "title": "Connect to pattern",
+            "content": "How does Clinical Empathy work?"
+          },
+          {
+            "step": 4,
+            "title": "Synthesize",
+            "content": "Combine into clear thesis statement"
+          }
+        ]
+      },
+      "cta": {
+        "badge": "Action: Get Support",
+        "primary": "Get help developing your thesis",
+        "secondary": "Upload your draft"
+      }
+    }
+  }
+}

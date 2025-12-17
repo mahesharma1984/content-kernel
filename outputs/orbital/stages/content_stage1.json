@@ -1,0 +1,518 @@
+{
+  "metadata": {
+    "title": " Orbital",
+    "author": " Samantha Harvey",
+    "book_slug": "orbital"
+  },
+  "pattern": {
+    "name": "Cosmic Contemplation",
+    "core_dynamic": "Omniscient access to multiple consciousness flows combines with objective philosophical stance to create meditative observation of human experience against cosmic scale.",
+    "reader_effect": "Readers experience simultaneous intimacy with individual human thoughts and vast detachment of cosmic perspective, creating contemplative distance that elevates mundane experience to universal significance.",
+    "device_priorities": [
+      "Imagery",
+      "Juxtaposition",
+      "Symbolism",
+      "Repetition",
+      "Metaphor",
+      "Foreshadowing",
+      "Motif",
+      "Stream of Consciousness"
+    ]
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "TPO",
+        "pov_description": "Omniscient access to multiple characters' thoughts, dreams, and internal experiences across astronauts",
+        "focalization": "ZERO",
+        "focalization_description": "Unlimited access to all characters' consciousness and external cosmic perspective",
+        "reliability": "REL",
+        "temporal_distance": "IMM",
+        "mode_dominance": "DIE",
+        "free_indirect": "HEAVY",
+        "stream_consciousness": "SOME",
+        "character_revelation": "IND",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single orbital journey structured around 16 earth orbits over 24 hours",
+        "pacing": "SLOW",
+        "temporal_span": "BRIEF",
+        "beginning_type": "AB_OVO",
+        "ending_type": "CIRCULAR",
+        "scene_summary_ratio": "SUM",
+        "chapter_structure": "FRAG",
+        "causation": "THEME"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Contemplative, meditative, philosophical with undertones of cosmic wonder and human vulnerability",
+        "register": "POET",
+        "stance": "OBJ",
+        "ethos": "STRONG",
+        "pathos": "MOD",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "HIGH"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "THEME",
+        "device_density": "HIGH",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Literary devices accumulate to create a contemplative orbital consciousness, using scientific imagery and cosmic metaphors to transform human perspective through the repetitive, meditative rhythm of orbital cycles, gradually building toward philosophical revelation about Earth's fragility and human connection"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Third-Person Omniscient",
+      "anchor_phrase": "even their thoughts, their internal mythologies, at times convene",
+      "location_percent": 5,
+      "scene": "Opening description of astronauts in orbit",
+      "effect": "Establishes omniscient access to multiple consciousness flows, enabling meditation on collective human experience in space",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "Raw space is a panther, feral and primal",
+      "location_percent": 8,
+      "scene": "Astronauts dreaming in their sleeping bags",
+      "effect": "Transforms abstract cosmic void into visceral, primal force that emphasizes human vulnerability against cosmic scale",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "A hand-span away beyond a skin of metal the universe unfolds",
+      "location_percent": 10,
+      "scene": "Astronauts sleeping with universe beyond station wall",
+      "effect": "Contrasts human fragility with infinite cosmos, creating meditative awareness of scale and human position",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "The Milky Way is a smoking trail of gunpowder",
+      "location_percent": 25,
+      "scene": "View of galaxy from space station",
+      "effect": "Creates vivid sensory experience of cosmic phenomena, facilitating contemplative observation of universal beauty",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "turning and turning with the days",
+      "location_percent": 35,
+      "scene": "Description of astronauts' orbital motion",
+      "effect": "Emphasizes cyclical nature of orbital existence, creating meditative rhythm that mirrors cosmic repetition",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "The earth is the face of an exulted lover",
+      "location_percent": 40,
+      "scene": "Philosophical reflection on Earth's meaning to astronauts",
+      "effect": "Transforms planet into symbol of intimate human connection, enabling contemplation of humanity's cosmic relationship",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "The earth is a mother waiting for her children",
+      "location_percent": 41,
+      "scene": "Continued reflection on Earth's significance",
+      "effect": "Humanizes planet to create emotional bridge between cosmic scale and human experience in meditative observation",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Paradox",
+      "anchor_phrase": "so together, and so alone",
+      "location_percent": 3,
+      "scene": "Opening description of astronauts' shared isolation",
+      "effect": "Captures contradictory nature of human connection in cosmic isolation, enabling philosophical contemplation of existence",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "just as a face is not separate from the expressions it makes",
+      "location_percent": 15,
+      "scene": "Nell observing Earth's weather systems from orbit",
+      "effect": "Creates unity between Earth and its atmospheric movements, dissolving the boundary between observer and observed in cosmic contemplation",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "More like defiance, strength, vivacity, the bulge-eyed tongue-out warrior face",
+      "location_percent": 20,
+      "scene": "Nell viewing the typhoon approaching land",
+      "effect": "Transforms destructive weather into animate expression, enabling meditative observation of natural forces as cosmic performance rather than mere meteorology",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "They seem scarily frail, don't they, the Philippines",
+      "location_percent": 30,
+      "scene": "Pietro and Nell watching typhoon approach inhabited islands",
+      "effect": "Contrasts human vulnerability with cosmic forces, heightening awareness of scale while maintaining objective philosophical stance",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Moon Landing Day, 1969 in her father's hand",
+      "location_percent": 50,
+      "scene": "Chie examining her mother's photograph after learning of her death",
+      "effect": "The photograph becomes symbol of human ambition and cosmic connection across generations, linking personal grief to universal exploration",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Flashback",
+      "anchor_phrase": "Her grandfather unwell the day of the bomb",
+      "location_percent": 75,
+      "scene": "Chie recalling her family's survival of Nagasaki bombing",
+      "effect": "Reveals how historical catastrophe shaped present consciousness, demonstrating how individual lives intersect with cosmic-scale events",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Just the light, Pietro says, streaming through the water",
+      "location_percent": 40,
+      "scene": "Pietro and Nell sharing memories of diving in Philippines",
+      "effect": "Creates meditative rhythm that mirrors the cyclical patterns they observe from space, reinforcing cosmic contemplation through shared human experience",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Stream of Consciousness",
+      "anchor_phrase": "Or was she saying: look at these men going to the moon",
+      "location_percent": 85,
+      "scene": "Chie interpreting her mother's possible meanings in the photograph",
+      "effect": "Allows omniscient access to layered consciousness interpreting cosmic achievement through personal and cultural lens",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "the sharks are like sickles, like polished steel",
+      "location_percent": 35,
+      "scene": "Nell describing underwater creatures she encountered diving",
+      "effect": "Creates vivid sensory bridge between Earth's depths and orbital perspective, maintaining connection to planetary life while in cosmic observation",
+      "assigned_section": "rising_action",
+      "chapter": 10,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "He thinks he's becoming a tadpole, all head and no body",
+      "location_percent": 15,
+      "scene": "Pietro reflecting on his physical transformation in space",
+      "effect": "Creates meditative observation of human adaptation to cosmic environment, embodying the pattern's contemplation of human experience against cosmic scale",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "this is like diving. The slow suspended way the body moves",
+      "location_percent": 45,
+      "scene": "Nell comparing spacewalking to freediving",
+      "effect": "Juxtaposes terrestrial and cosmic experiences, facilitating philosophical contemplation of human movement across different realms of existence",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "Africa beneath them in its abstract batik. The Nile is a spillage",
+      "location_percent": 65,
+      "scene": "Viewing Earth from orbit during passage over Africa",
+      "effect": "Transforms earthly geography into artistic abstraction, enabling omniscient meditative observation of human world from cosmic perspective",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Everything burnable, everything not to go back to earth",
+      "location_percent": 40,
+      "scene": "Nell organizing waste for disposal",
+      "effect": "Physical waste disposal becomes symbol of human impermanence, supporting cosmic contemplation of what endures versus what burns away",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "any claustrophobia becomes agoraphobia in an instant, or you have both",
+      "location_percent": 42,
+      "scene": "Description of moving through spacecraft then looking out at space",
+      "effect": "Contrasts confined and limitless spaces simultaneously, creating philosophical tension that embodies cosmic scale against human experience",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Free Indirect Discourse",
+      "anchor_phrase": "In the slowing and cooling he hears his thoughts more",
+      "location_percent": 20,
+      "scene": "Pietro's internal contemplation of his mental state in space",
+      "effect": "Provides omniscient access to consciousness flows while maintaining objective stance, enabling meditative observation of human psychological adaptation",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Hello? Hello? Zdraste, hello",
+      "location_percent": 95,
+      "scene": "Radio communication between Roman and Tony",
+      "effect": "Creates rhythmic, almost prayer-like quality that transforms simple dialogue into cosmic connection ritual, supporting meditative contemplation pattern",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Third-Person Omniscient",
+      "anchor_phrase": "Pietro once told Roman, and he agreed, that's how it is",
+      "location_percent": 5,
+      "scene": "Opening reflection on space's effects on human body",
+      "effect": "Establishes omniscient access to multiple consciousness flows while maintaining philosophical distance, core to the cosmic contemplation pattern",
+      "assigned_section": "climax",
+      "chapter": 14,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "great coffee grinders wimbling into wayless dark",
+      "location_percent": 5,
+      "scene": "Description of Voyager probes traveling through space",
+      "effect": "Creates vivid sensory picture that domesticates cosmic technology, establishing the meditative tone for contemplating human artifacts in infinite space",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "thinking simultaneously of earth and lover as if the two were continuous",
+      "location_percent": 25,
+      "scene": "Analysis of the woman's recorded brainwaves on the Golden Record",
+      "effect": "Contrasts intimate human love with cosmic communication, embodying the pattern's core dynamic of personal consciousness against universal scale",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "All of these thoughts sound like a pulsar",
+      "location_percent": 30,
+      "scene": "Description of love-flooded thoughts as cosmic phenomena",
+      "effect": "Transforms human emotion into astronomical metaphor, creating the meditative bridge between individual experience and cosmic reality",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "golden disc that could be a plaque or a portal",
+      "location_percent": 8,
+      "scene": "Description of the Voyager Golden Record",
+      "effect": "The disc symbolizes humanity's attempt to transcend mortality through art and love, serving the pattern's philosophical stance on human meaning in cosmic time",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Third-Person Omniscient",
+      "anchor_phrase": "They watched yesterday the lunar rocket go cleanly into the night",
+      "location_percent": 45,
+      "scene": "Transition to astronauts watching rocket launch",
+      "effect": "Provides unlimited access to multiple consciousness flows, enabling the pattern's meditative observation across different human experiences simultaneously",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "his hands, his throat, his bare back",
+      "location_percent": 35,
+      "scene": "Cascade of the woman's thoughts about her lover",
+      "effect": "Creates rhythmic emphasis that mirrors the pulsing brainwaves, reinforcing the pattern's contemplation of love as both intimate and cosmically significant",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "the sun is roaring",
+      "location_percent": 55,
+      "scene": "Description of solar activity",
+      "effect": "Animates cosmic forces with human characteristics, supporting the pattern's meditative stance on humanity's relationship with vast natural phenomena",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Stream of Consciousness",
+      "anchor_phrase": "every thought cascaded into the dark brows and proud nose of her lover",
+      "location_percent": 28,
+      "scene": "Flow of the recorded woman's thoughts",
+      "effect": "Captures unfiltered consciousness flow, demonstrating the pattern's access to interior experience while maintaining philosophical distance about human nature",
+      "assigned_section": "falling_action",
+      "chapter": 15,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "One day a few years hence, at this very spot in the Pacific that it's passing now, this craft will bow graciously out of orbit and plummet through the atmosphere into the ocean",
+      "location_percent": 85,
+      "scene": "Narrator contemplating the station's future destruction while observing the Pacific below",
+      "effect": "Creates cosmic perspective on impermanence, reinforcing the meditative observation of endings and cycles that define human endeavors against eternal time",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "They hang like bats in their quarters. Anton wakes briefly with his fist in his cheek. His first and only thought is of the spacecraft on its way to the moon",
+      "location_percent": 10,
+      "scene": "Sleeping astronauts in their modules while momentarily awakening to cosmic wonder",
+      "effect": "Contrasts vulnerable human physicality with transcendent aspirations, embodying the pattern's meditation on human experience against cosmic scale",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "The crack that's appeared outside gives a millimetre or two. It sends out fissures that broadly echo an aerial map of the confluencing Volga River",
+      "location_percent": 35,
+      "scene": "Description of the hull crack spreading in patterns resembling earthly geography",
+      "effect": "The crack symbolizes the fragility of human constructs while its river-like pattern connects earthly and cosmic scales, reinforcing contemplation of impermanence",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "Its light is a choir. Its light is an ensemble of a trillion things",
+      "location_percent": 95,
+      "scene": "The Earth's electromagnetic vibrations translated into musical harmony",
+      "effect": "Transforms scientific phenomena into transcendent metaphor, creating the meditative synthesis of objective observation with philosophical meaning central to the pattern",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "four idly spinning crumbs of honeycomb that have been caught for now in an equilibrium of forces",
+      "location_percent": 45,
+      "scene": "Detailed observation of floating crumbs in the station's dining area",
+      "effect": "Creates precise sensory detail that becomes contemplative focus, demonstrating how ordinary moments gain significance under omniscient philosophical observation",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Third-Person Omniscient",
+      "anchor_phrase": "Roman knows in this light band of pre-alarm sleep that they'll be circling now somewhere near Turkmenistan",
+      "location_percent": 25,
+      "scene": "Narrator accessing Roman's semiconscious geographical awareness while sleeping",
+      "effect": "Demonstrates the omniscient access to multiple consciousness flows that enables the pattern's meditative observation of human experience across scales",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "this craft will bow graciously out of orbit",
+      "location_percent": 85,
+      "scene": "Description of the space station's future deorbiting and destruction",
+      "effect": "Gives human dignity to technological endings, supporting the pattern's philosophical stance that finds meaning in impermanence and cosmic cycles",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "The moon, the moon. Mars, the moon. Further yet",
+      "location_percent": 60,
+      "scene": "Contemplation of humanity's future space exploration ambitions",
+      "effect": "Creates rhythmic emphasis on cosmic destinations, reinforcing the meditative quality while highlighting humanity's relentless drive toward transcendence",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 2
+    }
+  ]
+}

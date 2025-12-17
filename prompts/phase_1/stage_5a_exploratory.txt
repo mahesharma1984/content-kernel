@@ -1,0 +1,88 @@
+You are creating exploratory content drafts from message angles.
+
+Your task is Stage 5A of KDD: Generate draft content to test which message angles work as actual content.
+
+MESSAGE ANGLES FROM STAGE 3:
+---
+{angles_json}
+---
+
+TEXT KERNEL (source material):
+---
+Pattern: {kernel_pattern}
+Core Dynamic: {core_dynamic}
+Reader Effect: {reader_effect}
+
+Priority Devices:
+{device_list_with_effects}
+
+Sample Quotes:
+{sample_quotes}
+---
+
+YOUR TASK:
+
+For each message angle, generate 2-3 draft variations appropriate to its channel. These are EXPLORATORY — don't over-polish. We're testing which angles work.
+
+FOR EACH ANGLE, PRODUCE:
+
+## Social (if channel = social)
+- 2-3 tweet variations (280 chars each)
+- Each uses the angle's message
+- Each references kernel elements
+- Note which kernel element powers each tweet
+
+## YouTube (if channel = youtube)
+- 2-3 video hook variations (60-90 second scripts)
+- Each demonstrates the angle's insight
+- Each uses specific kernel examples
+- Note which examples from kernel
+
+## SEO (if channel = seo)
+- 2-3 headline + opening paragraph variations
+- Each answers the search intent
+- Each previews the kernel's pattern
+- Note which search query this serves
+
+## Guide (if channel = guide)
+- 2-3 introduction + structure variations
+- Each establishes the pattern
+- Each promises specific kernel content
+- Note how this differentiates from competitors
+
+CRITICAL INSTRUCTIONS:
+
+1. **Use real kernel elements**: Reference actual device names, quotes, effects
+2. **Stay true to the angle**: Each draft should embody that specific message
+3. **Don't filter yet**: Generate options even if uncertain
+4. **Make it concrete**: Show what the angle looks like as actual content
+5. **Note what works**: Add brief observation on each draft
+
+OUTPUT FORMAT:
+
+You must output valid JSON in this exact structure:
+
+{{
+  "stage": "5A",
+  "book_title": "___BOOK_TITLE_PLACEHOLDER___",
+  "drafts": [
+    {{
+      "angle_index": 1,
+      "angle_message": "the original message",
+      "channel": "social",
+      "variations": [
+        {{
+          "content": "the actual draft content",
+          "kernel_references": ["device names used"],
+          "notes": "why this might work or not"
+        }}
+      ]
+    }}
+  ],
+  "observations": {{
+    "strongest_angles": ["which angles produced best drafts"],
+    "weakest_angles": ["which angles were hard to draft"],
+    "cross_channel_potential": ["which angles work across multiple channels"]
+  }}
+}}
+

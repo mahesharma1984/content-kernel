@@ -1,0 +1,138 @@
+You are evaluating message angles to select a core thread for content strategy.
+
+Your task is to apply Stage 4 of the Kernel-Derived Distribution (KDD) methodology: Thread Selection.
+
+CONTEXT:
+
+From Stage 3, we generated {num_angles} message angles across 4 channels. Now we must select the ONE thread that will unify the entire funnel.
+
+MESSAGE MATRIX:
+---
+{json_of_all_angles}
+---
+
+TEXT KERNEL PATTERN:
+---
+{kernel_pattern}
+---
+
+THE 4 SELECTION CRITERIA:
+
+Every angle will be scored 0-10 on each criterion. The highest total score wins.
+
+**1. MEMORABLE (0-10)**
+Can a student repeat this to a friend?
+
+Score HIGH (8-10) if:
+- Core idea is simple and concrete
+- Uses vivid language or clear metaphor
+- Sticks in memory after one exposure
+- A student could explain it without notes
+
+Score LOW (0-3) if:
+- Too abstract or academic
+- Jargon-heavy or requires background
+- Forgettable or generic phrasing
+
+**2. DIFFERENTIATING (0-10)**
+Does it separate us from competitors?
+
+Score HIGH (8-10) if:
+- Other TKAM guides don't say this
+- Challenges common readings
+- Offers unique lens or method
+- Makes the guide necessary, not optional
+
+Score LOW (0-3) if:
+- Standard literary analysis talk
+- Generic "themes and symbols" framing
+- Could appear in any study guide
+- Doesn't require this specific kernel
+
+**3. PATTERN-ANCHORED (0-10)**
+Does understanding this require understanding the kernel's pattern?
+
+Score HIGH (8-10) if:
+- The message IS the pattern, not about the pattern
+- Can't understand the message without seeing the pattern
+- Message leads directly to pattern insight
+- Pattern is the "why" behind the message
+
+Score LOW (0-3) if:
+- Message stands alone without pattern
+- Pattern is optional context
+- Generic claim that doesn't need this pattern
+- Message could work with any TKAM analysis
+
+**4. FUNNEL-CONTINUOUS (0-10)**
+Can this stretch from agitation (social tease) to delivery (full guide)?
+
+Score HIGH (8-10) if:
+- Has clear "agitation register" (hook form)
+- Has clear "solution register" (explanation form)
+- Same thread works across all channels
+- Creates natural progression: tease → demo → answer → deliver
+
+Score LOW (0-3) if:
+- Only works in one form (can't scale)
+- Hook and explanation feel disconnected
+- Would need different threads per channel
+- No natural agitation → solution flow
+
+YOUR TASK:
+
+For each of the {num_angles} message angles:
+
+1. Score it against all 4 criteria (0-10 each)
+2. Provide brief justification for each score
+3. Calculate total score (sum of 4 criteria, max 40)
+4. Identify the agitation register (how to use as hook/tease)
+5. Identify the solution register (how to use as full explanation)
+
+After scoring all angles, IDENTIFY THE WINNER and explain:
+- Why it scored highest
+- How it meets all 4 criteria
+- What its agitation and solution registers are
+- How it will unify the funnel
+
+OUTPUT FORMAT:
+
+{{
+  "evaluations": [
+    {{
+      "angle_id": "Social-1" or similar,
+      "message": "the message text",
+      "scores": {{
+        "memorable": 8,
+        "differentiating": 9,
+        "pattern_anchored": 10,
+        "funnel_continuous": 7
+      }},
+      "justifications": {{
+        "memorable": "Why this score...",
+        "differentiating": "Why this score...",
+        "pattern_anchored": "Why this score...",
+        "funnel_continuous": "Why this score..."
+      }},
+      "total_score": 34,
+      "agitation_register": "How to use as hook: ...",
+      "solution_register": "How to use as full explanation: ...",
+      "kernel_elements": ["list", "of", "references"]
+    }},
+    // ... all angles
+  ],
+  "winner": {{
+    "angle_id": "YouTube-2",
+    "core_message": "The winning message",
+    "why_it_wins": "Comprehensive explanation of why this thread beats others",
+    "agitation_register": "Hook form",
+    "solution_register": "Explanation form",
+    "kernel_pattern_reference": "Explicit pattern connection",
+    "total_score": 34
+  }}
+}}
+
+CRITICAL: Be honest with scores. Most angles will score 20-30 out of 40. A perfect 40 is nearly impossible. The winner should be clearly better, not arbitrarily chosen.
+
+Begin your evaluation.
+
