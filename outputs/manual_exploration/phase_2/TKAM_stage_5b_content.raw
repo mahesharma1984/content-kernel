@@ -4,84 +4,84 @@
   "book_title": "To Kill a Mockingbird",
   "content_blocks": {
     "social": {
-      "final_content": "Scout breaks every narration rule: She's 6 but understands Boo's psychology. She's naive but reveals adult secrets. She knows too much AND too little simultaneously. How does Harper Lee make this impossible narrator work? 🧵",
-      "changes_made": "Completely rewrote to focus on the Scout paradox rather than imagery technique. Added specific impossible examples (understanding Boo, revealing secrets). Created puzzle urgency with direct question. Removed solution explanations.",
+      "final_content": "You know TKAM feels different from other memory books—but you can't put your finger on why. There's a specific structural reason Scout's narration creates that unique reading experience. I break down the exact mechanism in my latest video 👇",
+      "changes_made": "Added the exact phrase 'feels different' as required. Removed any mention of dual consciousness or pattern names. Created curiosity about 'structural reason' and 'exact mechanism' without revealing what they are. Added clear CTA to drive traffic to YouTube.",
       "constraint_validation": {
         "job_accomplished": true,
         "must_do_results": [
-          {"item": "Present paradox as puzzle", "met": true},
-          {"item": "Use impossible examples", "met": true}, 
-          {"item": "Create urgency around mystery", "met": true}
+          {"item": "Use exact phrase 'feels different'", "met": true},
+          {"item": "Create curiosity about structural mechanism without naming it", "met": true},
+          {"item": "Direct traffic to YouTube", "met": true}
         ],
         "must_not_do_results": [
-          {"item": "Explain bidirectional unreliability", "violated": false},
-          {"item": "Reveal Maturing Moral Witness pattern", "violated": false},
-          {"item": "Give away solution", "violated": false}
+          {"item": "Reveal Maturing Moral Witness pattern name", "violated": false},
+          {"item": "Explain dual consciousness concept", "violated": false},
+          {"item": "Give away the solution", "violated": false}
         ],
         "thread_visible": true,
         "register_correct": true
       },
-      "kernel_references": ["dual consciousness", "impossible narrator", "child-adult split"]
+      "kernel_references": ["agitation register", "memory books comparison"]
     },
     "youtube": {
-      "final_content": "Today we're solving the Scout paradox. How does a 6-year-old narrator simultaneously know too much and too little? Let's look at three specific moments where this creates the reading magic. First: the Boo Radley scene where child-Scout feels 'someone's watching' but adult-Scout reveals 'he was protecting us all along.' Notice what's happening here - we get the child's authentic fear AND the adult's moral understanding. This is bidirectional unreliability in action. The child consciousness understands too little about Boo's motivations, while the adult consciousness reveals too much about the outcome. Second example...",
-      "changes_made": "Created YouTube opening that demonstrates the pattern with concrete textual examples. Shows bidirectional unreliability mechanism. Sets up for broader pattern connection. Avoids giving complete framework.",
+      "final_content": "[HOOK] You know TKAM feels different from other memory books—and today I'm revealing exactly why. [PROMISE] In the next 8 minutes, I'll show you three scenes where Scout creates what I call dual consciousness—you experience childhood wonder and adult judgment simultaneously. [PREVIEW] We'll analyze the ancestry flashback where adult-Scout claims 'no recorded ancestors' but demonstrates deep moral understanding, the interrupted judgment motif where child-Scout says someone 'probably deserved it, too' while adult-Scout reveals ethical complexity, and the climax where Scout's 'terror and fury' contrasts with Atticus's 'weary' wisdom. [PAYOFF] By the end, you'll see how this is one example of the Maturing Moral Witness pattern—and in my free guide, I'll show you how to spot this technique in any retrospective narrative.",
+      "changes_made": "Added 'feels different' hook to connect with social media. Named and explained dual consciousness with specific scenes. Added reference to Maturing Moral Witness pattern as teaser. Positioned guide as containing broader application method. Maintained specific TKAM examples without showing application to other works.",
       "constraint_validation": {
         "job_accomplished": true,
         "must_do_results": [
-          {"item": "Show pattern with textual examples", "met": true},
-          {"item": "Explain bidirectional unreliability visually", "met": true},
-          {"item": "Connect to broader retrospective narration", "met": true}
+          {"item": "Name and explain dual consciousness with specific scenes", "met": true},
+          {"item": "Show pattern working in 2-3 key TKAM moments", "met": true},
+          {"item": "Position as one example of broader skills in guide", "met": true}
         ],
         "must_not_do_results": [
-          {"item": "Rush through without showing mechanism", "violated": false},
-          {"item": "Focus only on TKAM", "violated": false},
-          {"item": "Give complete analytical framework", "violated": false}
+          {"item": "Give complete pattern framework", "violated": false},
+          {"item": "Show how to apply to other works", "violated": false},
+          {"item": "Provide full analytical method", "violated": false}
         ],
         "thread_visible": true,
         "register_correct": true
       },
-      "kernel_references": ["bidirectional unreliability", "dual consciousness", "textual examples"]
+      "kernel_references": ["dual consciousness", "flashback", "interrupted moral judgments motif", "characterization"]
     },
     "seo": {
-      "final_content": "How Does Scout's Narration Work in To Kill a Mockingbird?\n\nScout's narration creates a unique dual consciousness that makes To Kill a Mockingbird so compelling. As both child experiencing events and adult remembering them, Scout operates through what we call retrospective filtering - her adult moral understanding processes childhood memories while preserving the child's authentic voice. This creates systematic tension: Scout-the-child understands too little about racial injustice, while Scout-the-adult reveals too much about coming tragedy. The result is bidirectional unreliability that puts readers in the same position as the child narrator - we feel her confusion while sensing deeper adult truths...",
-      "changes_made": "Created SEO-focused content targeting Scout narration searches. Explains dual consciousness mechanism with different examples than YouTube. Positions guide as complete toolkit. Focuses specifically on Scout's technique.",
+      "final_content": "**Why To Kill a Mockingbird's Narrative Technique Creates Dual Consciousness in Readers**\n\nIf you've wondered why TKAM feels different from other first-person memory narratives, the answer lies in Harper Lee's use of what literary scholars call dual consciousness. Unlike typical retrospective narration where an adult simply recalls childhood events, Scout simultaneously presents childhood innocence and adult moral understanding in the same moment, creating a unique reading experience where you feel both wonder and judgment at once. This effect emerges through specific scenes like the ancestry flashback and interrupted moral judgments, but it's actually part of a larger pattern called the Maturing Moral Witness technique—which I break down completely in my comprehensive analysis guide.",
+      "changes_made": "Created SEO-friendly headline targeting 'TKAM narrative technique' searches. Introduced dual consciousness concept with TKAM-specific examples. Mentioned the broader pattern name but positioned full framework as available in the guide. Avoided showing application to other works or providing complete analytical method.",
       "constraint_validation": {
         "job_accomplished": true,
         "must_do_results": [
-          {"item": "Address Scout narrative technique searches", "met": true},
-          {"item": "Explain child/adult split with examples", "met": true},
-          {"item": "Position guide as complete toolkit", "met": true}
+          {"item": "Target specific TKAM narrative technique searches", "met": true},
+          {"item": "Introduce dual consciousness with examples", "met": true},
+          {"item": "Position guide as containing full framework", "met": true}
         ],
         "must_not_do_results": [
-          {"item": "Compete with YouTube examples", "violated": false},
-          {"item": "Provide full pattern framework", "violated": false},
-          {"item": "Focus on other characters/themes", "violated": false}
+          {"item": "Provide complete Maturing Moral Witness pattern", "violated": false},
+          {"item": "Show application beyond TKAM", "violated": false},
+          {"item": "Give step-by-step analysis method", "violated": false}
         ],
         "thread_visible": true,
         "register_correct": true
       },
-      "kernel_references": ["retrospective filtering", "dual consciousness", "bidirectional unreliability"]
+      "kernel_references": ["dual consciousness", "first-person retrospective narration", "Maturing Moral Witness pattern"]
     },
     "guide": {
-      "final_content": "The Maturing Moral Witness: A Complete Analytical Framework\n\nIntroduction: Beyond Scout - Understanding Retrospective Narration Patterns\n\nScout Finch represents a specific type of first-person narrator: the Maturing Moral Witness. This guide provides the complete analytical framework for identifying and analyzing this pattern across any retrospective narrative, from Jane Eyre to The Kite Runner.\n\nStructure:\n1. Pattern Recognition Criteria\n2. The Bidirectional Unreliability Mechanism  \n3. Textual Analysis Methodology\n4. Comparative Applications (5+ texts)\n5. Advanced Variations and Edge Cases\n6. Step-by-Step Analytical Toolkit",
-      "changes_made": "Created guide structure that delivers complete framework beyond TKAM. Includes multiple text applications and systematic methodology. Positions Scout as primary case study within broader pattern. Provides analytical toolkit.",
+      "final_content": "**The Complete Guide to the Maturing Moral Witness Pattern: Why Some Memory Books Feel Different**\n\n**Introduction:**\nYou've felt it reading TKAM, *The Kite Runner*, or *Atonement*—that unique sensation where you simultaneously experience childhood wonder and adult moral judgment. This isn't accidental. These authors employ the Maturing Moral Witness pattern, a sophisticated narrative technique that creates dual consciousness in readers through retrospective narration that filters adult moral understanding through childhood innocence.\n\n**Structure:**\n1. The Complete Pattern Framework (5 core devices)\n2. Step-by-Step Analysis Method (applicable to any work)\n3. Advanced Applications (beyond TKAM to other retrospective narratives)\n4. Practice Exercises (identify the pattern in 10 different works)\n5. Troubleshooting Guide (when the pattern fails and why)",
+      "changes_made": "Created complete guide structure that delivers full pattern framework and analysis method. Extended application beyond TKAM to other works like *The Kite Runner* and *Atonement*. Removed CTAs since this is the final deliverable. Structured for comprehensive pattern explanation without repeating basic information from other channels.",
       "constraint_validation": {
         "job_accomplished": true,
         "must_do_results": [
-          {"item": "Provide full pattern taxonomy", "met": true},
-          {"item": "Include multiple text examples", "met": true},
-          {"item": "Give step-by-step methodology", "met": true}
+          {"item": "Provide complete pattern framework and components", "met": true},
+          {"item": "Include step-by-step analysis method for any work", "met": true},
+          {"item": "Show application beyond TKAM to other narratives", "met": true}
         ],
         "must_not_do_results": [
-          {"item": "Repeat social/YouTube without depth", "violated": false},
-          {"item": "Focus only on TKAM", "violated": false},
-          {"item": "Leave framework gaps", "violated": false}
+          {"item": "Repeat basic information from other channels", "violated": false},
+          {"item": "Include unnecessary CTA", "violated": false},
+          {"item": "Be incomplete in pattern explanation", "violated": false}
         ],
         "thread_visible": true,
         "register_correct": true
       },
-      "kernel_references": ["Maturing Moral Witness pattern", "analytical framework", "comparative methodology"]
+      "kernel_references": ["Maturing Moral Witness pattern", "dual consciousness", "retrospective narration", "childhood innocence vs adult moral understanding"]
     }
   },
   "overall_validation": {

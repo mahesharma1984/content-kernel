@@ -1,6 +1,77 @@
 {
-  "stage": "5B",
-  "book_title": "To Kill a Mockingbird",
+  "metadata": {
+    "book_title": "To Kill a Mockingbird",
+    "book_code": "TKAM",
+    "version": "1.0",
+    "created": "2025-12-17",
+    "source_text_kernel": "To_Kill_a_Mockingbird_kernel_v6_1.json"
+  },
+  "thread": {
+    "core_message": "Why TKAM Feels Different From Other Memory Books - I'll reveal the exact pattern that creates dual consciousness in readers",
+    "agitation_register": "You know TKAM feels different from other memory books - but you can't put your finger on why",
+    "solution_register": "The Maturing Moral Witness pattern creates unique dual consciousness through retrospective narration that filters adult moral understanding through childhood innocence, creating simultaneous wonder and judgment",
+    "kernel_pattern_reference": "This thread IS the kernel's reader effect made concrete. The 'different feeling' is exactly the dual consciousness the pattern creates. The message promises to reveal the structural mechanism behind this effect.",
+    "selection_rationale": "Scores highest (35/40) because it perfectly balances all four criteria. It's anchored in a relatable feeling everyone has but can't explain, making it memorable without being academic. It's completely differentiating - no other TKAM analysis compares it to memory narratives or promises to reveal 'the exact pattern.' It's maximally pattern-anchored because the entire message is meaningless without understanding the Maturing Moral Witness pattern - you literally cannot deliver on 'the exact pattern that creates dual consciousness' without the kernel. And it has perfect funnel continuity: the agitation register hooks with the mysterious 'different feeling,' the solution register delivers the complete structural explanation.",
+    "source_angle": "YouTube-2"
+  },
+  "channels": {
+    "social": {
+      "job": "Hook users with the 'different feeling' agitation and tease that there's a specific structural reason behind it.",
+      "register": "agitation",
+      "must_do": [
+        "Use the exact phrase 'feels different' to trigger recognition",
+        "Create curiosity about the structural mechanism without naming it",
+        "Direct traffic to YouTube for the reveal"
+      ],
+      "must_not_do": [
+        "Reveal the Maturing Moral Witness pattern name",
+        "Explain dual consciousness concept",
+        "Give away the solution"
+      ]
+    },
+    "youtube": {
+      "job": "Demonstrate the Maturing Moral Witness pattern working in TKAM with concrete examples to prove the solution.",
+      "register": "solution",
+      "must_do": [
+        "Name and explain the dual consciousness effect with specific scenes",
+        "Show the pattern working in 2-3 key TKAM moments",
+        "Position this as one example of broader literary analysis skills in the guide"
+      ],
+      "must_not_do": [
+        "Give the complete pattern framework",
+        "Show how to apply it to other works",
+        "Provide the full analytical method"
+      ]
+    },
+    "seo": {
+      "job": "Answer high-intent TKAM analysis searches using partial pattern delivery to drive guide downloads.",
+      "register": "solution",
+      "must_do": [
+        "Target specific search queries about TKAM's narrative technique",
+        "Introduce dual consciousness concept with examples",
+        "Position the guide as containing the full analytical framework"
+      ],
+      "must_not_do": [
+        "Provide the complete Maturing Moral Witness pattern",
+        "Show application beyond TKAM",
+        "Give the step-by-step analysis method"
+      ]
+    },
+    "guide": {
+      "job": "Deliver the complete Maturing Moral Witness pattern with full application method for analyzing any retrospective narrative.",
+      "register": "solution",
+      "must_do": [
+        "Provide complete pattern framework and all component devices",
+        "Include step-by-step analysis method for any work",
+        "Show application beyond TKAM to other retrospective narratives"
+      ],
+      "must_not_do": [
+        "Repeat basic information from other channels",
+        "Include unnecessary CTA (this is the final deliverable)",
+        "Be incomplete in pattern explanation"
+      ]
+    }
+  },
   "content_blocks": {
     "social": {
       "final_content": "You know TKAM feels different from other memory books\u2014but you can't put your finger on why. There's a specific structural reason Scout's narration creates that unique reading experience. I break down the exact mechanism in my latest video \ud83d\udc47",
@@ -171,10 +242,5 @@
         "childhood innocence vs adult moral understanding"
       ]
     }
-  },
-  "overall_validation": {
-    "all_constraints_met": true,
-    "issues_found": [],
-    "ready_for_rendering": true
   }
 }
