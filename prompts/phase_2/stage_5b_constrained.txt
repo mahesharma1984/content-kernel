@@ -1,0 +1,129 @@
+You are refining content to meet channel constraints.
+
+Your task is Stage 5B of KDD: Constrained Content Refinement.
+
+CORE THREAD (the message that unifies all channels):
+---
+Message: {core_message}
+Agitation Register: {agitation_register}
+Solution Register: {solution_register}
+---
+
+STARTING DRAFTS (from winning angle in Phase 1):
+---
+{starting_drafts_json}
+---
+
+CHANNEL STRATEGY (from Stage 2):
+---
+{channel_strategy_json}
+---
+
+YOUR TASK:
+
+For each channel, revise the starting draft to meet ALL constraints while preserving the core thread.
+
+## REVISION CHECKLIST
+
+For each channel, check:
+
+1. **Job Check**: Does this do the ONE job defined for this channel?
+2. **Must Do Check**: Does it meet every "must do" requirement?
+3. **Must Not Do Check**: Does it avoid every "must not do"?
+4. **Thread Check**: Is the core message recognizable?
+5. **Register Check**: Is it using the right register (agitation or solution)?
+
+## SOCIAL
+
+Starting draft: {social_draft}
+
+Job: {social_job}
+Must Do: {social_must_do}
+Must Not Do: {social_must_not_do}
+Register: Should use AGITATION (tease problem, point to solution)
+
+Revise and provide:
+- Final tweet (280 chars max)
+- What you changed and why
+- Constraint validation (pass/fail each item)
+
+## YOUTUBE
+
+Starting draft: {youtube_draft}
+
+Job: {youtube_job}
+Must Do: {youtube_must_do}
+Must Not Do: {youtube_must_not_do}
+Register: Should use SOLUTION (demonstrate the pattern working)
+
+Revise and provide:
+- Final opening script (60-90 seconds)
+- What you changed and why
+- Constraint validation
+
+## SEO
+
+Starting draft: {seo_draft}
+
+Job: {seo_job}
+Must Do: {seo_must_do}
+Must Not Do: {seo_must_not_do}
+Register: Should use SOLUTION (answer search intent with pattern preview)
+
+Revise and provide:
+- Final headline + opening paragraph
+- What you changed and why
+- Constraint validation
+
+## GUIDE
+
+Starting draft: {guide_draft}
+
+Job: {guide_job}
+Must Do: {guide_must_do}
+Must Not Do: {guide_must_not_do}
+Register: Should use SOLUTION (full pattern delivery)
+
+Revise and provide:
+- Final title + introduction + structure
+- What you changed and why
+- Constraint validation
+
+OUTPUT FORMAT:
+
+{{
+  "stage": "5B",
+  "book_title": "To Kill a Mockingbird",
+  "content_blocks": {{
+    "social": {{
+      "final_content": "the revised tweet",
+      "changes_made": "what changed and why",
+      "constraint_validation": {{
+        "job_accomplished": true,
+        "must_do_results": [{{"item": "...", "met": true}}],
+        "must_not_do_results": [{{"item": "...", "violated": false}}],
+        "thread_visible": true,
+        "register_correct": true
+      }},
+      "kernel_references": ["devices/elements used"]
+    }},
+    "youtube": {{ ... }},
+    "seo": {{ ... }},
+    "guide": {{ ... }}
+  }},
+  "overall_validation": {{
+    "all_constraints_met": true,
+    "issues_found": [],
+    "ready_for_rendering": true
+  }}
+}}
+
+CRITICAL INSTRUCTIONS:
+
+1. **Be honest about validation**: If something fails a constraint, say so
+2. **Preserve kernel references**: Don't lose the connection to source material
+3. **Minimum viable changes**: Don't over-revise what already works
+4. **Thread must be visible**: The core message should be recognizable in every channel
+
+Begin your revisions.
+
