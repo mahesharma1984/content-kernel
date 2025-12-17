@@ -1,0 +1,43 @@
+{
+  "winning_angle_index": 4,
+  "winning_angle_id": "YouTube-1",
+  "thread_summary": "The Scout Paradox - How One Character Breaks Every Narration Rule (And Why It Works)",
+  "starting_drafts": {
+    "social": {
+      "content": "TKAM's 'soft, drowsy imagery of afternoon naps' isn't atmosphere\u2014it's a trap. Harper Lee creates 'deceptively peaceful veneer' to make moral violence hit harder. Adult-Scout knows what's coming. Child-Scout (and first-time readers) don't.",
+      "kernel_references": [
+        "imagery",
+        "deceptively peaceful veneer",
+        "dramatic irony"
+      ],
+      "all_variations": [
+        {
+          "content": "TKAM's 'soft, drowsy imagery of afternoon naps' isn't atmosphere\u2014it's a trap. Harper Lee creates 'deceptively peaceful veneer' to make moral violence hit harder. Adult-Scout knows what's coming. Child-Scout (and first-time readers) don't.",
+          "kernel_references": [
+            "imagery",
+            "deceptively peaceful veneer",
+            "dramatic irony"
+          ],
+          "notes": "Reveals specific technique while showing how it serves the larger pattern"
+        },
+        {
+          "content": "Literary device spotlight: Lee's afternoon imagery isn't setting mood\u2014it's weaponized misdirection. The 'drowsy' scenes make you drop your guard before moral violence hits. Adult-Scout sees the trap. Child-Scout walks into it. So do we.",
+          "kernel_references": [
+            "imagery",
+            "adult vs child comprehension"
+          ],
+          "notes": "Educational framing makes complex technique accessible"
+        },
+        {
+          "content": "Why does TKAM's violence feel so shocking when you know it's coming? The imagery. Lee uses 'soft, drowsy' descriptions to create false safety. When injustice hits, the contrast is devastating. Atmosphere as dramatic structure.",
+          "kernel_references": [
+            "imagery",
+            "dramatic irony",
+            "deceptively peaceful veneer"
+          ],
+          "notes": "Explains reader experience while teaching technique"
+        }
+      ]
+    }
+  }
+}

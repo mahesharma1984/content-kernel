@@ -1,0 +1,70 @@
+{
+  "Social": {
+    "job": "Hook literature students with the Scout paradox - that she breaks every narration rule yet creates the most compelling reading experience.",
+    "register": "agitation",
+    "must_do": [
+      "Present the paradox as a puzzle ('Scout knows too much AND too little - how?')",
+      "Use specific examples that feel impossible (child Scout understanding Boo, adult Scout revealing too much)",
+      "Create urgency around solving this literary mystery"
+    ],
+    "must_not_do": [
+      "Explain the bidirectional unreliability concept",
+      "Reveal the Maturing Moral Witness pattern",
+      "Give away the solution - only agitate the problem"
+    ],
+    "thread_usage": "Uses the agitation register to present Scout as a narrator who impossibly breaks rules - knows too much about adult themes while understanding too little about her world, creating intrigue about how this works",
+    "success_metric": "High engagement (likes, shares, saves) and click-through to YouTube video",
+    "failure_mode": "Explaining the solution instead of just presenting the paradox, or being too academic instead of intriguing"
+  },
+  "YouTube": {
+    "job": "Demonstrate the Maturing Moral Witness pattern by walking through 2-3 concrete Scout examples, showing how the dual consciousness creates the reading experience.",
+    "register": "solution",
+    "must_do": [
+      "Show the pattern working with specific textual examples",
+      "Explain bidirectional unreliability with visual examples",
+      "Connect this to broader first-person retrospective narration"
+    ],
+    "must_not_do": [
+      "Rush through examples without showing the mechanism",
+      "Focus only on TKAM without showing the broader pattern",
+      "Give the complete analytical framework (save for guide)"
+    ],
+    "thread_usage": "Demonstrates the solution register - shows how 'first-person retrospective narration filters adult moral understanding through remembered childhood innocence' works in practice with Scout's specific scenes",
+    "success_metric": "High watch time, comments asking for more examples, and guide download conversions",
+    "failure_mode": "Being too abstract without concrete textual proof, or giving away everything without maintaining guide value"
+  },
+  "SEO": {
+    "job": "Answer 'how does Scout's narration work' searches by explaining the dual consciousness mechanism that creates TKAM's unique reading experience.",
+    "register": "solution",
+    "must_do": [
+      "Address specific search queries about Scout's narrative technique",
+      "Explain the child/adult consciousness split with examples",
+      "Position the guide as the complete analytical toolkit"
+    ],
+    "must_not_do": [
+      "Compete with YouTube content by using same examples",
+      "Provide the full pattern framework",
+      "Focus on other characters or themes beyond Scout's narration"
+    ],
+    "thread_usage": "Uses solution register to answer search intent - explains how Scout's retrospective narration creates systematic unreliability through the tension between child comprehension and adult revelation",
+    "success_metric": "High organic traffic from TKAM narration searches and guide conversion rate",
+    "failure_mode": "Keyword stuffing without delivering genuine insight, or duplicating YouTube content instead of complementing it"
+  },
+  "Guide": {
+    "job": "Deliver the complete Maturing Moral Witness analytical framework with all devices, variations, and application methods for any first-person retrospective text.",
+    "register": "solution",
+    "must_do": [
+      "Provide the full pattern taxonomy and recognition criteria",
+      "Include multiple text examples beyond just TKAM",
+      "Give step-by-step analytical methodology"
+    ],
+    "must_not_do": [
+      "Repeat social/YouTube content without adding depth",
+      "Focus only on TKAM instead of the broader pattern",
+      "Leave gaps in the analytical framework"
+    ],
+    "thread_usage": "Fully unpacks the core dynamic: provides systematic framework for analyzing how retrospective narration creates bidirectional unreliability across texts, with Scout as the primary case study",
+    "success_metric": "High completion rate, positive feedback on analytical depth, and application to other texts",
+    "failure_mode": "Being too theoretical without practical application tools, or not delivering significantly more value than the free content"
+  }
+}
