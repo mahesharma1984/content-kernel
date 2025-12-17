@@ -1,4 +1,7 @@
 {
+  "schema_version": "1.0",
+  "extraction_date": "2025-12-12T11:01:31.450679",
+  "source_kernel": "Regeneration_kernel_v5_0.json",
   "metadata": {
     "title": "Regeneration",
     "author": "Pat Barker",
@@ -20,455 +23,291 @@
     ]
   },
   "macro_variables": {
-    "narrative": {
-      "voice": {
-        "pov": "TPL",
-        "pov_description": "Third person limited primarily through Rivers' perspective with occasional shifts to other characters",
-        "focalization": "INT",
-        "focalization_description": "Internal focalization through characters' consciousness, especially Rivers and Sassoon",
-        "reliability": "REL",
-        "temporal_distance": "IMM",
-        "mode_dominance": "BAL",
-        "free_indirect": "HEAVY",
-        "stream_consciousness": "SOME",
-        "character_revelation": "MIX",
-        "narrative_intrusion": "SOME",
-        "voice_consistency": "CONS"
-      },
-      "structure": {
-        "chronology": "LIN",
-        "framing": "NONE",
-        "plot_architecture": "MONO",
-        "plot_architecture_description": "Single plot following the treatment relationships at Craiglockhart Hospital",
-        "pacing": "VAR",
-        "temporal_span": "MEDIUM",
-        "beginning_type": "MEDIAS",
-        "ending_type": "OPEN",
-        "scene_summary_ratio": "SCENE",
-        "chapter_structure": "TRAD",
-        "causation": "STRONG"
-      }
+    "voice": {
+      "pov": "TPL",
+      "pov_description": "Third person limited primarily through Rivers' perspective with occasional shifts to other characters",
+      "focalization": "INT",
+      "focalization_description": "Internal focalization through characters' consciousness, especially Rivers and Sassoon"
+    },
+    "structure": {
+      "total_chapters": 23,
+      "chronology": "LIN",
+      "pacing": "VAR",
+      "chapter_structure": "TRAD"
     },
     "rhetoric": {
-      "voice": {
-        "tone": "Clinical yet empathetic, exploring psychological trauma with medical precision and human compassion",
-        "register": "FORM",
-        "stance": "OBJ",
-        "ethos": "STRONG",
-        "pathos": "STRONG",
-        "logos": "STRONG",
-        "irony": "SIT",
-        "figurative_density": "MOD"
-      },
-      "structure": {
-        "alignment_type": "TRANS",
-        "narrative_rhetoric_relationship": "TIGHT",
-        "primary_mechanism": "CHAR",
-        "device_density": "MOD",
-        "device_distribution": "EVEN",
-        "mediation_strategy": "ACCUMULATION"
-      }
-    },
-    "device_mediation": {
-      "summary": "Devices mediate alignment through clinical observation and psychological realism, using dialogue, internal monologue, and symbolic imagery to reveal the complex dynamics between doctor and patient, challenging conventional notions of sanity, duty, and healing in wartime"
+      "tone": "Clinical yet empathetic, exploring psychological trauma with medical precision and human compassion",
+      "register": "FORM",
+      "stance": "OBJ"
     }
+  },
+  "device_mediation": {
+    "summary": "Devices mediate alignment through clinical observation and psychological realism, using dialogue, internal monologue, and symbolic imagery to reveal the complex dynamics between doctor and patient, challenging conventional notions of sanity, duty, and healing in wartime"
   },
   "micro_devices": [
     {
       "name": "Third-Person Limited",
       "anchor_phrase": "Rivers watched him for a while",
-      "location_percent": 15,
-      "scene": "Rivers observing Sassoon during their therapeutic session",
       "effect": "Creates clinical empathy by filtering Sassoon's trauma through Rivers's medical perspective, maintaining therapeutic distance while enabling compassionate understanding",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 5
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Metaphor",
       "anchor_phrase": "like trying to stop the ship would have been",
-      "location_percent": 20,
-      "scene": "Sassoon describing throwing his MC into the Mersey",
       "effect": "Transforms personal trauma into objective imagery that Rivers can clinically assess while preserving the emotional truth of Sassoon's futile gesture",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 1
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Juxtaposition",
       "anchor_phrase": "You seem to have a very powerful anti-war neurosis",
-      "location_percent": 25,
-      "scene": "Rivers's diagnostic conclusion about Sassoon",
       "effect": "Places medical terminology against political conviction, demonstrating how clinical perspective reframes moral stance as psychological condition",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 3
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Imagery",
       "anchor_phrase": "twisted and blackened shapes began to seem like old friends",
-      "location_percent": 55,
-      "scene": "Sassoon's memory of corpses before Arras",
       "effect": "Transforms horrific war imagery into familiar, almost comforting details, showing how clinical distance enables processing of unbearable trauma",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 1
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Symbolism",
       "anchor_phrase": "Like a trench without the sky",
-      "location_percent": 70,
-      "scene": "Description of Craiglockhart's top corridor",
       "effect": "Hospital architecture becomes symbol of psychological entrapment, using clinical observation to reveal deeper truths about patient experience",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 3
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Dialogue",
       "anchor_phrase": "Do you think I'm mad?",
-      "location_percent": 18,
-      "scene": "Sassoon's direct question to Rivers",
       "effect": "Creates therapeutic exchange where clinical expertise meets patient vulnerability, establishing the healing dynamic through professional discourse",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 2
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Foreshadowing",
       "anchor_phrase": "it's my duty to try to change that",
-      "location_percent": 28,
-      "scene": "Rivers explaining his role to Sassoon",
       "effect": "Establishes the therapeutic tension between doctor's duty and patient's conviction, previewing the clinical challenge of treating principled dissent",
-      "assigned_section": "exposition",
-      "chapter": 2,
-      "chapter_range": "1-3",
-      "pedagogical_tier": 3
+      "section": "exposition",
+      "chapter": 2
     },
     {
       "name": "Juxtaposition",
       "anchor_phrase": "This may come as a shock, Dr Rivers, but I had been rather assuming that we were not.",
-      "location_percent": 8,
-      "scene": "Prior and Rivers in therapy session discussing their adversarial relationship",
       "effect": "Places doctor-patient therapeutic alliance against Prior's resistance, creating clinical distance that reveals the deeper power dynamics of treatment",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 3
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Symbolism",
       "anchor_phrase": "thin line of khaki was just visible beneath the purple silk",
-      "location_percent": 25,
-      "scene": "Owen observing Sassoon in his dressing gown during their first meeting",
       "effect": "Military uniform beneath civilian luxury symbolizes the war's inescapable presence even in recovery, enabling objective assessment of trauma's permanence",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 3
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Imagery",
       "anchor_phrase": "skulls in the side. You looked back along and \u2026 Like mushrooms.",
-      "location_percent": 55,
-      "scene": "Owen describing ancient trenches to Sassoon",
       "effect": "Visceral sensory detail creates therapeutic distance through metaphorical transformation of trauma into observable phenomena",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 1
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Foreshadowing",
       "anchor_phrase": "A hundred years from now they'll still be ploughing up skulls.",
-      "location_percent": 58,
-      "scene": "Sassoon sharing his vision of the war's lasting impact",
       "effect": "Projects trauma's permanence into future perspective, allowing clinical examination of war's enduring psychological effects",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 3
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Third-Person Limited",
       "anchor_phrase": "Anderson, following Sassoon into the bar of the golf club, knew he owed him an apology.",
-      "location_percent": 75,
-      "scene": "Anderson's internal struggle after his violent outburst on the golf course",
       "effect": "Provides clinical access to Anderson's psychological state while maintaining therapeutic objectivity about his suppressed violence",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 5
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Metaphor",
       "anchor_phrase": "It's like a very deep voice saying, Run along, little man.",
-      "location_percent": 53,
-      "scene": "Owen describing the ancient, inevitable nature of war",
       "effect": "Transforms overwhelming trauma into analyzable metaphor, creating distance that enables understanding of war's psychological impact",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 1
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Dialogue",
       "anchor_phrase": "I don't write about that. I s-suppose I've always thought of p-poetry as the opposite of all that.",
-      "location_percent": 65,
-      "scene": "Owen explaining why he doesn't write war poetry to Sassoon",
       "effect": "Reveals character's psychological defense mechanisms through natural speech, allowing clinical observation of trauma avoidance",
-      "assigned_section": "rising_action",
-      "chapter": 8,
-      "chapter_range": "4-13",
-      "pedagogical_tier": 2
+      "section": "rising_action",
+      "chapter": 8
     },
     {
       "name": "Third-Person Limited",
       "anchor_phrase": "He wasn't surprised, he assumed Orme had come",
-      "location_percent": 15,
-      "scene": "Sassoon's hallucination of dead soldier Orme in his room",
       "effect": "Creates therapeutic distance by filtering traumatic experience through clinical observation while maintaining access to psychological state",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 5
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Symbolism",
       "anchor_phrase": "the two bloody bargains on which a civilization",
-      "location_percent": 45,
-      "scene": "Rivers examining church window depicting crucifixion and Abraham's sacrifice",
       "effect": "Uses religious imagery to clinically analyze societal structures that sacrifice youth, creating objective framework for understanding trauma's origins",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 3
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Juxtaposition",
       "anchor_phrase": "the inheritors were dying, not one by one",
-      "location_percent": 50,
-      "scene": "Rivers contrasting dying soldiers with civilians singing hymns",
       "effect": "Places clinical observation of mass death alongside domestic comfort to highlight the gap between trauma and civilian understanding",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 3
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Flashback",
       "anchor_phrase": "A memory tweaked the edges of his mind",
-      "location_percent": 25,
-      "scene": "Sassoon remembering childhood mirror and father's departure",
       "effect": "Provides clinical context for current abandonment feelings while maintaining therapeutic distance through structured recall",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 2
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Imagery",
       "anchor_phrase": "His fingers dug through the fluffiness into surprisingly",
-      "location_percent": 70,
-      "scene": "Rivers handling chickens with physical discomfort",
       "effect": "Creates visceral sensory details that mirror clinical examination of uncomfortable realities while maintaining objective stance",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 1
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Metaphor",
       "anchor_phrase": "little Atlases struggling to hold up the world",
-      "location_percent": 85,
-      "scene": "Rivers remembering chicks hatching by the fire",
       "effect": "Transforms clinical observation into compassionate understanding of vulnerability and struggle, embodying therapeutic empathy",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 1
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Foreshadowing",
       "anchor_phrase": "he found it difficult to envisage any future",
-      "location_percent": 80,
-      "scene": "Rivers thinking about writing to David Burns about his future",
       "effect": "Clinical assessment masked as casual observation hints at deeper understanding of trauma's long-term effects",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 3
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Motif",
       "anchor_phrase": "stammering boys, any age from ten to nineteen",
-      "location_percent": 95,
-      "scene": "Rivers remembering his father's speech therapy pupils",
       "effect": "Recurring theme of communication breakdown connects personal history to current therapeutic work, maintaining clinical yet empathetic perspective",
-      "assigned_section": "climax",
-      "chapter": 14,
-      "chapter_range": "14-15",
-      "pedagogical_tier": 3
+      "section": "climax",
+      "chapter": 14
     },
     {
       "name": "Third-Person Limited",
       "anchor_phrase": "Rivers thought how misleading it was",
-      "location_percent": 45,
-      "scene": "Rivers observing Burns during their evening conversation about Suffolk",
       "effect": "Provides medical perspective on Burns's condition while maintaining therapeutic distance through clinical observation of his psychological state",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 5
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Metaphor",
       "anchor_phrase": "a toothless mouth mumbling pebbles",
-      "location_percent": 25,
-      "scene": "Rivers and Burns walking along the beach at night",
       "effect": "Creates clinical imagery that transforms the natural environment into something that reflects trauma and decay, maintaining objective yet compassionate stance",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 1
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Juxtaposition",
       "anchor_phrase": "prematurely aged man and a fossilized schoolboy",
-      "location_percent": 50,
-      "scene": "Rivers analyzing Burns's psychological state during their conversation",
       "effect": "Presents clinical assessment of trauma's effects through contrasting elements, enabling deeper understanding through medical perspective",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 3
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Symbolism",
       "anchor_phrase": "tangles of barbed wire that ran",
-      "location_percent": 30,
-      "scene": "The beach walk where Burns seems oblivious to the war defenses",
       "effect": "War intrudes into peaceful setting while Burns appears not to see it, symbolizing his suppression and creating therapeutic distance for analysis",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 3
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Imagery",
       "anchor_phrase": "bones of Burns's face gleaming",
-      "location_percent": 28,
-      "scene": "Walking on the beach in moonlight",
       "effect": "Medical imagery emphasizes physical manifestation of trauma while maintaining objective observation that enables compassionate understanding",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 1
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Internal Monologue",
       "anchor_phrase": "Why do I go along with it?",
-      "location_percent": 70,
-      "scene": "Rivers working on his paper while Burns sits by the fire",
       "effect": "Provides clinical self-examination that combines medical perspective with therapeutic questioning, creating distance that enables deeper understanding",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 5
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Foreshadowing",
       "anchor_phrase": "But then why am I here?",
-      "location_percent": 52,
-      "scene": "Rivers wondering about the real reason for his invitation",
       "effect": "Medical intuition suggests underlying issues despite surface improvement, maintaining clinical empathy that anticipates deeper therapeutic needs",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 3
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Motif",
       "anchor_phrase": "the nightmare followed",
-      "location_percent": 62,
-      "scene": "Rivers hearing Burns's disturbed sleep despite daytime improvement",
       "effect": "Recurring trauma pattern observed through medical lens, providing objective evidence that enables compassionate understanding of suppression's limits",
-      "assigned_section": "falling_action",
-      "chapter": 16,
-      "chapter_range": "16-21",
-      "pedagogical_tier": 3
+      "section": "falling_action",
+      "chapter": 16
     },
     {
       "name": "Metaphor",
       "anchor_phrase": "a grotesque parody of Adam naming created things",
-      "location_percent": 25,
-      "scene": "Rivers walking on the Heath, haunted by images of Callan's treatment",
       "effect": "Creates clinical distance by intellectualizing the trauma through biblical comparison, enabling therapeutic understanding of the dehumanizing treatment",
-      "assigned_section": "resolution",
-      "chapter": 22,
-      "chapter_range": "22-23",
-      "pedagogical_tier": 1
+      "section": "resolution",
+      "chapter": 22
     },
     {
       "name": "Symbolism",
       "anchor_phrase": "An instrument of control",
-      "location_percent": 75,
-      "scene": "Rivers analyzing his dream about the horse's bit",
       "effect": "The bit symbolizes systematic control mechanisms in therapy, allowing clinical examination of power dynamics while maintaining compassionate distance",
-      "assigned_section": "resolution",
-      "chapter": 22,
-      "chapter_range": "22-23",
-      "pedagogical_tier": 3
+      "section": "resolution",
+      "chapter": 22
     },
     {
       "name": "Imagery",
       "anchor_phrase": "the moist, pink interior, the delicately quivering uvula",
-      "location_percent": 55,
-      "scene": "Rivers' nightmare about forcing an electrode into a patient's mouth",
       "effect": "Visceral medical imagery creates therapeutic distance through clinical precision while revealing the violence beneath treatment",
-      "assigned_section": "resolution",
-      "chapter": 22,
-      "chapter_range": "22-23",
-      "pedagogical_tier": 1
+      "section": "resolution",
+      "chapter": 22
     },
     {
       "name": "Juxtaposition",
       "anchor_phrase": "recovery meant the resumption of activities that were not merely self-destructive but positively suicidal",
-      "location_percent": 80,
-      "scene": "Rivers reflecting on the paradox of psychiatric treatment during wartime",
       "effect": "Contrasts healing with harm to enable clinical analysis of therapeutic contradictions with empathetic understanding",
-      "assigned_section": "resolution",
-      "chapter": 22,
-      "chapter_range": "22-23",
-      "pedagogical_tier": 3
+      "section": "resolution",
+      "chapter": 22
     },
     {
       "name": "Dramatic Irony",
       "anchor_phrase": "Perhaps Callan remembered, as Yealland apparently did not, that Mons had been a defeat",
-      "location_percent": 15,
-      "scene": "Yealland calling Callan 'a hero of Mons' during treatment",
       "effect": "Creates knowing distance between medical observer and practitioner, enabling critical yet compassionate evaluation of treatment methods",
-      "assigned_section": "resolution",
-      "chapter": 22,
-      "chapter_range": "22-23",
-      "pedagogical_tier": 4
+      "section": "resolution",
+      "chapter": 22
     },
     {
       "name": "Internal Monologue",
       "anchor_phrase": "There is no distinction",
-      "location_percent": 70,
-      "scene": "Rivers analyzing his dream and its accusation about his methods",
       "effect": "Enables therapeutic self-examination through clinical introspection, maintaining professional distance while achieving deeper understanding",
-      "assigned_section": "resolution",
-      "chapter": 22,
-      "chapter_range": "22-23",
-      "pedagogical_tier": 5
+      "section": "resolution",
+      "chapter": 22
     }
-  ]
+  ],
+  "validation": {
+    "pattern_present": true,
+    "device_count": 36,
+    "sections_covered": [
+      "exposition",
+      "rising_action",
+      "falling_action",
+      "resolution",
+      "climax"
+    ],
+    "quotes_available": true
+  }
 }
