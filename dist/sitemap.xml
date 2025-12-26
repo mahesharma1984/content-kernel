@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://luminait.appdist/</loc></url>
-  <url><loc>https://luminait.appdist/orbital/essay-guide/</loc></url>
-  <url><loc>https://luminait.appdist/orbital/</loc></url>
-  <url><loc>https://luminait.appdist/orbital/themes/human-consciousness-cosmic-vastness/</loc></url>
-  <url><loc>https://luminait.appdist/orbital/themes/times-cyclical-nature/</loc></url>
-  <url><loc>https://luminait.appdist/orbital/themes/untamed-cosmic-forces/</loc></url>
-  <url><loc>https://luminait.appdist/regeneration/essay-guide/</loc></url>
-  <url><loc>https://luminait.appdist/regeneration/</loc></url>
-  <url><loc>https://luminait.appdist/regeneration/themes/confinement-psychological-reality/</loc></url>
-  <url><loc>https://luminait.appdist/regeneration/themes/healing-through-professional-distance/</loc></url>
-  <url><loc>https://luminait.appdist/regeneration/themes/war-psychological-transformation/</loc></url>
+  <url><loc>https://luminait.app/</loc></url>
+  <url><loc>https://luminait.app/orbital/</loc></url>
+  <url><loc>https://luminait.app/regeneration/</loc></url>
 </urlset>

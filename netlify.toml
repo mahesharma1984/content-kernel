@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "python scripts/build_all.py"
 
 [[headers]]
   for = "/*"
