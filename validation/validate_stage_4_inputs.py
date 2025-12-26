@@ -67,3 +67,4 @@ if __name__ == "__main__":
     valid = validate_stage_4_inputs(messages_path, drafts_5a_path)
     sys.exit(0 if valid else 1)
 
+
