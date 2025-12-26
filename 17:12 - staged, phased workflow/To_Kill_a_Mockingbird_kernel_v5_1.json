@@ -1,0 +1,736 @@
+{
+  "metadata": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "edition": "Harper Perennial Modern Classics, 2006",
+    "creation_date": "2025-12-10T22:15:14.616167",
+    "protocol_version": "4.0",
+    "kernel_version": "5.1",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1",
+    "device_density_optimization": true
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 31,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NEST",
+    "total_units": 31,
+    "special_elements": [],
+    "notes": "Two-part structure: Part One (Chapters 1-11) and Part Two (Chapters 12-31)"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_chapter": 1,
+      "percentage": 13
+    },
+    "rising_action": {
+      "chapter_range": "5-20",
+      "chapters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "primary_chapter": 15,
+      "percentage": 52
+    },
+    "climax": {
+      "chapter_range": "21",
+      "chapters": [
+        21
+      ],
+      "primary_chapter": 21,
+      "percentage": 3
+    },
+    "falling_action": {
+      "chapter_range": "22-28",
+      "chapters": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "primary_chapter": 25,
+      "percentage": 23
+    },
+    "resolution": {
+      "chapter_range": "29-31",
+      "chapters": [
+        29,
+        30,
+        31
+      ],
+      "primary_chapter": 31,
+      "percentage": 10
+    }
+  },
+  "chapter_optimization": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "narrative_primary": 1,
+      "optimized_primary": 3,
+      "device_density_score": 49.428483163422925,
+      "improvement_percent": 5.960264900662252,
+      "optimization_applied": true,
+      "chapter_text": "Scout.\u201d I turned around and saw most of the town people and the entire bus delegation looking at me. Miss Caroline and I had conferred twice already, and they were looking at me in the innocent assurance that familiarity breeds understanding. I rose graciously on Walter\u2019s behalf: \u201cAh\u2014Miss Caroline?\u201d \u201cWhat is it, Jean Louise?\u201d \u201cMiss Caroline, he\u2019s a Cunningham.\u201d I sat back down. \u201cWhat, Jean Louise?\u201d I thought I had made things sufficiently clear. It was clear enough to the rest of us: Walter Cunningham was sitting there lying his head off. He didn\u2019t forget his lunch, he didn\u2019t have any. He had none today nor would he have any tomorrow or the next day. He had probably never seen three quarters together at the same time in his life. I tried again: \u201cWalter\u2019s one of the Cunninghams, Miss Caroline.\u201d \u201cI beg your pardon, Jean Louise?\u201d\u201cThat\u2019s okay, ma\u2019am, you\u2019ll get to know all the country folks after a while. The Cunninghams never took anything they can\u2019t pay back\u2014no church baskets, and no scrip stamps. They never took anything off of anybody, they get along on what they have. They don\u2019t have much, but they get along on it.\u201d My special knowledge of the Cunningham tribe\u2014one branch, that is\u2014was gained from events of last winter. Walter\u2019s father was one of Atticus\u2019s clients. After a dreary conversation in our livingroom one night about his entailment, before Mr. Cunningham left he said, \u201cMr. Finch, I don\u2019t know when I\u2019ll ever be able to pay you.\u201d \u201cLet that be the least of your worries, Walter,\u201d Atticus said. When I asked Jem what entailment was, and Jem described it as a condition of having your tail in a crack, I asked Atticus if Mr. Cunningham would ever pay us. \u201cNot in money,\u201d Atticus said, \u201cbut before the year\u2019s out I\u2019ll have been paid. You watch.\u201d We watched. One morning Jem and I found a load of stovewood in the back yard. Later, a sack of hickory nuts appeared on the back steps. With Christmas came a crate of smilax and holly. That spring when we found a croker-sack full of turnip greens, Atticus said Mr. Cunningham had more than paid him. \u201cWhy does he pay you like that?\u201d I asked. \u201cBecause that\u2019s the only way he can pay me. He has no money.\u201d \u201cAre we poor, Atticus?\u201d Atticus nodded. \u201cWe are indeed.\u201d Jem\u2019s nose wrinkled. \u201cAre we as poor as the Cunninghams?\u201d \u201cNot exactly. The Cunninghams are country folks, farmers, and the crash hit them hardest.\u201d Atticus said professional people were poor because the farmers were poor. As Maycomb County was farm country, nickels and dimes were hard to come by for doctors and dentists and lawyers. Entailment was only a part of Mr. Cunningham\u2019s vexations. The acres not entailed were mortgaged to the hilt, and the little cash he made went to interest. If he held his mouth right, Mr. Cunningham could get a WPA job, but his land would go to ruin if he left it, and he was willing to go hungry to keep his land and vote as he pleased. Mr. Cunningham, said Atticus, came from a set breed of men. As the Cunninghams had no money to pay a lawyer, they simply paid us with what they had. \u201cDid you know,\u201d said Atticus, \u201cthat Dr. Reynolds works the same way? He charges some folks a bushel of potatoes for delivery of a baby. Miss Scout, if you give me your attention I\u2019ll tell you what entailment is. Jem\u2019s definitions are very nearly accurate sometimes.\u201d If I could have explained these things to Miss Caroline, I would have saved myself some inconvenience and Miss Caroline subsequent mortification, butit was beyond my ability to explain things as well as Atticus, so I said, \u201cYou\u2019re shamin\u2019 him, Miss Caroline. Walter hasn\u2019t got a quarter at home to bring you, and you can\u2019t use any stovewood.\u201d Miss Caroline stood stock still, then grabbed me by the collar and hauled me back to her desk. \u201cJean Louise, I\u2019ve had about enough of you this morning,\u201d she said. \u201cYou\u2019re starting off on the wrong foot in every way, my dear. Hold out your hand.\u201d I thought she was going to spit in it, which was the only reason anybody in Maycomb held out his hand: it was a time-honored method of sealing oral contracts. Wondering what bargain we had made, I turned to the class for an answer, but the class looked back at me in puzzlement. Miss Caroline picked up her ruler, gave me half a dozen quick little pats, then told me to stand in the corner. A storm of laughter broke loose when it finally occurred to the class that Miss Caroline had whipped me. When Miss Caroline threatened it with a similar fate the first grade exploded again, becoming cold sober only when the shadow of Miss Blount fell over them. Miss Blount, a native Maycombian as yet uninitiated in the mysteries of the Decimal System, appeared at the door hands on hips and announced: \u201cIf I hear another sound from this room I\u2019ll burn up everybody in it. Miss Caroline, the sixth grade cannot concentrate on the pyramids for all this racket!\u201d My sojourn in the corner was a short one. Saved by the bell, Miss Caroline watched the class file out for lunch. As I was the last to leave, I saw her sink down into her chair and bury her head in her arms. Had her conduct been more friendly toward me, I would have felt sorry for her. She was a pretty little thing.3 Catching Walter Cunningham in the schoolyard gave me some pleasure, but when I was rubbing his nose in the dirt Jem came by and told me to stop. \u201cYou\u2019re bigger\u2019n he is,\u201d he said. \u201cHe\u2019s as old as you, nearly,\u201d I said. \u201cHe made me start off on the wrong foot.\u201d \u201cLet him go, Scout. Why?\u201d \u201cHe didn\u2019t have any lunch,\u201d I said, and explained my involvement in Walter\u2019s dietary affairs. Walter had picked himself up and was standing quietly listening to Jem and me. His fists were half cocked, as if expecting an onslaught from both of us. I stomped at him to chase him away, but Jem put out his hand and stopped me. He examined Walter with an air of speculation. \u201cYour daddy Mr. Walter Cunningham from Old Sarum?\u201d he asked, and Walter nodded. Walter looked as if he had been raised on fish food: his eyes, as blue as Dill Harris\u2019s, were red-rimmed and watery. There was no color in his face except at the tip of his nose, which was moistly pink. He fingered the straps of his overalls, nervously picking at the metal hooks. Jem suddenly grinned at him. \u201cCome on home to dinner with us, Walter,\u201d he said. \u201cWe\u2019d be glad to have you.\u201d Walter\u2019s face brightened, then darkened. Jem said, \u201cOur daddy\u2019s a friend of your daddy\u2019s. Scout here, she\u2019s crazy\u2014 she won\u2019t fight you any more.\u201d \u201cI wouldn\u2019t be too certain of that,\u201d I said. Jem\u2019s free dispensation of my pledge irked me, but precious noontime minutes were ticking away. \u201cYeah Walter, I won\u2019t jump on you again. Don\u2019t you like butterbeans? Our Cal\u2019s a real good cook.\u201d Walter stood where he was, biting his lip. Jem and I gave up, and we were nearly to the Radley Place when Walter called, \u201cHey, I\u2019m comin\u2019!\u201d When Walter caught up with us, Jem made pleasant conversation with him. \u201cA hain\u2019t lives there,\u201d he said cordially, pointing to the Radley house. \u201cEver hear about him, Walter?\u201d \u201cReckon I have,\u201d said Walter. \u201cAlmost died first year I come to school andet them pecans\u2014folks say he pizened \u2019em and put \u2019em over on the school side of the fence.\u201d Jem seemed to have little fear of Boo Radley now that Walter and I walked beside him. Indeed, Jem grew boastful: \u201cI went all the way up to the house once,\u201d he said to Walter. \u201cAnybody who went up to the house once oughta not to still run every time he passes it,\u201d I said to the clouds above. \u201cAnd who\u2019s runnin\u2019, Miss Priss?\u201d \u201cYou are, when ain\u2019t anybody with you.\u201d By the time we reached our front steps Walter had forgotten he was a Cunningham. Jem ran to the kitchen and asked Calpurnia to set an extra plate, we had company. Atticus greeted Walter and began a discussion about crops neither Jem nor I could follow. \u201cReason I can\u2019t pass the first grade, Mr. Finch, is I\u2019ve had to stay out ever\u2019 spring an\u2019 help Papa with the choppin\u2019, but there\u2019s another\u2019n at the house now that\u2019s field size.\u201d \u201cDid you pay a bushel of potatoes for him?\u201d I asked, but Atticus shook his head at me. While Walter piled food on his plate, he and Atticus talked together like two men, to the wonderment of Jem and me. Atticus was expounding upon farm problems when Walter interrupted to ask if there was any molasses in the house. Atticus summoned Calpurnia, who returned bearing the syrup pitcher. She stood waiting for Walter to help himself. Walter poured syrup on his vegetables and meat with a generous hand. He would probably have poured it into his milk glass had I not asked what the sam hill he was doing. The silver saucer clattered when he replaced the pitcher, and he quickly put his hands in his lap. Then he ducked his head. Atticus shook his head at me again. \u201cBut he\u2019s gone and drowned his dinner in syrup,\u201d I protested. \u201cHe\u2019s poured it all over\u2014\u201d It was then that Calpurnia requested my presence in the kitchen. She was furious, and when she was furious Calpurnia\u2019s grammar became erratic. When in tranquility, her grammar was as good as anybody\u2019s in Maycomb. Atticus said Calpurnia had more education than most colored folks. When she squinted down at me the tiny lines around her eyes deepened. \u201cThere\u2019s some folks who don\u2019t eat like us,\u201d she whispered fiercely, \u201cbut you ain\u2019t called on to contradict \u2019em at the table when they don\u2019t. That boy\u2019s yo\u2019 comp\u2019ny and if he wants to eat up the table cloth you let him, you hear?\u201d \u201cHe ain\u2019t company, Cal, he\u2019s just a Cunningham\u2014\u201d \u201cHush your mouth! Don\u2019t matter who they are, anybody sets foot in this house\u2019s yo\u2019 comp\u2019ny, and don\u2019t you let me catch you remarkin\u2019 on their ways like you was so high and mighty! Yo\u2019 folks might be better\u2019n theCunninghams but it don\u2019t count for nothin\u2019 the way you\u2019re disgracin\u2019 \u2019em\u2014if you can\u2019t act fit to eat at the table you can just set here and eat in the kitchen!\u201d Calpurnia sent me through the swinging door to the diningroom with a stinging smack. I retrieved my plate and finished dinner in the kitchen, thankful, though, that I was spared the humiliation of facing them again. I told Calpurnia to just wait, I\u2019d fix her: one of these days when she wasn\u2019t looking I\u2019d go off and drown myself in Barker\u2019s Eddy and then she\u2019d be sorry. Besides, I added, she\u2019d already gotten me in trouble once today: she had taught me to write and it was all her fault. \u201cHush you fussin\u2019,\u201d she said. Jem and Walter returned to school ahead of me: staying behind to advise Atticus of Calpurnia\u2019s iniquities was worth a solitary sprint past the Radley Place. \u201cShe likes Jem better\u2019n she likes me, anyway,\u201d I concluded, and suggested that Atticus lose no time in packing her off. \u201cHave you ever considered that Jem doesn\u2019t worry her half as much?\u201d Atticus\u2019s voice was flinty. \u201cI\u2019ve no intention of getting rid of her, now or ever. We couldn\u2019t operate a single day without Cal, have you ever thought of that? You think about how much Cal does for you, and you mind her, you hear?\u201d I returned to school and hated Calpurnia steadily until a sudden shriek shattered my resentments. I looked up to see Miss Caroline standing in the middle of the room, sheer horror flooding her face. Apparently she had revived enough to persevere in her profession. \u201cIt\u2019s alive!\u201d she screamed. The male population of the class rushed as one to her assistance. Lord, I thought, she\u2019s scared of a mouse. Little Chuck Little, whose patience with all living things was phenomenal, said, \u201cWhich way did he go, Miss Caroline? Tell us where he went, quick! D.C.\u2014\u201d he turned to a boy behind him\u2014\u201cD.C., shut the door and we\u2019ll catch him. Quick, ma\u2019am, where\u2019d he go?\u201d Miss Caroline pointed a shaking finger not at the floor nor at a desk, but to a hulking individual unknown to me. Little Chuck\u2019s face contracted and he said gently, \u201cYou mean him, ma\u2019am? Yessum, he\u2019s alive. Did he scare you some way?\u201d Miss Caroline said desperately, \u201cI was just walking by when it crawled out of his hair . . . just crawled out of his hair\u2014\u201d Little Chuck grinned broadly. \u201cThere ain\u2019t no need to fear a cootie, ma\u2019am. Ain\u2019t you ever seen one? Now don\u2019t you be afraid, you just go back to your desk and teach us some more.\u201d Little Chuck Little was another member of the population who didn\u2019t know where his next meal was coming from, but he was a born gentleman. He put his hand under her elbow and led Miss Caroline to the front of the room. \u201cNow don\u2019t you fret, ma\u2019am,\u201d he said. \u201cThere ain\u2019t no need to fear a cootie. I\u2019ll just fetch you some cool water.\u201d The cootie\u2019s host showed not the faintest interest in the furor he hadwrought. He searched the scalp above his forehead, located his guest and pinched it between his thumb and forefinger. Miss Caroline watched the process in horrid fascination. Little Chuck brought water in a paper cup, and she drank it gratefully. Finally she found her voice. \u201cWhat is your name, son?\u201d she asked softly. The boy blinked. \u201cWho, me?\u201d Miss Caroline nodded. \u201cBurris Ewell.\u201d Miss Caroline inspected her roll-book. \u201cI have a Ewell here, but I don\u2019t have a first name . . . would you spell your first name for me?\u201d \u201cDon\u2019t know how. They call me Burris\u2019t home.\u201d \u201cWell, Burris,\u201d said Miss Caroline, \u201cI think we\u2019d better excuse you for the rest of the afternoon. I want you to go home and wash your hair.\u201d From her desk she produced a thick volume, leafed through its pages and read for a moment. \u201cA good home remedy for\u2014Burris, I want you to go home and wash your hair with lye soap. When you\u2019ve done that, treat your scalp with kerosene.\u201d \u201cWhat fer, missus?\u201d \u201cTo get rid of the\u2014er, cooties. You see, Burris, the other children might catch them, and you wouldn\u2019t want that, would you?\u201d The boy stood up. He was the filthiest human I had ever seen. His neck was dark gray, the backs of his hands were rusty, and his fingernails were black deep into the quick. He peered at Miss Caroline from a fist-sized clean space on his face. No one had noticed him, probably, because Miss Caroline and I had entertained the class most of the morning. \u201cAnd Burris,\u201d said Miss Caroline, \u201cplease bathe yourself before you come back tomorrow.\u201d The boy laughed rudely. \u201cYou ain\u2019t sendin\u2019 me home, missus. I was on the verge of leavin\u2019\u2014I done done my time for this year.\u201d Miss Caroline looked puzzled. \u201cWhat do you mean by that?\u201d The boy did not answer. He gave a short contemptuous snort. One of the elderly members of the class answered her: \u201cHe\u2019s one of the Ewells, ma\u2019am,\u201d and I wondered if this explanation would be as unsuccessful as my attempt. But Miss Caroline seemed willing to listen. \u201cWhole school\u2019s full of \u2019em. They come first day every year and then leave. The truant lady gets \u2019em here \u2019cause she threatens \u2019em with the sheriff, but she\u2019s give up tryin\u2019 to hold \u2019em. She reckons she\u2019s carried out the law just gettin\u2019 their names on the roll and runnin\u2019 \u2019em here the first day. You\u2019re supposed to mark \u2019em absent the rest of the year . . .\u201d \u201cBut what about their parents?\u201d asked Miss Caroline, in genuine concern. \u201cAin\u2019t got no mother,\u201d was the answer, \u201cand their paw\u2019s right contentious.\u201d Burris Ewell was flattered by the recital. \u201cBeen comin\u2019 to the first day o\u2019 the first grade fer three year now,\u201d he said expansively. \u201cReckon if I\u2019m smartthis year they\u2019ll promote me to the second. . . .\u201d Miss Caroline said, \u201cSit back down, please, Burris,\u201d and the moment she said it I knew she had made a serious mistake. The boy\u2019s condescension flashed to anger. \u201cYou try and make me, missus.\u201d Little Chuck Little got to his feet. \u201cLet him go, ma\u2019am,\u201d he said. \u201cHe\u2019s a mean one, a hard-down mean one. He\u2019s liable to start somethin\u2019, and there\u2019s some little folks here.\u201d He was among the most diminutive of men, but when Burris Ewell turned toward him, Little Chuck\u2019s right hand went to his pocket. \u201cWatch your step, Burris,\u201d he said. \u201cI\u2019d soon\u2019s kill you as look at you. Now go home.\u201d Burris seemed to be afraid of a child half his height, and Miss Caroline took advantage of his indecision: \u201cBurris, go home. If you don\u2019t I\u2019ll call the principal,\u201d she said. \u201cI\u2019ll have to report this, anyway.\u201d The boy snorted and slouched leisurely to the door. Safely out of range, he turned and shouted: \u201cReport and be damned to ye! Ain\u2019t no snot-nosed slut of a schoolteacher ever born c\u2019n make me do nothin\u2019! You ain\u2019t makin\u2019 me go nowhere, missus. You just remember that, you ain\u2019t makin\u2019 me go nowhere!\u201d He waited until he was sure she was crying, then he shuffled out of the building. Soon we were clustered around her desk, trying in our various ways to comfort her. He was a real mean one . . . below the belt . . . you ain\u2019t called on to teach folks like that . . . them ain\u2019t Maycomb\u2019s ways, Miss Caroline, not really . . . now don\u2019t you fret, ma\u2019am. Miss Caroline, why don\u2019t you read us a story? That cat thing was real fine this mornin\u2019. . . . Miss Caroline smiled, blew her nose, said, \u201cThank you, darlings,\u201d dispersed us, opened a book and mystified the first grade with a long narrative about a toadfrog that lived in a hall. When I passed the Radley Place for the fourth time that day\u2014twice at a full gallop\u2014my gloom had deepened to match the house. If the remainder of the school year were as fraught with drama as the first day, perhaps it would be mildly entertaining, but the prospect of spending nine months refraining from reading and writing made me think of running away. By late afternoon most of my traveling plans were complete; when Jem and I raced each other up the sidewalk to meet Atticus coming home from work, I didn\u2019t give him much of a race. It was our habit to run meet Atticus the moment we saw him round the post office corner in the distance. Atticus seemed to have forgotten my noontime fall from grace; he was full of questions about school. My replies were monosyllabic and he did not press me. Perhaps Calpurnia sensed that my day had",
+      "density_breakdown": {
+        "Metaphor": 1.8535681186283597,
+        "Simile": 1.8535681186283597,
+        "Imagery": 11.739264751312943,
+        "Symbolism": 12.357120790855731,
+        "Dialogue": 0.0,
+        "Foreshadowing": 5.560704355885079,
+        "Juxtaposition": 9.267840593141797,
+        "Repetition": 6.796416434970652,
+        "TOTAL_DENSITY": 49.428483163422925
+      }
+    },
+    "rising_action": {
+      "chapter_range": "5-20",
+      "narrative_primary": 15,
+      "optimized_primary": 18,
+      "device_density_score": 51.89990732159407,
+      "improvement_percent": 3.7037037037037033,
+      "optimization_applied": true,
+      "chapter_text": "of a mob last night, but he was still a man. Every mob in every little Southern town is always made up of people you know\u2014doesn\u2019t say much for them, does it?\u201d \u201cI\u2019ll say not,\u201d said Jem. \u201cSo it took an eight-year-old child to bring \u2019em to their senses, didn\u2019t it?\u201d said Atticus. \u201cThat proves something\u2014that a gang of wild animals can be stopped, simply because they\u2019re still human. Hmp, maybe we need a police force of children . . . you children last night made Walter Cunningham stand in my shoes for a minute. That was enough.\u201d Well, I hoped Jem would understand folks a little better when he was older; I wouldn\u2019t. \u201cFirst day Walter comes back to school\u2019ll be his last,\u201d I affirmed. \u201cYou will not touch him,\u201d Atticus said flatly. \u201cI don\u2019t want either of you bearing a grudge about this thing, no matter what happens.\u201d \u201cYou see, don\u2019t you,\u201d said Aunt Alexandra, \u201cwhat comes of things like this.Don\u2019t say I haven\u2019t told you.\u201d Atticus said he\u2019d never say that, pushed out his chair and got up. \u201cThere\u2019s a day ahead, so excuse me. Jem, I don\u2019t want you and Scout downtown today, please.\u201d As Atticus departed, Dill came bounding down the hall into the diningroom. \u201cIt\u2019s all over town this morning,\u201d he announced, \u201call about how we held off a hundred folks with our bare hands. . . .\u201d Aunt Alexandra stared him to silence. \u201cIt was not a hundred folks,\u201d she said, \u201cand nobody held anybody off. It was just a nest of those Cunninghams, drunk and disorderly.\u201d \u201cAw, Aunty, that\u2019s just Dill\u2019s way,\u201d said Jem. He signaled us to follow him. \u201cYou all stay in the yard today,\u201d she said, as we made our way to the front porch. It was like Saturday. People from the south end of the county passed our house in a leisurely but steady stream. Mr. Dolphus Raymond lurched by on his thoroughbred. \u201cDon\u2019t see how he stays in the saddle,\u201d murmured Jem. \u201cHow c\u2019n you stand to get drunk \u2019fore eight in the morning?\u201d A wagonload of ladies rattled past us. They wore cotton sunbonnets and dresses with long sleeves. A bearded man in a wool hat drove them. \u201cYonder\u2019s some Mennonites,\u201d Jem said to Dill. \u201cThey don\u2019t have buttons.\u201d They lived deep in the woods, did most of their trading across the river, and rarely came to Maycomb. Dill was interested. \u201cThey\u2019ve all got blue eyes,\u201d Jem explained, \u201cand the men can\u2019t shave after they marry. Their wives like for \u2019em to tickle \u2019em with their beards.\u201d Mr. X Billups rode by on a mule and waved to us. \u201cHe\u2019s a funny man,\u201d said Jem. \u201cX\u2019s his name, not his initial. He was in court one time and they asked him his name. He said X Billups. Clerk asked him to spell it and he said X. Asked him again and he said X. They kept at it till he wrote X on a sheet of paper and held it up for everybody to see. They asked him where he got his name and he said that\u2019s the way his folks signed him up when he was born.\u201d As the county went by us, Jem gave Dill the histories and general attitudes of the more prominent figures: Mr. Tensaw Jones voted the straight Prohibition ticket; Miss Emily Davis dipped snuff in private; Mr. Byron Waller could play the violin; Mr. Jake Slade was cutting his third set of teeth. A wagonload of unusually stern-faced citizens appeared. When they pointed to Miss Maudie Atkinson\u2019s yard, ablaze with summer flowers, Miss Maudie herself came out on the porch. There was an odd thing about Miss Maudie\u2014on her porch she was too far away for us to see her features clearly, but we could always catch her mood by the way she stood. She was now standing arms akimbo, her shoulders dropping a little, her head cocked to one side, her glasses winking in the sunlight. We knew she wore a grin of theuttermost wickedness. The driver of the wagon slowed down his mules, and a shrill-voiced woman called out: \u201cHe that cometh in vanity departeth in darkness!\u201d Miss Maudie answered: \u201cA merry heart maketh a cheerful countenance!\u201d I guessed that the foot-washers thought that the Devil was quoting Scripture for his own purposes, as the driver speeded his mules. Why they objected to Miss Maudie\u2019s yard was a mystery, heightened in my mind because for someone who spent all the daylight hours outdoors, Miss Maudie\u2019s command of Scripture was formidable. \u201cYou goin\u2019 to court this morning?\u201d asked Jem. We had strolled over. \u201cI am not,\u201d she said. \u201cI have no business with the court this morning.\u201d \u201cAren\u2019t you goin\u2019 down to watch?\u201d asked Dill. \u201cI am not. \u2019t\u2019s morbid, watching a poor devil on trial for his life. Look at all those folks, it\u2019s like a Roman carnival.\u201d \u201cThey hafta try him in public, Miss Maudie,\u201d I said. \u201cWouldn\u2019t be right if they didn\u2019t.\u201d \u201cI\u2019m quite aware of that,\u201d she said. \u201cJust because it\u2019s public, I don\u2019t have to go, do I?\u201d Miss Stephanie Crawford came by. She wore a hat and gloves. \u201cUm, um, um,\u201d she said. \u201cLook at all those folks\u2014you\u2019d think William Jennings Bryan was speakin\u2019.\u201d \u201cAnd where are you going, Stephanie?\u201d inquired Miss Maudie. \u201cTo the Jitney Jungle.\u201d Miss Maudie said she\u2019d never seen Miss Stephanie go to the Jitney Jungle in a hat in her life. \u201cWell,\u201d said Miss Stephanie, \u201cI thought I might just look in at the courthouse, to see what Atticus\u2019s up to.\u201d \u201cBetter be careful he doesn\u2019t hand you a subpoena.\u201d We asked Miss Maudie to elucidate: she said Miss Stephanie seemed to know so much about the case she might as well be called on to testify. We held off until noon, when Atticus came home to dinner and said they\u2019d spent the morning picking the jury. After dinner, we stopped by for Dill and went to town. It was a gala occasion. There was no room at the public hitching rail for another animal, mules and wagons were parked under every available tree. The courthouse square was covered with picnic parties sitting on newspapers, washing down biscuit and syrup with warm milk from fruit jars. Some people were gnawing on cold chicken and cold fried pork chops. The more affluent chased their food with drugstore Coca-Cola in bulb-shaped soda glasses. Greasy-faced children popped-the-whip through the crowd, and babies lunched at their mothers\u2019 breasts. In a far corner of the square, the Negroes sat quietly in the sun, dining onsardines, crackers, and the more vivid flavors of Nehi Cola. Mr. Dolphus Raymond sat with them. \u201cJem,\u201d said Dill, \u201che\u2019s drinkin\u2019 out of a sack.\u201d Mr. Dolphus Raymond seemed to be so doing: two yellow drugstore straws ran from his mouth to the depths of a brown paper bag. \u201cAin\u2019t ever seen anybody do that,\u201d murmured Dill. \u201cHow does he keep what\u2019s in it in it?\u201d Jem giggled. \u201cHe\u2019s got a Co-Cola bottle full of whiskey in there. That\u2019s so\u2019s not to upset the ladies. You\u2019ll see him sip it all afternoon, he\u2019ll step out for a while and fill it back up.\u201d \u201cWhy\u2019s he sittin\u2019 with the colored folks?\u201d \u201cAlways does. He likes \u2019em better\u2019n he likes us, I reckon. Lives by himself way down near the county line. He\u2019s got a colored woman and all sorts of mixed chillun. Show you some of \u2019em if we see \u2019em.\u201d \u201cHe doesn\u2019t look like trash,\u201d said Dill. \u201cHe\u2019s not, he owns all one side of the riverbank down there, and he\u2019s from a real old family to boot.\u201d \u201cThen why does he do like that?\u201d \u201cThat\u2019s just his way,\u201d said Jem. \u201cThey say he never got over his weddin\u2019. He was supposed to marry one of the\u2014the Spender ladies, I think. They were gonna have a huge weddin\u2019, but they didn\u2019t\u2014after the rehearsal the bride went upstairs and blew her head off. Shotgun. She pulled the trigger with her toes.\u201d \u201cDid they ever know why?\u201d \u201cNo,\u201d said Jem, \u201cnobody ever knew quite why but Mr. Dolphus. They said it was because she found out about his colored woman, he reckoned he could keep her and get married too. He\u2019s been sorta drunk ever since. You know, though, he\u2019s real good to those chillun\u2014\u201d \u201cJem,\u201d I asked, \u201cwhat\u2019s a mixed child?\u201d \u201cHalf white, half colored. You\u2019ve seen \u2019em, Scout. You know that red- kinky-headed one that delivers for the drugstore. He\u2019s half white. They\u2019re real sad.\u201d \u201cSad, how come?\u201d \u201cThey don\u2019t belong anywhere. Colored folks won\u2019t have \u2019em because they\u2019re half white; white folks won\u2019t have \u2019em \u2019cause they\u2019re colored, so they\u2019re just in-betweens, don\u2019t belong anywhere. But Mr. Dolphus, now, they say he\u2019s shipped two of his up north. They don\u2019t mind \u2019em up north. Yonder\u2019s one of \u2019em.\u201d A small boy clutching a Negro woman\u2019s hand walked toward us. He looked all Negro to me; he was rich chocolate with flaring nostrils and beautiful teeth. Sometimes he would skip happily, and the Negro woman tugged his hand to make him stop.Jem waited until they passed us. \u201cThat\u2019s one of the little ones,\u201d he said. \u201cHow can you tell?\u201d asked Dill. \u201cHe looked black to me.\u201d \u201cYou can\u2019t sometimes, not unless you know who they are. But he\u2019s half Raymond, all right.\u201d \u201cBut how can you tell? \u201d I asked. \u201cI told you, Scout, you just hafta know who they are.\u201d \u201cWell how do you know we ain\u2019t Negroes?\u201d \u201cUncle Jack Finch says we really don\u2019t know. He says as far as he can trace back the Finches we ain\u2019t, but for all he knows we mighta come straight out of Ethiopia durin\u2019 the Old Testament.\u201d \u201cWell if we came out durin\u2019 the Old Testament it\u2019s too long ago to matter.\u201d \u201cThat\u2019s what I thought,\u201d said Jem, \u201cbut around here once you have a drop of Negro blood, that makes you all black. Hey, look\u2014\u201d Some invisible signal had made the lunchers on the square rise and scatter bits of newspaper, cellophane, and wrapping paper. Children came to mothers, babies were cradled on hips as men in sweat-stained hats collected their families and herded them through the courthouse doors. In the far corner of the square the Negroes and Mr. Dolphus Raymond stood up and dusted their breeches. There were few women and children among them, which seemed to dispel the holiday mood. They waited patiently at the doors behind the white families. \u201cLet\u2019s go in,\u201d said Dill. \u201cNaw, we better wait till they get in, Atticus might not like it if he sees us,\u201d said Jem. The Maycomb County courthouse was faintly reminiscent of Arlington in one respect: the concrete pillars supporting its south roof were too heavy for their light burden. The pillars were all that remained standing when the original courthouse burned in 1856. Another courthouse was built around them. It is better to say, built in spite of them. But for the south porch, the Maycomb County courthouse was early Victorian, presenting an unoffensive vista when seen from the north. From the other side, however, Greek revival columns clashed with a big nineteenth-century clock tower housing a rusty unreliable instrument, a view indicating a people determined to preserve every physical scrap of the past. To reach the courtroom, on the second floor, one passed sundry sunless county cubbyholes: the tax assessor, the tax collector, the county clerk, the county solicitor, the circuit clerk, the judge of probate lived in cool dim hutches that smelled of decaying record books mingled with old damp cement and stale urine. It was necessary to turn on the lights in the daytime; there was always a film of dust on the rough floorboards. The inhabitants of these offices were creatures of their environment: little gray-faced men, they seemed untouched by wind or sun.We knew there was a crowd, but we had not bargained for the multitudes in the first-floor hallway. I got separated from Jem and Dill, but made my way toward the wall by the stairwell, knowing Jem would come for me eventually. I found myself in the middle of the Idlers\u2019 Club and made myself as unobtrusive as possible. This was a group of white-shirted, khaki-trousered, suspendered old men who had spent their lives doing nothing and passed their twilight days doing same on pine benches under the live oaks on the square. Attentive critics of courthouse business, Atticus said they knew as much law as the Chief Justice, from long years of observation. Normally, they were the court\u2019s only spectators, and today they seemed resentful of the interruption of their comfortable routine. When they spoke, their voices sounded casually important. The conversation was about my father. \u201c. . . thinks he knows what he\u2019s doing,\u201d one said. \u201cOh-h now, I wouldn\u2019t say that,\u201d said another. \u201cAtticus Finch\u2019s a deep reader, a mighty deep reader.\u201d \u201cHe reads all right, that\u2019s all he does.\u201d The club snickered. \u201cLemme tell you somethin\u2019 now, Billy,\u201d a third said, \u201cyou know the court appointed him to defend this nigger.\u201d \u201cYeah, but Atticus aims to defend him. That\u2019s what I don\u2019t like about it.\u201d This was news, news that put a different light on things: Atticus had to, whether he wanted to or not. I thought it odd that he hadn\u2019t said anything to us about it\u2014we could have used it many times in defending him and ourselves. He had to, that\u2019s why he was doing it, equaled fewer fights and less fussing. But did that explain the town\u2019s attitude? The court appointed Atticus to defend him. Atticus aimed to defend him. That\u2019s what they didn\u2019t like about it. It was confusing. The Negroes, having waited for the white people to go upstairs, began to come in. \u201cWhoa now, just a minute,\u201d said a club member, holding up his walking stick. \u201cJust don\u2019t start up them there stairs yet awhile.\u201d The club began its stiff-jointed climb and ran into Dill and Jem on their way down looking for me. They squeezed past and Jem called, \u201cScout, come on, there ain\u2019t a seat left. We\u2019ll hafta stand up.\u201d \u201cLooka there, now,\u201d he said irritably, as the black people surged upstairs. The old men ahead of them would take most of the standing room. We were out of luck and it was all my fault, Jem informed me. We stood miserably by the wall. \u201cCan\u2019t you all get in?\u201d Reverend Sykes was looking down at us, black hat in hand. \u201cHey, Reverend,\u201d said Jem. \u201cNaw, Scout here messed us up.\u201d \u201cWell, let\u2019s see what we can do.\u201d Reverend Sykes edged his way upstairs. In a few moments he was back. \u201cThere\u2019s not a seat downstairs. Do you all reckon it\u2019ll be all right if you allcame to the balcony with me?\u201d \u201cGosh yes,\u201d said Jem. Happily, we sped ahead of Reverend Sykes to the courtroom floor. There, we went up a covered staircase and waited at the door. Reverend Sykes came puffing behind us, and steered us gently through the black people in the balcony. Four Negroes rose and gave us their front- row seats. The Colored balcony ran along three walls of the courtroom like a second- story veranda, and from it we could see everything. The jury sat to the left, under long windows. Sunburned, lanky, they seemed to be all farmers, but this was natural: townsfolk rarely sat on juries, they were either struck or excused. One or two of the jury looked vaguely like dressed-up Cunninghams. At this stage they sat straight and alert. The circuit solicitor and another man, Atticus and Tom Robinson sat at tables with their backs to us. There was a brown book and some yellow tablets on the solicitor\u2019s table; Atticus\u2019s was bare. Just inside the railing that divided the spectators from the court, the witnesses sat on cowhide-bottomed chairs. Their backs were to us. Judge Taylor was on the bench, looking like a sleepy old shark, his pilot fish writing rapidly below in front of him. Judge Taylor looked like most judges I had ever seen: amiable, white-haired, slightly ruddy-faced, he was a man who ran his court with an alarming informality\u2014he sometimes propped his feet up, he often cleaned his fingernails with his pocket knife. In long equity hearings, especially after dinner, he gave the impression of dozing, an impression dispelled forever when a lawyer once deliberately pushed a pile of books to the floor in a desperate effort to wake him up. Without opening his eyes, Judge Taylor murmured, \u201cMr. Whitley, do that again and it\u2019ll cost you one hundred dollars.\u201d He was a man learned in the law, and although he seemed to take his job casually, in reality he kept a firm grip on any proceedings that came before him. Only once was Judge Taylor ever seen at a dead standstill in open court, and the Cunninghams stopped him. Old Sarum, their stamping grounds, was populated by two families separate and apart in the beginning, but unfortunately bearing the same name. The Cunninghams married the Coninghams until the spelling of the names was academic\u2014academic until a Cunningham disputed a Coningham over land titles and took to the law. During a controversy of this character, Jeems Cunningham testified that his mother spelled it Cunningham on deeds and things, but she was really a Coningham, she was an uncertain speller, a seldom reader, and was given to looking far away sometimes when she sat on the front gallery in the evening. After nine hours of listening to the eccentricities of Old Sarum\u2019s inhabitants, Judge Taylor threw the case out of court. When asked upon what grounds, Judge Taylor said, \u201cChampertous connivance,\u201d and declared he hoped to Godthe litigants were satisfied by each having had their public say. They were. That was all they had wanted in the first place. Judge Taylor had one interesting habit. He permitted smoking in his courtroom but did not himself indulge: sometimes, if one was lucky, one had the privilege of watching him put a long dry cigar into his mouth and munch it slowly up. Bit by bit the dead cigar would disappear, to reappear some hours later as a flat slick mess, its essence extracted and mingling with Judge Taylor\u2019s digestive juices. I once asked Atticus how Mrs. Taylor stood to kiss him, but Atticus said they didn\u2019t kiss much. The witness stand was to the right of Judge Taylor, and when we got to our seats Mr. Heck Tate was already on it.17 \u201cJem,\u201d I said, \u201care those the Ewells sittin\u2019 down yonder?\u201d \u201cHush,\u201d said Jem, \u201cMr. Heck Tate\u2019s testifyin\u2019.\u201d Mr. Tate had dressed for the occasion. He wore an ordinary business suit, which made him look somehow like every other man: gone were his high boots, lumber jacket, and bullet-studded belt. From that moment he ceased to terrify me. He was sitting forward in the witness chair, his hands clasped between his knees, listening attentively to the circuit solicitor. The solicitor, a Mr. Gilmer, was not well known to us. He was from Abbottsville; we saw him only when court convened, and that rarely, for court was of no special interest to Jem and me. A balding, smooth-faced man, he could have been anywhere between forty and sixty. Although his back was to us, we knew he had a slight cast",
+      "density_breakdown": {
+        "Metaphor": 3.7071362372567194,
+        "Simile": 3.398208217485326,
+        "Imagery": 12.974976830398516,
+        "Symbolism": 11.430336731541551,
+        "Dialogue": 0.0,
+        "Foreshadowing": 3.7071362372567194,
+        "Juxtaposition": 10.50355267222737,
+        "Repetition": 6.178560395427866,
+        "TOTAL_DENSITY": 51.89990732159407
+      }
+    },
+    "climax": {
+      "chapter_range": "21",
+      "narrative_primary": 21,
+      "optimized_primary": 21,
+      "device_density_score": 48.501699104108745,
+      "improvement_percent": 0.0,
+      "optimization_applied": false,
+      "chapter_text": "I said.\u201d \u201cDo you remember him beating you about the face?\u201d The witness hesitated. \u201cYou seem sure enough that he choked you. All this time you were fighting back, remember? You \u2018kicked and hollered as loud as you could.\u2019 Do you remember him beating you about the face?\u201d Mayella was silent. She seemed to be trying to get something clear to herself. I thought for a moment she was doing Mr. Heck Tate\u2019s and my trick of pretending there was a person in front of us. She glanced at Mr. Gilmer. \u201cIt\u2019s an easy question, Miss Mayella, so I\u2019ll try again. Do you remember him beating you about the face?\u201d Atticus\u2019s voice had lost its comfortableness; he was speaking in his arid, detached professional voice. \u201cDo you remember him beating you about the face?\u201d \u201cNo, I don\u2019t recollect if he hit me. I mean yes I do, he hit me.\u201d \u201cWas your last sentence your answer?\u201d \u201cHuh? Yes, he hit\u2014I just don\u2019t remember, I just don\u2019t remember . . . it all happened so quick.\u201d Judge Taylor looked sternly at Mayella. \u201cDon\u2019t you cry, young woman\u2014\u201d he began, but Atticus said, \u201cLet her cry if she wants to, Judge. We\u2019ve got all the time in the world.\u201d Mayella sniffed wrathfully and looked at Atticus. \u201cI\u2019ll answer any question you got\u2014get me up here an\u2019 mock me, will you? I\u2019ll answer any question you got\u2014\u201d \u201cThat\u2019s fine,\u201d said Atticus. \u201cThere\u2019re only a few more. Miss Mayella, not to be tedious, you\u2019ve testified that the defendant hit you, grabbed you around the neck, choked you, and took advantage of you. I want you to be sure you have the right man. Will you identify the man who raped you?\u201d \u201cI will, that\u2019s him right yonder.\u201d Atticus turned to the defendant. \u201cTom, stand up. Let Miss Mayella have a good long look at you. Is this the man, Miss Mayella?\u201dTom Robinson\u2019s powerful shoulders rippled under his thin shirt. He rose to his feet and stood with his right hand on the back of his chair. He looked oddly off balance, but it was not from the way he was standing. His left arm was fully twelve inches shorter than his right, and hung dead at his side. It ended in a small shriveled hand, and from as far away as the balcony I could see that it was no use to him. \u201cScout,\u201d breathed Jem. \u201cScout, look! Reverend, he\u2019s crippled!\u201d Reverend Sykes leaned across me and whispered to Jem. \u201cHe got it caught in a cotton gin, caught it in Mr. Dolphus Raymond\u2019s cotton gin when he was a boy . . . like to bled to death . . . tore all the muscles loose from his bones\u2014\u201d Atticus said, \u201cIs this the man who raped you?\u201d \u201cIt most certainly is.\u201d Atticus\u2019s next question was one word long. \u201cHow?\u201d Mayella was raging. \u201cI don\u2019t know how he done it, but he done it\u2014I said it all happened so fast I\u2014\u201d \u201cNow let\u2019s consider this calmly\u2014\u201d began Atticus, but Mr. Gilmer interrupted with an objection: he was not irrelevant or immaterial, but Atticus was browbeating the witness. Judge Taylor laughed outright. \u201cOh sit down, Horace, he\u2019s doing nothing of the sort. If anything, the witness\u2019s browbeating Atticus.\u201d Judge Taylor was the only person in the courtroom who laughed. Even the babies were still, and I suddenly wondered if they had been smothered at their mothers\u2019 breasts. \u201cNow,\u201d said Atticus, \u201cMiss Mayella, you\u2019ve testified that the defendant choked and beat you\u2014you didn\u2019t say that he sneaked up behind you and knocked you cold, but you turned around and there he was\u2014\u201d Atticus was back behind his table, and he emphasized his words by tapping his knuckles on it. \u201c\u2014do you wish to reconsider any of your testimony?\u201d \u201cYou want me to say something that didn\u2019t happen?\u201d \u201cNo ma\u2019am, I want you to say something that did happen. Tell us once more, please, what happened?\u201d \u201cI told\u2019ja what happened.\u201d \u201cYou testified that you turned around and there he was. He choked you then?\u201d \u201cYes.\u201d \u201cThen he released your throat and hit you?\u201d \u201cI said he did.\u201d \u201cHe blacked your left eye with his right fist?\u201d \u201cI ducked and it\u2014it glanced, that\u2019s what it did. I ducked and it glanced off.\u201d Mayella had finally seen the light. \u201cYou\u2019re becoming suddenly clear on this point. A while ago you couldn\u2019t remember too well, could you?\u201d\u201cI said he hit me.\u201d \u201cAll right. He choked you, he hit you, then he raped you, that right?\u201d \u201cIt most certainly is.\u201d \u201cYou\u2019re a strong girl, what were you doing all the time, just standing there?\u201d \u201cI told\u2019ja I hollered\u2019n\u2019kicked\u2019n\u2019fought\u2014\u201d Atticus reached up and took off his glasses, turned his good right eye to the witness, and rained questions on her. Judge Taylor said, \u201cOne question at a time, Atticus. Give the witness a chance to answer.\u201d \u201cAll right, why didn\u2019t you run?\u201d \u201cI tried to . . .\u201d \u201cTried to? What kept you from it?\u201d \u201cI\u2014he slung me down. That\u2019s what he did, he slung me down\u2019n got on top of me.\u201d \u201cYou were screaming all this time?\u201d \u201cI certainly was.\u201d \u201cThen why didn\u2019t the other children hear you? Where were they? At the dump?\u201d No answer. \u201cWhere were they?\u201d \u201cWhy didn\u2019t your screams make them come running? The dump\u2019s closer than the woods, isn\u2019t it?\u201d No answer. \u201cOr didn\u2019t you scream until you saw your father in the window? You didn\u2019t think to scream until then, did you?\u201d No answer. \u201cDid you scream first at your father instead of at Tom Robinson? Was that it?\u201d No answer. \u201cWho beat you up? Tom Robinson or your father?\u201d No answer. \u201cWhat did your father see in the window, the crime of rape or the best defense to it? Why don\u2019t you tell the truth, child, didn\u2019t Bob Ewell beat you up?\u201d When Atticus turned away from Mayella he looked like his stomach hurt, but Mayella\u2019s face was a mixture of terror and fury. Atticus sat down wearily and polished his glasses with his handkerchief. Suddenly Mayella became articulate. \u201cI got somethin\u2019 to say,\u201d she said. Atticus raised his head. \u201cDo you want to tell us what happened?\u201d But she did not hear the compassion in his invitation. \u201cI got somethin\u2019 to say an\u2019 then I ain\u2019t gonna say no more. That nigger yonder took advantage of me an\u2019 if you fine fancy gentlemen don\u2019t wanta do nothin\u2019 about it thenyou\u2019re all yellow stinkin\u2019 cowards, stinkin\u2019 cowards, the lot of you. Your fancy airs don\u2019t come to nothin\u2019\u2014 your ma\u2019amin\u2019 and Miss Mayellerin\u2019 don\u2019t come to nothin\u2019, Mr. Finch\u2014\u201d Then she burst into real tears. Her shoulders shook with angry sobs. She was as good as her word. She answered no more questions, even when Mr. Gilmer tried to get her back on the track. I guess if she hadn\u2019t been so poor and ignorant, Judge Taylor would have put her under the jail for the contempt she had shown everybody in the courtroom. Somehow, Atticus had hit her hard in a way that was not clear to me, but it gave him no pleasure to do so. He sat with his head down, and I never saw anybody glare at anyone with the hatred Mayella showed when she left the stand and walked by Atticus\u2019s table. When Mr. Gilmer told Judge Taylor that the state rested, Judge Taylor said, \u201cIt\u2019s time we all did. We\u2019ll take ten minutes.\u201d Atticus and Mr. Gilmer met in front of the bench and whispered, then they left the courtroom by a door behind the witness stand, which was a signal for us all to stretch. I discovered that I had been sitting on the edge of the long bench, and I was somewhat numb. Jem got up and yawned, Dill did likewise, and Reverend Sykes wiped his face on his hat. The temperature was an easy ninety, he said. Mr. Braxton Underwood, who had been sitting quietly in a chair reserved for the Press, soaking up testimony with his sponge of a brain, allowed his bitter eyes to rove over the Colored balcony, and they met mine. He gave a snort and looked away. \u201cJem,\u201d I said, \u201cMr. Underwood\u2019s seen us.\u201d \u201cThat\u2019s okay. He won\u2019t tell Atticus, he\u2019ll just put it on the social side of the Tribune. \u201d Jem turned back to Dill, explaining, I suppose, the finer points of the trial to him, but I wondered what they were. There had been no lengthy debates between Atticus and Mr. Gilmer on any points; Mr. Gilmer seemed to be prosecuting almost reluctantly; witnesses had been led by the nose as asses are, with few objections. But Atticus had once told us that in Judge Taylor\u2019s court any lawyer who was a strict constructionist on evidence usually wound up receiving strict instructions from the bench. He distilled this for me to mean that Judge Taylor might look lazy and operate in his sleep, but he was seldom reversed, and that was the proof of the pudding. Atticus said he was a good judge. Presently Judge Taylor returned and climbed into his swivel chair. He took a cigar from his vest pocket and examined it thoughtfully. I punched Dill. Having passed the judge\u2019s inspection, the cigar suffered a vicious bite. \u201cWe come down sometimes to watch him,\u201d I explained. \u201cIt\u2019s gonna take him the rest of the afternoon, now. You watch.\u201d Unaware of public scrutiny from above, Judge Taylor disposed of the severed end by propelling it expertly to his lips and saying, \u201cFhluck!\u201d He hit a spittoon so squarely we could hear itslosh. \u201cBet he was hell with a spitball,\u201d murmured Dill. As a rule, a recess meant a general exodus, but today people weren\u2019t moving. Even the Idlers who had failed to shame younger men from their seats had remained standing along the walls. I guess Mr. Heck Tate had reserved the county toilet for court officials. Atticus and Mr. Gilmer returned, and Judge Taylor looked at his watch. \u201cIt\u2019s gettin\u2019 on to four,\u201d he said, which was intriguing, as the courthouse clock must have struck the hour at least twice. I had not heard it or felt its vibrations. \u201cShall we try to wind up this afternoon?\u201d asked Judge Taylor. \u201cHow \u2019bout it, Atticus?\u201d \u201cI think we can,\u201d said Atticus. \u201cHow many witnesses you got?\u201d \u201cOne.\u201d \u201cWell, call him.\u201d19 Thomas Robinson reached around, ran his fingers under his left arm and lifted it. He guided his arm to the Bible and his rubber-like left hand sought contact with the black binding. As he raised his right hand, the useless one slipped off the Bible and hit the clerk\u2019s table. He was trying again when Judge Taylor growled, \u201cThat\u2019ll do, Tom.\u201d Tom took the oath and stepped into the witness chair. Atticus very quickly induced him to tell us: Tom was twenty-five years of age; he was married with three children; he had been in trouble with the law before: he once received thirty days for disorderly conduct. \u201cIt must have been disorderly,\u201d said Atticus. \u201cWhat did it consist of?\u201d \u201cGot in a fight with another man, he tried to cut me.\u201d \u201cDid he succeed?\u201d \u201cYes suh, a little, not enough to hurt. You see, I\u2014\u201d Tom moved his left shoulder. \u201cYes,\u201d said Atticus. \u201cYou were both convicted?\u201d \u201cYes suh, I had to serve \u2019cause I couldn\u2019t pay the fine. Other fellow paid his\u2019n.\u201d Dill learned across me and asked Jem what Atticus was doing. Jem said Atticus was showing the jury that Tom had nothing to hide. \u201cWere you acquainted with Mayella Violet Ewell?\u201d asked Atticus. \u201cYes suh, I had to pass her place goin\u2019 to and from the field every day.\u201d \u201cWhose field?\u201d \u201cI picks for Mr. Link Deas.\u201d \u201cWere you picking cotton in November?\u201d \u201cNo suh, I works in his yard fall an\u2019 wintertime. I works pretty steady for him all year round, he\u2019s got a lot of pecan trees\u2019n things.\u201d \u201cYou say you had to pass the Ewell place to get to and from work. Is there any other way to go?\u201d \u201cNo suh, none\u2019s I know of.\u201d \u201cTom, did she ever speak to you?\u201d \u201cWhy, yes suh, I\u2019d tip m\u2019hat when I\u2019d go by, and one day she asked me to come inside the fence and bust up a chiffarobe for her.\u201d\u201cWhen did she ask you to chop up the\u2014the chiffarobe?\u201d \u201cMr. Finch, it was way last spring. I remember it because it was choppin\u2019 time and I had my hoe with me. I said I didn\u2019t have nothin\u2019 but this hoe, but she said she had a hatchet. She give me the hatchet and I broke up the chiffarobe. She said, \u2018I reckon I\u2019ll hafta give you a nickel, won\u2019t I?\u2019 I said, \u2018No ma\u2019am, there ain\u2019t no charge.\u2019 Then I went home. Mr. Finch, that was way last spring, way over a year ago.\u201d \u201cDid you ever go on the place again?\u201d \u201cYes suh.\u201d \u201cWhen?\u201d \u201cWell, I went lots of times.\u201d Judge Taylor instinctively reached for his gavel, but let his hand fall. The murmur below us died without his help. \u201cUnder what circumstances?\u201d \u201cPlease, suh?\u201d \u201cWhy did you go inside the fence lots of times?\u201d Tom Robinson\u2019s forehead relaxed. \u201cShe\u2019d call me in, suh. Seemed like every time I passed by yonder she\u2019d have some little somethin\u2019 for me to do \u2014choppin\u2019 kindlin\u2019, totin\u2019 water for her. She watered them red flowers every day\u2014\u201d \u201cWere you paid for your services?\u201d \u201cNo suh, not after she offered me a nickel the first time. I was glad to do it, Mr. Ewell didn\u2019t seem to help her none, and neither did the chillun, and I knowed she didn\u2019t have no nickels to spare.\u201d \u201cWhere were the other children?\u201d \u201cThey was always around, all over the place. They\u2019d watch me work, some of \u2019em, some of \u2019em\u2019d set in the window.\u201d \u201cWould Miss Mayella talk to you?\u201d \u201cYes suh, she talked to me.\u201d As Tom Robinson gave his testimony, it came to me that Mayella Ewell must have been the loneliest person in the world. She was even lonelier than Boo Radley, who had not been out of the house in twenty-five years. When Atticus asked had she any friends, she seemed not to know what he meant, then she thought he was making fun of her. She was as sad, I thought, as what Jem called a mixed child: white people wouldn\u2019t have anything to do with her because she lived among pigs; Negroes wouldn\u2019t have anything to do with her because she was white. She couldn\u2019t live like Mr. Dolphus Raymond, who preferred the company of Negroes, because she didn\u2019t own a riverbank and she wasn\u2019t from a fine old family. Nobody said, \u201cThat\u2019s just their way,\u201d about the Ewells. Maycomb gave them Christmas baskets, welfare money, and the back of its hand. Tom Robinson was probably the only person who was ever decent to her. But she said he took advantage of her, and when she stood upshe looked at him as if he were dirt beneath her feet. \u201cDid you ever,\u201d Atticus interrupted my meditations, \u201cat any time, go on the Ewell property\u2014did you ever set foot on the Ewell property without an express invitation from one of them?\u201d \u201cNo suh, Mr. Finch, I never did. I wouldn\u2019t do that, suh.\u201d Atticus sometimes said that one way to tell whether a witness was lying or telling the truth was to listen rather than watch: I applied his test\u2014Tom denied it three times in one breath, but quietly, with no hint of whining in his voice, and I found myself believing him in spite of his protesting too much. He seemed to be a respectable Negro, and a respectable Negro would never go up into somebody\u2019s yard of his own volition. \u201cTom, what happened to you on the evening of November twenty-first of last year?\u201d Below us, the spectators drew a collective breath and leaned forward. Behind us, the Negroes did the same. Tom was a black-velvet Negro, not shiny, but soft black velvet. The whites of his eyes shone in his face, and when he spoke we saw flashes of his teeth. If he had been whole, he would have been a fine specimen of a man. \u201cMr. Finch,\u201d he said, \u201cI was goin\u2019 home as usual that evenin\u2019, an\u2019 when I passed the Ewell place Miss Mayella were on the porch, like she said she were. It seemed real quiet like, an\u2019 I didn\u2019t quite know why. I was studyin\u2019 why, just passin\u2019 by, when she says for me to come there and help her a minute. Well, I went inside the fence an\u2019 looked around for some kindlin\u2019 to work on, but I didn\u2019t see none, and she says, \u2018Naw, I got somethin\u2019 for you to do in the house. Th\u2019 old door\u2019s off its hinges an\u2019 fall\u2019s comin\u2019 on pretty fast.\u2019 I said you got a screwdriver, Miss Mayella? She said she sho\u2019 had. Well, I went up the steps an\u2019 she motioned me to come inside, and I went in the front room an\u2019 looked at the door. I said Miss Mayella, this door look all right. I pulled it back\u2019n forth and those hinges was all right. Then she shet the door in my face. Mr. Finch, I was wonderin\u2019 why it was so quiet like, an\u2019 it come to me that there weren\u2019t a chile on the place, not a one of \u2019em, and I said Miss Mayella, where the chillun?\u201d Tom\u2019s black velvet skin had begun to shine, and he ran his hand over his face. \u201cI say where the chillun?\u201d he continued, \u201can\u2019 she says\u2014she was laughin\u2019, sort of\u2014she says they all gone to town to get ice creams. She says, \u2018Took me a slap year to save seb\u2019m nickels, but I done it. They all gone to town.\u2019 \u201d Tom\u2019s discomfort was not from the humidity. \u201cWhat did you say then, Tom?\u201d asked Atticus. \u201cI said somethin\u2019 like, why Miss Mayella, that\u2019s right smart o\u2019you to treat \u2019em. An\u2019 she said, \u2018You think so?\u2019 I don\u2019t think she understood what I was thinkin\u2019\u2014I meant it was smart of her to save like that, an\u2019 nice of her to treat\u2019em.\u201d \u201cI understand you, Tom. Go on,\u201d said Atticus. \u201cWell, I said I best be goin\u2019, I couldn\u2019t do nothin\u2019 for her, an\u2019 she says oh yes I could, an\u2019 I ask her what, and she says to just step on that chair yonder an\u2019 git that box down from on top of the chiffarobe.\u201d \u201cNot the same chiffarobe you busted up?\u201d asked Atticus. The witness smiled. \u201cNaw suh, another one. Most as tall as the room. So I done what she told me, an\u2019 I was just reachin\u2019 when the next thing I knows she\u2014she\u2019d grabbed me round the legs, grabbed me round th\u2019 legs, Mr. Finch. She scared me so bad I hopped down an\u2019 turned the chair over\u2014that was the only thing, only furniture, \u2019sturbed in that room, Mr. Finch, when I left it. I swear \u2019fore God.\u201d \u201cWhat happened after you turned the chair over?\u201d Tom Robinson had come to a dead stop. He glanced at Atticus, then at the jury, then at Mr. Underwood sitting across the room. \u201cTom, you\u2019re sworn to tell the whole truth. Will you tell it?\u201d Tom",
+      "density_breakdown": {
+        "Metaphor": 2.4714241581711462,
+        "Simile": 1.5446400988569664,
+        "Imagery": 8.958912573370405,
+        "Symbolism": 12.666048810627125,
+        "Dialogue": 0.0,
+        "Foreshadowing": 3.7071362372567194,
+        "Juxtaposition": 8.032128514056224,
+        "Repetition": 11.121408711770158,
+        "TOTAL_DENSITY": 48.501699104108745
+      }
+    },
+    "falling_action": {
+      "chapter_range": "22-28",
+      "narrative_primary": 25,
+      "optimized_primary": 28,
+      "device_density_score": 55.589870290302656,
+      "improvement_percent": 11.801242236024839,
+      "optimization_applied": true,
+      "chapter_text": "Stephanie Crawford. I heard her say it\u2019s time somebody taught \u2019em a lesson, they were gettin\u2019 way above themselves, an\u2019 the next thing they think they can do is marry us. Jem, how can you hate Hitler so bad an\u2019 then turn around and be ugly about folks right at home\u2014\u201d Jem was suddenly furious. He leaped off the bed, grabbed me by the collar and shook me. \u201cI never wanta hear about that courthouse again, ever, ever, you hear me? You hear me? Don\u2019t you ever say one word to me about it again, you hear? Now go on!\u201d I was too surprised to cry. I crept from Jem\u2019s room and shut the door softly, lest undue noise set him off again. Suddenly tired, I wanted Atticus. He was in the livingroom, and I went to him and tried to get in his lap. Atticus smiled. \u201cYou\u2019re getting so big now, I\u2019ll just have to hold a part of you.\u201d He held me close. \u201cScout,\u201d he said softly, \u201cdon\u2019t let Jem get you down. He\u2019s having a rough time these days. I heard you back there.\u201d Atticus said that Jem was trying hard to forget something, but what he was really doing was storing it away for a while, until enough time passed. Then he would be able to think about it and sort things out. When he was able to think about it, Jem would be himself again.27 Things did settle down, after a fashion, as Atticus said they would. By the middle of October, only two small things out of the ordinary happened to two Maycomb citizens. No, there were three things, and they did not directly concern us\u2014the Finches\u2014but in a way they did. The first thing was that Mr. Bob Ewell acquired and lost a job in a matter of days and probably made himself unique in the annals of the nineteen-thirties: he was the only man I ever heard of who was fired from the WPA for laziness. I suppose his brief burst of fame brought on a briefer burst of industry, but his job lasted only as long as his notoriety: Mr. Ewell found himself as forgotten as Tom Robinson. Thereafter, he resumed his regular weekly appearances at the welfare office for his check, and received it with no grace amid obscure mutterings that the bastards who thought they ran this town wouldn\u2019t permit an honest man to make a living. Ruth Jones, the welfare lady, said Mr. Ewell openly accused Atticus of getting his job. She was upset enough to walk down to Atticus\u2019s office and tell him about it. Atticus told Miss Ruth not to fret, that if Bob Ewell wanted to discuss Atticus\u2019s \u201cgetting\u201d his job, he knew the way to the office. The second thing happened to Judge Taylor. Judge Taylor was not a Sunday-night churchgoer; Mrs. Taylor was. Judge Taylor savored his Sunday night hour alone in his big house, and churchtime found him holed up in his study reading the writings of Bob Taylor (no kin, but the judge would have been proud to claim it). One Sunday night, lost in fruity metaphors and florid diction, Judge Taylor\u2019s attention was wrenched from the page by an irritating scratching noise. \u201cHush,\u201d he said to Ann Taylor, his fat nondescript dog. Then he realized he was speaking to an empty room; the scratching noise was coming from the rear of the house. Judge Taylor clumped to the back porch to let Ann out and found the screen door swinging open. A shadow on the corner of the house caught his eye, and that was all he saw of his visitor. Mrs. Taylor came home from church to find her husband in his chair, lost in the writings of Bob Taylor, with a shotgun across his lap. The third thing happened to Helen Robinson, Tom\u2019s widow. If Mr. Ewell was as forgotten as Tom Robinson, Tom Robinson was as forgotten as BooRadley. But Tom was not forgotten by his employer, Mr. Link Deas. Mr. Link Deas made a job for Helen. He didn\u2019t really need her, but he said he felt right bad about the way things turned out. I never knew who took care of her children while Helen was away. Calpurnia said it was hard on Helen, because she had to walk nearly a mile out of her way to avoid the Ewells, who, according to Helen, \u201cchunked at her\u201d the first time she tried to use the public road. Mr. Link Deas eventually received the impression that Helen was coming to work each morning from the wrong direction, and dragged the reason out of her. \u201cJust let it be, Mr. Link, please suh,\u201d Helen begged. \u201cThe hell I will,\u201d said Mr. Link. He told her to come by his store that afternoon before she left. She did, and Mr. Link closed his store, put his hat firmly on his head, and walked Helen home. He walked her the short way, by the Ewells\u2019. On his way back, Mr. Link stopped at the crazy gate. \u201cEwell?\u201d he called. \u201cI say Ewell!\u201d The windows, normally packed with children, were empty. \u201cI know every last one of you\u2019s in there a-layin\u2019 on the floor! Now hear me, Bob Ewell: if I hear one more peep outa my girl Helen about not bein\u2019 able to walk this road I\u2019ll have you in jail before sundown!\u201d Mr. Link spat in the dust and walked home. Helen went to work next morning and used the public road. Nobody chunked at her, but when she was a few yards beyond the Ewell house, she looked around and saw Mr. Ewell walking behind her. She turned and walked on, and Mr. Ewell kept the same distance behind her until she reached Mr. Link Deas\u2019s house. All the way to the house, Helen said, she heard a soft voice behind her, crooning foul words. Thoroughly frightened, she telephoned Mr. Link at his store, which was not too far from his house. As Mr. Link came out of his store he saw Mr. Ewell leaning on the fence. Mr. Ewell said, \u201cDon\u2019t you look at me, Link Deas, like I was dirt. I ain\u2019t jumped your\u2014\u201d \u201cFirst thing you can do, Ewell, is get your stinkin\u2019 carcass off my property. You\u2019re leanin\u2019 on it an\u2019 I can\u2019t afford fresh paint for it. Second thing you can do is stay away from my cook or I\u2019ll have you up for assault\u2014\u201d \u201cI ain\u2019t touched her, Link Deas, and ain\u2019t about to go with no nigger!\u201d \u201cYou don\u2019t have to touch her, all you have to do is make her afraid, an\u2019 if assault ain\u2019t enough to keep you locked up a while, I\u2019ll get you in on the Ladies\u2019 Law, so get outa my sight! If you don\u2019t think I mean it, just bother that girl again!\u201d Mr. Ewell evidently thought he meant it, for Helen reported no further trouble. \u201cI don\u2019t like it, Atticus, I don\u2019t like it at all,\u201d was Aunt Alexandra\u2019s assessment of these events. \u201cThat man seems to have a permanent running grudge against everybody connected with that case. I know how that kind are about paying off grudges, but I don\u2019t understand why he should harbor one\u2014he had his way in court, didn\u2019t he?\u201d \u201cI think I understand,\u201d said Atticus. \u201cIt might be because he knows in his heart that very few people in Maycomb really believed his and Mayella\u2019s yarns. He thought he\u2019d be a hero, but all he got for his pain was . . . was, okay, we\u2019ll convict this Negro but get back to your dump. He\u2019s had his fling with about everybody now, so he ought to be satisfied. He\u2019ll settle down when the weather changes.\u201d \u201cBut why should he try to burgle John Taylor\u2019s house? He obviously didn\u2019t know John was home or he wouldn\u2019t have tried. Only lights John shows on Sunday nights are on the front porch and back in his den . . .\u201d \u201cYou don\u2019t know if Bob Ewell cut that screen, you don\u2019t know who did it,\u201d said Atticus. \u201cBut I can guess. I proved him a liar but John made him look like a fool. All the time Ewell was on the stand I couldn\u2019t dare look at John and keep a straight face. John looked at him as if he were a three-legged chicken or a square egg. Don\u2019t tell me judges don\u2019t try to prejudice juries,\u201d Atticus chuckled. By the end of October, our lives had become the familiar routine of school, play, study. Jem seemed to have put out of his mind whatever it was he wanted to forget, and our classmates mercifully let us forget our father\u2019s eccentricities. Cecil Jacobs asked me one time if Atticus was a Radical. When I asked Atticus, Atticus was so amused I was rather annoyed, but he said he wasn\u2019t laughing at me. He said, \u201cYou tell Cecil I\u2019m about as radical as Cotton Tom Heflin.\u201d Aunt Alexandra was thriving. Miss Maudie must have silenced the whole missionary society at one blow, for Aunty again ruled that roost. Her refreshments grew even more delicious. I learned more about the poor Mrunas\u2019 social life from listening to Mrs. Merriweather: they had so little sense of family that the whole tribe was one big family. A child had as many fathers as there were men in the community, as many mothers as there were women. J. Grimes Everett was doing his utmost to change this state of affairs, and desperately needed our prayers. Maycomb was itself again. Precisely the same as last year and the year before that, with only two minor changes. Firstly, people had removed from their store windows and automobiles the stickers that said NRA\u2014WE DO OUR PART. I asked Atticus why, and he said it was because the National Recovery Act was dead. I asked who killed it; he said nine old men. The second change in Maycomb since last year was not one of national significance. Until then, Halloween in Maycomb was a completely unorganized affair. Each child did what he wanted to do, with assistance from other children if there was anything to be moved, such as placing a light buggy on top of the livery stable. But parents thought things went too far last year, when the peace of Miss Tutti and Miss Frutti was shattered.Misses Tutti and Frutti Barber were maiden ladies, sisters, who lived together in the only Maycomb residence boasting a cellar. The Barber ladies were rumored to be Republicans, having migrated from Clanton, Alabama, in 1911. Their ways were strange to us, and why they wanted a cellar nobody knew, but they wanted one, and they dug one, and they spent the rest of their lives chasing generations of children out of it. Misses Tutti and Frutti (their names were Sarah and Frances), aside from their Yankee ways, were both deaf. Miss Tutti denied it and lived in a world of silence, but Miss Frutti, not about to miss anything, employed an ear trumpet so enormous that Jem declared it was a loud-speaker from one of those dog Victrolas. With these facts in mind and Halloween at hand, some wicked children had waited until the Misses Barber were thoroughly asleep, slipped into their livingroom (nobody but the Radleys locked up at night), stealthily made away with every stick of furniture therein, and hid it in the cellar. I deny having taken part in such a thing. \u201cI heard \u2019em!\u201d was the cry that awoke the Misses Barber\u2019s neighbors at dawn next morning. \u201cHeard \u2019em drive a truck up to the door! Stomped around like horses. They\u2019re in New Orleans by now!\u201d Miss Tutti was sure those traveling fur sellers who came through town two days ago had purloined their furniture. \u201cDa-rk they were,\u201d she said. \u201cSyrians.\u201d Mr. Heck Tate was summoned. He surveyed the area and said he thought it was a local job. Miss Frutti said she\u2019d know a Maycomb voice anywhere, and there were no Maycomb voices in that parlor last night\u2014rolling their r\u2019s all over her premises, they were. Nothing less than the bloodhounds must be used to locate their furniture, Miss Tutti insisted, so Mr. Tate was obliged to go ten miles out the road, round up the county hounds, and put them on the trail. Mr. Tate started them off at the Misses Barber\u2019s front steps, but all they did was run around to the back of the house and howl at the cellar door. When Mr. Tate set them in motion three times, he finally guessed the truth. By noontime that day, there was not a barefooted child to be seen in Maycomb, and nobody took off his shoes until the hounds were returned. So the Maycomb ladies said things would be different this year. The high- school auditorium would be open, there would be a pageant for the grown- ups; apple-bobbing, taffy-pulling, pinning the tail on the donkey for the children. There would also be a prize of twenty-five cents for the best Halloween costume, created by the wearer. Jem and I both groaned. Not that we\u2019d ever done anything, it was the principle of the thing. Jem considered himself too old for Halloween anyway; he said he wouldn\u2019t be caught anywhere near the high school at something like that. Oh well, I thought, Atticus would take me.I soon learned, however, that my services would be required on stage that evening. Mrs. Grace Merriweather had composed an original pageant entitled Maycomb County: Ad Astra Per Aspera, and I was to be a ham. She thought it would be adorable if some of the children were costumed to represent the county\u2019s agricultural products: Cecil Jacobs would be dressed up to look like a cow; Agnes Boone would make a lovely butterbean, another child would be a peanut, and on down the line until Mrs. Merriweather\u2019s imagination and the supply of children were exhausted. Our only duties, as far as I could gather from our two rehearsals, were to enter from stage left as Mrs. Merriweather (not only the author, but the narrator) identified us. When she called out, \u201cPork,\u201d that was my cue. Then the assembled company would sing, \u201cMaycomb County, Maycomb County, we will aye be true to thee,\u201d as the grand finale, and Mrs. Merriweather would mount the stage with the state flag. My costume was not much of a problem. Mrs. Crenshaw, the local seamstress, had as much imagination as Mrs. Merriweather. Mrs. Crenshaw took some chicken wire and bent it into the shape of a cured ham. This she covered with brown cloth, and painted it to resemble the original. I could duck under and someone would pull the contraption down over my head. It came almost to my knees. Mrs. Crenshaw thoughtfully left two peepholes for me. She did a fine job; Jem said I looked exactly like a ham with legs. There were several discomforts, though: it was hot, it was a close fit; if my nose itched I couldn\u2019t scratch, and once inside I could not get out of it alone. When Halloween came, I assumed that the whole family would be present to watch me perform, but I was disappointed. Atticus said as tactfully as he could that he just didn\u2019t think he could stand a pageant tonight, he was all in. He had been in Montgomery for a week and had come home late that afternoon. He thought Jem might escort me if I asked him. Aunt Alexandra said she just had to get to bed early, she\u2019d been decorating the stage all afternoon and was worn out\u2014she stopped short in the middle of her sentence. She closed her mouth, then opened it to say something, but no words came. \u201c\u2019s matter, Aunty?\u201d I asked. \u201cOh nothing, nothing,\u201d she said, \u201csomebody just walked over my grave.\u201d She put away from her whatever it was that gave her a pinprick of apprehension, and suggested that I give the family a preview in the livingroom. So Jem squeezed me into my costume, stood at the livingroom door, called out \u201cPo-ork,\u201d exactly as Mrs. Merriweather would have done, and I marched in. Atticus and Aunt Alexandra were delighted. I repeated my part for Calpurnia in the kitchen and she said I was wonderful. I wanted to go across the street to show Miss Maudie, but Jem said she\u2019d probably be at the pageant anyway.After that, it didn\u2019t matter whether they went or not. Jem said he would take me. Thus began our longest journey together.28 The weather was unusually warm for the last day of October. We didn\u2019t even need jackets. The wind was growing stronger, and Jem said it might be raining before we got home. There was no moon. The street light on the corner cast sharp shadows on the Radley house. I heard Jem laugh softly. \u201cBet nobody bothers them tonight,\u201d he said. Jem was carrying my ham costume, rather awkwardly, as it was hard to hold. I thought it gallant of him to do so. \u201cIt is a scary place though, ain\u2019t it?\u201d I said. \u201cBoo doesn\u2019t mean anybody any harm, but I\u2019m right glad you\u2019re along.\u201d \u201cYou know Atticus wouldn\u2019t let you go to the schoolhouse by yourself,\u201d Jem said. \u201cDon\u2019t see why, it\u2019s just around the corner and across the yard.\u201d \u201cThat yard\u2019s a mighty long place for little girls to cross at night,\u201d Jem teased. \u201cAin\u2019t you scared of haints?\u201d We laughed. Haints, Hot Steams, incantations, secret signs, had vanished with our years as mist with sunrise. \u201cWhat was that old thing,\u201d Jem said, \u201cAngel bright, life-in-death; get off the road, don\u2019t suck my breath.\u201d \u201cCut it out, now,\u201d I said. We were in front of the Radley Place. Jem said, \u201cBoo must not be at home. Listen.\u201d High above us in the darkness a solitary mocker poured out his repertoire in blissful unawareness of whose tree he sat in, plunging from the shrill kee, kee of the sunflower bird to the irascible qua-ack of a bluejay, to the sad lament of Poor Will, Poor Will, Poor Will. We turned the corner and I tripped on a root growing in the road. Jem tried to help me, but all he did was drop my costume in the dust. I didn\u2019t fall, though, and soon we were on our way again. We turned off the road and entered the schoolyard. It was pitch black. \u201cHow do you know where we\u2019re at, Jem?\u201d I asked, when we had gone a few steps. \u201cI can tell we\u2019re under the big oak because we\u2019re passin\u2019 through a cool spot. Careful now, and don\u2019t fall again.\u201d We had slowed to a cautious gait, and were feeling our way forward so asnot to bump into the tree. The tree was a single and ancient oak; two children could not reach around its trunk and touch hands. It was far away from teachers, their spies, and curious neighbors: it was near the Radley lot, but the Radleys were not curious. A small patch of earth beneath its branches was packed hard from many fights and furtive crap games. The lights in the high school auditorium were blazing in the distance, but they blinded us, if anything. \u201cDon\u2019t look ahead, Scout,\u201d Jem said. \u201cLook at the ground and you",
+      "density_breakdown": {
+        "Metaphor": 2.4706609017912293,
+        "Simile": 2.1618282890673255,
+        "Imagery": 9.882643607164917,
+        "Symbolism": 13.897467572575664,
+        "Dialogue": 0.0,
+        "Foreshadowing": 9.882643607164917,
+        "Juxtaposition": 13.897467572575664,
+        "Repetition": 3.3971587399629404,
+        "TOTAL_DENSITY": 55.589870290302656
+      }
+    },
+    "resolution": {
+      "chapter_range": "29-31",
+      "narrative_primary": 31,
+      "optimized_primary": 29,
+      "device_density_score": 50.6641952425085,
+      "improvement_percent": 1.8948224815170864,
+      "optimization_applied": true,
+      "chapter_text": "won\u2019t fall.\u201d \u201cYou should have brought the flashlight, Jem.\u201d \u201cDidn\u2019t know it was this dark. Didn\u2019t look like it\u2019d be this dark earlier in the evening. So cloudy, that\u2019s why. It\u2019ll hold off a while, though.\u201d Someone leaped at us. \u201cGod amighty!\u201d Jem yelled. A circle of light burst in our faces, and Cecil Jacobs jumped in glee behind it. \u201cHa-a-a, gotcha!\u201d he shrieked. \u201cThought you\u2019d be comin\u2019 along this way!\u201d \u201cWhat are you doin\u2019 way out here by yourself, boy? Ain\u2019t you scared of Boo Radley?\u201d Cecil had ridden safely to the auditorium with his parents, hadn\u2019t seen us, then had ventured down this far because he knew good and well we\u2019d be coming along. He thought Mr. Finch\u2019d be with us, though. \u201cShucks, ain\u2019t much but around the corner,\u201d said Jem. \u201cWho\u2019s scared to go around the corner?\u201d We had to admit that Cecil was pretty good, though. He had given us a fright, and he could tell it all over the schoolhouse, that was his privilege. \u201cSay,\u201d I said, \u201cain\u2019t you a cow tonight? Where\u2019s your costume?\u201d \u201cIt\u2019s up behind the stage,\u201d he said. \u201cMrs. Merriweather says the pageant ain\u2019t comin\u2019 on for a while. You can put yours back of the stage by mine, Scout, and we can go with the rest of \u2019em.\u201d This was an excellent idea, Jem thought. He also thought it a good thing that Cecil and I would be together. This way, Jem would be left to go with people his own age. When we reached the auditorium, the whole town was there except Atticus and the ladies worn out from decorating, and the usual outcasts and shut-ins. Most of the county, it seemed, was there: the hall was teeming with slicked-up country people. The high school building had a wide downstairs hallway; people milled around booths that had been installed along each side. \u201cOh Jem, I forgot my money,\u201d I sighed, when I saw them. \u201cAtticus didn\u2019t,\u201d Jem said. \u201cHere\u2019s thirty cents, you can do six things. See you later on.\u201d \u201cOkay,\u201d I said, quite content with thirty cents and Cecil. I went with Cecil down to the front of the auditorium, through a door on one side, and backstage. I got rid of my ham costume and departed in a hurry, for Mrs.Merriweather was standing at a lectern in front of the first row of seats making last-minute, frenzied changes in the script. \u201cHow much money you got?\u201d I asked Cecil. Cecil had thirty cents, too, which made us even. We squandered our first nickels on the House of Horrors, which scared us not at all; we entered the black seventh-grade room and were led around by the temporary ghoul in residence and were made to touch several objects alleged to be the component parts of a human being. \u201cHere\u2019s his eyes,\u201d we were told when we touched two peeled grapes on a saucer. \u201cHere\u2019s his heart,\u201d which felt like raw liver. \u201cThese are his innards,\u201d and our hands were thrust into a plate of cold spaghetti. Cecil and I visited several booths. We each bought a sack of Mrs. Judge Taylor\u2019s homemade divinity. I wanted to bob for apples, but Cecil said it wasn\u2019t sanitary. His mother said he might catch something from everybody\u2019s heads having been in the same tub. \u201cAin\u2019t anything around town now to catch,\u201d I protested. But Cecil said his mother said it was unsanitary to eat after folks. I later asked Aunt Alexandra about this, and she said people who held such views were usually climbers. We were about to purchase a blob of taffy when Mrs. Merriweather\u2019s runners appeared and told us to go backstage, it was time to get ready. The auditorium was filling with people; the Maycomb County High School band had assembled in front below the stage; the stage footlights were on and the red velvet curtain rippled and billowed from the scurrying going on behind it. Backstage, Cecil and I found the narrow hallway teeming with people: adults in homemade three-corner hats, Confederate caps, Spanish-American War hats, and World War helmets. Children dressed as various agricultural enterprises crowded around the one small window. \u201cSomebody\u2019s mashed my costume,\u201d I wailed in dismay. Mrs. Merriweather galloped to me, reshaped the chicken wire, and thrust me inside. \u201cYou all right in there, Scout?\u201d asked Cecil. \u201cYou sound so far off, like you was on the other side of a hill.\u201d \u201cYou don\u2019t sound any nearer,\u201d I said. The band played the national anthem, and we heard the audience rise. Then the bass drum sounded. Mrs. Merriweather, stationed behind her lectern beside the band, said: \u201cMaycomb County: Ad Astra Per Aspera.\u201d The bass drum boomed again. \u201cThat means,\u201d said Mrs. Merriweather, translating for the rustic elements, \u201cfrom the mud to the stars.\u201d She added, unnecessarily it seemed to me, \u201cA pageant.\u201d \u201cReckon they wouldn\u2019t know what it was if she didn\u2019t tell \u2019em,\u201d whispered Cecil, who was immediately shushed. \u201cThe whole town knows it,\u201d I breathed. \u201cBut the country folks\u2019ve come in,\u201d Cecil said. \u201cBe quiet back there,\u201d a man\u2019s voice ordered, and we were silent.The bass drum went boom with every sentence Mrs. Merriweather uttered. She chanted mournfully about Maycomb County being older than the state, that it was part of the Mississippi and Alabama Territories, that the first white man to set foot in the virgin forests was the Probate Judge\u2019s great-grandfather five times removed, who was never heard of again. Then came the fearless Colonel Maycomb, for whom the county was named. Andrew Jackson appointed him to a position of authority and Colonel Maycomb\u2019s misplaced self-confidence and slender sense of direction brought disaster to all who rode with him in the Creek Indian Wars. Colonel Maycomb persevered in his efforts to make the region safe for democracy, but his first campaign was his last. His orders, relayed to him by a friendly Indian runner, were to move south. After consulting a tree to ascertain from its lichen which way was south, and taking no lip from the subordinates who ventured to correct him, Colonel Maycomb set out on a purposeful journey to rout the enemy and entangled his troops so far northwest in the forest primeval that they were eventually rescued by settlers moving inland. Mrs. Merriweather gave a thirty-minute description of Colonel Maycomb\u2019s exploits. I discovered that if I bent my knees I could tuck them under my costume and more or less sit. I sat down, listened to Mrs. Merriweather\u2019s drone and the bass drum\u2019s boom and was soon fast asleep. They said later that Mrs. Merriweather was putting her all into the grand finale, that she had crooned, \u201cPo-ork,\u201d with a confidence born of pine trees and butterbeans entering on cue. She waited a few seconds, then called, \u201cPo- ork?\u201d When nothing materialized, she yelled, \u201cPork!\u201d I must have heard her in my sleep, or the band playing Dixie woke me, but it was when Mrs. Merriweather triumphantly mounted the stage with the state flag that I chose to make my entrance. Chose is incorrect: I thought I\u2019d better catch up with the rest of them. They told me later that Judge Taylor went out behind the auditorium and stood there slapping his knees so hard Mrs. Taylor brought him a glass of water and one of his pills. Mrs. Merriweather seemed to have a hit, everybody was cheering so, but she caught me backstage and told me I had ruined her pageant. She made me feel awful, but when Jem came to fetch me he was sympathetic. He said he couldn\u2019t see my costume much from where he was sitting. How he could tell I was feeling bad under my costume I don\u2019t know, but he said I did all right, I just came in a little late, that was all. Jem was becoming almost as good as Atticus at making you feel right when things went wrong. Almost\u2014not even Jem could make me go through that crowd, and he consented to wait backstage with me until the audience left. \u201cYou wanta take it off, Scout?\u201d he asked. \u201cNaw, I\u2019ll just keep it on,\u201d I said. I could hide my mortification under it.\u201cYou all want a ride home?\u201d someone said. \u201cNo sir, thank you,\u201d I heard Jem say. \u201cIt\u2019s just a little walk.\u201d \u201cBe careful of haints,\u201d the voice said. \u201cBetter still, tell the haints to be careful of Scout.\u201d \u201cThere aren\u2019t many folks left now,\u201d Jem told me. \u201cLet\u2019s go.\u201d We went through the auditorium to the hallway, then down the steps. It was still black dark. The remaining cars were parked on the other side of the building, and their headlights were little help. \u201cIf some of \u2019em were goin\u2019 in our direction we could see better,\u201d said Jem. \u201cHere Scout, let me hold onto your\u2014hock. You might lose your balance.\u201d \u201cI can see all right.\u201d \u201cYeah, but you might lose your balance.\u201d I felt a slight pressure on my head, and assumed that Jem had grabbed that end of the ham. \u201cYou got me?\u201d \u201cUh huh.\u201d We began crossing the black schoolyard, straining to see our feet. \u201cJem,\u201d I said, \u201cI forgot my shoes, they\u2019re back behind the stage.\u201d \u201cWell let\u2019s go get \u2019em.\u201d But as we turned around, the auditorium lights went off. \u201cYou can get \u2019em tomorrow,\u201d he said. \u201cBut tomorrow\u2019s Sunday,\u201d I protested, as Jem turned me homeward. \u201cYou can get the janitor to let you in . . . Scout?\u201d \u201cHm?\u201d \u201cNothing.\u201d Jem hadn\u2019t started like that in a long time. I wondered what he was thinking. He\u2019d tell me when he wanted to, probably when we got home. I felt his fingers press the top of my costume, too hard, it seemed. I shook my head. \u201cJem, you don\u2019t hafta\u2014\u201d \u201cHush a minute, Scout,\u201d he said, pinching me. We walked along silently. \u201cMinute\u2019s up,\u201d I said. \u201cWhatcha thinkin\u2019 about?\u201d I turned to look at him, but his outline was barely visible. \u201cThought I heard something,\u201d he said. \u201cStop a minute.\u201d We stopped. \u201cHear anything?\u201d he asked. \u201cNo.\u201d We had not gone five paces before he made me stop again. \u201cJem, are you tryin\u2019 to scare me? You know I\u2019m too old\u2014\u201d \u201cBe quiet,\u201d he said, and I knew he was not joking. The night was still. I could hear his breath coming easily beside me. Occasionally there was a sudden breeze that hit my bare legs, but it was all that remained of a promised windy night. This was the stillness before a thunderstorm. We listened. \u201cHeard an old dog just then,\u201d I said. \u201cIt\u2019s not that,\u201d Jem answered. \u201cI hear it when we\u2019re walkin\u2019 along, butwhen we stop I don\u2019t hear it.\u201d \u201cYou hear my costume rustlin\u2019. Aw, it\u2019s just Halloween got you. . . .\u201d I said it more to convince myself than Jem, for sure enough, as we began walking, I heard what he was talking about. It was not my costume. \u201cIt\u2019s just old Cecil,\u201d said Jem presently. \u201cHe won\u2019t get us again. Let\u2019s don\u2019t let him think we\u2019re hurrying.\u201d We slowed to a crawl. I asked Jem how Cecil could follow us in this dark, looked to me like he\u2019d bump into us from behind. \u201cI can see you, Scout,\u201d Jem said. \u201cHow? I can\u2019t see you.\u201d \u201cYour fat streaks are showin\u2019. Mrs. Crewnshaw painted \u2019em with some of that shiny stuff so they\u2019d show up under the footlights. I can see you pretty well, an\u2019 I expect Cecil can see you well enough to keep his distance.\u201d I would show Cecil that we knew he was behind us and we were ready for him. \u201cCecil Jacobs is a big wet he-en!\u201d I yelled suddenly, turning around. We stopped. There was no acknowledgment save he-en bouncing off the distant schoolhouse wall. \u201cI\u2019ll get him,\u201d said Jem. \u201cHe-y!\u201d Hay-e-hay-e-hay-e, answered the schoolhouse wall. It was unlike Cecil to hold out for so long; once he pulled a joke he\u2019d repeat it time and again. We should have been leapt at already. Jem signaled for me to stop again. He said softly, \u201cScout, can you take that thing off?\u201d \u201cI think so, but I ain\u2019t got anything on under it much.\u201d \u201cI\u2019ve got your dress here.\u201d \u201cI can\u2019t get it on in the dark.\u201d \u201cOkay,\u201d he said, \u201cnever mind.\u201d \u201cJem, are you afraid?\u201d \u201cNo. Think we\u2019re almost to the tree now. Few yards from that, an\u2019 we\u2019ll be to the road. We can see the street light then.\u201d Jem was talking in an unhurried, flat toneless voice. I wondered how long he would try to keep the Cecil myth going. \u201cYou reckon we oughta sing, Jem?\u201d \u201cNo. Be real quiet again, Scout.\u201d We had not increased our pace. Jem knew as well as I that it was difficult to walk fast without stumping a toe, tripping on stones, and other inconveniences, and I was barefooted. Maybe it was the wind rustling the trees. But there wasn\u2019t any wind and there weren\u2019t any trees except the big oak. Our company shuffled and dragged his feet, as if wearing heavy shoes. Whoever it was wore thick cotton pants; what I thought were trees rustling was the soft swish of cotton on cotton, wheek, wheek, with every step.I felt the sand go cold under my feet and I knew we were near the big oak. Jem pressed my head. We stopped and listened. Shuffle-foot had not stopped with us this time. His trousers swished softly and steadily. Then they stopped. He was running, running toward us with no child\u2019s steps. \u201cRun, Scout! Run! Run!\u201d Jem screamed. I took one giant step and found myself reeling: my arms useless, in the dark, I could not keep my balance. \u201cJem, Jem, help me, Jem!\u201d Something crushed the chicken wire around me. Metal ripped on metal and I fell to the ground and rolled as far as I could, floundering to escape my wire prison. From somewhere near by came scuffling, kicking sounds, sounds of shoes and flesh scraping dirt and roots. Someone rolled against me and I felt Jem. He was up like lightning and pulling me with him but, though my head and shoulders were free, I was so entangled we didn\u2019t get very far. We were nearly to the road when I felt Jem\u2019s hand leave me, felt him jerk backwards to the ground. More scuffling, and there came a dull crunching sound and Jem screamed. I ran in the direction of Jem\u2019s scream and sank into a flabby male stomach. Its owner said, \u201cUff!\u201d and tried to catch my arms, but they were tightly pinioned. His stomach was soft but his arms were like steel. He slowly squeezed the breath out of me. I could not move. Suddenly he was jerked backwards and flung on the ground, almost carrying me with him. I thought, Jem\u2019s up. One\u2019s mind works very slowly at times. Stunned, I stood there dumbly. The scuffling noises were dying; someone wheezed and the night was still again. Still but for a man breathing heavily, breathing heavily and staggering. I thought he went to the tree and leaned against it. He coughed violently, a sobbing, bone-shaking cough. \u201cJem?\u201d There was no answer but the man\u2019s heavy breathing. \u201cJem?\u201d Jem didn\u2019t answer. The man began moving around, as if searching for something. I heard him groan and pull something heavy along the ground. It was slowly coming to me that there were now four people under the tree. \u201cAtticus . . . ?\u201d The man was walking heavily and unsteadily toward the road. I went to where I thought he had been and felt frantically along the ground, reaching out with my toes. Presently I touched someone. \u201cJem?\u201d My toes touched trousers, a belt buckle, buttons, something I could notidentify, a collar, and a face. A prickly stubble on the face told me it was not Jem\u2019s. I smelled stale whiskey. I made my way along in what I thought was the direction of the road. I was not sure, because I had been turned around so many times. But I found it and looked down to the street light. A man was passing under it. The man was walking with the staccato steps of someone carrying a load too heavy for him. He was going around the corner. He was carrying Jem. Jem\u2019s arm was dangling crazily in front of him. By the time I reached the corner the man was crossing our front yard. Light from our front door framed Atticus for an instant; he ran down the steps, and together, he and the man took Jem inside. I was at the front door when they were going down the hall. Aunt Alexandra was running to meet me. \u201cCall Dr. Reynolds!\u201d Atticus\u2019s voice came sharply from Jem\u2019s room. \u201cWhere\u2019s Scout?\u201d \u201cHere she is,\u201d Aunt Alexandra called, pulling me along with her to the telephone. She tugged at me anxiously. \u201cI\u2019m all right, Aunty,\u201d I said, \u201cyou better call.\u201d She pulled the receiver from the hook and said, \u201cEula May, get Dr. Reynolds, quick!\u201d \u201cAgnes, is your father home? Oh God, where is he? Please tell him to come over here as soon as he comes in. Please, it\u2019s urgent!\u201d There was no need for Aunt Alexandra to identify herself; people in Maycomb knew each other\u2019s voices. Atticus came out of Jem\u2019s room. The moment Aunt Alexandra broke the connection, Atticus took the receiver from her. He rattled the hook, then said, \u201cEula May, get me the sheriff, please.\u201d \u201cHeck? Atticus Finch. Someone\u2019s been after my children. Jem\u2019s hurt. Between here and the schoolhouse. I can\u2019t leave my boy. Run out there for me, please, and see if he\u2019s still around. Doubt if you\u2019ll find him now, but I\u2019d like to see him if you do. Got to go now. Thanks, Heck.\u201d \u201cAtticus, is Jem dead?\u201d \u201cNo, Scout. Look after her, sister,\u201d he called, as he went down the hall. Aunt Alexandra\u2019s fingers trembled as she unwound the crushed fabric and wire from around me. \u201cAre you all right, darling?\u201d she asked over and over as she worked me free. It was a relief to be out. My arms were beginning to tingle, and they were red with small hexagonal marks. I rubbed them, and they felt better. \u201cAunty, is Jem dead?\u201d \u201cNo\u2014no, darling, he\u2019s unconscious. We won\u2019t know how badly he\u2019s hurt until Dr. Reynolds gets here. Jean Louise, what happened?\u201d \u201cI don\u2019t know.\u201d She left it at that. She brought me something to put on, and had I thoughtabout it then, I would have never let her forget it: in her distraction, Aunty brought me my overalls. \u201cPut these on, darling,\u201d she said, handing me the garments she most despised. She rushed back to Jem\u2019s room, then came to me in the hall. She patted me vaguely, and went back to Jem\u2019s room. A car stopped in front of the house. I knew Dr. Reynold\u2019s step almost as well as my father\u2019s. He had brought Jem and me into the world, had led us through every childhood disease known to man including the time Jem fell out of the treehouse, and he had never lost our friendship. Dr. Reynolds said if we had been boil-prone things would have been different, but we doubted it. He came in the door and said, \u201cGood Lord.\u201d He walked toward me, said,",
+      "density_breakdown": {
+        "Metaphor": 0.6178560395427866,
+        "Simile": 0.3089280197713933,
+        "Imagery": 15.137472968798269,
+        "Symbolism": 10.194624652455978,
+        "Dialogue": 0.0,
+        "Foreshadowing": 4.324992276799506,
+        "Juxtaposition": 13.901760889712696,
+        "Repetition": 6.178560395427866,
+        "TOTAL_DENSITY": 50.6641952425085
+      }
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-4",
+      "narrative_primary": 1,
+      "optimized_primary": 3,
+      "device_density_score": 49.428483163422925,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "5-20",
+      "narrative_primary": 15,
+      "optimized_primary": 18,
+      "device_density_score": 51.89990732159407,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "21",
+      "narrative_primary": 21,
+      "optimized_primary": 21,
+      "device_density_score": 48.501699104108745,
+      "optimization_applied": false,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "22-28",
+      "narrative_primary": 25,
+      "optimized_primary": 28,
+      "device_density_score": 55.589870290302656,
+      "optimization_applied": true,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "29-31",
+      "narrative_primary": 31,
+      "optimized_primary": 29,
+      "device_density_score": 50.6641952425085,
+      "optimization_applied": true,
+      "pages": ""
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "FP",
+        "pov_description": "First person narration from Scout's perspective throughout",
+        "focalization": "INT",
+        "focalization_description": "Limited to Scout's child perspective and understanding",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "NONE",
+        "stream_consciousness": "NONE",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single main plot following Scout's coming-of-age through the trial",
+        "pacing": "VAR",
+        "temporal_span": "EXTENDED",
+        "beginning_type": "AB_OVO",
+        "ending_type": "CLOSED",
+        "scene_summary_ratio": "SCENE",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Innocent yet morally serious, combining childlike wonder with adult retrospective wisdom",
+        "register": "COLL",
+        "stance": "SUBJ",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "DRAM",
+        "figurative_density": "MOD"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "MOD",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Devices mediate alignment through Scout's evolving moral consciousness, using her innocent perspective to expose adult prejudices while building toward transformative understanding of justice and empathy"
+    }
+  },
+  "alignment_pattern": {
+    "pattern_name": "Innocent Revelation",
+    "core_dynamic": "First-person child narrator with retrospective distance creates dramatic irony where adult understanding illuminates moral truths through innocent observation.",
+    "reader_effect": "Readers experience dual consciousness - seeing through child's eyes while grasping adult implications, creating powerful moral awakening through accumulated understanding.",
+    "device_priorities": [
+      "Symbolism",
+      "Imagery",
+      "Juxtaposition",
+      "Dramatic Irony",
+      "Repetition",
+      "Foreshadowing",
+      "Characterization",
+      "Metaphor"
+    ]
+  },
+  "micro_devices": [
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "I thought I had made things sufficiently clear",
+      "location_percent": 5,
+      "scene": "Scout explains Walter Cunningham's situation to Miss Caroline",
+      "effect": "Adult reader understands Scout's innocent assumption that everyone shares her insider knowledge of local families, while Scout cannot comprehend Miss Caroline's outsider perspective",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Flashback",
+      "anchor_phrase": "My special knowledge of the Cunningham tribe\u2014one branch, that is\u2014was gained from events of last winter",
+      "location_percent": 15,
+      "scene": "Scout recalls Atticus's payment arrangement with Walter's father",
+      "effect": "Retrospective narration provides adult context for childhood understanding, revealing moral principles through innocent observation of adult transactions",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "One morning Jem and I found a load of stovewood in the back yard",
+      "location_percent": 20,
+      "scene": "Description of how Mr. Cunningham pays Atticus with goods instead of money",
+      "effect": "Physical objects represent dignity and self-respect, which child narrator observes without fully grasping the moral significance adults understand",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Are we as poor as the Cunninghams?",
+      "location_percent": 25,
+      "scene": "Scout questions Atticus about their family's economic status",
+      "effect": "Contrasts different types of poverty and social class, with child's innocent inquiry revealing complex social hierarchies that adult perspective illuminates",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "There's some folks who don't eat like us",
+      "location_percent": 75,
+      "scene": "Calpurnia scolds Scout for criticizing Walter's table manners",
+      "effect": "Direct speech reveals moral lessons about respect and dignity, with child receiving adult wisdom through innocent social mistake",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I returned to school and hated Calpurnia steadily",
+      "location_percent": 85,
+      "scene": "Scout's reaction after being disciplined by Calpurnia",
+      "effect": "Child narrator's honest admission of petty resentment creates dramatic irony as adult reader recognizes the immaturity Scout cannot yet see in herself",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "He was the filthiest human I had ever seen",
+      "location_percent": 90,
+      "scene": "Description of Burris Ewell's physical appearance",
+      "effect": "Vivid sensory details create stark contrast between social classes through innocent observation, with adult understanding recognizing deeper implications of neglect",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "Little Chuck Little was another member of the population who didn't know where his next meal was coming from, but he was a born gentleman",
+      "location_percent": 95,
+      "scene": "Little Chuck helps Miss Caroline deal with Burris Ewell",
+      "effect": "Contradicts expectations about poverty and character, with child narrator innocently observing moral truth that dignity transcends economic circumstances",
+      "assigned_section": "exposition",
+      "chapter": 3,
+      "chapter_range": "1-4",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Atticus had to, whether he wanted to",
+      "location_percent": 75,
+      "scene": "Scout overhears men discussing Atticus's court appointment",
+      "effect": "Adult retrospective narrator reveals Scout's innocent misunderstanding of moral complexity - the town's hatred isn't because Atticus was forced to defend Tom, but because he intends to do it well",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "It's like a Roman carnival",
+      "location_percent": 45,
+      "scene": "Miss Maudie refuses to attend the trial",
+      "effect": "The trial as spectacle symbolizes the community's moral decay, with innocent Scout not yet understanding the entertainment value of injustice",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "the Negroes sat quietly in the sun",
+      "location_percent": 60,
+      "scene": "Courthouse square picnic scene before trial",
+      "effect": "Contrasts segregated seating arrangements with festive atmosphere, highlighting racial divisions through Scout's matter-of-fact observation",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "Well, I hoped Jem would understand",
+      "location_percent": 15,
+      "scene": "Scout reflects on Walter Cunningham after mob incident",
+      "effect": "Child narrator's innocent certainty about her own understanding versus Jem's future growth creates ironic distance for adult retrospective voice",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "ablaze with summer flowers",
+      "location_percent": 35,
+      "scene": "Miss Maudie's garden confronted by foot-washers",
+      "effect": "Vivid sensory detail of natural beauty contrasts with religious condemnation, showing Scout's innocent appreciation of life's simple pleasures",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "Four Negroes rose and gave us",
+      "location_percent": 95,
+      "scene": "Children given seats in colored balcony",
+      "effect": "Positioning in segregated section hints at upcoming trial dynamics while Scout innocently accepts the kindness without understanding its significance",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "They don't belong anywhere",
+      "location_percent": 70,
+      "scene": "Jem explains mixed-race children to Scout",
+      "effect": "Child's clinical explanation of racial categories reveals learned prejudices while Scout's innocent questions expose the arbitrariness of racial classification",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "maybe we need a police force",
+      "location_percent": 10,
+      "scene": "Atticus discusses children stopping the mob",
+      "effect": "Recurring theme of children's moral clarity versus adult corruption, with Scout not yet grasping her role as moral catalyst",
+      "assigned_section": "rising_action",
+      "chapter": 18,
+      "chapter_range": "5-20",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "His left arm was fully twelve inches shorter",
+      "location_percent": 25,
+      "scene": "Tom Robinson stands to be identified by Mayella",
+      "effect": "The physical disability symbolizes Tom's powerlessness against false accusations, creating dramatic irony as the child narrator witnesses obvious injustice that adults ignore",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Scout, look! Reverend, he's crippled!",
+      "location_percent": 30,
+      "scene": "Jem realizes Tom's physical impossibility of committing the alleged crime",
+      "effect": "The children immediately grasp what adults refuse to acknowledge, highlighting how innocence can perceive moral truth more clearly than corrupted adult reasoning",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Tom Robinson's powerful shoulders rippled under his thin shirt",
+      "location_percent": 25,
+      "scene": "Description of Tom's physical appearance contrasting strength with disability",
+      "effect": "Contrasts Tom's apparent physical power with his actual vulnerability, emphasizing the gap between perception and reality that the innocent narrator observes",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "As Tom Robinson gave his testimony, it came to me",
+      "location_percent": 75,
+      "scene": "Scout reflects on Mayella's loneliness during Tom's testimony",
+      "effect": "The child narrator's innocent perspective reveals moral complexities about isolation and prejudice that adult characters cannot or will not see",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "Tom was a black-velvet Negro, not shiny, but soft black velvet",
+      "location_percent": 80,
+      "scene": "Description of Tom Robinson as he testifies",
+      "effect": "Creates vivid sensory detail that humanizes Tom while the innocent narrator observes his dignity despite the dehumanizing trial proceedings",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Do you remember him beating you about the face?",
+      "location_percent": 10,
+      "scene": "Atticus repeatedly questions Mayella about specific details",
+      "effect": "The repetitive questioning exposes inconsistencies in testimony, creating mounting tension as the child narrator witnesses the unraveling of false accusations",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Dialogue",
+      "anchor_phrase": "How?",
+      "location_percent": 35,
+      "scene": "Atticus's single-word question to Mayella about Tom's alleged assault",
+      "effect": "The stark simplicity of the question crystallizes the logical impossibility, allowing the innocent narrator to witness truth emerging through direct confrontation",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Suspense",
+      "anchor_phrase": "Tom Robinson had come to a dead stop",
+      "location_percent": 95,
+      "scene": "Tom hesitates before revealing the most damaging part of his testimony",
+      "effect": "Creates anticipation about Tom's revelation, building climactic tension as the child narrator approaches the moment of ultimate moral truth",
+      "assigned_section": "climax",
+      "chapter": 21,
+      "chapter_range": "21",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "somebody just walked over my grave",
+      "location_percent": 85,
+      "scene": "Aunt Alexandra feels apprehension before Scout's pageant",
+      "effect": "Adult narrator's retrospective knowledge creates tension as innocent child misses the ominous warning of danger to come",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "There was no moon",
+      "location_percent": 90,
+      "scene": "Scout and Jem walk to the school pageant",
+      "effect": "Darkness symbolizes the moral blindness and danger lurking in Maycomb, while child narrator innocently notes weather details",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "it might be raining before we got home",
+      "location_percent": 92,
+      "scene": "Jem comments on the weather as they head to pageant",
+      "effect": "Innocent weather observation foreshadows the storm of violence approaching, creating dramatic irony through child's unknowing prophecy",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Boo doesn't mean anybody any harm",
+      "location_percent": 95,
+      "scene": "Scout expresses comfort about Boo Radley's presence",
+      "effect": "Child's innocent trust in the misunderstood Boo contrasts with the real danger from Bob Ewell, revealing moral truth through naive perspective",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "sharp shadows on the Radley house",
+      "location_percent": 93,
+      "scene": "Street light creates shadows as children pass Radley house",
+      "effect": "Visual imagery creates atmospheric tension while innocent narrator focuses on simple observational details rather than deeper meaning",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I thought it gallant of him",
+      "location_percent": 94,
+      "scene": "Scout appreciates Jem carrying her costume",
+      "effect": "Child narrator's innocent admiration for her brother's small kindness contrasts with the approaching violence, highlighting moral values through simple observation",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "Haints, Hot Steams, incantations, secret signs",
+      "location_percent": 96,
+      "scene": "Children dismiss childhood superstitions as they walk",
+      "effect": "Recurring motif of supernatural fears being outgrown ironically precedes encounter with real human evil, showing innocent revelation through maturation",
+      "assigned_section": "falling_action",
+      "chapter": 28,
+      "chapter_range": "22-28",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Better still, tell the haints to be careful of Scout",
+      "location_percent": 15,
+      "scene": "Someone offers a ride home and jokes about haints",
+      "effect": "Adult retrospective narrator knows this playful warning about ghosts will prove prophetic about real danger, creating irony between innocent moment and coming violence",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "from the mud to the stars",
+      "location_percent": 25,
+      "scene": "Mrs. Merriweather explains the pageant's Latin motto",
+      "effect": "The pageant's theme of rising from lowly origins mirrors Scout's moral journey from innocent child to deeper understanding through this traumatic night",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I discovered that if I bent my knees",
+      "location_percent": 30,
+      "scene": "Scout finds a way to sit in her ham costume",
+      "effect": "Child narrator's practical focus on physical comfort contrasts with adult understanding of the evening's larger significance, maintaining innocent perspective",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "I chose to make my entrance",
+      "location_percent": 35,
+      "scene": "Scout arrives late to the pageant finale",
+      "effect": "Scout's embarrassing mistake at the pageant becomes trivial compared to the life-threatening attack that follows, revealing how perspective shifts with experience",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Suspense",
+      "anchor_phrase": "I hear it when we're walkin' along",
+      "location_percent": 65,
+      "scene": "Jem realizes they're being followed on the dark walk home",
+      "effect": "Building tension through mysterious sounds creates dramatic anticipation while child narrator doesn't fully grasp the mortal danger approaching",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "wheek, wheek, with every step",
+      "location_percent": 75,
+      "scene": "Scout describes the sound of their pursuer's clothing",
+      "effect": "Sensory detail creates vivid menace while child narrator focuses on concrete sounds rather than comprehending the threat's true nature",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "A prickly stubble on the face told me",
+      "location_percent": 85,
+      "scene": "Scout touches the unconscious attacker in the dark",
+      "effect": "Child's innocent tactile exploration contrasts sharply with the violence just ended, highlighting her inability to fully process the attack's meaning",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Understatement",
+      "anchor_phrase": "I'm all right, Aunty",
+      "location_percent": 95,
+      "scene": "Scout reassures Aunt Alexandra after the attack",
+      "effect": "Child narrator's calm response to trauma demonstrates innocent inability to grasp the full severity of what occurred, while adult retrospective voice understands the profound impact",
+      "assigned_section": "resolution",
+      "chapter": 29,
+      "chapter_range": "29-31",
+      "pedagogical_tier": 3
+    }
+  ]
+}
