@@ -1,11 +1,4 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://luminait.app/sitemap.xml
-
-
-
-
-
-
 
