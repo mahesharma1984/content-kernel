@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "to_kill_a_mockingbird",
+  "theme_slug": "moral-education-through-experience",
+  "url": "/to_kill_a_mockingbird/themes/moral-education-through-experience/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Moral Education Through Experience",
+      "heading": "Moral Education Through Experience",
+      "description": "The text demonstrates that true moral understanding develops through lived experience and personal mistakes rather than abstract instruction. Characters learn empathy and justice by confronting their own prejudices and witnessing real consequences of moral choices.",
+      "pattern_connection": "The retrospective narration shows how childhood experiences shape adult moral consciousness, with readers experiencing Scout's gradual awakening to ethical complexity.",
+      "device_examples": [
+        {
+          "device_name": "Flashback",
+          "quote": "My special knowledge of the Cunningham tribe\u2014one branch, that is\u2014was gained from events of last winter",
+          "effect": "Shows how past experience provides moral context that transforms innocent observation into ethical understanding."
+        },
+        {
+          "device_name": "First-Person Narration",
+          "quote": "I returned to school and hated Calpurnia steadily",
+          "effect": "Scout's honest admission reveals the petty emotions that must be overcome in moral development."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Readers experience dual consciousness - seeing through child's eyes while grasping adult implications, creating powerful moral awakening through accumulated understanding."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Flashback and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text demonstrates that true moral understanding develops through lived experience and personal mistakes rather than abstract instruction. Characters learn empathy and justice by confronting their own prejudices and witnessing real consequences of moral choices."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/to_kill_a_mockingbird/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/to_kill_a_mockingbird/essay-guide/"
+        }
+      ]
+    }
+  }
+}

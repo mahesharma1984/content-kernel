@@ -1,0 +1,78 @@
+{
+  "page_type": "essay_guide",
+  "book_slug": "jane_eyre",
+  "url": "/jane_eyre/essay-guide/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Building Your Thesis",
+      "heading": "How to Write About Jane Eyre",
+      "thesis_components": {
+        "pattern": "Moral Bildungsroman",
+        "themes": [
+          "Moral Development Through Suffering",
+          "Social Displacement and Belonging",
+          "Symbolic Interpretation and Moral Understanding"
+        ],
+        "devices": [
+          "Foreshadowing",
+          "Juxtaposition",
+          "Imagery",
+          "Symbolism",
+          "Repetition"
+        ]
+      },
+      "example_theses": [
+        {
+          "focus": "Theme-focused",
+          "statement": "Bront\u00eb explores moral development through suffering by employing repetition and metaphor to transform Jane's systematic oppression into the foundation for ethical awakening, revealing that moral strength emerges through the interpretation of crisis rather than its avoidance.",
+          "structure_notes": "Specific theme + precise devices + transformation mechanism + counterintuitive insight about suffering's productive role"
+        },
+        {
+          "focus": "Pattern-focused",
+          "statement": "Through the Moral Bildungsroman pattern, Bront\u00eb uses first-person retrospective narration and symbolic imagery to create intimate access to Jane's immediate suffering while providing the temporal distance necessary for moral interpretation, demonstrating that wisdom requires both experience and reflection.",
+          "structure_notes": "Names pattern + shows dual narrative mechanism + explains how temporal structure creates meaning about wisdom formation"
+        },
+        {
+          "focus": "Device-focused",
+          "statement": "Bront\u00eb's use of foreshadowing and symbolism creates a framework where Jane's developing capacity to interpret signs becomes central to her moral growth, suggesting that ethical maturity depends on the ability to read symbolic meaning in lived experience.",
+          "structure_notes": "Two complementary devices + shows interpretive mechanism + connects symbolic reading to moral development"
+        },
+        {
+          "focus": "Theme-focused",
+          "statement": "Bront\u00eb examines social displacement and belonging through juxtaposition and imagery that contrast Jane's marginalized position with her essential moral nature, revealing that authentic belonging emerges from ethical independence rather than social conformity.",
+          "structure_notes": "Clear theme focus + specific contrasting devices + shows how displacement leads to authentic connection through moral strength"
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: From Pattern to Thesis",
+      "four_steps": [
+        {
+          "step": 1,
+          "title": "Choose your theme",
+          "content": "Select from the themes above"
+        },
+        {
+          "step": 2,
+          "title": "Identify devices",
+          "content": "Which devices create this theme?"
+        },
+        {
+          "step": 3,
+          "title": "Connect to pattern",
+          "content": "How does Moral Bildungsroman work?"
+        },
+        {
+          "step": 4,
+          "title": "Synthesize",
+          "content": "Combine into clear thesis statement"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Get Support",
+      "primary": "Get help developing your thesis",
+      "secondary": "Upload your draft"
+    }
+  }
+}

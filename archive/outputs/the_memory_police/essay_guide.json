@@ -1,0 +1,79 @@
+{
+  "page_type": "essay_guide",
+  "book_slug": "the_memory_police",
+  "url": "/the_memory_police/essay-guide/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Building Your Thesis",
+      "heading": "How to Write About The Memory Police",
+      "thesis_components": {
+        "pattern": "Contemplative Witness",
+        "themes": [
+          "Systematic Erasure of Identity",
+          "Memory as Resistance",
+          "Melancholic Acceptance of Loss",
+          "Totalitarian Control Through Spectacle"
+        ],
+        "devices": [
+          "Imagery",
+          "Juxtaposition",
+          "Symbolism",
+          "Repetition",
+          "Foreshadowing"
+        ]
+      },
+      "example_theses": [
+        {
+          "focus": "Theme-focused",
+          "statement": "The author explores systematic erasure of identity through symbolism and repetition, revealing that totalitarian control destroys not just individual memory but the very capacity for restoration, leaving permanent voids in human consciousness.",
+          "structure_notes": "Clear theme + specific devices + reveals the irreversible nature of totalitarian damage"
+        },
+        {
+          "focus": "Pattern-focused",
+          "statement": "Through the Contemplative Witness pattern, the author employs first-person limited perspective and melancholic imagery to create intimate documentation of totalitarian erasure, demonstrating that personal testimony transforms abstract oppression into visceral human tragedy.",
+          "structure_notes": "Names pattern + shows dual mechanism + states transformation from abstract to personal"
+        },
+        {
+          "focus": "Device-focused",
+          "statement": "The author's use of imagery and juxtaposition creates a stark contrast between methodical destruction and its chaotic consequences, which exposes the calculated cruelty underlying totalitarian spectacles of power.",
+          "structure_notes": "Specific devices + clear contrast effect + reveals hidden mechanism of oppression"
+        },
+        {
+          "focus": "Theme-focused",
+          "statement": "The author examines memory as resistance through symbolism and foreshadowing, suggesting that even futile acts of remembrance preserve essential humanity when systematic oppression renders active rebellion impossible.",
+          "structure_notes": "Complex theme + devices + acknowledges futility while asserting value of resistance"
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: From Pattern to Thesis",
+      "four_steps": [
+        {
+          "step": 1,
+          "title": "Choose your theme",
+          "content": "Select from the themes above"
+        },
+        {
+          "step": 2,
+          "title": "Identify devices",
+          "content": "Which devices create this theme?"
+        },
+        {
+          "step": 3,
+          "title": "Connect to pattern",
+          "content": "How does Contemplative Witness work?"
+        },
+        {
+          "step": 4,
+          "title": "Synthesize",
+          "content": "Combine into clear thesis statement"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Get Support",
+      "primary": "Get help developing your thesis",
+      "secondary": "Upload your draft"
+    }
+  }
+}

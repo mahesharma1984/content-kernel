@@ -1,0 +1,79 @@
+{
+  "page_type": "essay_guide",
+  "book_slug": "to_kill_a_mockingbird",
+  "url": "/to_kill_a_mockingbird/essay-guide/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Building Your Thesis",
+      "heading": "How to Write About To Kill a Mockingbird",
+      "thesis_components": {
+        "pattern": "Innocent Revelation",
+        "themes": [
+          "Dignity Transcends Social Class",
+          "Moral Education Through Experience",
+          "Innocence Exposes Adult Hypocrisy",
+          "Understanding Through Perspective-Taking"
+        ],
+        "devices": [
+          "Symbolism",
+          "Imagery",
+          "Juxtaposition",
+          "Dramatic Irony",
+          "Repetition"
+        ]
+      },
+      "example_theses": [
+        {
+          "focus": "Theme-focused",
+          "statement": "Lee explores how dignity transcends social class through dramatic irony and symbolism, revealing that moral worth exists independently of economic circumstances when innocent observation strips away societal prejudices.",
+          "structure_notes": "Links specific theme to concrete devices with clear causal relationship showing how child's perspective exposes moral truth"
+        },
+        {
+          "focus": "Pattern-focused",
+          "statement": "Through the Innocent Revelation pattern, Lee employs first-person retrospective narration and dramatic irony to create dual consciousness in readers, demonstrating that moral awakening requires both innocent observation and mature understanding.",
+          "structure_notes": "Names the pattern, identifies key technique, explains the reader effect, and connects to broader meaning about moral development"
+        },
+        {
+          "focus": "Device-focused",
+          "statement": "Lee's use of symbolism and juxtaposition creates powerful contrasts between appearance and reality, which exposes the gap between society's stated values and actual behavior through a child's unfiltered perspective.",
+          "structure_notes": "Focuses on specific devices, shows how they work together, and explains their significance in revealing social hypocrisy"
+        },
+        {
+          "focus": "Theme-focused",
+          "statement": "Lee demonstrates that moral education occurs through experience rather than instruction by employing dramatic irony and imagery, revealing how confronting personal prejudices transforms innocent observation into ethical understanding.",
+          "structure_notes": "Addresses the experiential learning theme with specific devices and shows the transformation process from innocence to moral awareness"
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: From Pattern to Thesis",
+      "four_steps": [
+        {
+          "step": 1,
+          "title": "Choose your theme",
+          "content": "Select from the themes above"
+        },
+        {
+          "step": 2,
+          "title": "Identify devices",
+          "content": "Which devices create this theme?"
+        },
+        {
+          "step": 3,
+          "title": "Connect to pattern",
+          "content": "How does Innocent Revelation work?"
+        },
+        {
+          "step": 4,
+          "title": "Synthesize",
+          "content": "Combine into clear thesis statement"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Get Support",
+      "primary": "Get help developing your thesis",
+      "secondary": "Upload your draft"
+    }
+  }
+}

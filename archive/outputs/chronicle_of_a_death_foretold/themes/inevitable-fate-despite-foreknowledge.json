@@ -1,0 +1,64 @@
+{
+  "page_type": "theme",
+  "book_slug": "chronicle_of_a_death_foretold",
+  "theme_slug": "inevitable-fate-despite-foreknowledge",
+  "url": "/chronicle_of_a_death_foretold/themes/inevitable-fate-despite-foreknowledge/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Inevitable Fate Despite Foreknowledge",
+      "heading": "Inevitable Fate Despite Foreknowledge",
+      "description": "The text explores how tragedy occurs not despite being predicted, but because of the very nature of fate itself. Even when everyone knows what will happen, the outcome remains unchangeable, suggesting that knowledge alone cannot alter destiny.",
+      "pattern_connection": "The Investigative Fatalism pattern uses retrospective investigation to reveal how methodical documentation of forewarnings paradoxically intensifies rather than prevents the predetermined outcome.",
+      "device_examples": [
+        {
+          "device_name": "Foreshadowing",
+          "quote": "ON THE DAY THEY WERE GOING TO KILL him",
+          "effect": "Establishes absolute certainty of death from the opening, making the investigation about how rather than whether tragedy occurs."
+        },
+        {
+          "device_name": "Foreshadowing",
+          "quote": "There had never been a death more foretold",
+          "effect": "Emphasizes the paradox that complete foreknowledge failed to prevent the inevitable outcome."
+        },
+        {
+          "device_name": "Repetition",
+          "quote": "They were going to kill him",
+          "effect": "Reinforces the relentless certainty of fate through repeated acknowledgment of the unavoidable death."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "The reader experiences the inevitability of fate through methodical reconstruction, where knowing the outcome intensifies rather than diminishes dramatic tension."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Foreshadowing and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text explores how tragedy occurs not despite being predicted, but because of the very nature of fate itself. Even when everyone knows what will happen, the outcome remains unchangeable, suggesting that knowledge alone cannot alter destiny."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/chronicle_of_a_death_foretold/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/chronicle_of_a_death_foretold/essay-guide/"
+        }
+      ]
+    }
+  }
+}

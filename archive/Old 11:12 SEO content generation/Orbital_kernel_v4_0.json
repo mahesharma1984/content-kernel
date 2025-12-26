@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "title": "Orbital",
+    "author": "Samantha Harvey",
+    "edition": "Grove Press, 2023.",
+    "creation_date": "2025-12-06T13:48:27.430792",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 22,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NAME",
+    "total_units": 22,
+    "special_elements": [],
+    "notes": "Named orbital chapters (Orbit minus 1, Orbit 1-16 with subdivisions)"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "primary_chapter": 1,
+      "percentage": 14
+    },
+    "rising_action": {
+      "chapter_range": "4-12",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "primary_chapter": 8,
+      "percentage": 41
+    },
+    "climax": {
+      "chapter_range": "13-14",
+      "chapters": [
+        13,
+        14
+      ],
+      "primary_chapter": 13,
+      "percentage": 9
+    },
+    "falling_action": {
+      "chapter_range": "15-20",
+      "chapters": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "primary_chapter": 18,
+      "percentage": 27
+    },
+    "resolution": {
+      "chapter_range": "21-22",
+      "chapters": [
+        21,
+        22
+      ],
+      "primary_chapter": 22,
+      "percentage": 9
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "4-12",
+      "primary_chapter": 8,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "13-14",
+      "primary_chapter": 13,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "15-20",
+      "primary_chapter": 18,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "21-22",
+      "primary_chapter": 22,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "primary_chapter": 1,
+      "rationale": "These chapters establish the fundamental setting of the International Space Station and introduce the six crew members (Roman, Nell, Shaun, Pietro, Chie, Anton) in their orbital environment. The opening presents their routine existence in microgravity while establishing the novel's central premise of observing Earth from space over a 24-hour period."
+    },
+    "rising_action": {
+      "chapter_range": "4-12",
+      "primary_chapter": 8,
+      "rationale": "This section develops the interpersonal dynamics between crew members through conversations about their motivations, beliefs, and backgrounds, particularly exploring the tension between scientific and spiritual worldviews. The characters deepen their observations of Earth while processing their isolation and the approaching lunar mission that creates underlying tension."
+    },
+    "climax": {
+      "chapter_range": "13-14",
+      "primary_chapter": 13,
+      "rationale": "Chapter 13 represents the novel's philosophical and emotional peak as the crew achieves a profound realization about humanity's impact on Earth, seeing politics and human want as sculpting forces visible from space. This moment of cosmic perspective shift represents the turning point where their detached observation transforms into deep understanding of humanity's relationship with the planet."
+    },
+    "falling_action": {
+      "chapter_range": "15-20",
+      "primary_chapter": 18,
+      "rationale": "These chapters process the aftermath of the crew's heightened awareness, exploring themes of grief, memory, and human connection as they continue their observations while dealing with personal losses and the approaching end of their mission. The narrative momentum shifts from revelation to contemplation and acceptance."
+    },
+    "resolution": {
+      "chapter_range": "21-22",
+      "primary_chapter": 22,
+      "rationale": "The final chapters provide thematic closure by connecting the crew's orbital experience to the broader human story, ending with a meditation on Earth's place in the cosmos and humanity's future. The resolution emphasizes both the fragility and resilience of human endeavor while suggesting the cyclical nature of exploration and discovery."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "TPO",
+        "pov_description": "Omniscient narrator with access to all six crew members' thoughts and perspectives across multiple sections",
+        "focalization": "ZERO",
+        "focalization_description": "Unlimited access to multiple characters' consciousness, dreams, memories, and internal states",
+        "reliability": "REL",
+        "temporal_distance": "IMM",
+        "mode_dominance": "BAL",
+        "free_indirect": "HEAVY",
+        "stream_consciousness": "SOME",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "EPISODIC",
+        "plot_architecture_description": "Structured around orbital cycles with episodic character focus across 16 orbits",
+        "pacing": "SLOW",
+        "temporal_span": "BRIEF",
+        "beginning_type": "MEDIAS",
+        "ending_type": "OPEN",
+        "scene_summary_ratio": "SCENE",
+        "chapter_structure": "FRAG",
+        "causation": "THEME"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Contemplative, lyrical, meditative with cosmic wonder and human intimacy",
+        "register": "POET",
+        "stance": "OBJ",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "SIT",
+        "figurative_density": "HIGH"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "THEME",
+        "device_density": "HIGH",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Devices create a layered meditation on human fragility and cosmic perspective through accumulating imagery, cyclical structure, and sensory immersion that transforms reader understanding of scale and connection"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "Raw space is a panther, feral and primal",
+      "location_percent": 10,
+      "scene": "Description of the astronauts' dreams about space",
+      "effect": "Establishes space as a dangerous, untamed force that the characters must contend with, setting up the hostile environment",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "the earth reels away in a mass of moonglow",
+      "location_percent": 25,
+      "scene": "View of Earth from the space station",
+      "effect": "Creates vivid visual descriptions that establish the setting and the astronauts' unique perspective above Earth",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Summary",
+      "anchor_phrase": "Four thousand three hundred and twenty sunrises, four thousand three hundred and twenty sunsets",
+      "location_percent": 60,
+      "scene": "Roman cataloging his mission statistics",
+      "effect": "Compresses the entire mission timeframe into quantifiable data, establishing the routine and duration of space missions",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Frame Narrative",
+      "anchor_phrase": "There was a lesson at school about the painting Las Meninas",
+      "location_percent": 85,
+      "scene": "Shaun's memory of an art class about perspective in painting",
+      "effect": "Introduces a story within the story that parallels the main narrative's themes about perspective and reality, establishing philosophical foundations",
+      "assigned_section": "resolution",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "Be clear with yourself on this matter",
+      "location_percent": 65,
+      "scene": "Instructions from ground crew about maintaining temporal orientation",
+      "effect": "Repeats the theme of maintaining clarity and orientation in the disorienting environment of space, establishing psychological challenges",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Flashback",
+      "anchor_phrase": "I watched the first moon landing with my father and uncle",
+      "location_percent": 40,
+      "scene": "Shaun sharing childhood memory during lunch with Nell",
+      "effect": "Reveals character motivation and past trauma, deepening understanding of what drives them to this dangerous mission",
+      "assigned_section": "rising_action",
+      "chapter": 8,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "who'd want to be an astronaut",
+      "location_percent": 55,
+      "scene": "Shaun recounting his childhood reaction to watching the moon landing",
+      "effect": "Creates irony since he became exactly what he once questioned, highlighting the complexity of human ambition and fate",
+      "assigned_section": "rising_action",
+      "chapter": 8,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Simile",
+      "anchor_phrase": "she hangs like a seahorse, never quite still",
+      "location_percent": 45,
+      "scene": "Description of Nell eating in zero gravity",
+      "effect": "Emphasizes the alien nature of their environment and constant motion, reinforcing their precarious situation",
+      "assigned_section": "rising_action",
+      "chapter": 8,
+      "chapter_range": "4-12",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Personification",
+      "anchor_phrase": "a sea that doesn't care that there are more and more people",
+      "location_percent": 20,
+      "scene": "Observation of coastline changes and rising sea levels",
+      "effect": "Gives the ocean agency and indifference, emphasizing humanity's vulnerability in the face of climate change",
+      "assigned_section": "climax",
+      "chapter": 13,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "It's always now, it's never now",
+      "location_percent": 40,
+      "scene": "The crew experiencing multiple time zones simultaneously",
+      "effect": "Contrasts temporal paradoxes to emphasize the disorienting nature of orbital perspective and multiple simultaneous realities",
+      "assigned_section": "climax",
+      "chapter": 13,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "Nobody foresaw the rapid growth of this typhoon",
+      "location_percent": 45,
+      "scene": "Description of Category Five typhoon approaching the Philippines",
+      "effect": "Builds tension toward the climactic storm event while emphasizing unpredictability and human limitations in face of natural forces",
+      "assigned_section": "climax",
+      "chapter": 13,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Roman's felt moon spun in front of him",
+      "location_percent": 85,
+      "scene": "Roman's son's gift floating in the spacecraft during arrival memory",
+      "effect": "The felt moon represents connection to Earth and family, symbolizing what remains constant despite the transformative space experience",
+      "assigned_section": "climax",
+      "chapter": 13,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Parallelism",
+      "anchor_phrase": "slow is smooth and smooth is fast",
+      "location_percent": 95,
+      "scene": "Roman teaching movement techniques in microgravity",
+      "effect": "Creates rhythmic mantra that emphasizes adaptation and learning, reinforcing themes of human adjustment to extraordinary circumstances",
+      "assigned_section": "climax",
+      "chapter": 13,
+      "chapter_range": "13-14",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Third-Person Omniscient",
+      "anchor_phrase": "They float in front of a Russian film",
+      "location_percent": 90,
+      "scene": "All six crew members sleeping peacefully after watching a movie",
+      "effect": "Provides peaceful closure by showing all characters in restful unity",
+      "assigned_section": "resolution",
+      "chapter": 18,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Free Indirect Discourse",
+      "anchor_phrase": "Joy, surely. It does look like joy",
+      "location_percent": 68,
+      "scene": "Chie's thoughts while observing the flying mice",
+      "effect": "Merges narrator and character perspective to show hope emerging from sorrow",
+      "assigned_section": "resolution",
+      "chapter": 18,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Stream of Consciousness",
+      "anchor_phrase": "Pick a single creature on this earth and its story",
+      "location_percent": 55,
+      "scene": "Shaun's philosophical meditation on animals and existence",
+      "effect": "Shows character's mind settling into contemplative acceptance",
+      "assigned_section": "resolution",
+      "chapter": 18,
+      "chapter_range": "15-20",
+      "pedagogical_tier": 5
+    },
+    {
+      "name": "Circular Structure",
+      "anchor_phrase": "One day a few years hence, at this very spot",
+      "location_percent": 85,
+      "scene": "Prediction of the space station's eventual crash into the Pacific",
+      "effect": "Completes the narrative cycle by returning to themes of endings and natural cycles",
+      "assigned_section": "resolution",
+      "chapter": 22,
+      "chapter_range": "21-22",
+      "pedagogical_tier": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "page_type": "hub",
+  "book_slug": "the_memory_police",
+  "url": "/the_memory_police/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: What the Book Does",
+      "heading": "Contemplative Witness",
+      "description": "First-person limited perspective combined with subjective melancholic stance creates intimate documentation of totalitarian erasure through personal experience.",
+      "reader_effect": "Reader experiences gradual loss of memory and identity alongside narrator, creating profound empathy for victims of systematic oppression.",
+      "quick_reference": {
+        "structure": "28 chapters",
+        "voice": "First person narrator throughout, using 'I' consistently",
+        "tone": "Melancholic, resigned, contemplative with underlying dread"
+      }
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Read for Patterns",
+      "heading": "What Pattern-Recognition Means",
+      "worked_example": {
+        "formula": "Imagery + Juxtaposition + Symbolism",
+        "arrow": "\u2192",
+        "effect": "Reader experiences gradual loss of memory and identity alongside narrator, creating profound empathy for victims of systematic oppression"
+      },
+      "prompts": [
+        "What's the cumulative effect of these devices working together?",
+        "Why would the author choose this particular combination?",
+        "What reader experience does this pattern create?"
+      ]
+    },
+    "cta": {
+      "badge": "Action: Explore Through Themes",
+      "links": [
+        {
+          "text": "Systematic Erasure of Identity",
+          "url": "themes/systematic-erasure-identity/"
+        },
+        {
+          "text": "Memory as Resistance",
+          "url": "themes/memory-as-resistance/"
+        },
+        {
+          "text": "Melancholic Acceptance of Loss",
+          "url": "themes/melancholic-acceptance-loss/"
+        },
+        {
+          "text": "Totalitarian Control Through Spectacle",
+          "url": "themes/totalitarian-control-spectacle/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "essay-guide/",
+          "emphasis": true
+        }
+      ]
+    }
+  }
+}

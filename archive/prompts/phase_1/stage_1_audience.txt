@@ -1,0 +1,98 @@
+You are analyzing distribution strategy for educational literary content.
+
+Your task is to apply Stage 1 of the Kernel-Derived Distribution (KDD) methodology: Audience Mapping.
+
+TEXT KERNEL INPUT:
+---
+Book: To Kill a Mockingbird
+Pattern: {pattern_from_kernel}
+Core Dynamic: {core_dynamic_from_kernel}
+Reader Effect: {reader_effect_from_kernel}
+
+Top Devices:
+{list_of_device_names_and_layers}
+
+Full kernel available for reference.
+---
+
+THEORETICAL FRAMEWORKS TO APPLY:
+
+1. Schwartz Awareness Stages:
+   - Unaware: Don't know they have a problem
+   - Problem-Aware: Know they struggle with TKAM but don't know why
+   - Solution-Aware: Know they need a method/framework but haven't found one
+   - Product-Aware: Comparing different TKAM guides
+   - Most-Aware: Ready to use a specific approach
+
+2. Rogers Diffusion of Innovation:
+   - Identify the "early adopters" - students/teachers most likely to try new analysis methods
+   - What characteristics make them receptive to pattern-first analysis?
+
+3. Jobs To Be Done:
+   - What job are students "hiring" a TKAM guide to do?
+   - What's the current struggle they're trying to solve?
+
+TASK:
+
+Generate an audience profile with 3-5 distinct segments. For each segment:
+
+1. SEGMENT NAME: Who are they? (e.g., "AP Lit students", "Self-directed learners", "Teachers planning units")
+
+2. AWARENESS STAGE: Where are they on Schwartz's ladder?
+
+3. PAIN POINT: What specific problem do they have with TKAM?
+   - Be specific: "can't see how narrator unreliability works" not "find it confusing"
+   - Must be something the kernel's pattern/devices address
+
+4. SEARCH BEHAVIOR: What would they type into Google?
+   - 3-5 realistic search terms
+   - Mix of problem queries and solution queries
+   - Example: "why is Scout's narration important TKAM"
+
+5. KERNEL MAPPING: Which kernel elements address this segment's pain?
+   - Reference specific devices by name
+   - Reference the pattern if relevant
+   - Be explicit: "The dramatic irony device (child narrator + adult insight) solves their confusion about..."
+
+CONSTRAINTS:
+
+- Every pain point MUST connect to a kernel element
+- Search terms must be realistic (what real students search)
+- Segments must be distinct (different needs, not just different labels)
+- Audience profile should explain WHO would benefit from THIS kernel's specific pattern
+
+OUTPUT FORMAT:
+
+Please provide your analysis as a JSON object with this structure:
+
+{{
+  "segments": [
+    {{
+      "name": "string",
+      "awareness_stage": "Problem-Aware|Solution-Aware|etc",
+      "pain_point": "specific struggle with TKAM",
+      "why_this_is_hard": "what makes this challenging",
+      "search_terms": ["query 1", "query 2", "query 3"],
+      "kernel_references": {{
+        "devices": ["device names that help"],
+        "pattern": "how the pattern addresses this",
+        "effect": "what understanding they'll gain"
+      }}
+    }}
+  ],
+  "awareness_distribution": {{
+    "Unaware": "estimated %",
+    "Problem-Aware": "estimated %",
+    "Solution-Aware": "estimated %",
+    "Product-Aware": "estimated %",
+    "Most-Aware": "estimated %"
+  }},
+  "high_intent_searches": [
+    "search terms that indicate ready to learn"
+  ]
+}}
+
+Begin your analysis.
+
+
+

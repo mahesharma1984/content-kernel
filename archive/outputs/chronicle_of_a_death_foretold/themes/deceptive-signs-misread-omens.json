@@ -1,0 +1,64 @@
+{
+  "page_type": "theme",
+  "book_slug": "chronicle_of_a_death_foretold",
+  "theme_slug": "deceptive-signs-misread-omens",
+  "url": "/chronicle_of_a_death_foretold/themes/deceptive-signs-misread-omens/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Deceptive Signs and Misread Omens",
+      "heading": "Deceptive Signs and Misread Omens",
+      "description": "The text explores how signs and omens can mislead rather than guide, creating false hope in the face of approaching doom. What appears to promise good fortune actually conceals fatal reality.",
+      "pattern_connection": "The fatalistic stance of Investigative Fatalism reveals how retrospective investigation exposes the ironic gap between hopeful interpretation and predetermined tragedy.",
+      "device_examples": [
+        {
+          "device_name": "Juxtaposition",
+          "quote": "Any dream about birds means good health",
+          "effect": "Contrasts optimistic interpretation with fatal reality, showing how signs deceive rather than warn."
+        },
+        {
+          "device_name": "Imagery",
+          "quote": "he felt completely spattered with bird shit",
+          "effect": "Transforms the supposedly positive bird omen into visceral contamination and doom."
+        },
+        {
+          "device_name": "Symbolism",
+          "quote": "The Fatal Door",
+          "effect": "Converts ordinary architectural features into symbols of predetermined destiny that characters fail to recognize."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "The reader experiences the inevitability of fate through methodical reconstruction, where knowing the outcome intensifies rather than diminishes dramatic tension."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Juxtaposition and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text explores how signs and omens can mislead rather than guide, creating false hope in the face of approaching doom. What appears to promise good fortune actually conceals fatal reality."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/chronicle_of_a_death_foretold/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/chronicle_of_a_death_foretold/essay-guide/"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "extraction_date": "2025-12-12T10:59:40.912211",
+  "source_kernel": "Brideshead_Revisited_kernel_v5_1.json",
+  "metadata": {
+    "title": "Brideshead Revisited",
+    "author": "Evelyn Waugh",
+    "book_slug": "brideshead_revisited"
+  },
+  "pattern": {
+    "name": "Elegiac Retrospection",
+    "core_dynamic": "First-person limited retrospective narration combines with subjective elegiac stance to transform personal memory into universal meditation on loss and faith.",
+    "reader_effect": "Creates intimate yet distanced contemplation where readers experience both the immediacy of remembered emotion and the wisdom of temporal remove.",
+    "device_priorities": [
+      "Symbolism",
+      "Imagery",
+      "Juxtaposition",
+      "Foreshadowing",
+      "Repetition",
+      "Motif",
+      "Metaphor",
+      "Flashback"
+    ]
+  },
+  "macro_variables": {
+    "voice": {
+      "pov": "FP",
+      "pov_description": "First-person narration by Charles Ryder throughout",
+      "focalization": "INT",
+      "focalization_description": "Limited to Charles's perspective and memories"
+    },
+    "structure": {
+      "total_chapters": 15,
+      "chronology": "LIN",
+      "pacing": "SLOW",
+      "chapter_structure": "TRAD"
+    },
+    "rhetoric": {
+      "tone": "Elegiac, nostalgic, melancholic with religious undertones",
+      "register": "FORM",
+      "stance": "SUBJ"
+    }
+  },
+  "device_mediation": {
+    "summary": "Devices accumulate to transform reader understanding from secular aesthetic appreciation to recognition of divine grace operating through human relationships and loss"
+  },
+  "micro_devices": [
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "but it was not until Sebastian",
+      "effect": "Establishes retrospective voice that transforms personal memory into universal meditation on discovery and loss",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "I was in search of love",
+      "effect": "Hints at the profound relationship to come while maintaining elegiac tone of something precious that will be lost",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "low door in the wall",
+      "effect": "The garden door symbolizes entry into an enchanted but temporary world, reinforcing the elegiac pattern of beauty discovered and lost",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "epicene beauty which in extreme youth",
+      "effect": "Vivid sensory description creates luminous memory while 'withers at the first cold wind' prefigures loss",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "it's where my family live",
+      "effect": "Contrasts Sebastian's emotional distance with the house's grandeur, suggesting family tensions that will drive the narrative's elegiac trajectory",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "I like this bad set",
+      "effect": "Repeated phrase emphasizes the narrator's commitment to choices that retrospective wisdom reveals as both formative and tragic",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "middle-aged captain of infantry",
+      "effect": "Military identity represents the war-torn present looking back at innocent past, anchoring the elegiac pattern of loss and remembrance",
+      "section": "exposition",
+      "chapter": 2
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "By the blue waters and rustling palms of his own mind",
+      "effect": "Transforms Sebastian's psyche into an Edenic paradise, establishing the elegiac tone of innocence about to be lost and positioning Charles as elegiac observer of Sebastian's destruction",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "his days in Arcadia were numbered",
+      "effect": "Creates retrospective knowledge of inevitable loss, allowing the narrator to transform personal memory into universal meditation on the destruction of innocence",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "the archaic weapons of the tribe and sound the drums",
+      "effect": "Sebastian's drinking becomes symbol of civilization's corruption of the noble savage, elevating personal tragedy to universal commentary on cultural destruction",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "the august, masculine atmosphere of a better age",
+      "effect": "Contrasts intimate modern world with grand classical architecture, reinforcing elegiac stance toward lost grandeur and positioning narrator as witness to historical decline",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "the low ceiling, the chintz, the lambskin bindings",
+      "effect": "Sensory details create vivid contrast between intimate domesticity and grand architecture, supporting the elegiac meditation on different worlds and values",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I was no fool; I was old enough to know",
+      "effect": "Retrospective voice combines personal memory with mature judgment, transforming individual experience into universal meditation on manipulation and loss of innocence",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "the same blaze, marking her and hers for destruction",
+      "effect": "Echoes earlier imagery of doom and sacrifice, creating elegiac pattern that transforms personal observation into universal meditation on aristocratic decline",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "Sebastian contra mundum",
+      "effect": "Reader knows from retrospective narration that this alliance will fail, creating elegiac tension between youthful loyalty and inevitable loss that serves the pattern of memory transformed into universal meditation",
+      "section": "rising_action",
+      "chapter": 6
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "little pool of ice-water which now surrounded the swan",
+      "effect": "The swan surrounded by ash-contaminated water symbolizes corrupted beauty and elegiac loss, establishing the retrospective narrator's meditation on the decay of elegance",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "Through and through is a long way, madam",
+      "effect": "Limited retrospective narration reveals the narrator's subjective interiority, transforming surface social interaction into deeper meditation on unknowable self",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "I had already set her apart from humankind",
+      "effect": "Anticipates the transformative love that will define the climactic relationship, preparing elegiac meditation on what will be lost",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "felt like Lear on the heath, like the Duchess",
+      "effect": "Literary imagery elevates personal experience to universal tragic scope, supporting elegiac transformation of memory into broader meditation on loss",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "parrot-house fever of my wife's party, and unplumbed emotions",
+      "effect": "Contrasts hollow social performance with authentic emotion, supporting retrospective narrator's elegiac distinction between surface and depth",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "perhaps never. I don't know. I don't know if",
+      "effect": "Repeated uncertainty emphasizes the fragility of the climactic moment, enhancing elegiac quality of retrospective meditation on what was almost lost",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Internal Monologue",
+      "anchor_phrase": "Ten hours of talking: what had we to say?",
+      "effect": "Retrospective consciousness processes memory into elegiac meditation, transforming personal experience into universal reflection on human connection",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "part of a plan",
+      "effect": "Religious motif introduces faith element that will dominate the elegiac retrospection, preparing meditation on loss and transcendence",
+      "section": "climax",
+      "chapter": 11
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "You might paint it, eh\u2014and call it the Death Bed",
+      "effect": "The ornate Queen's bed becomes a symbol of aristocratic decline and mortality, transforming personal death into universal meditation on the passing of an era",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "he has come home to die",
+      "effect": "Explicitly previews the chapter's central tragic arc while establishing the elegiac tone that transforms individual death into broader cultural loss",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "the little yellow men along the walls, who live without breathing",
+      "effect": "Vivid sensory details of the ornate room merge with dying man's perceptions, creating elegiac imagery that elevates personal suffering to artistic meditation",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "Better today. Better today",
+      "effect": "Places desperate hope against visible reality, creating elegiac tension between subjective experience and objective truth that defines the retrospective stance",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "the snow was beginning to shift on the high slopes",
+      "effect": "Recurring metaphor of impending avalanche/collapse transforms personal religious conflict into universal pattern of faith and loss",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I felt triumphant. I had been right",
+      "effect": "Subjective retrospective voice reveals narrator's past blindness and present understanding, enabling elegiac transformation of personal memory into universal meditation",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "I was wrong in thinking that the religious controversy was quashed",
+      "effect": "Retrospective narrator's knowledge creates ironic distance from past self, allowing elegiac meditation on the gap between experience and understanding",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "Better today. Better today",
+      "effect": "Repeated phrase creates elegiac rhythm that transforms individual decline into universal meditation on mortality and self-deception",
+      "section": "falling_action",
+      "chapter": 14
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "Lord Marchmain made the sign of the cross",
+      "effect": "Transforms personal memory into universal meditation on divine grace, embodying the elegiac retrospective pattern's core theme of faith triumphing over loss",
+      "section": "resolution",
+      "chapter": 15
+    },
+    {
+      "name": "First-Person Narration",
+      "anchor_phrase": "I prayed more simply; 'God forgive him his sins'",
+      "effect": "Creates subjective elegiac stance that filters theological mystery through personal memory, enabling transformation of individual experience into universal meditation",
+      "section": "resolution",
+      "chapter": 15
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "the veil of the temple being rent from top to bottom",
+      "effect": "Elevates personal memory to universal significance through biblical allusion, demonstrating how retrospective narration transforms loss into spiritual revelation",
+      "section": "resolution",
+      "chapter": 15
+    },
+    {
+      "name": "Imagery",
+      "anchor_phrase": "a small red flame\u2014a beaten-copper lamp of deplorable design",
+      "effect": "Creates sensory anchor for elegiac retrospection, transforming physical detail into symbol of enduring faith that survives temporal loss",
+      "section": "resolution",
+      "chapter": 15
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "the age of Hooper; the place was desolate",
+      "effect": "Contrasts past grandeur with present degradation to execute elegiac retrospection's meditation on temporal loss and cultural decay",
+      "section": "resolution",
+      "chapter": 15
+    },
+    {
+      "name": "Repetition",
+      "anchor_phrase": "So small a thing that was asked",
+      "effect": "Emphasizes the elegiac tension between human longing and divine mystery, building toward the retrospective revelation of grace's magnitude",
+      "section": "resolution",
+      "chapter": 15
+    },
+    {
+      "name": "Allusion",
+      "anchor_phrase": "Quomodo sedet sola civitas. Vanity of vanities, all is vanity",
+      "effect": "Elevates personal memory to universal lamentation through scriptural reference, exemplifying how elegiac retrospection transforms individual loss into timeless meditation",
+      "section": "resolution",
+      "chapter": 15
+    }
+  ],
+  "validation": {
+    "pattern_present": true,
+    "device_count": 38,
+    "sections_covered": [
+      "exposition",
+      "rising_action",
+      "resolution",
+      "falling_action",
+      "climax"
+    ],
+    "quotes_available": true
+  }
+}

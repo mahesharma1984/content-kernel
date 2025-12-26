@@ -1,0 +1,991 @@
+{
+  "metadata": {
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "edition": "Penguin Classics 2003",
+    "creation_date": "2025-11-26T14:27:08.671468",
+    "protocol_version": "3.3",
+    "kernel_version": "3.5",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 21,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NAME",
+    "total_units": 21,
+    "special_elements": [],
+    "notes": "Named chapters without numbers detected"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "primary_chapter": 1,
+      "percentage": 14
+    },
+    "rising_action": {
+      "chapter_range": "4-15",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "primary_chapter": 10,
+      "percentage": 57
+    },
+    "climax": {
+      "chapter_range": "16-17",
+      "chapters": [
+        16,
+        17
+      ],
+      "primary_chapter": 16,
+      "percentage": 10
+    },
+    "falling_action": {
+      "chapter_range": "18-20",
+      "chapters": [
+        18,
+        19,
+        20
+      ],
+      "primary_chapter": 19,
+      "percentage": 14
+    },
+    "resolution": {
+      "chapter_range": "21",
+      "chapters": [
+        21
+      ],
+      "primary_chapter": 21,
+      "percentage": 5
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "4-15",
+      "primary_chapter": 10,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "16-17",
+      "primary_chapter": 16,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "18-20",
+      "primary_chapter": 19,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "21",
+      "primary_chapter": 21,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "primary_chapter": 1,
+      "rationale": "This section establishes the fundamental character dynamics and world of the story, introducing Matilda as an exceptional child trapped with neglectful, anti-intellectual parents who view her as nothing more than 'a scab.' The exposition sets up the central conflict between Matilda's brilliance and her family's indifference, establishing the foundation for all subsequent dramatic developments."
+    },
+    "rising_action": {
+      "chapter_range": "4-15",
+      "primary_chapter": 10,
+      "rationale": "The rising action develops the central conflicts as Matilda encounters the tyrannical Miss Trunchbull at school, learns about the school's culture of resistance from Hortensia, and begins to understand the scope of adult cruelty. This section builds tension through escalating confrontations and Matilda's growing awareness of injustice, culminating in her discovery of her telekinetic powers."
+    },
+    "climax": {
+      "chapter_range": "16-17",
+      "primary_chapter": 16,
+      "rationale": "Chapter 16 represents the story's climactic turning point where Matilda fully demonstrates her telekinetic abilities to Miss Honey and they begin to explore this phenomenon together. This marks the peak of dramatic tension as Matilda's powers are confirmed and she begins to understand their potential, setting the stage for her ultimate confrontation with oppression."
+    },
+    "falling_action": {
+      "chapter_range": "18-20",
+      "primary_chapter": 19,
+      "rationale": "The falling action reveals the crucial backstory connecting Miss Honey to Miss Trunchbull and shows Matilda planning her intervention using her powers. This section deals with the consequences of the climactic revelation as Matilda gathers information and prepares to use her abilities to restore justice, leading toward the story's resolution."
+    },
+    "resolution": {
+      "chapter_range": "21",
+      "primary_chapter": 21,
+      "rationale": "The final chapter provides complete thematic closure as Matilda's powers fade naturally after serving their purpose, her family's criminal activities force them to flee, and she finds her true home with Miss Honey. The resolution demonstrates that love, respect, and intellectual nurturing triumph over neglect and cruelty, with Matilda finally placed in an environment where she can flourish."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "TPO",
+        "pov_description": "Third person omniscient narrator with access to multiple characters' thoughts and feelings, plus direct address to readers",
+        "focalization": "ZERO",
+        "focalization_description": "Unlimited access to all characters' minds and thoughts, plus narrator's own commentary and perspective",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "SOME",
+        "stream_consciousness": "NONE",
+        "character_revelation": "MIX",
+        "narrative_intrusion": "HEAVY",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "MONO",
+        "plot_architecture_description": "Single main plot following Matilda's development of powers and conflict with Miss Trunchbull",
+        "pacing": "VAR",
+        "temporal_span": "MEDIUM",
+        "beginning_type": "AB_OVO",
+        "ending_type": "CLOSED",
+        "scene_summary_ratio": "SCENE",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Conspiratorial, irreverent, child-championing with dark humor",
+        "register": "COLL",
+        "stance": "ADV",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "MOD",
+        "irony": "VERB",
+        "figurative_density": "HIGH"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "HIGH",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Rhetorical devices create tight alignment through consistent narrator advocacy for children against adult tyranny, using humor and exaggeration to build empathy while maintaining reader engagement through direct address and colloquial tone that validates child perspectives"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Third-Person Omniscient",
+      "layer": "N",
+      "function": "Re",
+      "engagement": "T",
+      "classification": "N|Re|T",
+      "definition": "A narrative voice that knows the thoughts, feelings, and motivations of all characters and can comment on the story's events",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "establishes authoritative perspective that can judge characters and situations",
+      "position_code": "DIST",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "parental delusion and society's tolerance of it",
+        "scene_description": "opening commentary on parents' blind admiration for their children",
+        "specific_function": "establishes narrator's satirical authority to judge parental bias and social hypocrisy"
+      },
+      "effects": [
+        {
+          "text": "Creates reader alignment with narrator's critical perspective on deluded parents",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the universal nature of parental self-deception through authoritative commentary",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes theme that adults systematically fail to see children clearly",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "opening parental commentary",
+          "chapter": 1,
+          "page_range": "1-2",
+          "quote_snippet": "It's a funny thing about mothers and fathers. Even when their own child is the most disgusting little blister"
+        }
+      ]
+    },
+    {
+      "name": "Hyperbole",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "B|Me|V",
+      "definition": "Deliberate exaggeration used for emphasis or comedic effect",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "amplifies satirical criticism through comic exaggeration",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "the extremity of parental delusion",
+        "scene_description": "narrator's description of parents' blind adoration",
+        "specific_function": "emphasizes the absurd degree of parental bias through comic overstatement"
+      },
+      "effects": [
+        {
+          "text": "Creates humor that makes readers laugh at parental absurdity",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how completely parents can lose objective judgment about their children",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that adult perspectives on children are fundamentally flawed",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "parental delusion description",
+          "chapter": 1,
+          "page_range": "1",
+          "quote_snippet": "the most disgusting little blister you could ever imagine"
+        }
+      ]
+    },
+    {
+      "name": "Simile",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "B|Me|V",
+      "definition": "A comparison between two unlike things using 'like' or 'as'",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "creates vivid comparisons that emphasize character traits or situations",
+      "position_code": "CLUST-MID",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "the narrator's hypothetical revenge on deluded parents",
+        "scene_description": "narrator imagining writing scathing school reports",
+        "specific_function": "creates memorable comparisons that mock students through natural history metaphors"
+      },
+      "effects": [
+        {
+          "text": "Creates vivid mental images that make the satirical criticism memorable and amusing",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how academic language can be weaponized to deflate parental pride",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes the idea that truth-telling can be a form of rebellion against social delusion",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "hypothetical school report writing",
+          "chapter": 1,
+          "page_range": "2",
+          "quote_snippet": "Fiona has the same glacial beauty as an iceberg, but unlike the iceberg she has absolutely nothing below"
+        }
+      ]
+    },
+    {
+      "name": "Verbal Irony",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "Saying one thing while meaning the opposite, often for sarcastic or humorous effect",
+      "student_facing_type": "Irony",
+      "pedagogical_function": "creates layers of meaning through deliberate contradiction between surface and intended meaning",
+      "position_code": "CLUST-END",
+      "assigned_section": "exposition",
+      "worksheet_context": {
+        "subject": "the narrator's 'appreciation' for parental delusion",
+        "scene_description": "narrator's mock-sympathetic commentary on parental blindness",
+        "specific_function": "expresses criticism of parental bias while pretending to find it understandable"
+      },
+      "effects": [
+        {
+          "text": "Engages readers as conspirators who understand the true meaning beneath false sympathy",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the narrator's true disdain for parental self-deception through mock approval",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes satirical tone that will pervade the entire narrative's treatment of adult-child relationships",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "exposition",
+          "scene": "narrator's mock sympathy",
+          "chapter": 1,
+          "page_range": "1",
+          "quote_snippet": "Well, there is nothing very wrong with all this. It's the way of the world"
+        }
+      ]
+    },
+    {
+      "name": "Direct Characterization",
+      "layer": "N",
+      "function": "Re",
+      "engagement": "T",
+      "classification": "N|Re|T",
+      "definition": "Explicit description of character traits by the narrator or other characters",
+      "student_facing_type": "Character Development",
+      "pedagogical_function": "provides clear information about character qualities and motivations",
+      "position_code": "DIST",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "Miss Trunchbull's physical power and violent tendencies",
+        "scene_description": "Hortensia's warning about Miss Trunchbull's Olympic background and dangerous strength",
+        "specific_function": "establishes Miss Trunchbull as a physically formidable antagonist through explicit description of her athletic abilities"
+      },
+      "effects": [
+        {
+          "text": "Creates genuine fear and anticipation as readers understand the real physical danger Miss Trunchbull poses",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how Miss Trunchbull's past Olympic training makes her uniquely dangerous in a school setting",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that institutional power can become physically threatening to vulnerable children",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "Hortensia's warning about Trunchbull",
+          "chapter": 5,
+          "page_range": "45-46",
+          "quote_snippet": "the Trunchbull once threw the hammer for Britain in the Olympics so she's very proud of her right arm"
+        }
+      ]
+    },
+    {
+      "name": "Foreshadowing",
+      "layer": "R",
+      "function": "Te",
+      "engagement": "T",
+      "classification": "R|Te|T",
+      "definition": "Hints or clues about events that will occur later in the story",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "builds anticipation and prepares readers for future conflicts",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "the escalating violence children can expect from Miss Trunchbull",
+        "scene_description": "Hortensia's stories about Miss Trunchbull throwing students and her threat about future punishments",
+        "specific_function": "prepares readers for increasingly dangerous encounters between Miss Trunchbull and students"
+      },
+      "effects": [
+        {
+          "text": "Creates mounting dread as readers anticipate worse violence to come",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how Miss Trunchbull's past actions predict even more extreme future behavior",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes pattern of escalating institutional abuse that children must either endure or resist",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "Trunchbull's threat about eating in class",
+          "chapter": 5,
+          "page_range": "46",
+          "quote_snippet": "From now on, anybody caught eating in class goes straight out the window"
+        }
+      ]
+    },
+    {
+      "name": "Juxtaposition",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "Placing contrasting elements side by side to highlight their differences",
+      "student_facing_type": "Structural Device",
+      "pedagogical_function": "emphasizes contrasts to reveal character differences or thematic tensions",
+      "position_code": "CLUST-MID",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "the contrast between children's small size and Miss Trunchbull's enormous strength",
+        "scene_description": "description of small children alongside Miss Trunchbull's Olympic-level physical power",
+        "specific_function": "emphasizes the unfair power imbalance between vulnerable students and their physically dominant headmistress"
+      },
+      "effects": [
+        {
+          "text": "Heightens readers' sense of injustice at the mismatch between children's vulnerability and adult power",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how institutional authority becomes threatening when combined with physical dominance",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that children face overwhelming odds when confronting abusive adult authority",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "size comparison between children and Trunchbull",
+          "chapter": 5,
+          "page_range": "45",
+          "quote_snippet": "You're only shrimps... a large boy is about the same weight as an Olympic hammer"
+        }
+      ]
+    },
+    {
+      "name": "Imagery",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "B|Me|V",
+      "definition": "Vivid descriptive language that appeals to the senses",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "creates sensory experiences that make scenes vivid and memorable",
+      "position_code": "CLUST-END",
+      "assigned_section": "rising_action",
+      "worksheet_context": {
+        "subject": "Miss Trunchbull's intimidating physical presence",
+        "scene_description": "description of Miss Trunchbull's appearance as she crosses the playground",
+        "specific_function": "creates a vivid sensory impression of Miss Trunchbull's threatening physicality and the fear she inspires"
+      },
+      "effects": [
+        {
+          "text": "Makes readers physically experience the fear and intimidation Miss Trunchbull creates",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how Miss Trunchbull's appearance itself becomes a weapon of control and intimidation",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Demonstrates how institutional power manifests through physical presence and implied violence",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "rising_action",
+          "scene": "Trunchbull crossing playground",
+          "chapter": 5,
+          "page_range": "47",
+          "quote_snippet": "Below the knees her calf muscles stood out like grapefruits inside her stockings"
+        }
+      ]
+    },
+    {
+      "name": "Internal Monologue",
+      "layer": "N",
+      "function": "Re",
+      "engagement": "T",
+      "classification": "N|Re|T",
+      "definition": "Direct presentation of a character's unspoken thoughts and mental processes",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "reveals character psychology and decision-making processes",
+      "position_code": "DIST",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "Matilda's understanding and control of her telekinetic abilities",
+        "scene_description": "Matilda's excited explanation of how her powers work and what she can accomplish",
+        "specific_function": "reveals Matilda's growing confidence and understanding of her supernatural abilities as she approaches the climactic confrontation"
+      },
+      "effects": [
+        {
+          "text": "Creates excitement as readers experience Matilda's growing sense of empowerment and possibility",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how Matilda is beginning to understand and control forces that could change her situation",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes that true power comes from self-knowledge and the courage to use one's abilities",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "Matilda explaining her powers to Miss Honey",
+          "chapter": 16,
+          "page_range": "180",
+          "quote_snippet": "I only have to take a moment to get my eyes strong and then I can push it out, this strongness"
+        }
+      ]
+    },
+    {
+      "name": "Motif",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "A recurring element that develops or supports a theme",
+      "student_facing_type": "Symbolic Device",
+      "pedagogical_function": "reinforces key themes through repeated symbolic elements",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "the eyes as the source and focus of Matilda's power",
+        "scene_description": "repeated references to Matilda's eyes getting hot and strong when she uses her abilities",
+        "specific_function": "establishes eyes as the recurring symbol of Matilda's intellectual and supernatural power"
+      },
+      "effects": [
+        {
+          "text": "Creates a sense of mystical intensity as readers focus on the physical manifestation of power",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how Matilda's power is connected to her way of seeing and understanding the world",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that true sight\u2014intellectual and moral clarity\u2014is a form of power",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "description of power activation",
+          "chapter": 16,
+          "page_range": "180",
+          "quote_snippet": "my eyes get hot just as though they were burning but I don't mind that in the least"
+        }
+      ]
+    },
+    {
+      "name": "Dialogue",
+      "layer": "B",
+      "function": "Re",
+      "engagement": "F",
+      "classification": "B|Re|F",
+      "definition": "Conversation between characters that reveals personality, advances plot, or develops themes",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "shows character relationships and advances plot through conversation",
+      "position_code": "CLUST-MID",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "the tension between Matilda's eagerness and Miss Honey's caution about the supernatural powers",
+        "scene_description": "conversation where Miss Honey urges careful handling of Matilda's mysterious abilities",
+        "specific_function": "creates dramatic tension between Matilda's impulsive desire to use her powers and Miss Honey's wise restraint"
+      },
+      "effects": [
+        {
+          "text": "Creates suspense as readers sense the conflict between reckless enthusiasm and prudent caution",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the moral complexity of possessing great power and the responsibility that comes with it",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes theme that wisdom involves knowing when and how to use one's abilities responsibly",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "discussion about handling mysterious forces",
+          "chapter": 16,
+          "page_range": "181",
+          "quote_snippet": "we are playing with mysterious forces, my child, that we know nothing about"
+        }
+      ]
+    },
+    {
+      "name": "Symbolism",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "Using objects, actions, or concepts to represent deeper meanings or ideas",
+      "student_facing_type": "Symbolic Device",
+      "pedagogical_function": "adds layers of meaning through symbolic representation",
+      "position_code": "CLUST-END",
+      "assigned_section": "climax",
+      "worksheet_context": {
+        "subject": "the phenomenon as a symbol of exceptional human potential",
+        "scene_description": "Miss Honey's identification of Matilda's abilities as a 'phenomenon' that might be divine",
+        "specific_function": "transforms Matilda's powers from mere supernatural ability into a symbol of extraordinary human potential"
+      },
+      "effects": [
+        {
+          "text": "Elevates readers' sense of awe at the mysterious and potentially sacred nature of Matilda's gifts",
+          "category": "reader_response"
+        },
+        {
+          "text": "Suggests that exceptional abilities carry both great potential and great responsibility",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that some individuals possess gifts that transcend ordinary human limitations",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "climax",
+          "scene": "Miss Honey naming the phenomenon",
+          "chapter": 16,
+          "page_range": "181",
+          "quote_snippet": "It is a phenomenon... They may even be divine"
+        }
+      ]
+    },
+    {
+      "name": "Suspense",
+      "layer": "R",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "R|Te|F",
+      "definition": "Building tension and anticipation about uncertain outcomes",
+      "student_facing_type": "Tension Device",
+      "pedagogical_function": "creates emotional investment in story outcomes",
+      "position_code": "DIST",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "Matilda's mysterious plan involving the names of Miss Honey's family members",
+        "scene_description": "Matilda's cryptic questioning about what names were used in Miss Honey's household",
+        "specific_function": "builds tension around Matilda's secret plan while keeping readers guessing about her intentions"
+      },
+      "effects": [
+        {
+          "text": "Creates anticipation as readers wonder what Matilda plans to do with this seemingly innocent information",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how Matilda is methodically gathering the tools she needs for her confrontation with Miss Trunchbull",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Demonstrates that effective resistance requires both supernatural power and careful strategic planning",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "Matilda's questioning about family names",
+          "chapter": 18,
+          "page_range": "205",
+          "quote_snippet": "Let me make sure I've got them right... Magnus, Miss Trunchbull was Agatha and you were Jenny"
+        }
+      ]
+    },
+    {
+      "name": "Dramatic Irony",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "When readers know something that characters do not",
+      "student_facing_type": "Irony",
+      "pedagogical_function": "creates engagement through superior reader knowledge",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "readers' awareness of Matilda's plan while Miss Honey remains ignorant",
+        "scene_description": "Miss Honey's confusion about Matilda's intentions while readers suspect supernatural intervention is coming",
+        "specific_function": "creates tension as readers understand Matilda is planning something significant while Miss Honey worries helplessly"
+      },
+      "effects": [
+        {
+          "text": "Engages readers as privileged observers who anticipate the coming confrontation",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals the gap between adult anxiety and child determination in addressing injustice",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that children sometimes possess both the power and will to solve problems adults cannot",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "Miss Honey's worry about Matilda's intentions",
+          "chapter": 18,
+          "page_range": "206",
+          "quote_snippet": "Miss Honey wondered what on earth was going on in the mind of this child"
+        }
+      ]
+    },
+    {
+      "name": "Repetition",
+      "layer": "B",
+      "function": "Te",
+      "engagement": "V",
+      "classification": "B|Te|V",
+      "definition": "Repeating words, phrases, or structures for emphasis or effect",
+      "student_facing_type": "Sound Device",
+      "pedagogical_function": "emphasizes key points through reiteration",
+      "position_code": "CLUST-MID",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "Matilda's insistence on accuracy regarding the family names",
+        "scene_description": "Matilda's careful repetition and verification of the three family names",
+        "specific_function": "emphasizes the critical importance of getting these names exactly right for her plan to succeed"
+      },
+      "effects": [
+        {
+          "text": "Creates emphasis that makes readers understand these names are crucial to upcoming events",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows Matilda's methodical preparation and attention to detail in planning her intervention",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that effective action against injustice requires both power and precision",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "verification of names",
+          "chapter": 18,
+          "page_range": "205",
+          "quote_snippet": "your father was Magnus, Miss Trunchbull was Agatha and you were Jenny. Am I right?"
+        }
+      ]
+    },
+    {
+      "name": "Foreshadowing",
+      "layer": "R",
+      "function": "Te",
+      "engagement": "T",
+      "classification": "R|Te|T",
+      "definition": "Hints or clues about events that will occur later in the story",
+      "student_facing_type": "Narrative Technique",
+      "pedagogical_function": "builds anticipation and prepares readers for future events",
+      "position_code": "CLUST-END",
+      "assigned_section": "falling_action",
+      "worksheet_context": {
+        "subject": "Miss Honey's warning against Matilda doing 'anything silly'",
+        "scene_description": "Miss Honey's protective concern as she senses Matilda planning something dangerous",
+        "specific_function": "hints at the coming supernatural confrontation while expressing adult fear about child action"
+      },
+      "effects": [
+        {
+          "text": "Creates tension between protective adult concern and necessary child action",
+          "category": "reader_response"
+        },
+        {
+          "text": "Suggests that what adults consider 'silly' may be exactly what the situation requires",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes theme that children must sometimes act despite adult disapproval to achieve justice",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "falling_action",
+          "scene": "Miss Honey's warning",
+          "chapter": 18,
+          "page_range": "206",
+          "quote_snippet": "Don't do anything silly"
+        }
+      ]
+    },
+    {
+      "name": "Scene",
+      "layer": "N",
+      "function": "Te",
+      "engagement": "F",
+      "classification": "N|Te|F",
+      "definition": "A detailed dramatic unit showing action in real time",
+      "student_facing_type": "Pacing Technique",
+      "pedagogical_function": "slows pace to highlight important dramatic moments",
+      "position_code": "DIST",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "the chaotic family departure and Matilda's desperate race to Miss Honey",
+        "scene_description": "detailed moment-by-moment account of the family packing and Matilda's flight to Miss Honey's house",
+        "specific_function": "creates dramatic immediacy for the crisis that threatens to separate Matilda from her chosen family"
+      },
+      "effects": [
+        {
+          "text": "Creates urgency and panic as readers experience the threat to Matilda's newfound happiness",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how quickly external forces can threaten to destroy the relationships that matter most",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that family bonds are chosen connections, not automatic biological relationships",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "family departure chaos",
+          "chapter": 21,
+          "page_range": "230",
+          "quote_snippet": "We're leaving for the airport in half an hour so you'd better get packed"
+        }
+      ]
+    },
+    {
+      "name": "Juxtaposition",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "Placing contrasting elements side by side to highlight their differences",
+      "student_facing_type": "Structural Device",
+      "pedagogical_function": "emphasizes contrasts to reveal thematic significance",
+      "position_code": "CLUST-BEG",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "the contrast between Matilda's love for her current life and her family's indifference to it",
+        "scene_description": "Matilda's passionate declaration of love for school and home contrasted with her father's dismissive commands",
+        "specific_function": "highlights the fundamental disconnect between Matilda's values and her biological family's priorities"
+      },
+      "effects": [
+        {
+          "text": "Creates emotional pain as readers witness the clash between love and indifference",
+          "category": "reader_response"
+        },
+        {
+          "text": "Reveals how completely Matilda's biological family fails to understand what matters to her",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes that true family understands and nurtures what we love most",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "contrasting responses to departure",
+          "chapter": 21,
+          "page_range": "230",
+          "quote_snippet": "I love it here and I love my school!' 'Just do as you're told and stop arguing'"
+        }
+      ]
+    },
+    {
+      "name": "Imagery",
+      "layer": "B",
+      "function": "Me",
+      "engagement": "V",
+      "classification": "B|Me|V",
+      "definition": "Vivid descriptive language that appeals to the senses",
+      "student_facing_type": "Figurative Language",
+      "pedagogical_function": "creates sensory experiences that enhance emotional impact",
+      "position_code": "CLUST-MID",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "the peaceful contrast between Miss Honey's garden and the chaos Matilda has fled",
+        "scene_description": "description of Miss Honey calmly working in her rose garden when Matilda arrives in crisis",
+        "specific_function": "creates visual contrast between domestic tranquility and emotional turmoil to emphasize the sanctuary Miss Honey provides"
+      },
+      "effects": [
+        {
+          "text": "Creates a sense of peaceful refuge that contrasts sharply with Matilda's panic and desperation",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows how Miss Honey's home represents the nurturing environment Matilda needs",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Reinforces theme that true homes are places of cultivation and growth, not chaos and departure",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "Miss Honey in her garden",
+          "chapter": 21,
+          "page_range": "231",
+          "quote_snippet": "standing in the middle of a bed of roses doing something with a pair of clippers"
+        }
+      ]
+    },
+    {
+      "name": "Symbolism",
+      "layer": "R",
+      "function": "Me",
+      "engagement": "T",
+      "classification": "R|Me|T",
+      "definition": "Using objects, actions, or concepts to represent deeper meanings or ideas",
+      "student_facing_type": "Symbolic Device",
+      "pedagogical_function": "adds deeper meaning through symbolic representation",
+      "position_code": "CLUST-END",
+      "assigned_section": "resolution",
+      "worksheet_context": {
+        "subject": "the choice between Spain and staying as a symbol of choosing between families",
+        "scene_description": "the family's departure to Spain representing abandonment versus Matilda's choice to stay representing chosen family",
+        "specific_function": "transforms the geographic choice into a symbolic decision between biological obligation and chosen love"
+      },
+      "effects": [
+        {
+          "text": "Makes readers understand this is not just about location but about fundamental life choices",
+          "category": "reader_response"
+        },
+        {
+          "text": "Shows that leaving vs. staying represents choosing between different definitions of family and home",
+          "category": "meaning_creation"
+        },
+        {
+          "text": "Establishes theme that we have the power to choose where we belong and with whom we create family",
+          "category": "thematic_impact"
+        }
+      ],
+      "examples": [
+        {
+          "freytag_section": "resolution",
+          "scene": "the choice between leaving and staying",
+          "chapter": 21,
+          "page_range": "230-231",
+          "quote_snippet": "We're leaving for the airport... They've all gone mad and they're leaving for Spain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+You are creating exploratory content drafts from message angles.
+
+Your task is Stage 5A of KDD: Generate draft content to test which message angles work as actual content.
+
+MESSAGE ANGLES FROM STAGE 3:
+---
+{angles_json}
+---
+
+TEXT KERNEL (source material):
+---
+Pattern: {kernel_pattern}
+Core Dynamic: {core_dynamic}
+Reader Effect: {reader_effect}
+
+Priority Devices:
+{device_list_with_effects}
+
+Sample Quotes:
+{sample_quotes}
+---
+
+YOUR TASK:
+
+Review all the message angles above. For EACH CHANNEL (not each angle), select the 2-3 most promising angles and generate draft variations for those.
+
+SELECTION CRITERIA:
+- Which angles best embody the kernel's pattern?
+- Which angles are most differentiated from each other?
+- Which angles would produce compelling content?
+
+You should end up with 8-12 total drafts (2-3 angles per channel × 4 channels).
+
+FOR EACH SELECTED ANGLE, PRODUCE:
+
+## Social (select 2-3 angles from Social angles)
+- For each selected angle: 2-3 tweet variations (280 chars each)
+- Each uses the angle's message
+- Each references kernel elements
+- Note which kernel element powers each tweet
+
+## YouTube (select 2-3 angles from YouTube angles)
+- For each selected angle: 2-3 video hook variations (60-90 second scripts)
+- Each demonstrates the angle's insight
+- Each uses specific kernel examples
+- Note which examples from kernel
+
+## SEO (select 2-3 angles from SEO angles)
+- For each selected angle: 2-3 headline + opening paragraph variations
+- Each answers the search intent
+- Each previews the kernel's pattern
+- Note which search query this serves
+
+## Guide (select 2-3 angles from Guide angles)
+- For each selected angle: 2-3 introduction + structure variations
+- Each establishes the pattern
+- Each promises specific kernel content
+- Note how this differentiates from competitors
+
+CRITICAL INSTRUCTIONS:
+
+1. **Select first, draft second**: Don't draft all angles - pick the best 2-3 per channel
+2. **Use real kernel elements**: Reference actual device names, quotes, effects
+3. **Stay true to the angle**: Each draft should embody that specific message
+4. **Make it concrete**: Show what the angle looks like as actual content
+5. **Note what works**: Add brief observation on each draft
+
+OUTPUT FORMAT:
+
+You must output valid JSON in this exact structure:
+
+{{
+  "stage": "5A",
+  "book_title": "___BOOK_TITLE_PLACEHOLDER___",
+  "selection_rationale": {{
+    "social": "why you selected these 2-3 social angles",
+    "youtube": "why you selected these 2-3 youtube angles",
+    "seo": "why you selected these 2-3 seo angles",
+    "guide": "why you selected these 2-3 guide angles"
+  }},
+  "drafts": [
+    {{
+      "angle_index": 1,
+      "angle_message": "the original message",
+      "channel": "social",
+      "selection_reason": "why this angle over others",
+      "variations": [
+        {{
+          "content": "the actual draft content",
+          "kernel_references": ["device names used"],
+          "notes": "why this might work or not"
+        }}
+      ]
+    }}
+  ],
+  "observations": {{
+    "strongest_angles": ["which angles produced best drafts"],
+    "weakest_angles": ["which angles were hard to draft"],
+    "cross_channel_potential": ["which angles work across multiple channels"],
+    "thread_candidates": ["which messages could unify a funnel"]
+  }}
+}}
+
+IMPORTANT: Aim for 8-12 total angle drafts (select 2-3 angles per channel), NOT all 16 angles.
+
+Begin your analysis.
+
+

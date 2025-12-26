@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "Regeneration",
+    "author": "Pat Barker"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "A narrator who gets inside different characters' heads, especially Dr Rivers, letting us see their private thoughts and feelings.",
+    "what_we_experience": "We follow soldiers with trauma and their doctor at a military hospital during World War One, watching them try to heal.",
+    "how_it_feels": "We feel both close to the characters' pain and able to understand it from a distance, like being a caring observer."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "We see how the war has created an impossible situation where speaking out against it is treated as mental illness.",
+      "quote": "I am making this statement as an act of wilful defiance",
+      "quote_chapter": 1,
+      "devices_supporting": "Sassoon's actual letter shows his courage directly, flashbacks reveal the pressure he faced, and scenes put us right in the therapy room to feel the tension."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "The damage from war goes deeper than physical wounds, affecting everyone including those trying to help.",
+      "quote": "Mons, Loos, Ypres, the Somme. Arras",
+      "quote_chapter": 9,
+      "devices_supporting": "Battle names repeat like a haunting song, metaphors compare trauma to stuck tunes we can't escape, and ironic comments show how patients challenge their doctors."
+    },
+    {
+      "section": "Climax",
+      "meaning": "Even the healers become trapped and confused by the impossible situation the war has created.",
+      "quote": "big dizzy moth flew in",
+      "quote_chapter": 15,
+      "devices_supporting": "The moth symbolizes being trapped and confused, sounds of distant war contrast with peaceful moments, and hints about Rivers' future job create tension."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "The system creates cruel situations where survival itself becomes a kind of punishment.",
+      "quote": "They're sending him to Rivers",
+      "quote_chapter": 19,
+      "devices_supporting": "We know things characters don't about what treatment means, and situations turn out opposite to what should make people happy."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "True healing means accepting that some conflicts can't be perfectly resolved, only lived with.",
+      "quote": "Rivers seemed to read his thoughts",
+      "quote_chapter": 23,
+      "devices_supporting": "Staying in Rivers' perspective lets us feel the unspoken understanding between doctor and patient without spelling everything out."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "The narrator gets inside characters' heads so we experience their trauma and confusion from the inside, making us feel their pain directly.",
+    "step_2": "At the same time, the clinical, doctor-like tone helps us step back and understand what's happening without being overwhelmed by the emotions.",
+    "step_3": "Together: we become like skilled therapists ourselves, able to feel with the characters while also understanding their psychological journey.",
+    "pattern_name": "Clinical Immersion",
+    "pattern_explanation": "We're immersed deeply in the characters' minds but with the detached understanding of a medical professional."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "a narrator who moves between characters' minds",
+      "what_they_reveal": "the psychological damage war causes to everyone",
+      "story_type": "like a detailed medical case study",
+      "larger_meaning": "how trauma affects both patients and healers",
+      "method": "balancing emotional closeness with clinical distance"
+    },
+    "thesis_sentence": "Through a narrator who moves between characters' minds like a detailed medical case study, Barker reveals how trauma affects both patients and healers by balancing emotional closeness with clinical distance."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-06T14:52:47.125430",
+    "source_kernel_version": "4.0",
+    "reasoning_source": "provided"
+  }
+}

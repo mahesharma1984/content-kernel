@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "Scout tells us her childhood story as an adult looking back, so we see through a child's eyes but understand with adult wisdom.",
+    "what_we_experience": "We follow Scout as she learns about fairness and prejudice in her town through her father defending a Black man in court.",
+    "how_it_feels": "We feel protective of Scout's innocence while becoming angry at the injustice she witnesses but doesn't fully understand."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "Scout's innocent observations reveal the deep social divisions in Maycomb that she doesn't yet understand.",
+      "quote": "I thought I had made things sufficiently clear",
+      "quote_chapter": 3,
+      "devices_supporting": "We see more than Scout does - she thinks everyone knows about the Cunninghams, but we understand Miss Caroline is an outsider who can't navigate Maycomb's hidden social rules."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "Scout witnesses growing racial tension and violence while focusing on smaller, safer concerns.",
+      "quote": "Atticus had to, whether he wanted to or not",
+      "quote_chapter": 18,
+      "devices_supporting": "Scout overhears adult conversations but misunderstands their significance - we realize the town's anger isn't because Atticus was forced to defend Tom, but because he plans to do it well."
+    },
+    {
+      "section": "Climax",
+      "meaning": "Scout watches obvious injustice unfold in the courtroom while the adult world ignores clear evidence.",
+      "quote": "His left arm was fully twelve inches shorter",
+      "quote_chapter": 21,
+      "devices_supporting": "Tom's disability makes the charges impossible, which Scout and Jem immediately grasp, but we see that adult prejudice will ignore this obvious truth."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "Scout begins connecting her earlier observations to larger patterns of good and evil in her community.",
+      "quote": "somebody just walked over my grave",
+      "quote_chapter": 28,
+      "devices_supporting": "Aunt Alexandra's unexplained fear hints at coming danger that Scout misses, but we sense the threat Bob Ewell poses after losing face in court."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "Scout finally understands the moral lessons hidden in her childhood experiences.",
+      "quote": "from the mud to the stars",
+      "quote_chapter": 29,
+      "devices_supporting": "The pageant motto mirrors Scout's journey from innocent child to someone who grasps deeper truths about courage, prejudice, and human dignity."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "Scout's first-person child narrator lets us experience events through innocent eyes that miss the deeper significance of what's happening.",
+    "step_2": "The adult voice telling the story lets us understand the moral complexities and injustices that young Scout cannot grasp.",
+    "step_3": "Together: We feel both protective of Scout's innocence and frustrated by the adult world's failures, creating a powerful emotional investment in her moral education.",
+    "pattern_name": "Innocent Revelation",
+    "pattern_explanation": "Scout's innocent observations gradually reveal moral truths that readers understand before she does."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "Scout's adult retrospective voice",
+      "what_they_reveal": "moral truths through childhood innocence",
+      "story_type": "coming-of-age story about prejudice and justice",
+      "larger_meaning": "the power of empathy over prejudice",
+      "method": "dramatic irony that lets readers understand more than the child narrator"
+    },
+    "thesis_sentence": "Harper Lee uses Scout's adult retrospective voice to reveal moral truths through childhood innocence in a coming-of-age story about prejudice and justice that teaches the power of empathy over prejudice through dramatic irony that lets readers understand more than the child narrator."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-11T15:21:00.623470",
+    "source_kernel_version": "5.1",
+    "reasoning_source": "provided"
+  }
+}

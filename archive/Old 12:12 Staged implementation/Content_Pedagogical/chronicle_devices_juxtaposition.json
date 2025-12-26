@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Chronicle of a Death Foretold",
+    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Juxtaposition: Contrast and comparison for effect",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Juxtaposition is used throughout the text to contrast and comparison for effect."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "Any dream about birds means good health",
+            "scene": "Mother's interpretation of Santiago's ominous dream",
+            "effect": "Contrasts hopeful interpretation with fatal reality, emphasizing inevitable tragedy despite positive signs"
+          },
+          {
+            "quote": "They looked like two children",
+            "scene": "Clotilde Armenta's observation of the twins at her store",
+            "effect": "Contrasts their murderous intent with innocent appearance, highlighting the investigative complexity of understanding the perpetrators"
+          },
+          {
+            "quote": "The Arabs comprised a community of peaceful immigrants",
+            "scene": "Description of Arab community contrasted with fears of revenge",
+            "effect": "Contrasts actual peaceful nature with perceived threat, demonstrating how fatalistic thinking distorts reality in the investigation"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Juxtaposition HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

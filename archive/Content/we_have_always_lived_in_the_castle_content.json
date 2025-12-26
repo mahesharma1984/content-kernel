@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "We Have Always Lived in the Castle",
+    "author": "Shirley Jackson"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "Merricat Blackwood tells the story from her own point of view, but she sees the world very differently from most people.",
+    "what_we_experience": "Two sisters live alone in their family house after a poisoning killed most of their family, but their isolated life gets threatened when a cousin arrives.",
+    "how_it_feels": "We start feeling sorry for the sisters, but gradually become uncomfortable and horrified as we realize what's really happening."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "Jackson creates a fairy tale feeling that hides the dark truth about this family.",
+      "quote": "our house was built up with layers",
+      "quote_chapter": 1,
+      "devices_supporting": "Metaphors make the house feel magical and protective, while the game motif ('lose one turn') makes dangerous situations seem playful rather than serious."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "Merricat's grip on reality weakens as she desperately tries to protect her perfect world from change.",
+      "quote": "He was a ghost",
+      "quote_chapter": 5,
+      "devices_supporting": "Her unreliable narration shows how she lies to herself, trying to convince herself and Constance that Charles isn't real because she can't handle his presence."
+    },
+    {
+      "section": "Climax",
+      "meaning": "Merricat's magical thinking leads to real destruction when she starts the fire.",
+      "quote": "I twisted the winding knob backward until there was a small complaining crack",
+      "quote_chapter": 7,
+      "devices_supporting": "The broken watch symbolizes her attempt to stop time and change, while foreshadowing hints at the disaster coming, and juxtaposition shows how differently she sees things."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "The villagers' violence reveals everyone's true nature while Merricat avoids taking responsibility.",
+      "quote": "The house seemed to shiver when she opened the door",
+      "quote_chapter": 8,
+      "devices_supporting": "Dramatic irony lets us know Charles suspects the wrong sister, while personification makes the house seem like a victim instead of focusing on Merricat's actions."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "The sisters embrace complete isolation, with Merricat still seeing their tragic situation as a happy ending.",
+      "quote": "I will go on my winged horse",
+      "quote_chapter": 10,
+      "devices_supporting": "Her first-person narration maintains the fairy tale tone, while verbal irony in Constance's dark humor shows they've accepted their strange new life."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "Merricat's first-person narration lets us see the world exactly as she does, making everything seem magical and justified from her perspective.",
+    "step_2": "Dramatic irony and symbolism help us understand what's really happening beneath her fairy tale version of events.",
+    "step_3": "Together: we feel close to Merricat while gradually realizing she's completely unreliable, creating horror through false intimacy.",
+    "pattern_name": "Deceptive Intimacy",
+    "pattern_explanation": "We feel connected to the narrator, but that closeness becomes disturbing as we realize how twisted her thinking really is."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "Merricat's first-person narration",
+      "what_they_reveal": "her magical thinking and denial",
+      "story_type": "psychological horror disguised as a fairy tale",
+      "larger_meaning": "how people create fantasy worlds to avoid facing terrible truths",
+      "method": "making readers feel close to an unreliable narrator"
+    },
+    "thesis_sentence": "Through Merricat's first-person narration and her magical thinking, Jackson creates a psychological horror disguised as a fairy tale that shows how people create fantasy worlds to avoid facing terrible truths, using our false intimacy with an unreliable narrator to make us complicit in her delusions."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-06T12:17:59.557614",
+    "source_kernel_version": "4.0",
+    "reasoning_source": "provided"
+  }
+}

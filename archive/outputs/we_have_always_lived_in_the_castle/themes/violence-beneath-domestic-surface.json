@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "we_have_always_lived_in_the_castle",
+  "theme_slug": "violence-beneath-domestic-surface",
+  "url": "/we_have_always_lived_in_the_castle/themes/violence-beneath-domestic-surface/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Violence Beneath Domestic Surface",
+      "heading": "Violence Beneath Domestic Surface",
+      "description": "The text explores how violent thoughts and traumatic histories can lurk beneath seemingly ordinary domestic routines. What appears as normal family life contains disturbing undercurrents that reveal the fragility of social facades.",
+      "pattern_connection": "The unreliable first-person narration masks violence behind childlike wonder, creating dramatic irony that exposes the gap between surface domesticity and underlying menace.",
+      "device_examples": [
+        {
+          "device_name": "Unreliable Narrator",
+          "quote": "I wish you were all dead",
+          "effect": "Reveals shocking violent fantasies presented matter-of-factly, showing how disturbing thoughts hide beneath normal interactions."
+        },
+        {
+          "device_name": "Dramatic Irony",
+          "quote": "Never can tell what'll grow on",
+          "effect": "Creates sinister implications about the Blackwood property while Merricat remains oblivious to the dark suggestions."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "The reader experiences both intimacy with and alienation from the narrator, simultaneously drawn into her worldview while recognizing its distortions and omissions."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "See how Unreliable Narrator and other devices create this theme"
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text explores how violent thoughts and traumatic histories can lurk beneath seemingly ordinary domestic routines. What appears as normal family life contains disturbing undercurrents that reveal the fragility of social facades."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/we_have_always_lived_in_the_castle/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/we_have_always_lived_in_the_castle/essay-guide/"
+        }
+      ]
+    }
+  }
+}

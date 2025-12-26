@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "Orbital",
+    "author": "Samantha Harvey"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "An all-knowing narrator who can see into every astronaut's mind and thoughts as they orbit Earth in a space station.",
+    "what_we_experience": "We follow six astronauts through 24 hours in space as they circle Earth 16 times, dealing with personal memories while watching our planet from above.",
+    "how_it_feels": "We feel both incredibly close to each character's private thoughts and amazed by the huge scale of space and Earth's beauty."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "We learn that being in space makes humans feel both connected to each other and completely alone at the same time.",
+      "quote": "so together, and so alone",
+      "quote_chapter": 1,
+      "devices_supporting": "The narrator shows us everyone's thoughts and dreams to prove they're connected, while metaphors like 'Raw space is a panther, feral and primal' show how dangerous and isolating space feels."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "The astronauts' personal memories and Earth's natural disasters blend together to show how individual human lives connect to much bigger forces.",
+      "quote": "just as a face is not separate from the expressions it makes",
+      "quote_chapter": 10,
+      "devices_supporting": "Flashbacks to Chie's family surviving the atomic bomb connect to watching typhoons from space, while the narrator switching between different characters shows how all human experiences are linked."
+    },
+    {
+      "section": "Climax",
+      "meaning": "The astronauts realize that being in space changes how they think and feel, making them more peaceful but also less human in some ways.",
+      "quote": "He thinks he's becoming a tadpole, all head and no body",
+      "quote_chapter": 14,
+      "devices_supporting": "Metaphors comparing astronauts to sea creatures and diving show how space transforms humans, while imagery of Earth as art makes the planet seem both beautiful and distant."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "Human love and creativity will survive long after Earth is gone, traveling through space forever.",
+      "quote": "All of these thoughts sound like a pulsar",
+      "quote_chapter": 15,
+      "devices_supporting": "The story of the Golden Record on Voyager uses symbolism to show how human emotions become cosmic forces, while detailed imagery makes love feel as powerful as stars."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "Everything humans build will eventually break and disappear, but this makes our brief existence more precious and beautiful.",
+      "quote": "Its light is a choir. Its light is an ensemble of a trillion things",
+      "quote_chapter": 22,
+      "devices_supporting": "Foreshadowing the space station's future destruction alongside metaphors of Earth's light as music shows how endings and beauty are connected, while the narrator's final observations make impermanence feel peaceful rather than sad."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "The all-knowing narrator lets us jump between different astronauts' minds and memories, making us feel like we're experiencing six different lives at once.",
+    "step_2": "At the same time, the narrator constantly shows us the huge scale of space and Earth, using metaphors and imagery that make human problems seem tiny against the universe.",
+    "step_3": "Together: We feel both incredibly close to human thoughts and feelings, and incredibly far away, like we're meditating on what it means to be human while floating in space.",
+    "pattern_name": "Cosmic Contemplation",
+    "pattern_explanation": "The story makes us think deeply about human life by showing it from the perspective of space, where everything feels both intimate and infinite."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "An all-knowing narrator",
+      "what_they_reveal": "multiple astronauts' private thoughts and memories",
+      "story_type": "a meditation on human existence in space",
+      "larger_meaning": "how small human lives gain meaning against the vast universe",
+      "method": "by constantly switching between intimate personal moments and breathtaking cosmic perspectives"
+    },
+    "thesis_sentence": "Through an all-knowing narrator who reveals multiple astronauts' private thoughts and memories, Harvey creates a meditation on human existence in space that shows how small human lives gain meaning against the vast universe by constantly switching between intimate personal moments and breathtaking cosmic perspectives."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-11T15:19:38.434580",
+    "source_kernel_version": "5.0",
+    "reasoning_source": "provided"
+  }
+}

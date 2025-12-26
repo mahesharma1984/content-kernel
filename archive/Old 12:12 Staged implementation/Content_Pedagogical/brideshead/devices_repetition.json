@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Brideshead Revisited",
+    "author": "Evelyn Waugh",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Repetition: Rhythm and emphasis through recurrence",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Repetition is used throughout the text to rhythm and emphasis through recurrence."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "I like this bad set",
+            "scene": "Charles's defiant response to Jasper's criticism",
+            "effect": "Repeated phrase emphasizes the narrator's commitment to choices that retrospective wisdom reveals as both formative and tragic"
+          },
+          {
+            "quote": "the same blaze, marking her and hers for destruction",
+            "scene": "Charles reflects on the family's fate after reading about the brothers",
+            "effect": "Echoes earlier imagery of doom and sacrifice, creating elegiac pattern that transforms personal observation into universal meditation on aristocratic decline"
+          },
+          {
+            "quote": "perhaps never. I don't know. I don't know if",
+            "scene": "Julia's hesitation about love outside her cabin door",
+            "effect": "Repeated uncertainty emphasizes the fragility of the climactic moment, enhancing elegiac quality of retrospective meditation on what was almost lost"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Repetition HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "page_type": "essay_guide",
+  "book_slug": "regeneration",
+  "url": "/regeneration/essay-guide/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Building Your Thesis",
+      "heading": "How to Write About Regeneration",
+      "thesis_components": {
+        "pattern": "Clinical Empathy",
+        "themes": [
+          "Medical Authority vs Patient Agency",
+          "Trauma as Observable Phenomenon",
+          "Institutional Containment of Dissent",
+          "War's Inescapable Psychological Legacy"
+        ],
+        "devices": [
+          "Juxtaposition",
+          "Imagery",
+          "Symbolism",
+          "Foreshadowing",
+          "Metaphor"
+        ]
+      },
+      "example_theses": [
+        {
+          "focus": "Theme-focused",
+          "statement": "Barker explores the theme of Medical Authority vs Patient Agency through juxtaposition and symbolism, revealing how therapeutic environments simultaneously offer genuine healing while functioning as mechanisms of social control that redefine resistance as pathology.",
+          "structure_notes": "This analysis does three specific things:\n\n• **Identifies specific theme** — it pinpoints exactly which big idea the text explores\n• **Names precise devices** — it labels the exact literary techniques the author uses\n• **Reveals the paradoxical dual function of medical authority** — it uncovers how medical power works in two contradictory ways at once\n\nAsk yourself: What makes this function \"paradoxical\"? \n\nMedical authority both helps and harms — it can heal but also control, protect but also oppress.\n\nThe analysis shows how these opposing forces exist simultaneously in the text."
+        },
+        {
+          "focus": "Pattern-focused",
+          "statement": "Through Clinical Empathy, Barker employs third-person limited perspective and medical imagery to create therapeutic distance that enables readers to comprehend unbearable trauma while maintaining emotional authenticity, suggesting that understanding psychological wounds requires both intellectual detachment and compassionate observation.",
+          "structure_notes": "This analysis does three things:\n\n• **Names the pattern**: It identifies what literary technique the writer is using\n\n• **Explains the mechanism of therapeutic distance**: It shows how the writer creates emotional space between the reader and difficult content\n— This distance acts like a protective buffer\n— It allows readers to engage without being overwhelmed\n\n• **Shows how it enables dual reader experience**: It demonstrates how readers can experience the text in two ways simultaneously\n— Emotionally engaged (feeling the impact)\n— Intellectually detached (analyzing the craft)\n\nAsk yourself: How does this therapeutic distance let you both feel and think at the same time?"
+        },
+        {
+          "focus": "Device-focused",
+          "statement": "Barker's use of juxtaposition and symbolism creates a clinical lens through which traumatic experiences become observable phenomena, demonstrating that psychological wounds can only be processed when transformed from overwhelming personal reality into manageable therapeutic material.",
+          "structure_notes": "This analysis works in three stages:\n\n**Stage 1: Identifies the technique**\n• Pinpoints exactly which literary device the writer uses\n• Names the specific tool (metaphor, juxtaposition, symbolism, etc.)\n\n**Stage 2: Explains the transformation process**\n• Shows how the device actually works in the text\n• Reveals the mechanism — how does this technique change meaning?\n• Traces the journey from literal words to deeper significance\n\n**Stage 3: Connects to trauma processing**\n• States why this transformation matters for understanding trauma\n• Explains how the literary technique helps readers process difficult experiences\n• Makes the link between form and psychological impact explicit\n\nAsk yourself: How does identifying the specific device help us understand the writer's method for exploring trauma?"
+        },
+        {
+          "focus": "Theme-focused",
+          "statement": "Barker examines War's Inescapable Psychological Legacy through imagery and metaphor, revealing that clinical observation exposes trauma not as a temporary condition to be cured but as a permanent alteration of consciousness that becomes integral to identity.",
+          "structure_notes": "Theme-focused writing does three things:\n\n• It centers on a specific theme (trauma's lasting impact)\n• It shows how literary devices reveal that trauma is permanent\n• It challenges what readers might assume — that trauma can be fixed or \"cured\"\n\nAsk yourself: What assumption is being challenged here?\n\nThe assumption that trauma has an endpoint. That healing means forgetting.\n\nThe literary devices work together to reveal a harder truth — trauma becomes part of who someone is, permanently woven into their identity."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: From Pattern to Thesis",
+      "four_steps": [
+        {
+          "step": 1,
+          "title": "Choose your theme",
+          "content": "Select from the themes above"
+        },
+        {
+          "step": 2,
+          "title": "Identify devices",
+          "content": "Which devices create this theme?"
+        },
+        {
+          "step": 3,
+          "title": "Connect to pattern",
+          "content": "How does Clinical Empathy work?"
+        },
+        {
+          "step": 4,
+          "title": "Synthesize",
+          "content": "Combine into clear thesis statement"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Get Support",
+      "primary": "Get help developing your thesis",
+      "secondary": "Upload your draft"
+    }
+  }
+}

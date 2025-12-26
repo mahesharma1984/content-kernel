@@ -1,0 +1,98 @@
+{
+  "themes": [
+    {
+      "name": "Isolation as Psychological Protection",
+      "slug": "isolation-psychological-protection",
+      "description": "The text reveals that extreme isolation can serve as both a shield against trauma and a prison that distorts reality. Merricat's withdrawal from society protects her from hostile judgment but also traps her in increasingly distorted perceptions of normalcy.",
+      "pattern_connection": "The Insular Perception pattern uses unreliable narration to show how isolation creates a protective but limiting psychological bubble that filters all experience through damaged understanding.",
+      "device_examples": [
+        {
+          "device_name": "Imagery",
+          "quote": "I am living on the moon",
+          "effect": "Creates a vivid metaphor for psychological distance that reveals isolation as both escape and exile."
+        },
+        {
+          "device_name": "Repetition",
+          "quote": "Merricat, Merricat",
+          "effect": "Emphasizes how social persecution reinforces the need for protective isolation."
+        }
+      ]
+    },
+    {
+      "name": "Violence Beneath Domestic Surface",
+      "slug": "violence-beneath-domestic-surface",
+      "description": "The text explores how violent thoughts and traumatic histories can lurk beneath seemingly ordinary domestic routines. What appears as normal family life contains disturbing undercurrents that reveal the fragility of social facades.",
+      "pattern_connection": "The unreliable first-person narration masks violence behind childlike wonder, creating dramatic irony that exposes the gap between surface domesticity and underlying menace.",
+      "device_examples": [
+        {
+          "device_name": "Unreliable Narrator",
+          "quote": "I wish you were all dead",
+          "effect": "Reveals shocking violent fantasies presented matter-of-factly, showing how disturbing thoughts hide beneath normal interactions."
+        },
+        {
+          "device_name": "Dramatic Irony",
+          "quote": "Never can tell what'll grow on",
+          "effect": "Creates sinister implications about the Blackwood property while Merricat remains oblivious to the dark suggestions."
+        }
+      ]
+    },
+    {
+      "name": "Ritual as Reality Control",
+      "slug": "ritual-reality-control",
+      "description": "The text demonstrates how personal rituals and repetitive behaviors can become attempts to control an uncontrollable world. These ritualized actions provide psychological comfort but also reveal the desperate need to impose order on chaos.",
+      "pattern_connection": "The insular perspective transforms ordinary actions into protective rituals, using repetition to show how damaged psyches create meaning through compulsive patterns.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "the crack in the sidewalk that looked",
+          "effect": "Transforms ordinary objects into meaningful markers that represent the ritualized navigation of a hostile world."
+        },
+        {
+          "device_name": "Foreshadowing",
+          "quote": "A change was coming, and nobody knew it but me",
+          "effect": "Shows how ritual thinking creates false sense of control and prediction over unpredictable reality."
+        }
+      ]
+    },
+    {
+      "name": "Social Persecution and Otherness",
+      "slug": "social-persecution-otherness",
+      "description": "The text examines how communities create outsiders through persistent hostility and morbid fascination. Social exclusion becomes a form of entertainment for the community while causing psychological damage to those marked as different.",
+      "pattern_connection": "The first-person unreliable narration filters community hostility through Merricat's distorted perception, using dramatic irony to reveal the true nature of social cruelty.",
+      "device_examples": [
+        {
+          "device_name": "Juxtaposition",
+          "quote": "yellow dishes, I thought, feeling the eyes",
+          "effect": "Contrasts peaceful domestic fantasy with the reality of being constantly watched and judged by hostile community."
+        },
+        {
+          "device_name": "Dramatic Irony",
+          "quote": "But if she is a homicidal maniac",
+          "effect": "Reveals how the community treats the family as entertainment while Merricat perceives their visits as normal social interaction."
+        }
+      ]
+    }
+  ],
+  "theses": [
+    {
+      "focus": "Theme-focused",
+      "statement": "Jackson explores isolation as psychological protection through juxtaposition and imagery, revealing that withdrawal from society creates a deceptive sanctuary that ultimately distorts one's perception of reality and normalcy.",
+      "structure_notes": "Clear theme statement + specific devices + shows the paradoxical nature of protective isolation"
+    },
+    {
+      "focus": "Pattern-focused",
+      "statement": "Through the Insular Perception pattern, Jackson employs first-person unreliable narration and repetition to create dramatic irony that exposes the dangerous gap between subjective experience and objective reality, demonstrating how trauma fragments understanding.",
+      "structure_notes": "Names specific pattern + identifies key mechanisms + explains the reader effect and broader significance"
+    },
+    {
+      "focus": "Device-focused",
+      "statement": "Jackson's use of juxtaposition and symbolism transforms ordinary domestic details into sinister markers of psychological damage, forcing readers to decode the violence lurking beneath seemingly innocent observations.",
+      "structure_notes": "Focuses on specific devices + shows transformation mechanism + identifies active reader engagement required"
+    },
+    {
+      "focus": "Theme-focused",
+      "statement": "Jackson examines ritual as reality control through repetition and foreshadowing, exposing how compulsive behaviors provide false comfort while revealing the desperate human need to impose order on an inherently chaotic world.",
+      "structure_notes": "Theme-driven approach + shows dual function of ritual + connects to universal human condition"
+    }
+  ]
+}

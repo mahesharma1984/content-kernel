@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "Matilda",
+    "author": "Roald Dahl"
+  },
+  "layer_1_whats_happening": {
+    "who_tells_it": "An all-knowing narrator who constantly comments and guides us, taking the children's side against unfair adults.",
+    "what_we_experience": "We follow a brilliant girl who uses her intelligence and magical powers to defeat cruel adults and find a loving home.",
+    "how_it_feels": "We feel conspiratorial with the narrator, laughing at ridiculous adults while cheering for Matilda's victories."
+  },
+  "layer_2_meaning_by_section": [
+    {
+      "section": "Exposition",
+      "meaning": "Adults are hilariously blind to their own children's faults and Matilda's brilliance, setting up a world where grown-ups can't be trusted to see clearly.",
+      "quote": "the most disgusting little blister you could ever imagine",
+      "quote_chapter": 1,
+      "devices_supporting": "Hyperbole makes everything absurdly exaggerated to mock parental delusion, while vivid imagery creates Miss Trunchbull as a physically threatening presence."
+    },
+    {
+      "section": "Rising Action",
+      "meaning": "Children must warn and protect each other because the school system is run by a genuinely dangerous tyrant who uses physical violence.",
+      "quote": "she simply picked him up by one arm and flung him clear out",
+      "quote_chapter": 7,
+      "devices_supporting": "Dialogue between children reveals the systematic abuse, while direct characterization establishes Miss Trunchbull's Olympic background as a real threat."
+    },
+    {
+      "section": "Climax",
+      "meaning": "Matilda's supernatural powers represent how exceptional intelligence can become a force that challenges and defeats oppressive systems.",
+      "quote": "I can push them over, and bigger things too, much bigger things",
+      "quote_chapter": 16,
+      "devices_supporting": "Symbolism turns her abilities into representations of intellectual power, while the motif of burning eyes shows power building physically."
+    },
+    {
+      "section": "Falling Action",
+      "meaning": "Intelligence works strategically and secretly, planning carefully before striking against injustice.",
+      "quote": "Let me make sure I've got them right",
+      "quote_chapter": 18,
+      "devices_supporting": "Dramatic irony lets us sense Matilda's secret plan while suspense builds toward the confrontation, and verbal irony hides her true intentions."
+    },
+    {
+      "section": "Resolution",
+      "meaning": "Children can choose their own families when biological families fail them, and true belonging comes from love rather than blood.",
+      "quote": "Spain! I don't want to go to Spain! I love it here and I love my school!",
+      "quote_chapter": 21,
+      "devices_supporting": "Stream of consciousness shows Matilda's panic, while internal monologue reveals Miss Honey's protective understanding of the crisis."
+    }
+  ],
+  "layer_3_connections": {
+    "step_1": "The all-knowing narrator lets us see inside everyone's thoughts while constantly commenting to build solidarity between reader and child against foolish adults.",
+    "step_2": "The conspiratorial, child-championing tone makes us feel like we're part of a secret rebellion, laughing at adult incompetence while supporting Matilda's intelligence.",
+    "step_3": "Together: we experience the story as fellow conspirators in a child's righteous war against unfair authority, making her victory feel like our victory too.",
+    "pattern_name": "Intrusive Advocacy",
+    "pattern_explanation": "The narrator intrudes constantly to advocate for children's rights and guide us toward supporting Matilda's rebellion."
+  },
+  "layer_4_thesis": {
+    "components": {
+      "who_tells_it": "an all-knowing, child-championing narrator",
+      "what_they_reveal": "the systematic failures of adult authority",
+      "story_type": "a magical rebellion story",
+      "larger_meaning": "children's right to choose loving families over biological ones",
+      "method": "through conspiratorial humor that makes readers allies in the fight"
+    },
+    "thesis_sentence": "Through an all-knowing, child-championing narrator who reveals the systematic failures of adult authority, Dahl creates a magical rebellion story that argues for children's right to choose loving families over biological ones, using conspiratorial humor that makes readers allies in the fight against unfair power."
+  },
+  "_converter_metadata": {
+    "converter_version": "0.3",
+    "schema_version": "1.0",
+    "generated_at": "2025-12-05T15:10:51.522364",
+    "source_kernel_version": "4.0",
+    "reasoning_source": "synthetic"
+  }
+}

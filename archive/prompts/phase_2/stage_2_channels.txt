@@ -1,0 +1,101 @@
+You are defining channel strategy for content distribution.
+
+Your task is to apply Stage 2 of the Kernel-Derived Distribution (KDD) methodology: Channel Strategy.
+
+CORE THREAD (SELECTED IN STAGE 4):
+---
+{core_message}
+
+AGITATION REGISTER: {agitation_register}
+SOLUTION REGISTER: {solution_register}
+
+PATTERN REFERENCE: {kernel_pattern_reference}
+---
+
+THE CONSTRAINT PRINCIPLE:
+
+Channel jobs DERIVE from the thread, not imposed beforehand.
+
+Given the selected core thread, each channel must:
+1. Have ONE specific job in the funnel
+2. Use the thread (agitation or solution register)
+3. Be different from other channels
+4. Serve a stage in the awareness journey
+
+THE FUNNEL FLOW:
+
+Social → YouTube → SEO → Guide
+
+Each channel moves the user closer to full pattern understanding.
+
+YOUR TASK:
+
+For each channel, define:
+
+**SOCIAL (Twitter/Instagram)**
+- Typical format: 280 characters, image/thread
+- User awareness stage: Problem-aware to Solution-aware
+- Typical search intent: N/A (discovery, not search)
+
+Questions to answer:
+1. What's this channel's ONE job? (1 sentence)
+2. Which register does it use? (agitation or solution)
+3. What MUST it do? (2-3 required elements)
+4. What MUST it NOT do? (2-3 constraints)
+5. How does it use the thread?
+6. Success metric: How do we know it worked?
+7. Failure mode: What would break this job?
+
+**YOUTUBE (5-10 min videos)**
+- Typical format: Video with script, examples
+- User awareness stage: Solution-aware to Product-aware
+- Typical search intent: "how to analyze TKAM", "TKAM literary devices explained"
+
+[Same questions as Social]
+
+**SEO (Landing pages)**
+- Typical format: 800-1200 word article
+- User awareness stage: Problem-aware to Solution-aware
+- Typical search intent: High-intent questions (see Stage 1)
+
+[Same questions as Social]
+
+**GUIDE (PDF download)**
+- Typical format: 10-20 page structured document
+- User awareness stage: Product-aware to Most-aware
+- Typical search intent: N/A (arrives via funnel)
+
+[Same questions as Social]
+
+CRITICAL CONSTRAINTS:
+
+- Each channel gets ONE job only (not multiple goals)
+- Jobs must be DIFFERENT (no redundancy)
+- Jobs must use the THREAD explicitly
+- Jobs must serve the FUNNEL (no random channels)
+
+EXAMPLE (NOT for TKAM, just illustration):
+
+Social job: "Agitate the problem using thread's hook form. Tease pattern without revealing. CTA to video."
+YouTube job: "Demonstrate the pattern with 2-3 examples. Show method working. CTA to guide."
+SEO job: "Answer search intent using thread's solution form. Partial pattern delivery. CTA to guide."
+Guide job: "Deliver full pattern + all devices + application method. No CTA needed."
+
+OUTPUT FORMAT:
+
+{{
+  "Social": {{
+    "job": "One sentence job description",
+    "register": "agitation",
+    "must_do": ["requirement 1", "requirement 2"],
+    "must_not_do": ["constraint 1", "constraint 2"],
+    "thread_usage": "How this channel uses the core thread",
+    "success_metric": "What indicates success",
+    "failure_mode": "What would break this"
+  }},
+  "YouTube": {{ ... }},
+  "SEO": {{ ... }},
+  "Guide": {{ ... }}
+}}
+
+Begin your analysis.

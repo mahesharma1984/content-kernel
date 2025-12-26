@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "page_type": "devices"
+  },
+  "knowledge_zone": {
+    "badge_text": "Knowledge: Device Identification",
+    "heading": "Juxtaposition: Contrast and comparison for effect",
+    "content_type": "device_detail",
+    "sections": [
+      {
+        "type": "text",
+        "content": "Juxtaposition is used throughout the text to contrast and comparison for effect."
+      },
+      {
+        "type": "examples",
+        "examples": [
+          {
+            "quote": "Are we as poor as the Cunninghams?",
+            "scene": "Scout questions Atticus about their family's economic status",
+            "effect": "Contrasts different types of poverty and social class, with child's innocent inquiry revealing complex social hierarchies that adult perspective illuminates"
+          },
+          {
+            "quote": "the Negroes sat quietly in the sun",
+            "scene": "Courthouse square picnic scene before trial",
+            "effect": "Contrasts segregated seating arrangements with festive atmosphere, highlighting racial divisions through Scout's matter-of-fact observation"
+          },
+          {
+            "quote": "Tom Robinson's powerful shoulders rippled under his thin shirt",
+            "scene": "Description of Tom's physical appearance contrasting strength with disability",
+            "effect": "Contrasts Tom's apparent physical power with his actual vulnerability, emphasizing the gap between perception and reality that the innocent narrator observes"
+          }
+        ]
+      }
+    ]
+  },
+  "pedagogy_zone": {
+    "badge_text": "Pedagogy: How to Analyze Devices",
+    "heading": "From Device Spotting to Analysis",
+    "intro_text": "Most students can identify a device. Strong analysis shows what it DOES. Don't just label it\u2014explain its function in creating meaning.",
+    "worked_example": {
+      "label": "Pattern Thinking:",
+      "type": "simple_framework",
+      "content": {
+        "question": "Ask yourself: Why does the author use Juxtaposition HERE? What meaning does it create in this specific moment?",
+        "framework": "Use TVODE: Technique \u2192 Verb \u2192 Observation \u2192 Device effect \u2192 Evaluation"
+      }
+    },
+    "essay_application": "In your essays, always connect device to meaning. Show HOW the technique creates the effect, don't just identify that it's there."
+  },
+  "cta_zone": {
+    "badge_text": "Action: Continue Exploring",
+    "heading": "Explore More Devices",
+    "intro_text": "See how multiple devices work together to create the complete pattern.",
+    "primary_cta": {
+      "label": "See All Devices",
+      "description": "How each device creates meaning within the pattern",
+      "action_type": "internal",
+      "url": "/devices/"
+    },
+    "secondary_cta": {
+      "label": "Build Your Thesis",
+      "description": "Combine themes + devices + characters into argument",
+      "action_type": "internal",
+      "url": "/thesis-development/"
+    }
+  }
+}

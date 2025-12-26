@@ -1,0 +1,127 @@
+{
+  "segments": [
+    {
+      "name": "AP Literature Students Pre-Essay",
+      "awareness_stage": "Problem-Aware",
+      "pain_point": "Can identify that Scout's narration is 'special' but can't articulate how the child/adult voice creates meaning or affects reader understanding",
+      "why_this_is_hard": "They sense there are two different perspectives operating but lack vocabulary and framework to explain how dramatic irony functions through narrative voice",
+      "search_terms": [
+        "Scout narrator child vs adult TKAM",
+        "why does Harper Lee use Scout as narrator",
+        "TKAM narrative perspective analysis",
+        "Scout's voice important To Kill a Mockingbird"
+      ],
+      "kernel_references": {
+        "devices": [
+          "Dramatic Irony",
+          "Characterization",
+          "Flashback"
+        ],
+        "pattern": "The Maturing Moral Witness pattern gives them precise language for the dual consciousness effect they intuitively feel",
+        "effect": "They'll understand how retrospective narration creates layered meaning and can write sophisticated analysis of narrative technique"
+      }
+    },
+    {
+      "name": "High School Teachers Planning Deep Reading",
+      "awareness_stage": "Solution-Aware",
+      "pain_point": "Know students need to move beyond surface-level racism discussions to understand literary craft, but lack systematic approach to teaching narrative complexity",
+      "why_this_is_hard": "Thematic content often overshadows literary technique instruction; need structured way to show how form creates meaning",
+      "search_terms": [
+        "teaching narrative technique TKAM",
+        "TKAM literary devices lesson plans",
+        "how to teach point of view To Kill a Mockingbird",
+        "TKAM beyond themes literary analysis",
+        "Scout narrator teaching strategy"
+      ],
+      "kernel_references": {
+        "devices": [
+          "Dramatic Irony",
+          "Symbolism",
+          "Juxtaposition",
+          "Imagery"
+        ],
+        "pattern": "Provides scaffolded framework showing how retrospective narration systematically creates dual reader experience",
+        "effect": "Can guide students through specific textual moments where child-innocence meets adult-understanding, making abstract concepts concrete"
+      }
+    },
+    {
+      "name": "Struggling Literature Students",
+      "awareness_stage": "Problem-Aware",
+      "pain_point": "Confused by what seems like inconsistency in Scout's voice - sometimes she sounds like a child, sometimes very mature - affects their basic comprehension",
+      "why_this_is_hard": "Without understanding narrator framework, the voice shifts feel random or like author mistakes rather than deliberate literary technique",
+      "search_terms": [
+        "Scout sounds different TKAM confusing",
+        "why does Scout talk like adult sometimes",
+        "TKAM narrator explanation",
+        "Scout age voice To Kill a Mockingbird"
+      ],
+      "kernel_references": {
+        "devices": [
+          "Flashback",
+          "Characterization"
+        ],
+        "pattern": "The clear child-remembering vs adult-reflecting distinction resolves their confusion about 'inconsistent' voice",
+        "effect": "Transform confusion into recognition of sophisticated narrative technique, improving both comprehension and confidence"
+      }
+    },
+    {
+      "name": "Self-Directed Adult Learners",
+      "awareness_stage": "Solution-Aware",
+      "pain_point": "Want to understand why TKAM feels different from other childhood-memory books but lack literary analysis framework to identify the specific techniques",
+      "why_this_is_hard": "Have reading experience but not formal training in narrative analysis; know the effect but can't name the cause",
+      "search_terms": [
+        "what makes TKAM narration unique",
+        "TKAM narrative analysis adult reader",
+        "why is TKAM narrator effective",
+        "Scout narrative technique literary analysis",
+        "TKAM storytelling method"
+      ],
+      "kernel_references": {
+        "devices": [
+          "Dramatic Irony",
+          "Motif",
+          "Metaphor"
+        ],
+        "pattern": "The dual consciousness concept explains the unique emotional resonance they felt but couldn't articulate",
+        "effect": "Gain vocabulary and framework to understand their intuitive response, deepening appreciation for Lee's craft"
+      }
+    },
+    {
+      "name": "Graduate Students & Literature Teachers",
+      "awareness_stage": "Product-Aware",
+      "pain_point": "Need fresh pedagogical approach to TKAM that moves beyond well-worn thematic analysis to reveal new layers of literary sophistication",
+      "why_this_is_hard": "TKAM analysis has become somewhat stale in academic settings; need innovative framework that reveals complexity without losing accessibility",
+      "search_terms": [
+        "new approaches teaching TKAM",
+        "TKAM narrative structure analysis",
+        "innovative TKAM literary criticism",
+        "TKAM narrative voice scholarly analysis",
+        "fresh perspective To Kill a Mockingbird"
+      ],
+      "kernel_references": {
+        "devices": [
+          "Dramatic Irony",
+          "Juxtaposition",
+          "Symbolism",
+          "Imagery"
+        ],
+        "pattern": "Pattern-first analysis offers systematic alternative to theme-first approaches, revealing structural sophistication",
+        "effect": "Can demonstrate how formal elements create thematic meaning, providing rigorous yet accessible analytical framework"
+      }
+    }
+  ],
+  "awareness_distribution": {
+    "Unaware": "15%",
+    "Problem-Aware": "45%",
+    "Solution-Aware": "25%",
+    "Product-Aware": "12%",
+    "Most-Aware": "3%"
+  },
+  "high_intent_searches": [
+    "how does Scout's narration work TKAM",
+    "dramatic irony To Kill a Mockingbird examples",
+    "TKAM narrative technique analysis",
+    "Scout adult child voice literary device",
+    "teaching TKAM narrative perspective"
+  ]
+}

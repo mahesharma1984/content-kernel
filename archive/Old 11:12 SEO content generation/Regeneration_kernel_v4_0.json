@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "Regeneration",
+    "author": "Pat Barker",
+    "edition": "Penguin Classics.",
+    "creation_date": "2025-12-06T14:45:51.065489",
+    "protocol_version": "3.3",
+    "kernel_version": "4.0",
+    "chapter_aware": true,
+    "structure_alignment_protocol": "v1.1"
+  },
+  "text_structure": {
+    "has_chapters": true,
+    "total_chapters_estimate": 23,
+    "notes": "Chapter breaks identified during kernel creation"
+  },
+  "structure_detection": {
+    "structure_type": "NUM",
+    "total_units": 23,
+    "special_elements": [],
+    "notes": "Numbered chapters detected in four parts"
+  },
+  "chapter_alignment": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "primary_chapter": 1,
+      "percentage": 13
+    },
+    "rising_action": {
+      "chapter_range": "4-14",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "primary_chapter": 9,
+      "percentage": 48
+    },
+    "climax": {
+      "chapter_range": "15-16",
+      "chapters": [
+        15,
+        16
+      ],
+      "primary_chapter": 15,
+      "percentage": 9
+    },
+    "falling_action": {
+      "chapter_range": "17-21",
+      "chapters": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "primary_chapter": 19,
+      "percentage": 22
+    },
+    "resolution": {
+      "chapter_range": "22-23",
+      "chapters": [
+        22,
+        23
+      ],
+      "primary_chapter": 23,
+      "percentage": 9
+    }
+  },
+  "narrative_position_mapping": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "primary_chapter": 1,
+      "pages": ""
+    },
+    "rising_action": {
+      "chapter_range": "4-14",
+      "primary_chapter": 9,
+      "pages": ""
+    },
+    "climax": {
+      "chapter_range": "15-16",
+      "primary_chapter": 15,
+      "pages": ""
+    },
+    "falling_action": {
+      "chapter_range": "17-21",
+      "primary_chapter": 19,
+      "pages": ""
+    },
+    "resolution": {
+      "chapter_range": "22-23",
+      "primary_chapter": 23,
+      "pages": ""
+    }
+  },
+  "extracts": {
+    "exposition": {
+      "chapter_range": "1-3",
+      "primary_chapter": 1,
+      "rationale": "This section establishes the central premise with Sassoon's anti-war Declaration and his arrival at Craiglockhart Hospital under Rivers's care. The opening introduces key characters, the wartime psychiatric hospital setting, and the fundamental conflict between duty and conscience that drives the narrative."
+    },
+    "rising_action": {
+      "chapter_range": "4-14",
+      "primary_chapter": 9,
+      "rationale": "The central portion develops multiple character arcs and therapeutic relationships, particularly between Rivers and his patients including Prior and Sassoon. Tensions escalate as patients confront their traumas, relationships deepen, and the pressure mounts regarding their eventual return to duty or civilian life."
+    },
+    "climax": {
+      "chapter_range": "15-16",
+      "primary_chapter": 15,
+      "rationale": "This represents the turning point where critical decisions are made about patients' futures, particularly regarding medical boards and fitness for duty. The peak dramatic tension occurs as Rivers must reconcile his therapeutic role with military expectations and patients face the consequences of their psychological treatment."
+    },
+    "falling_action": {
+      "chapter_range": "17-21",
+      "primary_chapter": 19,
+      "rationale": "The consequences of earlier decisions unfold as characters prepare for their next phases - return to duty, civilian life, or continued treatment. Rivers reflects on his methods and the broader implications of his work while relationships reach their natural conclusions."
+    },
+    "resolution": {
+      "chapter_range": "22-23",
+      "primary_chapter": 23,
+      "rationale": "The final chapters provide closure with Sassoon's successful medical board and discharge to duty, despite his unchanged anti-war views. Rivers's transformation through his work with patients is complete, establishing the lasting impact of their therapeutic relationships and the novel's central themes about healing and change."
+    }
+  },
+  "macro_variables": {
+    "narrative": {
+      "voice": {
+        "pov": "TPL",
+        "pov_description": "Third person limited, primarily focused through individual characters like Rivers, Sassoon, and Prior",
+        "focalization": "INT",
+        "focalization_description": "Internal focalization through specific characters' consciousness and perceptions",
+        "reliability": "REL",
+        "temporal_distance": "RETRO",
+        "mode_dominance": "BAL",
+        "free_indirect": "HEAVY",
+        "stream_consciousness": "SOME",
+        "character_revelation": "IND",
+        "narrative_intrusion": "SOME",
+        "voice_consistency": "CONS"
+      },
+      "structure": {
+        "chronology": "LIN",
+        "framing": "NONE",
+        "plot_architecture": "BRAID",
+        "plot_architecture_description": "Interwoven storylines of Rivers, Sassoon, Prior, and Owen with interconnected themes",
+        "pacing": "VAR",
+        "temporal_span": "MEDIUM",
+        "beginning_type": "MEDIAS",
+        "ending_type": "OPEN",
+        "scene_summary_ratio": "SCENE",
+        "chapter_structure": "TRAD",
+        "causation": "STRONG"
+      }
+    },
+    "rhetoric": {
+      "voice": {
+        "tone": "Clinical yet compassionate, examining psychological trauma with historical gravity",
+        "register": "FORM",
+        "stance": "OBJ",
+        "ethos": "STRONG",
+        "pathos": "STRONG",
+        "logos": "STRONG",
+        "irony": "SIT",
+        "figurative_density": "MOD"
+      },
+      "structure": {
+        "alignment_type": "TRANS",
+        "narrative_rhetoric_relationship": "TIGHT",
+        "primary_mechanism": "CHAR",
+        "device_density": "MOD",
+        "device_distribution": "EVEN",
+        "mediation_strategy": "ACCUMULATION"
+      }
+    },
+    "device_mediation": {
+      "summary": "Literary devices accumulate to create psychological depth through therapeutic dialogue, historical documentation, and character introspection, mediating between clinical observation and human complexity to transform reader understanding of war trauma and institutional authority"
+    }
+  },
+  "micro_devices": [
+    {
+      "name": "Epistolary Structure",
+      "anchor_phrase": "I am making this statement as an act of wilful defiance",
+      "location_percent": 5,
+      "scene": "The chapter opens with Sassoon's complete Declaration statement",
+      "effect": "Establishes the central conflict and Sassoon's character through his own words, providing immediate exposition of his anti-war stance",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 0
+    },
+    {
+      "name": "Flashback",
+      "anchor_phrase": "For a moment, looking up to find that khaki-clad figure",
+      "location_percent": 45,
+      "scene": "Sassoon remembering his meeting with Graves at the Exchange Hotel",
+      "effect": "Exposes the backstory of how Sassoon came to be at Craiglockhart, revealing Graves's manipulation and threats",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Scene",
+      "anchor_phrase": "Light from the window behind Rivers's desk fell directly",
+      "location_percent": 85,
+      "scene": "The beginning of Rivers and Sassoon's first therapeutic session",
+      "effect": "Establishes the formal therapeutic relationship and power dynamic that will drive the narrative forward",
+      "assigned_section": "exposition",
+      "chapter": 1,
+      "chapter_range": "1-3",
+      "pedagogical_tier": 2
+    },
+    {
+      "name": "Motif",
+      "anchor_phrase": "Mons, Loos, Ypres, the Somme. Arras",
+      "location_percent": 26,
+      "scene": "Prior's internal cataloging of battle names after Sarah mentions Loos",
+      "effect": "The recurring motif of battle names reinforces how war locations have become shorthand for unspeakable loss and trauma",
+      "assigned_section": "rising_action",
+      "chapter": 9,
+      "chapter_range": "4-14",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Metaphor",
+      "anchor_phrase": "You know when you get a tune stuck in your head",
+      "location_percent": 35,
+      "scene": "Sarah describing her obsessive thoughts about 'our gas' killing her boyfriend",
+      "effect": "Compares traumatic repetitive thoughts to an annoying song, making psychological torment relatable while understating its severity",
+      "assigned_section": "rising_action",
+      "chapter": 9,
+      "chapter_range": "4-14",
+      "pedagogical_tier": 1
+    },
+    {
+      "name": "Verbal Irony",
+      "anchor_phrase": "Lucky for you, I mean",
+      "location_percent": 80,
+      "scene": "Prior commenting on Rivers' explanation that his stammer might be genetic rather than neurotic",
+      "effect": "Prior sarcastically suggests Rivers avoids examining his own psychological conflicts, challenging the doctor-patient power dynamic",
+      "assigned_section": "rising_action",
+      "chapter": 9,
+      "chapter_range": "4-14",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Symbolism",
+      "anchor_phrase": "big dizzy moth flew in",
+      "location_percent": 15,
+      "scene": "Rivers opens his window and a moth enters, bumping against the ceiling",
+      "effect": "The moth's disorientation mirrors Rivers' struggle to find direction in his treatment of Sassoon, creating symbolic tension about being trapped",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Juxtaposition",
+      "anchor_phrase": "soft thud-thud of the guns",
+      "location_percent": 20,
+      "scene": "Rivers hears distant artillery while trying to write to Sassoon",
+      "effect": "Contrasts the peaceful domestic setting with the ongoing war, emphasizing the impossible separation between home and battlefield",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Foreshadowing",
+      "anchor_phrase": "There's a job for you if you want it",
+      "location_percent": 98,
+      "scene": "Head offers Rivers a position in London with the Royal Flying Corps",
+      "effect": "Sets up a major decision point for Rivers that will impact his future and his relationship with his patients, creating narrative tension",
+      "assigned_section": "climax",
+      "chapter": 15,
+      "chapter_range": "15-16",
+      "pedagogical_tier": 3
+    },
+    {
+      "name": "Dramatic Irony",
+      "anchor_phrase": "They're sending him to Rivers",
+      "location_percent": 15,
+      "scene": "Graves tells Sassoon that Peter, arrested for soliciting, is being sent to Rivers for psychiatric treatment",
+      "effect": "Creates tension as readers know Rivers treats homosexuality while Sassoon doesn't yet realize the full implications",
+      "assigned_section": "falling_action",
+      "chapter": 19,
+      "chapter_range": "17-21",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Situational Irony",
+      "anchor_phrase": "I suppose I'm expected to be grateful",
+      "location_percent": 95,
+      "scene": "Prior responds bitterly to receiving permanent home service instead of returning to France",
+      "effect": "Shows how survival itself becomes a burden when it conflicts with masculine duty and honor",
+      "assigned_section": "falling_action",
+      "chapter": 19,
+      "chapter_range": "17-21",
+      "pedagogical_tier": 4
+    },
+    {
+      "name": "Third-Person Limited",
+      "anchor_phrase": "Rivers seemed to read his thoughts",
+      "location_percent": 86,
+      "scene": "Final conversation between Rivers and Sassoon",
+      "effect": "Maintains focus on Rivers' perspective while allowing insight into both characters' unspoken understanding of Sassoon's true intentions",
+      "assigned_section": "resolution",
+      "chapter": 23,
+      "chapter_range": "22-23",
+      "pedagogical_tier": 5
+    }
+  ]
+}

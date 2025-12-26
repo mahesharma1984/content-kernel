@@ -1,0 +1,96 @@
+You are deriving content messaging from literary analysis.
+
+Your task is to apply Stage 3 of the Kernel-Derived Distribution (KDD) methodology: Message Derivation.
+
+TEXT KERNEL:
+---
+Book: To Kill a Mockingbird
+Pattern: {pattern}
+Core Dynamic: {core_dynamic}
+Reader Effect: {reader_effect}
+
+Priority Devices:
+{device_list}
+---
+
+AUDIENCE PROFILE (from Stage 1):
+---
+{audience_segments_summary}
+
+High-Intent Searches:
+{search_terms}
+---
+
+THEORETICAL FRAMEWORK:
+
+The core principle of KDD is: **Messages DERIVE from kernel properties, not imposed by marketing templates.**
+
+Each message angle should:
+1. Address a specific audience pain point
+2. Reference specific kernel elements (pattern, devices, effects)
+3. Show how the kernel's structure solves the pain point
+4. Be channel-appropriate (format/length/style)
+
+TASK:
+
+For each channel type, generate 3-5 distinct message angles.
+
+CHANNELS:
+
+1. **Social (Twitter/Instagram)**
+   - Format: 280 characters max
+   - Purpose: Agitate + tease insight
+   - Example: "Everyone knows Scout is the narrator. Few realize she's also the DEVICE that makes the whole pattern work. Here's how 🧵"
+
+2. **YouTube (5-10 min videos)**
+   - Format: Video concept + hook
+   - Purpose: Demonstrate method with examples
+   - Example: "I'll show you the one pattern that explains every major scene in TKAM - watch me apply it to Ch. 10, 15, and 28"
+
+3. **SEO (Landing pages)**
+   - Format: Page headline + value prop
+   - Purpose: Answer search intent + offer solution
+   - Example: "Why Scout's Narration Matters: The Pattern That Changes Everything" → Addresses "why is Scout's POV important"
+
+4. **Guide (PDF download)**
+   - Format: Guide positioning statement
+   - Purpose: Promise comprehensive pattern delivery
+   - Example: "This guide reveals the one structural pattern that organized TKAM - once you see it, you'll never read the same way"
+
+For EACH message angle, provide:
+
+1. **channel**: Which channel (Social/YouTube/SEO/Guide)
+2. **message**: The actual message/hook/headline
+3. **kernel_elements**: Which devices, pattern, or effects power this?
+4. **pain_point**: Which audience pain point does this address?
+5. **hook_type**: Is this agitation/revelation/method/insight?
+6. **why_this_derives**: Brief explanation of how this emerges from the kernel (not imposed)
+
+CONSTRAINTS:
+
+- Each angle must reference SPECIFIC kernel elements by name
+- Angles within a channel should be DIFFERENTIATED (not variations of same idea)
+- This is EXPLORATORY - generate options, don't filter yet
+- Messages should feel like they "could only come from this kernel's pattern"
+
+OUTPUT FORMAT:
+
+{{
+  "angles": [
+    {{
+      "channel": "Social",
+      "message": "the actual 280-char tweet",
+      "kernel_elements": ["Dramatic Irony", "Child Narrator", "Pattern: Innocent Revelation"],
+      "pain_point": "Students see Scout as just a character, miss her structural function",
+      "hook_type": "revelation",
+      "why_this_derives": "The pattern IS innocent revelation - Scout's dual role (child/adult) is the mechanism. Message emerges from pattern structure, not marketing formula."
+    }}
+  ]
+}}
+
+IMPORTANT: Generate 3-5 angles per channel (12-20 total angles).
+
+Begin your analysis.
+
+
+

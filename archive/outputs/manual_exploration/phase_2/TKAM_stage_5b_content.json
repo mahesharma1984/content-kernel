@@ -1,0 +1,43 @@
+{
+  "stage": "5B",
+  "book_title": "To Kill a Mockingbird",
+  "content_blocks": {
+    "social": {
+      "final_content": "**[HOOK - 3 seconds]**\n[Visual: Text overlay] \"TKAM feels different...\"\n[Spoken] \"But you've never been able to say WHY.\"\n\n**[VISUAL: Student staring confused at open book]**\n[Spoken] \"You're reading Scout's memories, but something's happening that doesn't happen in other memory books.\"\n\n**[VISUAL: Split screen - child's drawing vs adult's writing]**\n[Spoken] \"There's a specific structural reason her narration creates this weird reading experience.\"\n\n**[VISUAL: Question marks floating around book]**\n[Spoken] \"It's not just what she remembers...\"\n\n**[CLIFFHANGER]**\n[Visual: Arrow pointing down with mystery box icon]\n[Spoken] \"It's HOW she remembers. I break down the exact mechanism...\"\n\n**[CTA: Curiosity drives to YouTube - no explicit mention needed]**",
+      "format": "60-90 second vertical video script",
+      "constraint_validation": {
+        "job_accomplished": true,
+        "format_correct": true
+      }
+    },
+    "youtube": {
+      "final_content": "**[HOOK]** You know TKAM feels different from other memory books\u2014and today I'm revealing exactly why.\n\n**[PROMISE]** In the next 8 minutes, I'll show you three scenes where Scout creates what I call dual consciousness\u2014you experience childhood wonder and adult judgment simultaneously.\n\n**[PREVIEW]** We'll analyze the ancestry flashback where adult-Scout claims \"no recorded ancestors\" but demonstrates deep moral understanding, the interrupted judgment motif where child-Scout says someone \"probably deserved it, too\" while adult-Scout reveals ethical complexity, and the climax where Scout's \"terror and fury\" contrasts with Atticus's \"weary\" wisdom.\n\n**[PAYOFF]** By the end, you'll see how this is one example of the Maturing Moral Witness pattern\u2014and in my free guide, I'll show you how to spot this technique in any retrospective narrative.",
+      "format": "5-10 minute video script (opening)",
+      "constraint_validation": {
+        "job_accomplished": true,
+        "format_correct": true
+      }
+    },
+    "seo": {
+      "final_content": "**Why To Kill a Mockingbird's Narrative Technique Creates Dual Consciousness in Readers**\n\nIf you've wondered why TKAM feels different from other first-person memory narratives, the answer lies in Harper Lee's use of what literary scholars call dual consciousness. Unlike typical retrospective narration where an adult simply recalls childhood events, Scout simultaneously presents childhood innocence and adult moral understanding in the same moment, creating a unique reading experience where you feel both wonder and judgment at once. This effect emerges through specific scenes like the ancestry flashback and interrupted moral judgments, but it's actually part of a larger pattern called the Maturing Moral Witness technique\u2014which I break down completely in my comprehensive analysis guide.",
+      "format": "1500-2000 word article (headline + opening)",
+      "constraint_validation": {
+        "job_accomplished": true,
+        "format_correct": true
+      }
+    },
+    "guide": {
+      "final_content": "**The Complete Guide to the Maturing Moral Witness Pattern: Why Some Memory Books Feel Different**\n\n**Introduction:**\nYou've felt it reading TKAM, *The Kite Runner*, or *Atonement*\u2014that unique sensation where you simultaneously experience childhood wonder and adult moral judgment. This isn't accidental. These authors employ the Maturing Moral Witness pattern, a sophisticated narrative technique that creates dual consciousness in readers through retrospective narration that filters adult moral understanding through childhood innocence.\n\n**Structure:**\n1. The Complete Pattern Framework (5 core devices)\n2. Step-by-Step Analysis Method (applicable to any work)\n3. Advanced Applications (beyond TKAM to other retrospective narratives)\n4. Practice Exercises (identify the pattern in 10 different works)\n5. Troubleshooting Guide (when the pattern fails and why)",
+      "format": "15-20 page document (intro + structure)",
+      "constraint_validation": {
+        "job_accomplished": true,
+        "format_correct": true
+      }
+    }
+  },
+  "overall_validation": {
+    "all_constraints_met": true,
+    "issues_found": [],
+    "ready_for_rendering": true
+  }
+}

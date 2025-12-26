@@ -1,0 +1,59 @@
+{
+  "page_type": "theme",
+  "book_slug": "regeneration",
+  "theme_slug": "institutional-containment-dissent",
+  "url": "/regeneration/themes/institutional-containment-dissent/",
+  "zones": {
+    "knowledge": {
+      "badge": "Knowledge: Institutional Containment of Dissent",
+      "heading": "Institutional Containment of Dissent",
+      "description": "The text explores how institutions work in a specific way:\n\nThey use therapeutic environments — spaces designed to feel healing and supportive.\n\nBut ask yourself: what is the real purpose here?\n\nThese institutions use therapy to:\n• Manage individual resistance to authority\n• Potentially suppress people who oppose the system\n\nThe process works like this:\nMedical treatment → becomes a form of social control\n\nHere's the key technique: containment under disguise.\n\nPolitical opposition gets contained — locked away or controlled — but it's presented as something else entirely.\n\nThe guise? Healing.\n\nAsk yourself: Why is this word choice significant? \"Guise\" suggests deliberate deception, a mask covering the true intention.",
+      "pattern_connection": "The medical perspective creates therapeutic distance.\n\nThis distance allows doctors to do two things:\n• Assess genuine healing needs — what the patient actually requires for health\n• Assess institutional pressures — what society expects patients to conform to\n\nAsk yourself: Why is \"distance\" important here? \n\nThe word \"therapeutic\" suggests this distance is healing in itself — it allows clear, objective judgment.\n\nThe contrast reveals a tension between authentic medical care and social control.",
+      "device_examples": [
+        {
+          "device_name": "Symbolism",
+          "quote": "Like a trench without the sky",
+          "effect": "Hospital architecture becomes a symbol of psychological entrapment.\n\nAsk yourself: What does the physical building represent beyond just concrete and walls?\n\nThe buildings themselves reveal something deeper:\n• How institutional spaces work to contain people\n• How dissenting voices — those who speak against the system — get trapped\n\nThe word \"contain\" works on two levels:\n• Literally: buildings physically hold people inside\n• Figuratively: institutions suppress opposition and criticism\n\nThe architecture becomes a metaphor — the physical entrapment mirrors the mental and social entrapment of those who challenge authority."
+        },
+        {
+          "device_name": "Foreshadowing",
+          "quote": "it's my duty to try to change that",
+          "effect": "Harvey establishes a conflict between two opposing forces:\n• The therapist's professional duty — to help and heal\n• The patient's strong personal beliefs — their convictions about reality\n\nThis tension previews what's coming next in the text.\n\nAsk yourself: What happens when helping someone means changing what they believe?\n\nThe phrase \"institutional pressure\" signals that this isn't just about one therapist and one patient — entire systems are designed to eliminate dissent.\n\nThe word \"eliminate\" is harsh and clinical. Why not \"reduce\" or \"address\"? This word choice suggests something more forceful than therapy."
+        }
+      ]
+    },
+    "pedagogy": {
+      "badge": "Pedagogy: How to Analyze This Theme",
+      "three_steps": [
+        {
+          "step": 1,
+          "title": "Identify the Pattern's Effect",
+          "content": "Readers experience psychological wounds in two distinct ways:\n\n• Through clinical observation — watching from the outside, like a doctor examining symptoms\n• Through intimate consciousness — feeling from the inside, sharing the character's mental experience\n\nThis dual perspective creates a powerful combination:\n\nIntellectual comprehension paired with emotional resonance.\n\nAsk yourself: Why would an author want both?\n\nThe clinical view helps you understand what's happening psychologically.\n\nThe intimate view makes you feel the emotional impact.\n\nTogether, they create a complete experience — your mind grasps the wound while your emotions respond to its pain."
+        },
+        {
+          "step": 2,
+          "title": "Connect Devices to This Effect",
+          "content": "Look at how the writer uses specific techniques to build the theme:\n\n**Symbolism**\n• The writer chooses objects or images that represent bigger ideas\n• Each symbol carries meaning beyond its literal sense\n• Ask yourself: \"What does this object/image stand for in the larger context?\"\n\n**How symbols create theme:**\nThe symbol connects to the main message.\n\nFor example — if water appears repeatedly, it might symbolise purification, life, or emotional turbulence.\nThe repeated appearance reinforces the theme each time it occurs.\n\n**Other devices working alongside symbolism:**\n\n• **Metaphor** — direct comparisons that link concrete images to abstract concepts\n• **Motif** — recurring patterns that echo the symbolic meaning\n• **Juxtaposition** — placing contrasting symbols next to each other to highlight the theme\n\n**The process:**\nSymbol appears → Reader recognises deeper meaning → Theme becomes clearer\n\nAsk yourself: \"How do these symbols work together to communicate the writer's central message?\"\n\nThe combination of devices creates layers of meaning.\nEach technique reinforces the others, building a stronger thematic foundation."
+        },
+        {
+          "step": 3,
+          "title": "Articulate Theme Meaning",
+          "content": "The text explores how institutions use therapeutic environments for a specific purpose:\n\nTo manage individual resistance to authority — and potentially suppress it entirely.\n\nHere's how this works:\n\nMedical treatment transforms into something else: a form of social control.\n\nThis social control operates by containing political opposition — but it hides behind the appearance of healing.\n\nAsk yourself: What makes this so effective?\n\nThe institution presents itself as helping, not controlling. People accept \"treatment\" more readily than obvious punishment.\n\nThe therapeutic environment becomes a mask — it conceals the real purpose of suppressing dissent."
+        }
+      ]
+    },
+    "cta": {
+      "badge": "Action: Keep Exploring",
+      "links": [
+        {
+          "text": "Back to Hub",
+          "url": "/regeneration/"
+        },
+        {
+          "text": "Build Your Thesis",
+          "url": "/regeneration/essay-guide/"
+        }
+      ]
+    }
+  }
+}
