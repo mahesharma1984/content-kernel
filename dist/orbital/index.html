@@ -3,651 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orbital Analysis</title>
+    <title>Orbital by Samantha Harvey — Analysis</title>
     <style>
-:root {
-    --color-bg: #0a0a0f;
-    --color-surface: #12121a;
-    --color-surface-hover: #1a1a24;
-    --color-border: #2a2a3a;
-    --color-text: #e8e8ed;
-    --color-text-muted: #8888a0;
-    --color-accent: #7c6df0;
-    --color-accent-soft: rgba(124, 109, 240, 0.15);
-    --color-knowledge: #3b82f6;
-    --color-pedagogy: #22c55e;
-    --color-cta: #f59e0b;
-    --color-question: #f59e0b;
-}
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background: var(--color-bg);
-    color: var(--color-text);
-    line-height: 1.7;
-    min-height: 100vh;
-}
-
-.container {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Header */
-.page-header {
-    text-align: center;
-    padding: 3rem 0;
-    border-bottom: 1px solid var(--color-border);
-    margin-bottom: 2rem;
-}
-
-.page-header h1 {
-    font-size: 2.25rem;
-    font-weight: 400;
-    letter-spacing: -0.02em;
-    margin-bottom: 0.5rem;
-}
-
-.page-header .subtitle {
-    color: var(--color-text-muted);
-    font-size: 1.05rem;
-}
-
-/* Breadcrumb */
-.breadcrumb {
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-}
-
-.breadcrumb a {
-    color: var(--color-text-muted);
-    text-decoration: none;
-}
-
-.breadcrumb a:hover {
-    color: var(--color-accent);
-}
-
-.breadcrumb .sep {
-    color: var(--color-border);
-    margin: 0 0.5rem;
-}
-
-/* Zones */
-.zone {
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: 12px;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.zone-badge {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    padding: 0.4rem 0.8rem;
-    border-radius: 4px;
-    margin-bottom: 1.25rem;
-}
-
-.zone-knowledge .zone-badge {
-    background: rgba(59, 130, 246, 0.12);
-    color: var(--color-knowledge);
-}
-
-.zone-pedagogy .zone-badge {
-    background: rgba(34, 197, 94, 0.12);
-    color: var(--color-pedagogy);
-}
-
-.zone-cta .zone-badge {
-    background: rgba(245, 158, 11, 0.12);
-    color: var(--color-cta);
-}
-
-.zone h2 {
-    font-size: 1.4rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    line-height: 1.3;
-}
-
-.zone p {
-    color: var(--color-text-muted);
-    margin-bottom: 1rem;
-}
-
-.zone p:last-child {
-    margin-bottom: 0;
-}
-
-/* === PEDAGOGICAL CONTENT STRUCTURE === */
-
-/* Content blocks with internal structure */
-.zone .content-block {
-    margin-bottom: 1.5rem;
-}
-
-/* Opening statements - slightly larger, sets context */
-.zone .opening-statement {
-    color: var(--color-text);
-    font-size: 1.02rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.6;
-}
-
-/* Concept groups - tighter spacing for related ideas */
-.zone .concept-group {
-    margin: 0.75rem 0;
-    padding-left: 0.5rem;
-    border-left: 2px solid var(--color-border);
-}
-
-.zone .concept-intro {
-    color: var(--color-text);
-    margin-bottom: 0.5rem;
-    font-size: 0.98rem;
-}
-
-/* Bullet lists - visual list treatment */
-.zone .bullet-list {
-    margin: 0.5rem 0 0.75rem 1.5rem;
-    list-style: none;
-}
-
-.zone .bullet-list li {
-    position: relative;
-    padding-left: 1.25rem;
-    margin-bottom: 0.35rem;
-    color: var(--color-text);
-    line-height: 1.6;
-}
-
-.zone .bullet-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: var(--color-accent);
-    font-weight: bold;
-}
-
-/* Scaffolding questions - visual emphasis */
-.zone .scaffold-question {
-    background: rgba(245, 158, 11, 0.08);
-    border-left: 3px solid var(--color-question);
-    padding: 0.75rem 1rem;
-    margin: 1rem 0;
-    border-radius: 4px;
-}
-
-.zone .scaffold-question-intro {
-    color: var(--color-question);
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin-bottom: 0.25rem;
-}
-
-.zone .scaffold-question-text {
-    color: var(--color-text);
-    font-style: italic;
-    line-height: 1.5;
-}
-
-/* Explanatory flow - answer to question */
-.zone .explanation {
-    margin: 0.75rem 0;
-    padding-left: 0.75rem;
-}
-
-.zone .explanation-intro {
-    color: var(--color-text);
-    font-weight: 500;
-    margin-bottom: 0.4rem;
-}
-
-.zone .explanation-detail {
-    color: var(--color-text-muted);
-    line-height: 1.6;
-}
-
-/* Process flows - step by step */
-.zone .process-flow {
-    background: var(--color-bg);
-    border-radius: 6px;
-    padding: 1rem;
-    margin: 0.75rem 0;
-}
-
-.zone .process-intro {
-    color: var(--color-text);
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
-}
-
-.zone .process-steps {
-    list-style: none;
-    margin-left: 0.5rem;
-}
-
-.zone .process-steps li {
-    position: relative;
-    padding-left: 1.5rem;
-    margin-bottom: 0.4rem;
-    color: var(--color-text-muted);
-}
-
-.zone .process-steps li::before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    color: var(--color-pedagogy);
-}
-
-/* Emphasis statements - key takeaways */
-.zone .emphasis-statement {
-    color: var(--color-text);
-    font-weight: 500;
-    margin: 0.75rem 0;
-}
-
-/* Quick Reference */
-.quick-reference {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--color-border);
-}
-
-.quick-ref-item .label {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-text-muted);
-    margin-bottom: 0.35rem;
-}
-
-.quick-ref-item .value {
-    font-size: 0.9rem;
-    color: var(--color-text);
-    line-height: 1.5;
-}
-
-/* Worked Example */
-.worked-example {
-    background: var(--color-bg);
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    text-align: center;
-}
-
-.formula {
-    font-size: 1.05rem;
-    color: var(--color-accent);
-    font-weight: 500;
-}
-
-.arrow {
-    font-size: 1.4rem;
-    color: var(--color-text-muted);
-    margin: 0.75rem 0;
-}
-
-.effect {
-    color: var(--color-text-muted);
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-/* Prompts */
-.prompts {
-    list-style: none;
-    margin-top: 1.25rem;
-}
-
-.prompts li {
-    padding: 0.75rem 1rem;
-    background: var(--color-bg);
-    border-radius: 6px;
-    margin-bottom: 0.5rem;
-    color: var(--color-text-muted);
-    font-size: 0.95rem;
-}
-
-.prompts li::before {
-    content: "→ ";
-    color: var(--color-pedagogy);
-}
-
-/* Device Examples */
-.device-examples {
-    margin-top: 1.5rem;
-}
-
-.device-examples h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--color-text);
-}
-
-.device-example {
-    background: var(--color-bg);
-    border-radius: 8px;
-    padding: 1.25rem;
-    margin-bottom: 1rem;
-    border-left: 3px solid var(--color-accent);
-}
-
-.device-name {
-    font-weight: 600;
-    color: var(--color-accent);
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
-}
-
-.device-quote {
-    font-style: italic;
-    color: var(--color-text);
-    margin-bottom: 0.75rem;
-    padding-left: 1rem;
-    border-left: 2px solid var(--color-border);
-    line-height: 1.6;
-}
-
-.device-effect {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    line-height: 1.5;
-}
-
-/* Pattern Connection */
-.pattern-connection {
-    background: var(--color-accent-soft);
-    border-radius: 8px;
-    padding: 1.25rem;
-    margin: 1.25rem 0;
-    border-left: 3px solid var(--color-accent);
-}
-
-.pattern-connection-label {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-accent);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.pattern-connection p {
-    color: var(--color-text);
-    margin: 0;
-}
-
-/* Steps */
-.steps {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.step {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-}
-
-.step-number {
-    width: 32px;
-    height: 32px;
-    background: var(--color-accent-soft);
-    color: var(--color-accent);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 0.9rem;
-    flex-shrink: 0;
-}
-
-.step-content h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-    color: var(--color-text);
-}
-
-.step-content p {
-    font-size: 0.95rem;
-    color: var(--color-text-muted);
-    margin: 0;
-}
-
-/* Thesis Components */
-.thesis-components {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin: 1.5rem 0;
-}
-
-.component-box {
-    background: var(--color-bg);
-    border-radius: 8px;
-    padding: 1rem;
-}
-
-.component-label {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-text-muted);
-    margin-bottom: 0.5rem;
-}
-
-.component-value {
-    color: var(--color-accent);
-    font-weight: 500;
-}
-
-.component-list {
-    list-style: none;
-}
-
-.component-list li {
-    font-size: 0.9rem;
-    color: var(--color-text);
-    padding: 0.2rem 0;
-}
-
-/* Thesis Examples */
-.thesis-examples {
-    margin-top: 1.5rem;
-}
-
-.thesis-examples h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--color-text);
-}
-
-.thesis-example {
-    background: var(--color-bg);
-    border-radius: 8px;
-    padding: 1.25rem;
-    margin-bottom: 1rem;
-}
-
-.thesis-focus {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-accent);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.thesis-statement {
-    color: var(--color-text);
-    margin-bottom: 0.75rem;
-    line-height: 1.6;
-}
-
-.thesis-notes {
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-    font-style: italic;
-}
-
-/* CTA Links */
-.cta-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-}
-
-.cta-link {
-    display: inline-block;
-    padding: 0.75rem 1.25rem;
-    background: var(--color-surface-hover);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    color: var(--color-text);
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: all 0.15s ease;
-}
-
-.cta-link:hover {
-    background: var(--color-accent-soft);
-    border-color: var(--color-accent);
-}
-
-.cta-link.emphasis {
-    background: var(--color-accent);
-    border-color: var(--color-accent);
-    color: white;
-    font-weight: 500;
-}
-
-.cta-link.emphasis:hover {
-    background: #6b5ce0;
-}
-
-/* Responsive */
-@media (max-width: 640px) {
-    .container {
-        padding: 1rem;
-    }
-    
-    .quick-reference,
-    .thesis-components {
-        grid-template-columns: 1fr;
-    }
-    
-    .page-header h1 {
-        font-size: 1.75rem;
-    }
-}
-</style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+        }
+        
+        header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: normal;
+            margin-bottom: 8px;
+        }
+        
+        .author {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .section {
+            margin-bottom: 48px;
+        }
+        
+        h2 {
+            font-size: 1.4rem;
+            font-weight: normal;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 16px;
+        }
+        
+        .scaffold {
+            background: #f5f5f5;
+            padding: 16px;
+            margin: 20px 0;
+            border-left: 3px solid #888;
+        }
+        
+        .scaffold-question {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 8px;
+        }
+        
+        .concept-list {
+            margin: 16px 0;
+            padding-left: 20px;
+        }
+        
+        .concept-list li {
+            margin-bottom: 8px;
+        }
+        
+        .device {
+            background: #fff;
+            border-left: 3px solid #666;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        
+        .device-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
+        
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 12px;
+            padding-left: 16px;
+            border-left: 2px solid #ddd;
+        }
+        
+        .metadata {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        
-        
-        <header class="page-header">
-            <h1>Orbital</h1>
-            <p class="subtitle">by Samantha Harvey</p>
-        </header>
-
-        <section class="zone zone-knowledge">
-            <span class="zone-badge">Knowledge: What the Book Does</span>
-            <h2>Cosmic Contemplation</h2>
-            <p>In this narrative technique, the author has complete access to the thoughts and feelings of multiple characters simultaneously.</p>
-
-<p>This omniscient perspective is combined with an objective, philosophical viewpoint that maintains emotional distance from the events.</p>
-
-<p class="emphasis"><strong>The result is a meditative, contemplative observation of human experience.</strong></p>
-
-<p>This human experience is deliberately positioned against the vastness of the cosmos, creating a sense of scale and perspective.</p>
-
-<div class="scaffold-question">
-    <span class="scaffold-label">Ask yourself:</span>
-    <p>How might this technique affect the reader's understanding of the characters' problems and concerns?</p>
-</div>
-
-<ul class="bullet-list">
-    <li>Creates emotional detachment while maintaining insight</li>
-    <li>Allows comparison between different characters' inner worlds</li>
-    <li>Places human struggles within a larger, universal context</li>
-    <li>Invites philosophical reflection on existence and meaning</li>
-</ul>
-            <p><strong>Reader Effect:</strong></p>
-            <p>When readers engage with this text, they experience two contrasting but simultaneous perspectives.</p>
-
-<ul class="bullet-list">
-    <li>Intimacy - feeling close to individual human thoughts and emotions</li>
-    <li>Detachment - viewing events from a vast, cosmic distance, like looking down from space</li>
-</ul>
-
-<div class="scaffold-question">
-    <span class="scaffold-label">Ask yourself:</span>
-    <p>How might experiencing both closeness and distance at the same time affect how you understand a story?</p>
-</div>
-
-<p>This combination creates what we call 'contemplative distance' - a reflective space where readers can think deeply about what they're reading.</p>
-
-<p class="emphasis"><strong>Through this contemplative distance, ordinary, everyday experiences are transformed and given universal significance - meaning they become relevant to all human experience.</strong></p>
-            
-            <div class="quick-reference">
-                <div class="quick-ref-item">
-                    <div class="label">Structure</div>
-                    <div class="value">22 chapters</div>
-                </div>
-                <div class="quick-ref-item">
-                    <div class="label">Voice</div>
-                    <div class="value">Omniscient access to multiple characters' thoughts, dreams, and internal experiences across astronauts</div>
-                </div>
-                <div class="quick-ref-item">
-                    <div class="label">Tone</div>
-                    <div class="value">Contemplative, meditative, philosophical with undertones of cosmic wonder and human vulnerability</div>
-                </div>
-            </div>
-        </section>
-
-        <section class="zone zone-pedagogy">
-            <span class="zone-badge">Pedagogy: How to Read for Patterns</span>
-            <h2>What Pattern-Recognition Means</h2>
-            
-            <div class="worked-example">
-                <div class="formula">Imagery + Juxtaposition + Symbolism</div>
-                <div class="arrow">→</div>
-                <div class="effect">Readers experience simultaneous intimacy with individual human thoughts and vast detachment of cosmic perspective, creating contemplative distance that elevates mundane experience to universal significance.</div>
-            </div>
-            
-            <ul class="prompts"><li>What's the cumulative effect of these devices working together?</li><li>Why would the author choose this particular combination?</li><li>What reader experience does this pattern create?</li></ul>
-        </section>
-
-        <section class="zone zone-cta">
-            <span class="zone-badge">Action: Explore Through Themes</span>
-            <div class="cta-links"><a href="themes/human-consciousness-cosmic-vastness/" class="cta-link">Human Consciousness Within Cosmic Vastness</a>
-<a href="themes/times-cyclical-nature/" class="cta-link">Time's Cyclical Nature</a>
-<a href="themes/untamed-cosmic-forces/" class="cta-link">Untamed Cosmic Forces</a>
-<a href="essay-guide/" class="cta-link emphasis">Build Your Thesis</a>
-</div>
-        </section>
+    <header>
+        <h1>Orbital</h1>
+        <p class="author">by Samantha Harvey</p>
+    </header>
     
-    </div>
+    <main>
+        <section class="section">
+            <h2>What the Novel Does</h2>
+            
+            <p><em>Orbital</em> follows six astronauts circling Earth on the International Space Station. Not much "happens" in a traditional sense—no disaster, no villain, no dramatic rescue. Instead, Harvey tracks a single day as the crew floats through their routines, watches Earth spin below, and thinks.</p>
+            
+            <p>The novel constantly shifts between two perspectives:</p>
+            
+            <ul class="concept-list">
+                <li><strong>Intimate human moments</strong> — someone gripping a table handle, someone dozing, someone remembering childhood</li>
+                <li><strong>Vast cosmic scale</strong> — the Earth reeling below, typhoons forming, continents sliding past</li>
+            </ul>
+            
+            <p>This back-and-forth is the engine of the book. Harvey uses an omniscient narrator—one who can see into everyone's thoughts and can also pull back to watch from an enormous distance.</p>
+            
+            <div class="scaffold">
+                <p class="scaffold-question">Ask yourself: What does it feel like to read this?</p>
+                <p>You feel close to the characters. You also feel pulled back, watching them like specks against the black. Both feelings happen at once. That's the point.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>The Central Pattern: Cosmic Meditation</h2>
+            
+            <p>Harvey's approach creates what we can call <em>Cosmic Meditation</em>. Here's how it works:</p>
+            
+            <ul class="concept-list">
+                <li><strong>Omniscient perspective</strong> — the narrator sees everything, inside and outside the characters</li>
+                <li><strong>Contemplative tone</strong> — slow, thoughtful, elegiac (like mourning something)</li>
+                <li><strong>Constant scale-shifting</strong> — from a hand-span to the entire planet, often in the same sentence</li>
+            </ul>
+            
+            <p>The result: readers develop a kind of meditative awareness. You see the astronauts' fragile lives against the indifferent vastness of space. This makes their small moments feel both precious and insignificant.</p>
+            
+            <div class="scaffold">
+                <p class="scaffold-question">Why "meditation"?</p>
+                <p>Because the novel doesn't argue or explain. It sits with images. It lets you feel the contrast between human scale and cosmic scale without telling you what to conclude.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Key Techniques</h2>
+            
+            <div class="device">
+                <p class="device-name">Juxtaposition</p>
+                <p class="quote">"surrounded by the strangeness of humans, all their odd cuffs"</p>
+                <p>Harvey places two things side by side:</p>
+                <ul class="concept-list">
+                    <li>"Strangeness of humans" — as if the narrator is an alien, looking at us from outside</li>
+                    <li>"Odd cuffs" — a tiny, mundane detail (shirt cuffs, sleeve cuffs)</li>
+                </ul>
+                <p>The effect: humans look strange when seen from cosmic distance, yet we zoom into something as small as cuffs. This is the pattern in miniature—vast and intimate in the same moment.</p>
+            </div>
+            
+            <div class="device">
+                <p class="device-name">Lyrical Prose</p>
+                <p class="quote">"the handles of the foldable table. Outside the earth reels"</p>
+                <p>Notice what's next to what:</p>
+                <ul class="concept-list">
+                    <li>"Handles of the foldable table" — something an astronaut might touch, ordinary, domestic</li>
+                    <li>"The earth reels" — the entire planet, spinning, enormous</li>
+                </ul>
+                <p>One sentence. Inside the station, outside the station. Human grip, planetary motion. Harvey's prose constantly makes these leaps.</p>
+            </div>
+            
+            <div class="device">
+                <p class="device-name">Imagery</p>
+                <p class="quote">"billion years of atoms moving in cosmic commotion until they"</p>
+                <p>This imagery does something specific:</p>
+                <ul class="concept-list">
+                    <li>Starts enormous: "billion years," "cosmic commotion"</li>
+                    <li>Ends with "until they—" pointing toward something specific, human, now</li>
+                </ul>
+                <p>The sentence compresses cosmic time into a single moment. All those billions of years led to this. The scale is overwhelming, but it lands on something concrete.</p>
+            </div>
+            
+            <div class="device">
+                <p class="device-name">Free Indirect Discourse</p>
+                <p class="quote">"The thoughts you have in orbit are so grandiose and"</p>
+                <p>Whose voice is this? The narrator's? The astronaut's? Both at once.</p>
+                <p>Free indirect discourse blends them together. We're inside someone's thought ("the thoughts you have") but it's also a general statement about orbit, about consciousness expanding when you leave Earth.</p>
+                <p>The incomplete sentence—"so grandiose and"—captures how these thoughts exceed what words can hold.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Structure</h2>
+            
+            <p>The novel is organised by orbits. Each chapter is named after an orbit number: "Orbit 3, ascending," "Orbit 8, descending," and so on.</p>
+            
+            <p>This structure matters because:</p>
+            
+            <ul class="concept-list">
+                <li><strong>Repetition with variation</strong> — the station keeps circling, but each pass shows something different</li>
+                <li><strong>No traditional climax</strong> — the book resists dramatic peaks; instead, it sustains a contemplative rhythm</li>
+                <li><strong>Time as cycle</strong> — dawn and dusk happen sixteen times per day in orbit; time feels different up there</li>
+            </ul>
+            
+            <p>The ending is deliberately open. There's no resolution, no return to Earth in the narrative. This mirrors the novel's themes—environmental crisis has no neat ending, and the cosmic perspective Harvey builds refuses to collapse back into comfortable human scale.</p>
+        </section>
+        
+        <section class="section">
+            <h2>Themes</h2>
+            
+            <p><strong>Human fragility against cosmic indifference.</strong> The astronauts are separated from instant death by a thin metal wall. Harvey makes you feel this constantly—how precarious human existence is, how vast and uncaring space remains.</p>
+            
+            <p><strong>Connection and isolation.</strong> The astronauts are intensely connected to each other and to Earth (they can see everything). Yet they're also utterly isolated—floating in a metal can, unable to touch the planet they watch.</p>
+            
+            <p><strong>Environmental urgency.</strong> From orbit, the astronauts see typhoons, deforestation, the fragility of the atmosphere. The contemplative tone carries an underlying urgency: this is what we're losing.</p>
+            
+            <div class="scaffold">
+                <p class="scaffold-question">How do these themes connect to the pattern?</p>
+                <p>The Cosmic Meditation pattern—shifting between intimate and vast—is what makes these themes land. You can't feel human fragility without seeing the cosmic scale. You can't feel connection and isolation without experiencing both perspectives simultaneously.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="metadata">
+        <p>Analysis generated from Orbital kernel v6.1 • Rewriting method: Stage 3A (story-grounded, vocabulary retained, structure unpacked)</p>
+    </footer>
 </body>
 </html>
