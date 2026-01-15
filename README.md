@@ -9,63 +9,59 @@ A static site for literary analysis content, deployed to Netlify.
 ├── dist/                        # Publish directory (Netlify serves this)
 │   ├── index.html               # Homepage (auto-generated)
 │   ├── sitemap.xml              # Sitemap (auto-generated)
-│   ├── robots.txt               # Static
-│   ├── _headers                 # Netlify headers
-│   └── [book-slug]/             # Book folders (manually added)
-│       ├── index.html           # Analysis page
-│       ├── themes/              # Theme pages
-│       │   └── [theme-slug]/
-│       │       └── index.html
-│       └── essay-guide/         # Essay guide page
-│           └── index.html
+│   └── [book-slug]/             # Book folders
+│       └── index.html           # Analysis page
+├── kernels/                     # Source kernel JSON files
+│   └── [Book]_kernel_v*.json
 ├── scripts/
-│   ├── build-homepage.js        # Generates dist/index.html
-│   └── build-sitemap.js         # Generates dist/sitemap.xml
+│   ├── generate_page.py         # Converts kernel → HTML page
+│   ├── build_homepage.py        # Generates dist/index.html
+│   ├── build_sitemap.py         # Generates dist/sitemap.xml
+│   └── build_all.py             # Runs homepage + sitemap builds
 ├── templates/
 │   └── homepage.html            # Template for index.html
+├── pedagogy/                    # Pedagogical research (separate concern)
+│   └── README.md                # See pedagogy/README.md for details
 ├── netlify.toml                 # Netlify config
-├── package.json                 # Scripts: npm run build
+├── requirements.txt             # Python dependencies
 └── README.md                    # This file
 ```
 
-## Adding a New Page
+## Generating a Page from a Kernel
 
-1. Create your HTML file for the book analysis
-2. Create the book folder in `dist/`:
-   ```bash
-   mkdir -p dist/[book-slug]
-   ```
-3. Copy your HTML file:
-   ```bash
-   cp your-book-analysis.html dist/[book-slug]/index.html
-   ```
-4. Run the build to update homepage and sitemap:
-   ```bash
-   npm run build
-   ```
-5. Commit and push — Netlify deploys automatically
+```bash
+python scripts/generate_page.py kernels/[Book]_kernel_v*.json
+```
+
+This uses Claude API to transform the kernel into a student-friendly HTML page.
 
 ## Build Scripts
 
 ### Full Build
 ```bash
-npm run build
+python scripts/build_all.py
 ```
 Generates both homepage and sitemap.
 
 ### Homepage Only
 ```bash
-npm run build:homepage
+python scripts/build_homepage.py
 ```
 Scans `dist/` for book folders and generates `dist/index.html` with links.
 
 ### Sitemap Only
 ```bash
-npm run build:sitemap
+python scripts/build_sitemap.py
 ```
 Walks `dist/` recursively and generates `dist/sitemap.xml` with all pages.
 
 ## How It Works
+
+### Page Generation
+- Reads kernel JSON (pattern, devices, narrative structure)
+- Calls Claude API to generate student-friendly HTML
+- Applies pedagogy framework for Year 10-12 students
+- Outputs to `dist/[book-slug]/index.html`
 
 ### Homepage Generation
 - Scans `dist/` for directories containing `index.html`
@@ -81,8 +77,12 @@ Walks `dist/` recursively and generates `dist/sitemap.xml` with all pages.
 
 The site deploys automatically to Netlify on push. Configuration is in `netlify.toml`:
 - **Publish directory:** `dist`
-- **Build command:** `npm run build`
+- **Build command:** `python scripts/build_all.py`
 
-## Archive
+## Requirements
 
-Legacy pipeline scripts and content are preserved in the `archive/` directory.
+```bash
+pip install -r requirements.txt
+```
+
+Requires `anthropic` SDK for page generation.
