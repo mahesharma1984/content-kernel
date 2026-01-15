@@ -1,2 +1,5 @@
-anthropic>=0.24.0
+# Anthropic Python SDK for Claude API
+# Pinned to recent stable version for reproducible builds
+# Review periodically: https://github.com/anthropics/anthropic-sdk-python/releases
+anthropic>=0.70.0,<1.0.0
 
